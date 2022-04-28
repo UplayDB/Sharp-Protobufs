@@ -27,402 +27,411 @@ namespace Uplay.Ownership {
             "Cg9vd25lcnNoaXAucHJvdG8SFW1nLnByb3RvY29sLm93bmVyc2hpcCJkCglT",
             "dG9yZURhdGESEQoJc3RvcmVfcmVmGAEgASgJEhUKDWNvbmZpZ3VyYXRpb24Y",
             "AiABKAkSFAoMYXNzb2NpYXRpb25zGAMgAygNEhcKD3Byb21vdGlvbl9zY29y",
-            "ZRgEIAEoDSKjEgoJT3duZWRHYW1lEhIKCnByb2R1Y3RfaWQYASACKA0SDgoG",
-            "Y2Rfa2V5GAIgASgJEg0KBW93bmVkGBQgASgIEhgKEG9yYml0X3Byb2R1Y3Rf",
-            "aWQYAyABKA0SFgoOY29uZmlnX3ZlcnNpb24YCyABKA0SEwoLZG93bmxvYWRf",
-            "aWQYBSABKA0SGAoQZG93bmxvYWRfdmVyc2lvbhgMIAEoDRIQCgh0aXRsZV9p",
-            "ZBgGIAEoDRIQCghwbGF0Zm9ybRgHIAEoDRIUCgxwcm9kdWN0X3R5cGUYCCAB",
-            "KA0SDQoFc3RhdGUYDSABKA0SGgoSb3JiaXRfZ2FtZV92ZXJzaW9uGAkgASgN",
-            "Eh4KFm9yYml0X2dhbWVfdmVyc2lvbl91cmwYCiABKAkSHAoUcHJvZHVjdF9h",
-            "c3NvY2lhdGlvbnMYECADKA0SFQoNY29uZmlndXJhdGlvbhgRIAEoCRIeChZk",
-            "ZXByZWNhdGVkX3Rlc3RfY29uZmlnGBIgASgIEhAKCHVwbGF5X2lkGBMgASgN",
-            "EhcKD2xhdGVzdF9tYW5pZmVzdBgVIAEoCRIRCglnYW1lX2NvZGUYFiABKAkS",
-            "DwoHYmFsYW5jZRgXIAEoDRIWCg5lbmNyeXB0aW9uX2tleRgYIAEoCRIYChBh",
-            "Y3RpdmVfYnJhbmNoX2lkGBkgASgNEkoKEmF2YWlsYWJsZV9icmFuY2hlcxga",
-            "IAMoCzIuLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWUuUHJvZHVj",
-            "dEJyYW5jaBIWCg5hY3RpdmF0aW9uX2lkcxgbIAMoDRIQCghicmFuZF9pZBgc",
-            "IAEoDRIrChxwZW5kaW5nX2tleXN0b3JhZ2Vfb3duZXJzaGlwGB0gASgIOgVm",
-            "YWxzZRIcChR1YmlzZXJ2aWNlc19zcGFjZV9pZBgeIAEoCRIaChJ1YmlzZXJ2",
-            "aWNlc19hcHBfaWQYHyABKAkSNAoKc3RvcmVfZGF0YRggIAEoCzIgLm1nLnBy",
-            "b3RvY29sLm93bmVyc2hpcC5TdG9yZURhdGESVwoXcGFja2FnZV9vd25lcnNo",
-            "aXBfc3RhdGUYISABKA4yNi5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRH",
-            "YW1lLlBhY2thZ2VPd25lcnNoaXBTdGF0ZRJICg9zdXNwZW5zaW9uX3R5cGUY",
-            "IiABKA4yLy5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lLlN1c3Bl",
-            "bnNpb25UeXBlEjsKEWluZ2FtZV9zdG9yZV9kYXRhGCMgASgLMiAubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLlN0b3JlRGF0YRJICg9hY3RpdmF0aW9uX3R5cGUY",
-            "JCABKA4yLy5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lLkFjdGl2",
-            "YXRpb25UeXBlEh4KFmxvY2tlZF9ieV9zdWJzY3JpcHRpb24YJSABKAgSRgoO",
-            "dGFyZ2V0X3BhcnRuZXIYJiABKA4yLi5tZy5wcm90b2NvbC5vd25lcnNoaXAu",
-            "T3duZWRHYW1lLlRhcmdldFBhcnRuZXISXwobZGVudXZvX2FjdGl2YXRpb25f",
-            "b3ZlcndyaXRlGCcgASgOMjoubWcucHJvdG9jb2wub3duZXJzaGlwLk93bmVk",
-            "R2FtZS5EZW51dm9BY3RpdmF0aW9uT3ZlcndyaXRlEhoKEnN1YnNjcmlwdGlv",
-            "bl90eXBlcxgoIAMoDRo3Cg1Qcm9kdWN0QnJhbmNoEhEKCWJyYW5jaF9pZBgB",
-            "IAIoDRITCgticmFuY2hfbmFtZRgCIAIoCSJ9ChVQYWNrYWdlT3duZXJzaGlw",
-            "U3RhdGUSHgoaUGFja2FnZU93bmVyc2hpcFN0YXRlX0Z1bGwQABIfChtQYWNr",
-            "YWdlT3duZXJzaGlwU3RhdGVfVHJpYWwQARIjCh9QYWNrYWdlT3duZXJzaGlw",
-            "U3RhdGVfU3VzcGVuZGVkEAIiZQoOU3VzcGVuc2lvblR5cGUSFwoTU3VzcGVu",
-            "c2lvblR5cGVfTm9uZRAAEhsKF1N1c3BlbnNpb25UeXBlX0NoZWF0aW5nEAES",
-            "HQoZU3VzcGVuc2lvblR5cGVfSGFyYXNzbWVudBACIk4KDkFjdGl2YXRpb25U",
-            "eXBlEhsKF0FjdGl2YXRpb25UeXBlX1B1cmNoYXNlEAASHwobQWN0aXZhdGlv",
-            "blR5cGVfU3Vic2NyaXB0aW9uEAIiXgoNVGFyZ2V0UGFydG5lchIWChJUYXJn",
-            "ZXRQYXJ0bmVyX05vbmUQABIbChdUYXJnZXRQYXJ0bmVyX0VwaWNHYW1lcxAB",
-            "EhgKFFRhcmdldFBhcnRuZXJfTmVvd2l6EAIiawoZRGVudXZvQWN0aXZhdGlv",
-            "bk92ZXJ3cml0ZRIlCiFEZW51dm9BY3RpdmF0aW9uT3ZlcndyaXRlX0RlZmF1",
-            "bHQQABInCiNEZW51dm9BY3RpdmF0aW9uT3ZlcndyaXRlX1RpbWVUcmlhbBAB",
-            "ItICCgtQcm9kdWN0VHlwZRIUChBQcm9kdWN0VHlwZV9HYW1lEAASFQoRUHJv",
-            "ZHVjdFR5cGVfQWRkT24QARIcChhQcm9kdWN0VHlwZV9QcmVPcmRlckdhbWUQ",
-            "AhIdChlQcm9kdWN0VHlwZV9QcmVPcmRlckFkZE9uEAMSFQoRUHJvZHVjdFR5",
-            "cGVfVHJpYWwQBBIYChRQcm9kdWN0VHlwZV9UZW1wbGF0ZRAFEhYKElByb2R1",
-            "Y3RUeXBlX0J1bmRsZRAGEhoKFlByb2R1Y3RUeXBlX1NlYXNvblBhc3MQBxIa",
-            "ChZQcm9kdWN0VHlwZV9Db25zdW1hYmxlEAgSGAoUUHJvZHVjdFR5cGVfUHJl",
-            "b3JkZXIQCRIfChtQcm9kdWN0VHlwZV9Db25zdW1hYmxlUGFja3MQChIdChlQ",
-            "cm9kdWN0VHlwZV9CdW5kbGVQYWNrYWdlEAsidAoFU3RhdGUSFQoRU3RhdGVf",
-            "VW5hdmFpbGFibGUQABIVChFTdGF0ZV9QcmVSZWxlYXNlZBABEhYKElN0YXRl",
-            "X0Rvd25sb2FkYWJsZRACEhIKDlN0YXRlX1JlbGVhc2VkEAMSEQoNU3RhdGVf",
-            "RXhwaXJlZBAEIj0KE093bmVkR2FtZXNTaWduYXR1cmUSEwoLcHJvZHVjdF9p",
-            "ZHMYASADKA0SEQoJc2lnbmF0dXJlGAIgAigMIkMKCk93bmVkR2FtZXMSNQoL",
-            "b3duZWRfZ2FtZXMYASADKAsyIC5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3du",
-            "ZWRHYW1lIswCCg1Jbml0aWFsaXplUmVxEh4KFmRlcHJlY2F0ZWRfdGVzdF9j",
-            "b25maWcYASABKAgSGAoQZ2V0X2Fzc29jaWF0aW9ucxgCIAEoCBIVCg1wcm90",
-            "b192ZXJzaW9uGAMgASgNEkgKCGJyYW5jaGVzGAQgAygLMjYubWcucHJvdG9j",
-            "b2wub3duZXJzaGlwLkluaXRpYWxpemVSZXEuUHJvZHVjdEJyYW5jaERhdGES",
-            "GgoLdXNlX3N0YWdpbmcYBSABKAg6BWZhbHNlEg4KBmNsYWltcxgGIAMoCRIe",
-            "ChJjbGllbnRfaXBfb3ZlcnJpZGUYYyABKA1CAhgBGlQKEVByb2R1Y3RCcmFu",
-            "Y2hEYXRhEhIKCnByb2R1Y3RfaWQYASACKA0SGAoQYWN0aXZlX2JyYW5jaF9p",
-            "ZBgCIAEoDRIRCglwYXNzd29yZHMYAyADKAki3AIKDUluaXRpYWxpemVSc3AS",
-            "DwoHc3VjY2VzcxgBIAIoCBI2Cgtvd25lZF9nYW1lcxgCIAEoCzIhLm1nLnBy",
-            "b3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWVzEkkKFW93bmVkX2dhbWVzX3Np",
-            "Z25hdHVyZRgDIAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdh",
-            "bWVzU2lnbmF0dXJlEhwKFGtleV9zcGFtX2Jhbl9zZWNvbmRzGAQgASgNEkQK",
-            "EnN1YnNjcmlwdGlvbl9zdGF0ZRgFIAEoDjIoLm1nLnByb3RvY29sLm93bmVy",
-            "c2hpcC5TdWJzY3JpcHRpb25TdGF0ZRIZChFzdWJzY3JpcHRpb25fdHlwZRgG",
-            "IAEoDRI4Cg1jbGFpbWVkX2dhbWVzGAcgASgLMiEubWcucHJvdG9jb2wub3du",
-            "ZXJzaGlwLk93bmVkR2FtZXMiUgogRGVwcmVjYXRlZEdldFByb2R1Y3RGcm9t",
-            "Q2RLZXlSZXESDgoGY2Rfa2V5GAEgAigJEh4KFmRlcHJlY2F0ZWRfdGVzdF9j",
-            "b25maWcYAiABKAgihAQKIERlcHJlY2F0ZWRHZXRQcm9kdWN0RnJvbUNkS2V5",
-            "UnNwEk4KBnJlc3VsdBgBIAIoDjI+Lm1nLnByb3RvY29sLm93bmVyc2hpcC5E",
-            "ZXByZWNhdGVkR2V0UHJvZHVjdEZyb21DZEtleVJzcC5SZXN1bHQSMQoHcHJv",
-            "ZHVjdBgCIAEoCzIgLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWUS",
-            "PgoUcHJvZHVjdF9hc3NvY2lhdGlvbnMYAyADKAsyIC5tZy5wcm90b2NvbC5v",
-            "d25lcnNoaXAuT3duZWRHYW1lIpwCCgZSZXN1bHQSEgoOUmVzdWx0X1N1Y2Nl",
-            "c3MQARITCg9SZXN1bHRfQmFkQ2RLZXkQAhIUChBSZXN1bHRfQmFubmVkS2V5",
-            "EAMSHQoZUmVzdWx0X0Jhbm5lZEZvckNkS2V5U3BhbRAEEhYKElJlc3VsdF9T",
-            "ZXJ2ZXJFcnJvchAFEiAKHFJlc3VsdF9Vc2VkQ2RLZXlPdGhlckFjY291bnQQ",
-            "BhIaChZSZXN1bHRfTm90QXZhaWxhYmxlWWV0EAcSHAoYUmVzdWx0X05vTG9u",
-            "Z2VyQXZhaWxhYmxlEAgSHwobUmVzdWx0X05vdEF2YWlsYWJsZUluUmVnaW9u",
-            "EAkSHwobUmVzdWx0X1VzZWRDZEtleVRoaXNBY2NvdW50EAoiWgoUUmVnaXN0",
-            "ZXJPd25lcnNoaXBSZXESEgoKcHJvZHVjdF9pZBgBIAIoDRIOCgZjZF9rZXkY",
-            "AiABKAkSHgoWZGVwcmVjYXRlZF90ZXN0X2NvbmZpZxgDIAEoCCJfChtSZWdp",
-            "c3Rlck93bmVyc2hpcEJ5Q2RLZXlSZXESDgoGY2Rfa2V5GAEgAigJEh4KFmRl",
-            "cHJlY2F0ZWRfdGVzdF9jb25maWcYAiABKAgSEAoIdXBsYXlfaWQYAyABKA0i",
-            "PwocUmVnaXN0ZXJPd25lcnNoaXBTdGVhbVBvcFJlcRIOCgZ0aWNrZXQYASAD",
-            "KAkSDwoHY29uZmlybRgCIAIoCCKZAgocUmVnaXN0ZXJPd25lcnNoaXBTdGVh",
-            "bVBvcFJzcBJKCgZyZXN1bHQYASACKA4yOi5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuUmVnaXN0ZXJPd25lcnNoaXBTdGVhbVBvcFJzcC5SZXN1bHQSFQoNY29u",
-            "ZmlndXJhdGlvbhgCIAMoCRIgChh0aWNrZXRzX2NsYWltZWRfYnlfb3RoZXIY",
-            "AyADKAkidAoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESGAoUUmVzdWx0",
-            "X0ludmFsaWRUaWNrZXQQAhIgChxSZXN1bHRfVGlja2V0c0FscmVhZHlDbGFp",
-            "bWVkEAMSGgoWUmVzdWx0X05vUGFja2FnZXNGb3VuZBAEInYKHlJlZ2lzdGVy",
-            "T3duZXJzaGlwRnJvbU9jdWx1c1JlcRIUCgxhY2Nlc3NfdG9rZW4YASABKAkS",
-            "FQoNb2N1bHVzX2FwcF9pZBgCIAEoCRIWCg5vY3VsdXNfdXNlcl9pZBgDIAEo",
-            "CRIPCgd1c2VyX2lkGAQgASgJIqMECh5SZWdpc3Rlck93bmVyc2hpcEZyb21P",
-            "Y3VsdXNSc3ASTAoGcmVzdWx0GAEgAigOMjwubWcucHJvdG9jb2wub3duZXJz",
-            "aGlwLlJlZ2lzdGVyT3duZXJzaGlwRnJvbU9jdWx1c1JzcC5SZXN1bHQSGgoS",
-            "Y2xhaW1lZF9hY2NvdW50X2lkGAIgASgJEjYKC293bmVkX2dhbWVzGAMgASgL",
-            "MiEubWcucHJvdG9jb2wub3duZXJzaGlwLk93bmVkR2FtZXMSSQoVb3duZWRf",
-            "Z2FtZXNfc2lnbmF0dXJlGAQgASgLMioubWcucHJvdG9jb2wub3duZXJzaGlw",
-            "Lk93bmVkR2FtZXNTaWduYXR1cmUikwIKBlJlc3VsdBISCg5SZXN1bHRfU3Vj",
-            "Y2VzcxABEh0KGVJlc3VsdF9JbnZhbGlkQWNjZXNzVG9rZW4QAhIXChNSZXN1",
-            "bHRfSW52YWxpZEFwcElkEAMSGAoUUmVzdWx0X0ludmFsaWRVc2VySWQQBBIZ",
-            "ChVSZXN1bHRfQWxyZWFkeUNsYWltZWQQBRIaChZSZXN1bHRfTm9QYWNrYWdl",
-            "c0ZvdW5kEAYSGAoUUmVzdWx0X1NlcnZlclRpbWVvdXQQBxIXChNSZXN1bHRf",
-            "Tm90aGluZ093bmVkEAgSGQoVUmVzdWx0X1Vua25vd25GYWlsdXJlEAkSHgoa",
-            "UmVzdWx0X0FkZE93bmVyc2hpcEZhaWx1cmUQCiI4Ch5SZWdpc3Rlck93bmVy",
-            "c2hpcEZyb21XZUdhbWVSZXESFgoOanNvbl93ZWJfdG9rZW4YASABKAkijwMK",
-            "HlJlZ2lzdGVyT3duZXJzaGlwRnJvbVdlR2FtZVJzcBJMCgZyZXN1bHQYASAB",
-            "KA4yPC5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmVnaXN0ZXJPd25lcnNoaXBG",
-            "cm9tV2VHYW1lUnNwLlJlc3VsdBI2Cgtvd25lZF9nYW1lcxgCIAEoCzIhLm1n",
-            "LnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWVzEkkKFW93bmVkX2dhbWVz",
-            "X3NpZ25hdHVyZRgDIAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25l",
-            "ZEdhbWVzU2lnbmF0dXJlIpsBCgZSZXN1bHQSEgoOUmVzdWx0X1N1Y2Nlc3MQ",
-            "ARIXChNSZXN1bHRfSW52YWxpZFRva2VuEAISFgoSUmVzdWx0X1NlcnZlckVy",
-            "cm9yEAMSGQoVUmVzdWx0X1Vua25vd25Qcm9kdWN0EAQSFwoTUmVzdWx0X05v",
-            "dEF2YWlsYWJsZRAFEhgKFFJlc3VsdF9TZXJ2ZXJUaW1lb3V0EAYiwwQKFFJl",
-            "Z2lzdGVyT3duZXJzaGlwUnNwEkIKBnJlc3VsdBgBIAIoDjIyLm1nLnByb3Rv",
-            "Y29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVyc2hpcFJzcC5SZXN1bHQSSQoV",
-            "b3duZWRfZ2FtZXNfc2lnbmF0dXJlGAQgASgLMioubWcucHJvdG9jb2wub3du",
-            "ZXJzaGlwLk93bmVkR2FtZXNTaWduYXR1cmUSNgoLb3duZWRfZ2FtZXMYBSAB",
-            "KAsyIS5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lcxITCgtiYW5u",
-            "ZWRfdGltZRgGIAEoDRIaChJjZGtleV9jbGFpbWVkX2RhdGUYByABKAkisgIK",
-            "BlJlc3VsdBISCg5SZXN1bHRfU3VjY2VzcxABEhMKD1Jlc3VsdF9CYWRDZEtl",
-            "eRACEhQKEFJlc3VsdF9CYW5uZWRLZXkQAxIdChlSZXN1bHRfQmFubmVkRm9y",
-            "Q2RLZXlTcGFtEAQSFgoSUmVzdWx0X1NlcnZlckVycm9yEAUSIAocUmVzdWx0",
-            "X1VzZWRDZEtleU90aGVyQWNjb3VudBAGEhQKEFJlc3VsdF9PdXRPZktleXMQ",
-            "BxIaChZSZXN1bHRfTm90QXZhaWxhYmxlWWV0EAgSHAoYUmVzdWx0X05vTG9u",
-            "Z2VyQXZhaWxhYmxlEAkSHwobUmVzdWx0X05vdEF2YWlsYWJsZUluUmVnaW9u",
-            "EAoSHwobUmVzdWx0X1VzZWRDZEtleVRoaXNBY2NvdW50EAsiLAoVQ2xhaW1L",
-            "ZXlzdG9yYWdlS2V5UmVxEhMKC3Byb2R1Y3RfaWRzGAEgAygNIpwCChVDbGFp",
-            "bUtleXN0b3JhZ2VLZXlSc3ASQwoGcmVzdWx0GAEgAigOMjMubWcucHJvdG9j",
-            "b2wub3duZXJzaGlwLkNsYWltS2V5c3RvcmFnZUtleVJzcC5SZXN1bHQSVgoR",
-            "cHJvZHVjdF9rZXlfcGFpcnMYAiADKAsyOy5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuQ2xhaW1LZXlzdG9yYWdlS2V5UnNwLlByb2R1Y3RLZXlQYWlyGjQKDlBy",
-            "b2R1Y3RLZXlQYWlyEhIKCnByb2R1Y3RfaWQYASACKA0SDgoGY2Rfa2V5GAIg",
-            "AigJIjAKBlJlc3VsdBISCg5SZXN1bHRfU3VjY2VzcxABEhIKDlJlc3VsdF9G",
-            "YWlsdXJlEAIiyQEKF0dldEJhdGNoRG93bmxvYWRVcmxzUmVxEk8KDHVybF9y",
-            "ZXF1ZXN0cxgBIAMoCzI5Lm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRCYXRj",
-            "aERvd25sb2FkVXJsc1JlcS5VcmxSZXF1ZXN0Gl0KClVybFJlcXVlc3QSEgoK",
-            "cHJvZHVjdF9pZBgBIAIoDRIbChNyZWxhdGl2ZV9maWxlX3BhdGhzGAIgAygJ",
-            "Eh4KFmRlcHJlY2F0ZWRfdGVzdF9jb25maWcYAyABKAgipgMKF0dldEJhdGNo",
-            "RG93bmxvYWRVcmxzUnNwElEKDXVybF9yZXNwb25zZXMYASADKAsyOi5tZy5w",
-            "cm90b2NvbC5vd25lcnNoaXAuR2V0QmF0Y2hEb3dubG9hZFVybHNSc3AuVXJs",
-            "UmVzcG9uc2USEwoLdHRsX3NlY29uZHMYAiACKA0aygEKC1VybFJlc3BvbnNl",
-            "EkUKBnJlc3VsdBgBIAIoDjI1Lm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRC",
-            "YXRjaERvd25sb2FkVXJsc1JzcC5SZXN1bHQSIAoYZGVwcmVjYXRlZF9kb3du",
-            "bG9hZF91cmxzGAIgAygJElIKDWRvd25sb2FkX3VybHMYAyADKAsyOy5tZy5w",
-            "cm90b2NvbC5vd25lcnNoaXAuR2V0QmF0Y2hEb3dubG9hZFVybHNSc3AuRG93",
-            "bmxvYWRVcmxzGhwKDERvd25sb2FkVXJscxIMCgR1cmxzGAEgAygJIjgKBlJl",
-            "c3VsdBISCg5SZXN1bHRfU3VjY2VzcxABEhoKFlJlc3VsdF9Qcm9kdWN0Tm90",
-            "T3duZWQQAiJhCh9EZXByZWNhdGVkR2V0TGF0ZXN0TWFuaWZlc3RzUmVxEh4K",
-            "FmRlcHJlY2F0ZWRfcHJvZHVjdF9pZHMYASADKA0SHgoWZGVwcmVjYXRlZF90",
-            "ZXN0X2NvbmZpZxgCIAEoCCLYAwofRGVwcmVjYXRlZEdldExhdGVzdE1hbmlm",
-            "ZXN0c1JzcBJNCgZyZXN1bHQYASACKA4yPS5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuRGVwcmVjYXRlZEdldExhdGVzdE1hbmlmZXN0c1JzcC5SZXN1bHQSUgoJ",
-            "bWFuaWZlc3RzGAIgAygLMj8ubWcucHJvdG9jb2wub3duZXJzaGlwLkRlcHJl",
-            "Y2F0ZWRHZXRMYXRlc3RNYW5pZmVzdHNSc3AuTWFuaWZlc3Qa2wEKCE1hbmlm",
-            "ZXN0ElYKBnJlc3VsdBgBIAIoDjJGLm1nLnByb3RvY29sLm93bmVyc2hpcC5E",
-            "ZXByZWNhdGVkR2V0TGF0ZXN0TWFuaWZlc3RzUnNwLk1hbmlmZXN0LlJlc3Vs",
-            "dBISCgpwcm9kdWN0X2lkGAIgAigNEhAKCG1hbmlmZXN0GAMgASgJEh4KFmRl",
-            "cHJlY2F0ZWRfdGVzdF9jb25maWcYBCABKAgiMQoGUmVzdWx0EhIKDlJlc3Vs",
-            "dF9TdWNjZXNzEAESEwoPUmVzdWx0X05vdEZvdW5kEAIiNAoGUmVzdWx0EhIK",
-            "DlJlc3VsdF9TdWNjZXNzEAESFgoSUmVzdWx0X1NlcnZlckVycm9yEAIixgMK",
-            "DENsb3Vkc2F2ZVJlcRIQCgh1cGxheV9pZBgBIAIoDRI9CghwdXRfaXRlbRgC",
-            "IAEoCzIrLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSZXEuUHV0",
-            "SXRlbRI9CghnZXRfaXRlbRgDIAEoCzIrLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5DbG91ZHNhdmVSZXEuR2V0SXRlbRJDCgtkZWxldGVfaXRlbRgEIAEoCzIu",
-            "Lm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSZXEuRGVsZXRlSXRl",
-            "bRJBCgpsaXN0X2l0ZW1zGAUgASgLMi0ubWcucHJvdG9jb2wub3duZXJzaGlw",
-            "LkNsb3Vkc2F2ZVJlcS5MaXN0SXRlbXMSEAoIdXNlcm5hbWUYBiABKAkaRAoH",
-            "UHV0SXRlbRIPCgdpdGVtX2lkGAEgAigNEhQKDHdyaXRlX2xlbmd0aBgCIAIo",
-            "DRISCgptZDVfYmFzZTY0GAMgAigJGhoKB0dldEl0ZW0SDwoHaXRlbV9pZBgB",
-            "IAIoDRodCgpEZWxldGVJdGVtEg8KB2l0ZW1faWQYASACKA0aCwoJTGlzdEl0",
-            "ZW1zIugBCgxDbG91ZHNhdmVSc3ASOgoGc3RhdHVzGAEgAigOMioubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJzcC5TdGF0dXMSFQoNbWV0aG9k",
-            "X3N0cmluZxgCIAIoCRITCgtwYXRoX3N0cmluZxgDIAIoCRITCgtob3N0X3N0",
-            "cmluZxgEIAIoCRIVCg1oZWFkZXJfc3RyaW5nGAUgAigJIkQKBlN0YXR1cxIN",
-            "CglTdGF0dXNfT2sQARIYChRTdGF0dXNfSW50ZXJuYWxFcnJvchACEhEKDVN0",
-            "YXR1c19EZW5pZWQQAyKXBQoOQ2xvdWRzYXZlUmVxVjISEAoIdXBsYXlfaWQY",
-            "ASACKA0SQQoJcHV0X2l0ZW1zGAIgASgLMi4ubWcucHJvdG9jb2wub3duZXJz",
-            "aGlwLkNsb3Vkc2F2ZVJlcVYyLlB1dEl0ZW1zEkEKCWdldF9pdGVtcxgDIAEo",
-            "CzIuLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSZXFWMi5HZXRJ",
-            "dGVtcxJHCgxkZWxldGVfaXRlbXMYBCABKAsyMS5tZy5wcm90b2NvbC5vd25l",
-            "cnNoaXAuQ2xvdWRzYXZlUmVxVjIuRGVsZXRlSXRlbXMapAEKCFB1dEl0ZW1z",
-            "EkIKBWl0ZW1zGAEgAygLMjMubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vk",
-            "c2F2ZVJlcVYyLlB1dEl0ZW1zLkl0ZW0aVAoESXRlbRIPCgdpdGVtX2lkGAEg",
-            "AigNEhQKDHdyaXRlX2xlbmd0aBgCIAIoDRISCgptZDVfYmFzZTY0GAMgAigJ",
-            "EhEKCWl0ZW1fbmFtZRgEIAEoCRp6CghHZXRJdGVtcxJCCgVpdGVtcxgBIAMo",
-            "CzIzLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSZXFWMi5HZXRJ",
-            "dGVtcy5JdGVtGioKBEl0ZW0SDwoHaXRlbV9pZBgBIAIoDRIRCglpdGVtX25h",
-            "bWUYAiABKAkagAEKC0RlbGV0ZUl0ZW1zEkUKBWl0ZW1zGAEgAygLMjYubWcu",
-            "cHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcVYyLkRlbGV0ZUl0ZW1z",
-            "Lkl0ZW0aKgoESXRlbRIPCgdpdGVtX2lkGAEgAigNEhEKCWl0ZW1fbmFtZRgC",
-            "IAEoCSKdAgoOQ2xvdWRzYXZlUnNwVjISPAoGc3RhdHVzGAEgAigOMiwubWcu",
-            "cHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJzcFYyLlN0YXR1cxJACglo",
-            "dHRwX3JlcXMYAiADKAsyLS5tZy5wcm90b2NvbC5vd25lcnNoaXAuQ2xvdWRz",
-            "YXZlUnNwVjIuSHR0cFJlcRpFCgdIdHRwUmVxEg4KBm1ldGhvZBgBIAIoCRIM",
-            "CgRwYXRoGAIgAigJEgwKBGhvc3QYAyACKAkSDgoGaGVhZGVyGAQgAigJIkQK",
-            "BlN0YXR1cxINCglTdGF0dXNfT2sQARIYChRTdGF0dXNfSW50ZXJuYWxFcnJv",
-            "chACEhEKDVN0YXR1c19EZW5pZWQQAyJJChNHZXRQcm9kdWN0Q29uZmlnUmVx",
-            "EhIKCnByb2R1Y3RfaWQYASACKA0SHgoWZGVwcmVjYXRlZF90ZXN0X2NvbmZp",
-            "ZxgCIAEoCCLiAQoTR2V0UHJvZHVjdENvbmZpZ1JzcBJBCgZyZXN1bHQYASAC",
-            "KA4yMS5tZy5wcm90b2NvbC5vd25lcnNoaXAuR2V0UHJvZHVjdENvbmZpZ1Jz",
-            "cC5SZXN1bHQSHgoWZGVwcmVjYXRlZF90ZXN0X2NvbmZpZxgCIAEoCBIVCg1j",
-            "b25maWd1cmF0aW9uGAMgASgJIlEKBlJlc3VsdBISCg5SZXN1bHRfU3VjY2Vz",
-            "cxABEhMKD1Jlc3VsdF9Ob3RGb3VuZBACEh4KGlJlc3VsdF9JbnRlcm5hbFNl",
-            "cnZlckVycm9yEAMi0wIKFlN3aXRjaFByb2R1Y3RCcmFuY2hSZXESXgoQc3Bl",
-            "Y2lmaWVkX2JyYW5jaBgBIAEoCzJELm1nLnByb3RvY29sLm93bmVyc2hpcC5T",
-            "d2l0Y2hQcm9kdWN0QnJhbmNoUmVxLlNwZWNpZmllZFByb2R1Y3RCcmFuY2gS",
-            "WgoOZGVmYXVsdF9icmFuY2gYAiABKAsyQi5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuU3dpdGNoUHJvZHVjdEJyYW5jaFJlcS5EZWZhdWx0UHJvZHVjdEJyYW5j",
-            "aBpRChZTcGVjaWZpZWRQcm9kdWN0QnJhbmNoEhIKCnByb2R1Y3RfaWQYASAC",
-            "KA0SEQoJYnJhbmNoX2lkGAIgAigNEhAKCHBhc3N3b3JkGAMgASgJGioKFERl",
-            "ZmF1bHRQcm9kdWN0QnJhbmNoEhIKCnByb2R1Y3RfaWQYASACKA0ixAEKFlN3",
-            "aXRjaFByb2R1Y3RCcmFuY2hSc3ASRAoGcmVzdWx0GAEgAigOMjQubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLlN3aXRjaFByb2R1Y3RCcmFuY2hSc3AuUmVzdWx0",
-            "EjMKCHByb2R1Y3RzGAIgASgLMiEubWcucHJvdG9jb2wub3duZXJzaGlwLk93",
-            "bmVkR2FtZXMiLwoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESEQoNUmVz",
-            "dWx0X0RlbmllZBACIpwBChZVbmxvY2tQcm9kdWN0QnJhbmNoUmVxEksKBmJy",
-            "YW5jaBgBIAIoCzI7Lm1nLnByb3RvY29sLm93bmVyc2hpcC5VbmxvY2tQcm9k",
-            "dWN0QnJhbmNoUmVxLlByb2R1Y3RCcmFuY2gaNQoNUHJvZHVjdEJyYW5jaBIS",
-            "Cgpwcm9kdWN0X2lkGAEgAigNEhAKCHBhc3N3b3JkGAIgAigJIpUCChZVbmxv",
-            "Y2tQcm9kdWN0QnJhbmNoUnNwEkQKBnJlc3VsdBgBIAIoDjI0Lm1nLnByb3Rv",
-            "Y29sLm93bmVyc2hpcC5VbmxvY2tQcm9kdWN0QnJhbmNoUnNwLlJlc3VsdBJL",
-            "CgZicmFuY2gYAiADKAsyOy5tZy5wcm90b2NvbC5vd25lcnNoaXAuVW5sb2Nr",
-            "UHJvZHVjdEJyYW5jaFJzcC5Qcm9kdWN0QnJhbmNoGjcKDVByb2R1Y3RCcmFu",
-            "Y2gSEQoJYnJhbmNoX2lkGAEgAigNEhMKC2JyYW5jaF9uYW1lGAIgAigJIi8K",
-            "BlJlc3VsdBISCg5SZXN1bHRfU3VjY2VzcxABEhEKDVJlc3VsdF9EZW5pZWQQ",
-            "AiInChNHZXRVcGxheVBDVGlja2V0UmVxEhAKCHVwbGF5X2lkGAEgAigNIssC",
-            "ChNHZXRVcGxheVBDVGlja2V0UnNwEg8KB3N1Y2Nlc3MYASACKAgSFwoPdXBs",
-            "YXlfcGNfdGlja2V0GAIgASgJElsKCmVycm9yX2NvZGUYAyABKA4yNC5tZy5w",
-            "cm90b2NvbC5vd25lcnNoaXAuR2V0VXBsYXlQQ1RpY2tldFJzcC5FcnJvckNv",
-            "ZGU6EUVycm9yQ29kZV9Vbmtub3duIqwBCglFcnJvckNvZGUSFQoRRXJyb3JD",
-            "b2RlX1Vua25vd24QARIdChlFcnJvckNvZGVfUHJvZHVjdE5vdE93bmVkEAIS",
-            "HgoaRXJyb3JDb2RlX1Byb2R1Y3RTdXNwZW5kZWQQAxInCiNFcnJvckNvZGVf",
-            "UHJvZHVjdFN1YnNjcmlwdGlvbkxvY2tlZBAEEiAKHEVycm9yQ29kZV9Qcm9k",
-            "dWN0Tm90UmVsZWFzZWQQBSJDChxVcGxheUNvcmVHYW1lSW5pdGlhbGl6ZWRQ",
-            "dXNoEg8KB3N1Y2Nlc3MYASACKAgSEgoKcHJvZHVjdF9pZBgCIAIoDSJRChtS",
-            "ZXRyeVVwbGF5Q29yZUluaXRpYWxpemVSZXESEgoKcHJvZHVjdF9pZBgBIAMo",
-            "DRIeChZkZXByZWNhdGVkX3Rlc3RfY29uZmlnGAIgAigIIn8KE0NvbnN1bWVP",
-            "d25lcnNoaXBSZXESEgoKcHJvZHVjdF9pZBgBIAIoDRIQCghxdWFudGl0eRgC",
-            "IAIoDRIWCg50cmFuc2FjdGlvbl9pZBgDIAIoCRIXCg9nYW1lX3Byb2R1Y3Rf",
-            "aWQYBCACKA0SEQoJc2lnbmF0dXJlGAUgAigJIrIBChNDb25zdW1lT3duZXJz",
-            "aGlwUnNwEkEKBnJlc3VsdBgBIAIoDjIxLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5Db25zdW1lT3duZXJzaGlwUnNwLlJlc3VsdBIRCglzaWduYXR1cmUYAiAB",
-            "KAkiRQoGUmVzdWx0Eg0KCVJlc3VsdF9PaxAAEhkKFVJlc3VsdF9Ob3RFbm91",
-            "Z2hJdGVtcxABEhEKDVJlc3VsdF9GYWlsZWQQAiI/Cg9HZXRHYW1lVG9rZW5S",
-            "ZXESGAoQYWN0aXZhdGlvbl90b2tlbhgBIAEoDBISCgpwcm9kdWN0X2lkGAIg",
-            "ASgNIvgBCg9HZXRHYW1lVG9rZW5Sc3ASPQoGcmVzdWx0GAEgAigOMi0ubWcu",
-            "cHJvdG9jb2wub3duZXJzaGlwLkdldEdhbWVUb2tlblJzcC5SZXN1bHQSEgoK",
-            "Z2FtZV90b2tlbhgCIAEoDCKRAQoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNz",
-            "EAASEwoPUmVzdWx0X05vdE93bmVkEAESEgoOUmVzdWx0X0ZhaWx1cmUQAhIe",
-            "ChpSZXN1bHRfRXhjZWVkZWRBY3RpdmF0aW9ucxADEhIKDlJlc3VsdF9UaW1l",
-            "T3V0EAQSFgoSUmVzdWx0X1NlcnZlckVycm9yEAUiQgoUR2V0R2FtZVRpbWVU",
-            "aWNrZXRSZXESEgoKcHJvZHVjdF9pZBgBIAEoDRIWCg5yZXF1ZXN0X3RpY2tl",
-            "dBgCIAEoDCLiAQoUR2V0R2FtZVRpbWVUaWNrZXRSc3ASQgoGcmVzdWx0GAEg",
-            "AigOMjIubWcucHJvdG9jb2wub3duZXJzaGlwLkdldEdhbWVUaW1lVGlja2V0",
-            "UnNwLlJlc3VsdBITCgt0aW1lX3RpY2tldBgCIAEoDCJxCgZSZXN1bHQSEgoO",
-            "UmVzdWx0X1N1Y2Nlc3MQABITCg9SZXN1bHRfTm90T3duZWQQARISCg5SZXN1",
-            "bHRfRmFpbHVyZRACEhIKDlJlc3VsdF9UaW1lT3V0EAMSFgoSUmVzdWx0X1Nl",
-            "cnZlckVycm9yEAQiMAoaR2V0R2FtZVdpdGhkcmF3YWxSaWdodHNSZXESEgoK",
-            "cHJvZHVjdF9pZBgBIAEoDSJIChpHZXRHYW1lV2l0aGRyYXdhbFJpZ2h0c1Jz",
-            "cBIPCgdzdWNjZXNzGAEgASgIEhkKEXdpdGhkcmF3YWxfcmlnaHRzGAIgASgI",
-            "IjIKHFdhaXZlR2FtZVdpdGhkcmF3YWxSaWdodHNSZXESEgoKcHJvZHVjdF9p",
-            "ZBgBIAEoDSIvChxXYWl2ZUdhbWVXaXRoZHJhd2FsUmlnaHRzUnNwEg8KB3N1",
-            "Y2Nlc3MYASABKAgiJgoQU2lnbk93bmVyc2hpcFJlcRISCgpwcm9kdWN0X2lk",
-            "GAEgASgNIl0KEFNpZ25Pd25lcnNoaXBSc3ASDwoHc3VjY2VzcxgBIAEoCBIR",
-            "CglicmFuY2hfaWQYAiABKA0SEgoKZXhwaXJhdGlvbhgDIAEoBBIRCglzaWdu",
-            "YXR1cmUYBCABKAwiJwoRT3duZXJzaGlwVG9rZW5SZXESEgoKcHJvZHVjdF9p",
-            "ZBgBIAEoDSJHChFPd25lcnNoaXBUb2tlblJzcBIPCgdzdWNjZXNzGAEgASgI",
-            "Eg0KBXRva2VuGAIgASgJEhIKCmV4cGlyYXRpb24YAyABKAQiLgodUmVnaXN0",
-            "ZXJUZW1wb3JhcnlPd25lcnNoaXBSZXESDQoFdG9rZW4YASABKAkiWAodUmVn",
-            "aXN0ZXJUZW1wb3JhcnlPd25lcnNoaXBSc3ASDwoHc3VjY2VzcxgBIAEoCBIR",
-            "CgllcnJvcl9tc2cYAiABKAkSEwoLcHJvZHVjdF9pZHMYAyADKA0ivRAKA1Jl",
-            "cRISCgpyZXF1ZXN0X2lkGAEgAigNEjwKDmluaXRpYWxpemVfcmVxGAIgASgL",
-            "MiQubWcucHJvdG9jb2wub3duZXJzaGlwLkluaXRpYWxpemVSZXESSwoWcmVn",
-            "aXN0ZXJfb3duZXJzaGlwX3JlcRgDIAEoCzIrLm1nLnByb3RvY29sLm93bmVy",
-            "c2hpcC5SZWdpc3Rlck93bmVyc2hpcFJlcRJcCiByZWdpc3Rlcl9vd25lcnNo",
-            "aXBfYnlfY2Rfa2V5X3JlcRgFIAEoCzIyLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5SZWdpc3Rlck93bmVyc2hpcEJ5Q2RLZXlSZXESZwomZGVwcmVjYXRlZF9n",
-            "ZXRfcHJvZHVjdF9mcm9tX2NkX2tleV9yZXEYBiABKAsyNy5tZy5wcm90b2Nv",
-            "bC5vd25lcnNoaXAuRGVwcmVjYXRlZEdldFByb2R1Y3RGcm9tQ2RLZXlSZXES",
-            "SgoWZ2V0X3Byb2R1Y3RfY29uZmlnX3JlcRgJIAEoCzIqLm1nLnByb3RvY29s",
-            "Lm93bmVyc2hpcC5HZXRQcm9kdWN0Q29uZmlnUmVxEmMKI2RlcHJlY2F0ZWRf",
-            "Z2V0X2xhdGVzdF9tYW5pZmVzdHNfcmVxGAogASgLMjYubWcucHJvdG9jb2wu",
-            "b3duZXJzaGlwLkRlcHJlY2F0ZWRHZXRMYXRlc3RNYW5pZmVzdHNSZXESPgoN",
-            "Y2xvdWRzYXZlX3JlcRgLIAEoCzIjLm1nLnByb3RvY29sLm93bmVyc2hpcC5D",
-            "bG91ZHNhdmVSZXFCAhgBElMKG2dldF9iYXRjaF9kb3dubG9hZF91cmxzX3Jl",
-            "cRgMIAEoCzIuLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRCYXRjaERvd25s",
-            "b2FkVXJsc1JlcRJDChBjbG91ZHNhdmVfcmVxX3YyGA0gASgLMiUubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcVYyQgIYARJLChdnZXRfdXBs",
-            "YXlfcGNfdGlja2V0X3JlcRgOIAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5HZXRVcGxheVBDVGlja2V0UmVxElsKH3JldHJ5X3VwbGF5X2NvcmVfaW5p",
-            "dGlhbGl6ZV9yZXEYDyABKAsyMi5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmV0",
-            "cnlVcGxheUNvcmVJbml0aWFsaXplUmVxEkkKFWNvbnN1bWVfb3duZXJzaGlw",
-            "X3JlcRgQIAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hpcC5Db25zdW1lT3du",
-            "ZXJzaGlwUmVxElAKGXN3aXRjaF9wcm9kdWN0X2JyYW5jaF9yZXEYESABKAsy",
-            "LS5tZy5wcm90b2NvbC5vd25lcnNoaXAuU3dpdGNoUHJvZHVjdEJyYW5jaFJl",
-            "cRJQChl1bmxvY2tfcHJvZHVjdF9icmFuY2hfcmVxGBIgASgLMi0ubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLlVubG9ja1Byb2R1Y3RCcmFuY2hSZXESXQogcmVn",
-            "aXN0ZXJfb3duZXJzaGlwX3N0ZWFtX3BvcF9yZXEYEyABKAsyMy5tZy5wcm90",
-            "b2NvbC5vd25lcnNoaXAuUmVnaXN0ZXJPd25lcnNoaXBTdGVhbVBvcFJlcRJh",
-            "CiJyZWdpc3Rlcl9vd25lcnNoaXBfZnJvbV9vY3VsdXNfcmVxGBQgASgLMjUu",
-            "bWcucHJvdG9jb2wub3duZXJzaGlwLlJlZ2lzdGVyT3duZXJzaGlwRnJvbU9j",
-            "dWx1c1JlcRJCChJnZXRfZ2FtZV90b2tlbl9yZXEYFSABKAsyJi5tZy5wcm90",
-            "b2NvbC5vd25lcnNoaXAuR2V0R2FtZVRva2VuUmVxEk4KGGNsYWltX2tleXN0",
-            "b3JhZ2Vfa2V5X3JlcRgWIAEoCzIsLm1nLnByb3RvY29sLm93bmVyc2hpcC5D",
-            "bGFpbUtleXN0b3JhZ2VLZXlSZXESTQoYZ2V0X2dhbWVfdGltZV90aWNrZXRf",
-            "cmVxGBcgASgLMisubWcucHJvdG9jb2wub3duZXJzaGlwLkdldEdhbWVUaW1l",
-            "VGlja2V0UmVxElkKHmdldF9nYW1lX3dpdGhkcmF3YWxfcmlnaHRzX3JlcRgY",
-            "IAEoCzIxLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRHYW1lV2l0aGRyYXdh",
-            "bFJpZ2h0c1JlcRJdCiB3YWl2ZV9nYW1lX3dpdGhkcmF3YWxfcmlnaHRzX3Jl",
-            "cRgZIAEoCzIzLm1nLnByb3RvY29sLm93bmVyc2hpcC5XYWl2ZUdhbWVXaXRo",
-            "ZHJhd2FsUmlnaHRzUmVxEkMKEnNpZ25fb3duZXJzaGlwX3JlcRgaIAEoCzIn",
-            "Lm1nLnByb3RvY29sLm93bmVyc2hpcC5TaWduT3duZXJzaGlwUmVxEmEKInJl",
-            "Z2lzdGVyX293bmVyc2hpcF9mcm9tX3dlZ2FtZV9yZXEYGyABKAsyNS5tZy5w",
-            "cm90b2NvbC5vd25lcnNoaXAuUmVnaXN0ZXJPd25lcnNoaXBGcm9tV2VHYW1l",
-            "UmVxEkUKE293bmVyc2hpcF90b2tlbl9yZXEYHCABKAsyKC5tZy5wcm90b2Nv",
-            "bC5vd25lcnNoaXAuT3duZXJzaGlwVG9rZW5SZXESXgogcmVnaXN0ZXJfdGVt",
-            "cG9yYXJ5X293bmVyc2hpcF9yZXEYHSABKAsyNC5tZy5wcm90b2NvbC5vd25l",
-            "cnNoaXAuUmVnaXN0ZXJUZW1wb3JhcnlPd25lcnNoaXBSZXEigg8KA1JzcBIS",
-            "CgpyZXF1ZXN0X2lkGAEgAigNEjwKDmluaXRpYWxpemVfcnNwGAIgASgLMiQu",
-            "bWcucHJvdG9jb2wub3duZXJzaGlwLkluaXRpYWxpemVSc3ASSwoWcmVnaXN0",
-            "ZXJfb3duZXJzaGlwX3JzcBgDIAEoCzIrLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5SZWdpc3Rlck93bmVyc2hpcFJzcBJnCiZkZXByZWNhdGVkX2dldF9wcm9k",
-            "dWN0X2Zyb21fY2Rfa2V5X3JzcBgFIAEoCzI3Lm1nLnByb3RvY29sLm93bmVy",
-            "c2hpcC5EZXByZWNhdGVkR2V0UHJvZHVjdEZyb21DZEtleVJzcBJKChZnZXRf",
-            "cHJvZHVjdF9jb25maWdfcnNwGAkgASgLMioubWcucHJvdG9jb2wub3duZXJz",
-            "aGlwLkdldFByb2R1Y3RDb25maWdSc3ASYwojZGVwcmVjYXRlZF9nZXRfbGF0",
-            "ZXN0X21hbmlmZXN0c19yc3AYCiABKAsyNi5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuRGVwcmVjYXRlZEdldExhdGVzdE1hbmlmZXN0c1JzcBI+Cg1jbG91ZHNh",
-            "dmVfcnNwGAsgASgLMiMubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2",
-            "ZVJzcEICGAESUwobZ2V0X2JhdGNoX2Rvd25sb2FkX3VybHNfcnNwGAwgASgL",
-            "Mi4ubWcucHJvdG9jb2wub3duZXJzaGlwLkdldEJhdGNoRG93bmxvYWRVcmxz",
-            "UnNwEksKF2dldF91cGxheV9wY190aWNrZXRfcnNwGA0gASgLMioubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLkdldFVwbGF5UENUaWNrZXRSc3ASQwoQY2xvdWRz",
-            "YXZlX3JzcF92MhgOIAEoCzIlLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91",
-            "ZHNhdmVSc3BWMkICGAESSQoVY29uc3VtZV9vd25lcnNoaXBfcnNwGA8gASgL",
-            "MioubWcucHJvdG9jb2wub3duZXJzaGlwLkNvbnN1bWVPd25lcnNoaXBSc3AS",
-            "UAoZc3dpdGNoX3Byb2R1Y3RfYnJhbmNoX3JzcBgQIAEoCzItLm1nLnByb3Rv",
-            "Y29sLm93bmVyc2hpcC5Td2l0Y2hQcm9kdWN0QnJhbmNoUnNwElAKGXVubG9j",
-            "a19wcm9kdWN0X2JyYW5jaF9yc3AYESABKAsyLS5tZy5wcm90b2NvbC5vd25l",
-            "cnNoaXAuVW5sb2NrUHJvZHVjdEJyYW5jaFJzcBJdCiByZWdpc3Rlcl9vd25l",
-            "cnNoaXBfc3RlYW1fcG9wX3JzcBgSIAEoCzIzLm1nLnByb3RvY29sLm93bmVy",
-            "c2hpcC5SZWdpc3Rlck93bmVyc2hpcFN0ZWFtUG9wUnNwEmEKInJlZ2lzdGVy",
-            "X293bmVyc2hpcF9mcm9tX29jdWx1c19yc3AYEyABKAsyNS5tZy5wcm90b2Nv",
-            "bC5vd25lcnNoaXAuUmVnaXN0ZXJPd25lcnNoaXBGcm9tT2N1bHVzUnNwEkIK",
-            "EmdldF9nYW1lX3Rva2VuX3JzcBgUIAEoCzImLm1nLnByb3RvY29sLm93bmVy",
-            "c2hpcC5HZXRHYW1lVG9rZW5Sc3ASTgoYY2xhaW1fa2V5c3RvcmFnZV9rZXlf",
-            "cnNwGBUgASgLMiwubWcucHJvdG9jb2wub3duZXJzaGlwLkNsYWltS2V5c3Rv",
-            "cmFnZUtleVJzcBJNChhnZXRfZ2FtZV90aW1lX3RpY2tldF9yc3AYFiABKAsy",
-            "Ky5tZy5wcm90b2NvbC5vd25lcnNoaXAuR2V0R2FtZVRpbWVUaWNrZXRSc3AS",
-            "WQoeZ2V0X2dhbWVfd2l0aGRyYXdhbF9yaWdodHNfcnNwGBcgASgLMjEubWcu",
-            "cHJvdG9jb2wub3duZXJzaGlwLkdldEdhbWVXaXRoZHJhd2FsUmlnaHRzUnNw",
-            "El0KIHdhaXZlX2dhbWVfd2l0aGRyYXdhbF9yaWdodHNfcnNwGBggASgLMjMu",
-            "bWcucHJvdG9jb2wub3duZXJzaGlwLldhaXZlR2FtZVdpdGhkcmF3YWxSaWdo",
-            "dHNSc3ASQwoSc2lnbl9vd25lcnNoaXBfcnNwGBkgASgLMicubWcucHJvdG9j",
-            "b2wub3duZXJzaGlwLlNpZ25Pd25lcnNoaXBSc3ASYQoicmVnaXN0ZXJfb3du",
-            "ZXJzaGlwX2Zyb21fd2VnYW1lX3JzcBgaIAEoCzI1Lm1nLnByb3RvY29sLm93",
-            "bmVyc2hpcC5SZWdpc3Rlck93bmVyc2hpcEZyb21XZUdhbWVSc3ASRQoTb3du",
-            "ZXJzaGlwX3Rva2VuX3JzcBgbIAEoCzIoLm1nLnByb3RvY29sLm93bmVyc2hp",
-            "cC5Pd25lcnNoaXBUb2tlblJzcBJeCiByZWdpc3Rlcl90ZW1wb3Jhcnlfb3du",
-            "ZXJzaGlwX3JzcBgcIAEoCzI0Lm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdp",
-            "c3RlclRlbXBvcmFyeU93bmVyc2hpcFJzcCKsAQoNT3duZWRHYW1lUHVzaBJJ",
-            "ChVvd25lZF9nYW1lc19zaWduYXR1cmUYAiABKAsyKi5tZy5wcm90b2NvbC5v",
-            "d25lcnNoaXAuT3duZWRHYW1lc1NpZ25hdHVyZRI2Cgtvd25lZF9nYW1lcxgE",
-            "IAEoCzIhLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWVzEhgKEHJl",
-            "bW92ZWRfcHJvZHVjdHMYBSADKA0icwoQU3Vic2NyaXB0aW9uUHVzaBJEChJz",
-            "dWJzY3JpcHRpb25fc3RhdGUYASABKA4yKC5tZy5wcm90b2NvbC5vd25lcnNo",
-            "aXAuU3Vic2NyaXB0aW9uU3RhdGUSGQoRc3Vic2NyaXB0aW9uX3R5cGUYAiAB",
-            "KA0i6AEKBFB1c2gSPQoPb3duZWRfZ2FtZV9wdXNoGAEgASgLMiQubWcucHJv",
-            "dG9jb2wub3duZXJzaGlwLk93bmVkR2FtZVB1c2gSXQogdXBsYXlfY29yZV9n",
-            "YW1lX2luaXRpYWxpemVkX3B1c2gYAiABKAsyMy5tZy5wcm90b2NvbC5vd25l",
-            "cnNoaXAuVXBsYXlDb3JlR2FtZUluaXRpYWxpemVkUHVzaBJCChFzdWJzY3Jp",
-            "cHRpb25fcHVzaBgDIAEoCzInLm1nLnByb3RvY29sLm93bmVyc2hpcC5TdWJz",
-            "Y3JpcHRpb25QdXNoIjcKCFVwc3RyZWFtEisKB3JlcXVlc3QYASABKAsyGi5t",
-            "Zy5wcm90b2NvbC5vd25lcnNoaXAuUmVxImUKCkRvd25zdHJlYW0SLAoIcmVz",
-            "cG9uc2UYASABKAsyGi5tZy5wcm90b2NvbC5vd25lcnNoaXAuUnNwEikKBHB1",
-            "c2gYAiABKAsyGy5tZy5wcm90b2NvbC5vd25lcnNoaXAuUHVzaCpzChFTdWJz",
-            "Y3JpcHRpb25TdGF0ZRIdChlTdWJzY3JpcHRpb25TdGF0ZV9Ob1N0YXRlEAAS",
-            "IAocU3Vic2NyaXB0aW9uU3RhdGVfU3Vic2NyaWJlZBABEh0KGVN1YnNjcmlw",
-            "dGlvblN0YXRlX0V4cGlyZWQQAg=="));
+            "ZRgEIAEoDSJDChhVYmlTZXJ2aWNlc0R5bmFtaWNDb25maWcSEwoLbHVuYV9h",
+            "cHBfaWQYASABKAkSEgoKZ2ZuX2FwcF9pZBgCIAEoCSKVEwoJT3duZWRHYW1l",
+            "EhIKCnByb2R1Y3RfaWQYASACKA0SDgoGY2Rfa2V5GAIgASgJEg0KBW93bmVk",
+            "GBQgASgIEhgKEG9yYml0X3Byb2R1Y3RfaWQYAyABKA0SFgoOY29uZmlnX3Zl",
+            "cnNpb24YCyABKA0SEwoLZG93bmxvYWRfaWQYBSABKA0SGAoQZG93bmxvYWRf",
+            "dmVyc2lvbhgMIAEoDRIQCgh0aXRsZV9pZBgGIAEoDRIQCghwbGF0Zm9ybRgH",
+            "IAEoDRIUCgxwcm9kdWN0X3R5cGUYCCABKA0SDQoFc3RhdGUYDSABKA0SGgoS",
+            "b3JiaXRfZ2FtZV92ZXJzaW9uGAkgASgNEh4KFm9yYml0X2dhbWVfdmVyc2lv",
+            "bl91cmwYCiABKAkSHAoUcHJvZHVjdF9hc3NvY2lhdGlvbnMYECADKA0SFQoN",
+            "Y29uZmlndXJhdGlvbhgRIAEoCRIeChZkZXByZWNhdGVkX3Rlc3RfY29uZmln",
+            "GBIgASgIEhAKCHVwbGF5X2lkGBMgASgNEhcKD2xhdGVzdF9tYW5pZmVzdBgV",
+            "IAEoCRIRCglnYW1lX2NvZGUYFiABKAkSDwoHYmFsYW5jZRgXIAEoDRIWCg5l",
+            "bmNyeXB0aW9uX2tleRgYIAEoCRIYChBhY3RpdmVfYnJhbmNoX2lkGBkgASgN",
+            "EkoKEmF2YWlsYWJsZV9icmFuY2hlcxgaIAMoCzIuLm1nLnByb3RvY29sLm93",
+            "bmVyc2hpcC5Pd25lZEdhbWUuUHJvZHVjdEJyYW5jaBIWCg5hY3RpdmF0aW9u",
+            "X2lkcxgbIAMoDRIQCghicmFuZF9pZBgcIAEoDRIrChxwZW5kaW5nX2tleXN0",
+            "b3JhZ2Vfb3duZXJzaGlwGB0gASgIOgVmYWxzZRIcChR1YmlzZXJ2aWNlc19z",
+            "cGFjZV9pZBgeIAEoCRIaChJ1YmlzZXJ2aWNlc19hcHBfaWQYHyABKAkSNAoK",
+            "c3RvcmVfZGF0YRggIAEoCzIgLm1nLnByb3RvY29sLm93bmVyc2hpcC5TdG9y",
+            "ZURhdGESVwoXcGFja2FnZV9vd25lcnNoaXBfc3RhdGUYISABKA4yNi5tZy5w",
+            "cm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lLlBhY2thZ2VPd25lcnNoaXBT",
+            "dGF0ZRJICg9zdXNwZW5zaW9uX3R5cGUYIiABKA4yLy5tZy5wcm90b2NvbC5v",
+            "d25lcnNoaXAuT3duZWRHYW1lLlN1c3BlbnNpb25UeXBlEjsKEWluZ2FtZV9z",
+            "dG9yZV9kYXRhGCMgASgLMiAubWcucHJvdG9jb2wub3duZXJzaGlwLlN0b3Jl",
+            "RGF0YRJICg9hY3RpdmF0aW9uX3R5cGUYJCABKA4yLy5tZy5wcm90b2NvbC5v",
+            "d25lcnNoaXAuT3duZWRHYW1lLkFjdGl2YXRpb25UeXBlEh4KFmxvY2tlZF9i",
+            "eV9zdWJzY3JpcHRpb24YJSABKAgSRgoOdGFyZ2V0X3BhcnRuZXIYJiABKA4y",
+            "Li5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lLlRhcmdldFBhcnRu",
+            "ZXISXwobZGVudXZvX2FjdGl2YXRpb25fb3ZlcndyaXRlGCcgASgOMjoubWcu",
+            "cHJvdG9jb2wub3duZXJzaGlwLk93bmVkR2FtZS5EZW51dm9BY3RpdmF0aW9u",
+            "T3ZlcndyaXRlEhoKEnN1YnNjcmlwdGlvbl90eXBlcxgoIAMoDRJTChp1Ymlz",
+            "ZXJ2aWNlc19keW5hbWljX2NvbmZpZxgpIAEoCzIvLm1nLnByb3RvY29sLm93",
+            "bmVyc2hpcC5VYmlTZXJ2aWNlc0R5bmFtaWNDb25maWcaNwoNUHJvZHVjdEJy",
+            "YW5jaBIRCglicmFuY2hfaWQYASACKA0SEwoLYnJhbmNoX25hbWUYAiACKAki",
+            "fQoVUGFja2FnZU93bmVyc2hpcFN0YXRlEh4KGlBhY2thZ2VPd25lcnNoaXBT",
+            "dGF0ZV9GdWxsEAASHwobUGFja2FnZU93bmVyc2hpcFN0YXRlX1RyaWFsEAES",
+            "IwofUGFja2FnZU93bmVyc2hpcFN0YXRlX1N1c3BlbmRlZBACImUKDlN1c3Bl",
+            "bnNpb25UeXBlEhcKE1N1c3BlbnNpb25UeXBlX05vbmUQABIbChdTdXNwZW5z",
+            "aW9uVHlwZV9DaGVhdGluZxABEh0KGVN1c3BlbnNpb25UeXBlX0hhcmFzc21l",
+            "bnQQAiJOCg5BY3RpdmF0aW9uVHlwZRIbChdBY3RpdmF0aW9uVHlwZV9QdXJj",
+            "aGFzZRAAEh8KG0FjdGl2YXRpb25UeXBlX1N1YnNjcmlwdGlvbhACInsKDVRh",
+            "cmdldFBhcnRuZXISFgoSVGFyZ2V0UGFydG5lcl9Ob25lEAASGwoXVGFyZ2V0",
+            "UGFydG5lcl9FcGljR2FtZXMQARIYChRUYXJnZXRQYXJ0bmVyX05lb3dpehAC",
+            "EhsKF1RhcmdldFBhcnRuZXJfTWljcm9zb2Z0EAMiawoZRGVudXZvQWN0aXZh",
+            "dGlvbk92ZXJ3cml0ZRIlCiFEZW51dm9BY3RpdmF0aW9uT3ZlcndyaXRlX0Rl",
+            "ZmF1bHQQABInCiNEZW51dm9BY3RpdmF0aW9uT3ZlcndyaXRlX1RpbWVUcmlh",
+            "bBABItICCgtQcm9kdWN0VHlwZRIUChBQcm9kdWN0VHlwZV9HYW1lEAASFQoR",
+            "UHJvZHVjdFR5cGVfQWRkT24QARIcChhQcm9kdWN0VHlwZV9QcmVPcmRlckdh",
+            "bWUQAhIdChlQcm9kdWN0VHlwZV9QcmVPcmRlckFkZE9uEAMSFQoRUHJvZHVj",
+            "dFR5cGVfVHJpYWwQBBIYChRQcm9kdWN0VHlwZV9UZW1wbGF0ZRAFEhYKElBy",
+            "b2R1Y3RUeXBlX0J1bmRsZRAGEhoKFlByb2R1Y3RUeXBlX1NlYXNvblBhc3MQ",
+            "BxIaChZQcm9kdWN0VHlwZV9Db25zdW1hYmxlEAgSGAoUUHJvZHVjdFR5cGVf",
+            "UHJlb3JkZXIQCRIfChtQcm9kdWN0VHlwZV9Db25zdW1hYmxlUGFja3MQChId",
+            "ChlQcm9kdWN0VHlwZV9CdW5kbGVQYWNrYWdlEAsidAoFU3RhdGUSFQoRU3Rh",
+            "dGVfVW5hdmFpbGFibGUQABIVChFTdGF0ZV9QcmVSZWxlYXNlZBABEhYKElN0",
+            "YXRlX0Rvd25sb2FkYWJsZRACEhIKDlN0YXRlX1JlbGVhc2VkEAMSEQoNU3Rh",
+            "dGVfRXhwaXJlZBAEImkKE093bmVkR2FtZXNDb250YWluZXISEwoLcHJvZHVj",
+            "dF9pZHMYASADKA0SEQoJc2lnbmF0dXJlGAIgAigMEioKInZpc2libGVfb3Jf",
+            "aW5zdGFsbGFibGVfcHJvZHVjdF9pZHMYAyADKA0iQwoKT3duZWRHYW1lcxI1",
+            "Cgtvd25lZF9nYW1lcxgBIAMoCzIgLm1nLnByb3RvY29sLm93bmVyc2hpcC5P",
+            "d25lZEdhbWUizAIKDUluaXRpYWxpemVSZXESHgoWZGVwcmVjYXRlZF90ZXN0",
+            "X2NvbmZpZxgBIAEoCBIYChBnZXRfYXNzb2NpYXRpb25zGAIgASgIEhUKDXBy",
+            "b3RvX3ZlcnNpb24YAyABKA0SSAoIYnJhbmNoZXMYBCADKAsyNi5tZy5wcm90",
+            "b2NvbC5vd25lcnNoaXAuSW5pdGlhbGl6ZVJlcS5Qcm9kdWN0QnJhbmNoRGF0",
+            "YRIaCgt1c2Vfc3RhZ2luZxgFIAEoCDoFZmFsc2USDgoGY2xhaW1zGAYgAygJ",
+            "Eh4KEmNsaWVudF9pcF9vdmVycmlkZRhjIAEoDUICGAEaVAoRUHJvZHVjdEJy",
+            "YW5jaERhdGESEgoKcHJvZHVjdF9pZBgBIAIoDRIYChBhY3RpdmVfYnJhbmNo",
+            "X2lkGAIgASgNEhEKCXBhc3N3b3JkcxgDIAMoCSLcAgoNSW5pdGlhbGl6ZVJz",
+            "cBIPCgdzdWNjZXNzGAEgAigIEjYKC293bmVkX2dhbWVzGAIgASgLMiEubWcu",
+            "cHJvdG9jb2wub3duZXJzaGlwLk93bmVkR2FtZXMSSQoVb3duZWRfZ2FtZXNf",
+            "Y29udGFpbmVyGAMgASgLMioubWcucHJvdG9jb2wub3duZXJzaGlwLk93bmVk",
+            "R2FtZXNDb250YWluZXISHAoUa2V5X3NwYW1fYmFuX3NlY29uZHMYBCABKA0S",
+            "RAoSc3Vic2NyaXB0aW9uX3N0YXRlGAUgASgOMigubWcucHJvdG9jb2wub3du",
+            "ZXJzaGlwLlN1YnNjcmlwdGlvblN0YXRlEhkKEXN1YnNjcmlwdGlvbl90eXBl",
+            "GAYgASgNEjgKDWNsYWltZWRfZ2FtZXMYByABKAsyIS5tZy5wcm90b2NvbC5v",
+            "d25lcnNoaXAuT3duZWRHYW1lcyJSCiBEZXByZWNhdGVkR2V0UHJvZHVjdEZy",
+            "b21DZEtleVJlcRIOCgZjZF9rZXkYASACKAkSHgoWZGVwcmVjYXRlZF90ZXN0",
+            "X2NvbmZpZxgCIAEoCCKEBAogRGVwcmVjYXRlZEdldFByb2R1Y3RGcm9tQ2RL",
+            "ZXlSc3ASTgoGcmVzdWx0GAEgAigOMj4ubWcucHJvdG9jb2wub3duZXJzaGlw",
+            "LkRlcHJlY2F0ZWRHZXRQcm9kdWN0RnJvbUNkS2V5UnNwLlJlc3VsdBIxCgdw",
+            "cm9kdWN0GAIgASgLMiAubWcucHJvdG9jb2wub3duZXJzaGlwLk93bmVkR2Ft",
+            "ZRI+ChRwcm9kdWN0X2Fzc29jaWF0aW9ucxgDIAMoCzIgLm1nLnByb3RvY29s",
+            "Lm93bmVyc2hpcC5Pd25lZEdhbWUinAIKBlJlc3VsdBISCg5SZXN1bHRfU3Vj",
+            "Y2VzcxABEhMKD1Jlc3VsdF9CYWRDZEtleRACEhQKEFJlc3VsdF9CYW5uZWRL",
+            "ZXkQAxIdChlSZXN1bHRfQmFubmVkRm9yQ2RLZXlTcGFtEAQSFgoSUmVzdWx0",
+            "X1NlcnZlckVycm9yEAUSIAocUmVzdWx0X1VzZWRDZEtleU90aGVyQWNjb3Vu",
+            "dBAGEhoKFlJlc3VsdF9Ob3RBdmFpbGFibGVZZXQQBxIcChhSZXN1bHRfTm9M",
+            "b25nZXJBdmFpbGFibGUQCBIfChtSZXN1bHRfTm90QXZhaWxhYmxlSW5SZWdp",
+            "b24QCRIfChtSZXN1bHRfVXNlZENkS2V5VGhpc0FjY291bnQQCiJaChRSZWdp",
+            "c3Rlck93bmVyc2hpcFJlcRISCgpwcm9kdWN0X2lkGAEgAigNEg4KBmNkX2tl",
+            "eRgCIAEoCRIeChZkZXByZWNhdGVkX3Rlc3RfY29uZmlnGAMgASgIIl8KG1Jl",
+            "Z2lzdGVyT3duZXJzaGlwQnlDZEtleVJlcRIOCgZjZF9rZXkYASACKAkSHgoW",
+            "ZGVwcmVjYXRlZF90ZXN0X2NvbmZpZxgCIAEoCBIQCgh1cGxheV9pZBgDIAEo",
+            "DSI/ChxSZWdpc3Rlck93bmVyc2hpcFN0ZWFtUG9wUmVxEg4KBnRpY2tldBgB",
+            "IAMoCRIPCgdjb25maXJtGAIgAigIIpkCChxSZWdpc3Rlck93bmVyc2hpcFN0",
+            "ZWFtUG9wUnNwEkoKBnJlc3VsdBgBIAIoDjI6Lm1nLnByb3RvY29sLm93bmVy",
+            "c2hpcC5SZWdpc3Rlck93bmVyc2hpcFN0ZWFtUG9wUnNwLlJlc3VsdBIVCg1j",
+            "b25maWd1cmF0aW9uGAIgAygJEiAKGHRpY2tldHNfY2xhaW1lZF9ieV9vdGhl",
+            "chgDIAMoCSJ0CgZSZXN1bHQSEgoOUmVzdWx0X1N1Y2Nlc3MQARIYChRSZXN1",
+            "bHRfSW52YWxpZFRpY2tldBACEiAKHFJlc3VsdF9UaWNrZXRzQWxyZWFkeUNs",
+            "YWltZWQQAxIaChZSZXN1bHRfTm9QYWNrYWdlc0ZvdW5kEAQidgoeUmVnaXN0",
+            "ZXJPd25lcnNoaXBGcm9tT2N1bHVzUmVxEhQKDGFjY2Vzc190b2tlbhgBIAEo",
+            "CRIVCg1vY3VsdXNfYXBwX2lkGAIgASgJEhYKDm9jdWx1c191c2VyX2lkGAMg",
+            "ASgJEg8KB3VzZXJfaWQYBCABKAkiowQKHlJlZ2lzdGVyT3duZXJzaGlwRnJv",
+            "bU9jdWx1c1JzcBJMCgZyZXN1bHQYASACKA4yPC5tZy5wcm90b2NvbC5vd25l",
+            "cnNoaXAuUmVnaXN0ZXJPd25lcnNoaXBGcm9tT2N1bHVzUnNwLlJlc3VsdBIa",
+            "ChJjbGFpbWVkX2FjY291bnRfaWQYAiABKAkSNgoLb3duZWRfZ2FtZXMYAyAB",
+            "KAsyIS5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1lcxJJChVvd25l",
+            "ZF9nYW1lc19jb250YWluZXIYBCABKAsyKi5tZy5wcm90b2NvbC5vd25lcnNo",
+            "aXAuT3duZWRHYW1lc0NvbnRhaW5lciKTAgoGUmVzdWx0EhIKDlJlc3VsdF9T",
+            "dWNjZXNzEAESHQoZUmVzdWx0X0ludmFsaWRBY2Nlc3NUb2tlbhACEhcKE1Jl",
+            "c3VsdF9JbnZhbGlkQXBwSWQQAxIYChRSZXN1bHRfSW52YWxpZFVzZXJJZBAE",
+            "EhkKFVJlc3VsdF9BbHJlYWR5Q2xhaW1lZBAFEhoKFlJlc3VsdF9Ob1BhY2th",
+            "Z2VzRm91bmQQBhIYChRSZXN1bHRfU2VydmVyVGltZW91dBAHEhcKE1Jlc3Vs",
+            "dF9Ob3RoaW5nT3duZWQQCBIZChVSZXN1bHRfVW5rbm93bkZhaWx1cmUQCRIe",
+            "ChpSZXN1bHRfQWRkT3duZXJzaGlwRmFpbHVyZRAKIjgKHlJlZ2lzdGVyT3du",
+            "ZXJzaGlwRnJvbVdlR2FtZVJlcRIWCg5qc29uX3dlYl90b2tlbhgBIAEoCSKP",
+            "AwoeUmVnaXN0ZXJPd25lcnNoaXBGcm9tV2VHYW1lUnNwEkwKBnJlc3VsdBgB",
+            "IAEoDjI8Lm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVyc2hp",
+            "cEZyb21XZUdhbWVSc3AuUmVzdWx0EjYKC293bmVkX2dhbWVzGAIgASgLMiEu",
+            "bWcucHJvdG9jb2wub3duZXJzaGlwLk93bmVkR2FtZXMSSQoVb3duZWRfZ2Ft",
+            "ZXNfY29udGFpbmVyGAMgASgLMioubWcucHJvdG9jb2wub3duZXJzaGlwLk93",
+            "bmVkR2FtZXNDb250YWluZXIimwEKBlJlc3VsdBISCg5SZXN1bHRfU3VjY2Vz",
+            "cxABEhcKE1Jlc3VsdF9JbnZhbGlkVG9rZW4QAhIWChJSZXN1bHRfU2VydmVy",
+            "RXJyb3IQAxIZChVSZXN1bHRfVW5rbm93blByb2R1Y3QQBBIXChNSZXN1bHRf",
+            "Tm90QXZhaWxhYmxlEAUSGAoUUmVzdWx0X1NlcnZlclRpbWVvdXQQBiLDBAoU",
+            "UmVnaXN0ZXJPd25lcnNoaXBSc3ASQgoGcmVzdWx0GAEgAigOMjIubWcucHJv",
+            "dG9jb2wub3duZXJzaGlwLlJlZ2lzdGVyT3duZXJzaGlwUnNwLlJlc3VsdBJJ",
+            "ChVvd25lZF9nYW1lc19jb250YWluZXIYBCABKAsyKi5tZy5wcm90b2NvbC5v",
+            "d25lcnNoaXAuT3duZWRHYW1lc0NvbnRhaW5lchI2Cgtvd25lZF9nYW1lcxgF",
+            "IAEoCzIhLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lZEdhbWVzEhMKC2Jh",
+            "bm5lZF90aW1lGAYgASgNEhoKEmNka2V5X2NsYWltZWRfZGF0ZRgHIAEoCSKy",
+            "AgoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESEwoPUmVzdWx0X0JhZENk",
+            "S2V5EAISFAoQUmVzdWx0X0Jhbm5lZEtleRADEh0KGVJlc3VsdF9CYW5uZWRG",
+            "b3JDZEtleVNwYW0QBBIWChJSZXN1bHRfU2VydmVyRXJyb3IQBRIgChxSZXN1",
+            "bHRfVXNlZENkS2V5T3RoZXJBY2NvdW50EAYSFAoQUmVzdWx0X091dE9mS2V5",
+            "cxAHEhoKFlJlc3VsdF9Ob3RBdmFpbGFibGVZZXQQCBIcChhSZXN1bHRfTm9M",
+            "b25nZXJBdmFpbGFibGUQCRIfChtSZXN1bHRfTm90QXZhaWxhYmxlSW5SZWdp",
+            "b24QChIfChtSZXN1bHRfVXNlZENkS2V5VGhpc0FjY291bnQQCyIsChVDbGFp",
+            "bUtleXN0b3JhZ2VLZXlSZXESEwoLcHJvZHVjdF9pZHMYASADKA0inAIKFUNs",
+            "YWltS2V5c3RvcmFnZUtleVJzcBJDCgZyZXN1bHQYASACKA4yMy5tZy5wcm90",
+            "b2NvbC5vd25lcnNoaXAuQ2xhaW1LZXlzdG9yYWdlS2V5UnNwLlJlc3VsdBJW",
+            "ChFwcm9kdWN0X2tleV9wYWlycxgCIAMoCzI7Lm1nLnByb3RvY29sLm93bmVy",
+            "c2hpcC5DbGFpbUtleXN0b3JhZ2VLZXlSc3AuUHJvZHVjdEtleVBhaXIaNAoO",
+            "UHJvZHVjdEtleVBhaXISEgoKcHJvZHVjdF9pZBgBIAIoDRIOCgZjZF9rZXkY",
+            "AiACKAkiMAoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESEgoOUmVzdWx0",
+            "X0ZhaWx1cmUQAiLJAQoXR2V0QmF0Y2hEb3dubG9hZFVybHNSZXESTwoMdXJs",
+            "X3JlcXVlc3RzGAEgAygLMjkubWcucHJvdG9jb2wub3duZXJzaGlwLkdldEJh",
+            "dGNoRG93bmxvYWRVcmxzUmVxLlVybFJlcXVlc3QaXQoKVXJsUmVxdWVzdBIS",
+            "Cgpwcm9kdWN0X2lkGAEgAigNEhsKE3JlbGF0aXZlX2ZpbGVfcGF0aHMYAiAD",
+            "KAkSHgoWZGVwcmVjYXRlZF90ZXN0X2NvbmZpZxgDIAEoCCKmAwoXR2V0QmF0",
+            "Y2hEb3dubG9hZFVybHNSc3ASUQoNdXJsX3Jlc3BvbnNlcxgBIAMoCzI6Lm1n",
+            "LnByb3RvY29sLm93bmVyc2hpcC5HZXRCYXRjaERvd25sb2FkVXJsc1JzcC5V",
+            "cmxSZXNwb25zZRITCgt0dGxfc2Vjb25kcxgCIAIoDRrKAQoLVXJsUmVzcG9u",
+            "c2USRQoGcmVzdWx0GAEgAigOMjUubWcucHJvdG9jb2wub3duZXJzaGlwLkdl",
+            "dEJhdGNoRG93bmxvYWRVcmxzUnNwLlJlc3VsdBIgChhkZXByZWNhdGVkX2Rv",
+            "d25sb2FkX3VybHMYAiADKAkSUgoNZG93bmxvYWRfdXJscxgDIAMoCzI7Lm1n",
+            "LnByb3RvY29sLm93bmVyc2hpcC5HZXRCYXRjaERvd25sb2FkVXJsc1JzcC5E",
+            "b3dubG9hZFVybHMaHAoMRG93bmxvYWRVcmxzEgwKBHVybHMYASADKAkiOAoG",
+            "UmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESGgoWUmVzdWx0X1Byb2R1Y3RO",
+            "b3RPd25lZBACImEKH0RlcHJlY2F0ZWRHZXRMYXRlc3RNYW5pZmVzdHNSZXES",
+            "HgoWZGVwcmVjYXRlZF9wcm9kdWN0X2lkcxgBIAMoDRIeChZkZXByZWNhdGVk",
+            "X3Rlc3RfY29uZmlnGAIgASgIItgDCh9EZXByZWNhdGVkR2V0TGF0ZXN0TWFu",
+            "aWZlc3RzUnNwEk0KBnJlc3VsdBgBIAIoDjI9Lm1nLnByb3RvY29sLm93bmVy",
+            "c2hpcC5EZXByZWNhdGVkR2V0TGF0ZXN0TWFuaWZlc3RzUnNwLlJlc3VsdBJS",
+            "CgltYW5pZmVzdHMYAiADKAsyPy5tZy5wcm90b2NvbC5vd25lcnNoaXAuRGVw",
+            "cmVjYXRlZEdldExhdGVzdE1hbmlmZXN0c1JzcC5NYW5pZmVzdBrbAQoITWFu",
+            "aWZlc3QSVgoGcmVzdWx0GAEgAigOMkYubWcucHJvdG9jb2wub3duZXJzaGlw",
+            "LkRlcHJlY2F0ZWRHZXRMYXRlc3RNYW5pZmVzdHNSc3AuTWFuaWZlc3QuUmVz",
+            "dWx0EhIKCnByb2R1Y3RfaWQYAiACKA0SEAoIbWFuaWZlc3QYAyABKAkSHgoW",
+            "ZGVwcmVjYXRlZF90ZXN0X2NvbmZpZxgEIAEoCCIxCgZSZXN1bHQSEgoOUmVz",
+            "dWx0X1N1Y2Nlc3MQARITCg9SZXN1bHRfTm90Rm91bmQQAiI0CgZSZXN1bHQS",
+            "EgoOUmVzdWx0X1N1Y2Nlc3MQARIWChJSZXN1bHRfU2VydmVyRXJyb3IQAiLG",
+            "AwoMQ2xvdWRzYXZlUmVxEhAKCHVwbGF5X2lkGAEgAigNEj0KCHB1dF9pdGVt",
+            "GAIgASgLMisubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcS5Q",
+            "dXRJdGVtEj0KCGdldF9pdGVtGAMgASgLMisubWcucHJvdG9jb2wub3duZXJz",
+            "aGlwLkNsb3Vkc2F2ZVJlcS5HZXRJdGVtEkMKC2RlbGV0ZV9pdGVtGAQgASgL",
+            "Mi4ubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcS5EZWxldGVJ",
+            "dGVtEkEKCmxpc3RfaXRlbXMYBSABKAsyLS5tZy5wcm90b2NvbC5vd25lcnNo",
+            "aXAuQ2xvdWRzYXZlUmVxLkxpc3RJdGVtcxIQCgh1c2VybmFtZRgGIAEoCRpE",
+            "CgdQdXRJdGVtEg8KB2l0ZW1faWQYASACKA0SFAoMd3JpdGVfbGVuZ3RoGAIg",
+            "AigNEhIKCm1kNV9iYXNlNjQYAyACKAkaGgoHR2V0SXRlbRIPCgdpdGVtX2lk",
+            "GAEgAigNGh0KCkRlbGV0ZUl0ZW0SDwoHaXRlbV9pZBgBIAIoDRoLCglMaXN0",
+            "SXRlbXMi6AEKDENsb3Vkc2F2ZVJzcBI6CgZzdGF0dXMYASACKA4yKi5tZy5w",
+            "cm90b2NvbC5vd25lcnNoaXAuQ2xvdWRzYXZlUnNwLlN0YXR1cxIVCg1tZXRo",
+            "b2Rfc3RyaW5nGAIgAigJEhMKC3BhdGhfc3RyaW5nGAMgAigJEhMKC2hvc3Rf",
+            "c3RyaW5nGAQgAigJEhUKDWhlYWRlcl9zdHJpbmcYBSACKAkiRAoGU3RhdHVz",
+            "Eg0KCVN0YXR1c19PaxABEhgKFFN0YXR1c19JbnRlcm5hbEVycm9yEAISEQoN",
+            "U3RhdHVzX0RlbmllZBADIpcFCg5DbG91ZHNhdmVSZXFWMhIQCgh1cGxheV9p",
+            "ZBgBIAIoDRJBCglwdXRfaXRlbXMYAiABKAsyLi5tZy5wcm90b2NvbC5vd25l",
+            "cnNoaXAuQ2xvdWRzYXZlUmVxVjIuUHV0SXRlbXMSQQoJZ2V0X2l0ZW1zGAMg",
+            "ASgLMi4ubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcVYyLkdl",
+            "dEl0ZW1zEkcKDGRlbGV0ZV9pdGVtcxgEIAEoCzIxLm1nLnByb3RvY29sLm93",
+            "bmVyc2hpcC5DbG91ZHNhdmVSZXFWMi5EZWxldGVJdGVtcxqkAQoIUHV0SXRl",
+            "bXMSQgoFaXRlbXMYASADKAsyMy5tZy5wcm90b2NvbC5vd25lcnNoaXAuQ2xv",
+            "dWRzYXZlUmVxVjIuUHV0SXRlbXMuSXRlbRpUCgRJdGVtEg8KB2l0ZW1faWQY",
+            "ASACKA0SFAoMd3JpdGVfbGVuZ3RoGAIgAigNEhIKCm1kNV9iYXNlNjQYAyAC",
+            "KAkSEQoJaXRlbV9uYW1lGAQgASgJGnoKCEdldEl0ZW1zEkIKBWl0ZW1zGAEg",
+            "AygLMjMubWcucHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJlcVYyLkdl",
+            "dEl0ZW1zLkl0ZW0aKgoESXRlbRIPCgdpdGVtX2lkGAEgAigNEhEKCWl0ZW1f",
+            "bmFtZRgCIAEoCRqAAQoLRGVsZXRlSXRlbXMSRQoFaXRlbXMYASADKAsyNi5t",
+            "Zy5wcm90b2NvbC5vd25lcnNoaXAuQ2xvdWRzYXZlUmVxVjIuRGVsZXRlSXRl",
+            "bXMuSXRlbRoqCgRJdGVtEg8KB2l0ZW1faWQYASACKA0SEQoJaXRlbV9uYW1l",
+            "GAIgASgJIp0CCg5DbG91ZHNhdmVSc3BWMhI8CgZzdGF0dXMYASACKA4yLC5t",
+            "Zy5wcm90b2NvbC5vd25lcnNoaXAuQ2xvdWRzYXZlUnNwVjIuU3RhdHVzEkAK",
+            "CWh0dHBfcmVxcxgCIAMoCzItLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91",
+            "ZHNhdmVSc3BWMi5IdHRwUmVxGkUKB0h0dHBSZXESDgoGbWV0aG9kGAEgAigJ",
+            "EgwKBHBhdGgYAiACKAkSDAoEaG9zdBgDIAIoCRIOCgZoZWFkZXIYBCACKAki",
+            "RAoGU3RhdHVzEg0KCVN0YXR1c19PaxABEhgKFFN0YXR1c19JbnRlcm5hbEVy",
+            "cm9yEAISEQoNU3RhdHVzX0RlbmllZBADIkkKE0dldFByb2R1Y3RDb25maWdS",
+            "ZXESEgoKcHJvZHVjdF9pZBgBIAIoDRIeChZkZXByZWNhdGVkX3Rlc3RfY29u",
+            "ZmlnGAIgASgIIuIBChNHZXRQcm9kdWN0Q29uZmlnUnNwEkEKBnJlc3VsdBgB",
+            "IAIoDjIxLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRQcm9kdWN0Q29uZmln",
+            "UnNwLlJlc3VsdBIeChZkZXByZWNhdGVkX3Rlc3RfY29uZmlnGAIgASgIEhUK",
+            "DWNvbmZpZ3VyYXRpb24YAyABKAkiUQoGUmVzdWx0EhIKDlJlc3VsdF9TdWNj",
+            "ZXNzEAESEwoPUmVzdWx0X05vdEZvdW5kEAISHgoaUmVzdWx0X0ludGVybmFs",
+            "U2VydmVyRXJyb3IQAyLTAgoWU3dpdGNoUHJvZHVjdEJyYW5jaFJlcRJeChBz",
+            "cGVjaWZpZWRfYnJhbmNoGAEgASgLMkQubWcucHJvdG9jb2wub3duZXJzaGlw",
+            "LlN3aXRjaFByb2R1Y3RCcmFuY2hSZXEuU3BlY2lmaWVkUHJvZHVjdEJyYW5j",
+            "aBJaCg5kZWZhdWx0X2JyYW5jaBgCIAEoCzJCLm1nLnByb3RvY29sLm93bmVy",
+            "c2hpcC5Td2l0Y2hQcm9kdWN0QnJhbmNoUmVxLkRlZmF1bHRQcm9kdWN0QnJh",
+            "bmNoGlEKFlNwZWNpZmllZFByb2R1Y3RCcmFuY2gSEgoKcHJvZHVjdF9pZBgB",
+            "IAIoDRIRCglicmFuY2hfaWQYAiACKA0SEAoIcGFzc3dvcmQYAyABKAkaKgoU",
+            "RGVmYXVsdFByb2R1Y3RCcmFuY2gSEgoKcHJvZHVjdF9pZBgBIAIoDSLEAQoW",
+            "U3dpdGNoUHJvZHVjdEJyYW5jaFJzcBJECgZyZXN1bHQYASACKA4yNC5tZy5w",
+            "cm90b2NvbC5vd25lcnNoaXAuU3dpdGNoUHJvZHVjdEJyYW5jaFJzcC5SZXN1",
+            "bHQSMwoIcHJvZHVjdHMYAiABKAsyIS5tZy5wcm90b2NvbC5vd25lcnNoaXAu",
+            "T3duZWRHYW1lcyIvCgZSZXN1bHQSEgoOUmVzdWx0X1N1Y2Nlc3MQARIRCg1S",
+            "ZXN1bHRfRGVuaWVkEAIinAEKFlVubG9ja1Byb2R1Y3RCcmFuY2hSZXESSwoG",
+            "YnJhbmNoGAEgAigLMjsubWcucHJvdG9jb2wub3duZXJzaGlwLlVubG9ja1By",
+            "b2R1Y3RCcmFuY2hSZXEuUHJvZHVjdEJyYW5jaBo1Cg1Qcm9kdWN0QnJhbmNo",
+            "EhIKCnByb2R1Y3RfaWQYASACKA0SEAoIcGFzc3dvcmQYAiACKAkilQIKFlVu",
+            "bG9ja1Byb2R1Y3RCcmFuY2hSc3ASRAoGcmVzdWx0GAEgAigOMjQubWcucHJv",
+            "dG9jb2wub3duZXJzaGlwLlVubG9ja1Byb2R1Y3RCcmFuY2hSc3AuUmVzdWx0",
+            "EksKBmJyYW5jaBgCIAMoCzI7Lm1nLnByb3RvY29sLm93bmVyc2hpcC5Vbmxv",
+            "Y2tQcm9kdWN0QnJhbmNoUnNwLlByb2R1Y3RCcmFuY2gaNwoNUHJvZHVjdEJy",
+            "YW5jaBIRCglicmFuY2hfaWQYASACKA0SEwoLYnJhbmNoX25hbWUYAiACKAki",
+            "LwoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAESEQoNUmVzdWx0X0Rlbmll",
+            "ZBACIpkBChNHZXRVcGxheVBDVGlja2V0UmVxEhAKCHVwbGF5X2lkGAEgAigN",
+            "EkUKCHBsYXRmb3JtGAIgASgOMjMubWcucHJvdG9jb2wub3duZXJzaGlwLkdl",
+            "dFVwbGF5UENUaWNrZXRSZXEuUGxhdGZvcm0iKQoIUGxhdGZvcm0SCgoGTm9y",
+            "bWFsEAASCAoETHVuYRABEgcKA0dGThACIssCChNHZXRVcGxheVBDVGlja2V0",
+            "UnNwEg8KB3N1Y2Nlc3MYASACKAgSFwoPdXBsYXlfcGNfdGlja2V0GAIgASgJ",
+            "ElsKCmVycm9yX2NvZGUYAyABKA4yNC5tZy5wcm90b2NvbC5vd25lcnNoaXAu",
+            "R2V0VXBsYXlQQ1RpY2tldFJzcC5FcnJvckNvZGU6EUVycm9yQ29kZV9Vbmtu",
+            "b3duIqwBCglFcnJvckNvZGUSFQoRRXJyb3JDb2RlX1Vua25vd24QARIdChlF",
+            "cnJvckNvZGVfUHJvZHVjdE5vdE93bmVkEAISHgoaRXJyb3JDb2RlX1Byb2R1",
+            "Y3RTdXNwZW5kZWQQAxInCiNFcnJvckNvZGVfUHJvZHVjdFN1YnNjcmlwdGlv",
+            "bkxvY2tlZBAEEiAKHEVycm9yQ29kZV9Qcm9kdWN0Tm90UmVsZWFzZWQQBSJD",
+            "ChxVcGxheUNvcmVHYW1lSW5pdGlhbGl6ZWRQdXNoEg8KB3N1Y2Nlc3MYASAC",
+            "KAgSEgoKcHJvZHVjdF9pZBgCIAIoDSJRChtSZXRyeVVwbGF5Q29yZUluaXRp",
+            "YWxpemVSZXESEgoKcHJvZHVjdF9pZBgBIAMoDRIeChZkZXByZWNhdGVkX3Rl",
+            "c3RfY29uZmlnGAIgAigIIn8KE0NvbnN1bWVPd25lcnNoaXBSZXESEgoKcHJv",
+            "ZHVjdF9pZBgBIAIoDRIQCghxdWFudGl0eRgCIAIoDRIWCg50cmFuc2FjdGlv",
+            "bl9pZBgDIAIoCRIXCg9nYW1lX3Byb2R1Y3RfaWQYBCACKA0SEQoJc2lnbmF0",
+            "dXJlGAUgAigJIrIBChNDb25zdW1lT3duZXJzaGlwUnNwEkEKBnJlc3VsdBgB",
+            "IAIoDjIxLm1nLnByb3RvY29sLm93bmVyc2hpcC5Db25zdW1lT3duZXJzaGlw",
+            "UnNwLlJlc3VsdBIRCglzaWduYXR1cmUYAiABKAkiRQoGUmVzdWx0Eg0KCVJl",
+            "c3VsdF9PaxAAEhkKFVJlc3VsdF9Ob3RFbm91Z2hJdGVtcxABEhEKDVJlc3Vs",
+            "dF9GYWlsZWQQAiI/Cg9HZXRHYW1lVG9rZW5SZXESGAoQYWN0aXZhdGlvbl90",
+            "b2tlbhgBIAEoDBISCgpwcm9kdWN0X2lkGAIgASgNIvgBCg9HZXRHYW1lVG9r",
+            "ZW5Sc3ASPQoGcmVzdWx0GAEgAigOMi0ubWcucHJvdG9jb2wub3duZXJzaGlw",
+            "LkdldEdhbWVUb2tlblJzcC5SZXN1bHQSEgoKZ2FtZV90b2tlbhgCIAEoDCKR",
+            "AQoGUmVzdWx0EhIKDlJlc3VsdF9TdWNjZXNzEAASEwoPUmVzdWx0X05vdE93",
+            "bmVkEAESEgoOUmVzdWx0X0ZhaWx1cmUQAhIeChpSZXN1bHRfRXhjZWVkZWRB",
+            "Y3RpdmF0aW9ucxADEhIKDlJlc3VsdF9UaW1lT3V0EAQSFgoSUmVzdWx0X1Nl",
+            "cnZlckVycm9yEAUiQgoUR2V0R2FtZVRpbWVUaWNrZXRSZXESEgoKcHJvZHVj",
+            "dF9pZBgBIAEoDRIWCg5yZXF1ZXN0X3RpY2tldBgCIAEoDCLiAQoUR2V0R2Ft",
+            "ZVRpbWVUaWNrZXRSc3ASQgoGcmVzdWx0GAEgAigOMjIubWcucHJvdG9jb2wu",
+            "b3duZXJzaGlwLkdldEdhbWVUaW1lVGlja2V0UnNwLlJlc3VsdBITCgt0aW1l",
+            "X3RpY2tldBgCIAEoDCJxCgZSZXN1bHQSEgoOUmVzdWx0X1N1Y2Nlc3MQABIT",
+            "Cg9SZXN1bHRfTm90T3duZWQQARISCg5SZXN1bHRfRmFpbHVyZRACEhIKDlJl",
+            "c3VsdF9UaW1lT3V0EAMSFgoSUmVzdWx0X1NlcnZlckVycm9yEAQiMAoaR2V0",
+            "R2FtZVdpdGhkcmF3YWxSaWdodHNSZXESEgoKcHJvZHVjdF9pZBgBIAEoDSJI",
+            "ChpHZXRHYW1lV2l0aGRyYXdhbFJpZ2h0c1JzcBIPCgdzdWNjZXNzGAEgASgI",
+            "EhkKEXdpdGhkcmF3YWxfcmlnaHRzGAIgASgIIjIKHFdhaXZlR2FtZVdpdGhk",
+            "cmF3YWxSaWdodHNSZXESEgoKcHJvZHVjdF9pZBgBIAEoDSIvChxXYWl2ZUdh",
+            "bWVXaXRoZHJhd2FsUmlnaHRzUnNwEg8KB3N1Y2Nlc3MYASABKAgiJgoQU2ln",
+            "bk93bmVyc2hpcFJlcRISCgpwcm9kdWN0X2lkGAEgASgNIl0KEFNpZ25Pd25l",
+            "cnNoaXBSc3ASDwoHc3VjY2VzcxgBIAEoCBIRCglicmFuY2hfaWQYAiABKA0S",
+            "EgoKZXhwaXJhdGlvbhgDIAEoBBIRCglzaWduYXR1cmUYBCABKAwiJwoRT3du",
+            "ZXJzaGlwVG9rZW5SZXESEgoKcHJvZHVjdF9pZBgBIAEoDSJHChFPd25lcnNo",
+            "aXBUb2tlblJzcBIPCgdzdWNjZXNzGAEgASgIEg0KBXRva2VuGAIgASgJEhIK",
+            "CmV4cGlyYXRpb24YAyABKAQiLgodUmVnaXN0ZXJUZW1wb3JhcnlPd25lcnNo",
+            "aXBSZXESDQoFdG9rZW4YASABKAkiWAodUmVnaXN0ZXJUZW1wb3JhcnlPd25l",
+            "cnNoaXBSc3ASDwoHc3VjY2VzcxgBIAEoCBIRCgllcnJvcl9tc2cYAiABKAkS",
+            "EwoLcHJvZHVjdF9pZHMYAyADKA0ivRAKA1JlcRISCgpyZXF1ZXN0X2lkGAEg",
+            "AigNEjwKDmluaXRpYWxpemVfcmVxGAIgASgLMiQubWcucHJvdG9jb2wub3du",
+            "ZXJzaGlwLkluaXRpYWxpemVSZXESSwoWcmVnaXN0ZXJfb3duZXJzaGlwX3Jl",
+            "cRgDIAEoCzIrLm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVy",
+            "c2hpcFJlcRJcCiByZWdpc3Rlcl9vd25lcnNoaXBfYnlfY2Rfa2V5X3JlcRgF",
+            "IAEoCzIyLm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVyc2hp",
+            "cEJ5Q2RLZXlSZXESZwomZGVwcmVjYXRlZF9nZXRfcHJvZHVjdF9mcm9tX2Nk",
+            "X2tleV9yZXEYBiABKAsyNy5tZy5wcm90b2NvbC5vd25lcnNoaXAuRGVwcmVj",
+            "YXRlZEdldFByb2R1Y3RGcm9tQ2RLZXlSZXESSgoWZ2V0X3Byb2R1Y3RfY29u",
+            "ZmlnX3JlcRgJIAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRQcm9k",
+            "dWN0Q29uZmlnUmVxEmMKI2RlcHJlY2F0ZWRfZ2V0X2xhdGVzdF9tYW5pZmVz",
+            "dHNfcmVxGAogASgLMjYubWcucHJvdG9jb2wub3duZXJzaGlwLkRlcHJlY2F0",
+            "ZWRHZXRMYXRlc3RNYW5pZmVzdHNSZXESPgoNY2xvdWRzYXZlX3JlcRgLIAEo",
+            "CzIjLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSZXFCAhgBElMK",
+            "G2dldF9iYXRjaF9kb3dubG9hZF91cmxzX3JlcRgMIAEoCzIuLm1nLnByb3Rv",
+            "Y29sLm93bmVyc2hpcC5HZXRCYXRjaERvd25sb2FkVXJsc1JlcRJDChBjbG91",
+            "ZHNhdmVfcmVxX3YyGA0gASgLMiUubWcucHJvdG9jb2wub3duZXJzaGlwLkNs",
+            "b3Vkc2F2ZVJlcVYyQgIYARJLChdnZXRfdXBsYXlfcGNfdGlja2V0X3JlcRgO",
+            "IAEoCzIqLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRVcGxheVBDVGlja2V0",
+            "UmVxElsKH3JldHJ5X3VwbGF5X2NvcmVfaW5pdGlhbGl6ZV9yZXEYDyABKAsy",
+            "Mi5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmV0cnlVcGxheUNvcmVJbml0aWFs",
+            "aXplUmVxEkkKFWNvbnN1bWVfb3duZXJzaGlwX3JlcRgQIAEoCzIqLm1nLnBy",
+            "b3RvY29sLm93bmVyc2hpcC5Db25zdW1lT3duZXJzaGlwUmVxElAKGXN3aXRj",
+            "aF9wcm9kdWN0X2JyYW5jaF9yZXEYESABKAsyLS5tZy5wcm90b2NvbC5vd25l",
+            "cnNoaXAuU3dpdGNoUHJvZHVjdEJyYW5jaFJlcRJQChl1bmxvY2tfcHJvZHVj",
+            "dF9icmFuY2hfcmVxGBIgASgLMi0ubWcucHJvdG9jb2wub3duZXJzaGlwLlVu",
+            "bG9ja1Byb2R1Y3RCcmFuY2hSZXESXQogcmVnaXN0ZXJfb3duZXJzaGlwX3N0",
+            "ZWFtX3BvcF9yZXEYEyABKAsyMy5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmVn",
+            "aXN0ZXJPd25lcnNoaXBTdGVhbVBvcFJlcRJhCiJyZWdpc3Rlcl9vd25lcnNo",
+            "aXBfZnJvbV9vY3VsdXNfcmVxGBQgASgLMjUubWcucHJvdG9jb2wub3duZXJz",
+            "aGlwLlJlZ2lzdGVyT3duZXJzaGlwRnJvbU9jdWx1c1JlcRJCChJnZXRfZ2Ft",
+            "ZV90b2tlbl9yZXEYFSABKAsyJi5tZy5wcm90b2NvbC5vd25lcnNoaXAuR2V0",
+            "R2FtZVRva2VuUmVxEk4KGGNsYWltX2tleXN0b3JhZ2Vfa2V5X3JlcRgWIAEo",
+            "CzIsLm1nLnByb3RvY29sLm93bmVyc2hpcC5DbGFpbUtleXN0b3JhZ2VLZXlS",
+            "ZXESTQoYZ2V0X2dhbWVfdGltZV90aWNrZXRfcmVxGBcgASgLMisubWcucHJv",
+            "dG9jb2wub3duZXJzaGlwLkdldEdhbWVUaW1lVGlja2V0UmVxElkKHmdldF9n",
+            "YW1lX3dpdGhkcmF3YWxfcmlnaHRzX3JlcRgYIAEoCzIxLm1nLnByb3RvY29s",
+            "Lm93bmVyc2hpcC5HZXRHYW1lV2l0aGRyYXdhbFJpZ2h0c1JlcRJdCiB3YWl2",
+            "ZV9nYW1lX3dpdGhkcmF3YWxfcmlnaHRzX3JlcRgZIAEoCzIzLm1nLnByb3Rv",
+            "Y29sLm93bmVyc2hpcC5XYWl2ZUdhbWVXaXRoZHJhd2FsUmlnaHRzUmVxEkMK",
+            "EnNpZ25fb3duZXJzaGlwX3JlcRgaIAEoCzInLm1nLnByb3RvY29sLm93bmVy",
+            "c2hpcC5TaWduT3duZXJzaGlwUmVxEmEKInJlZ2lzdGVyX293bmVyc2hpcF9m",
+            "cm9tX3dlZ2FtZV9yZXEYGyABKAsyNS5tZy5wcm90b2NvbC5vd25lcnNoaXAu",
+            "UmVnaXN0ZXJPd25lcnNoaXBGcm9tV2VHYW1lUmVxEkUKE293bmVyc2hpcF90",
+            "b2tlbl9yZXEYHCABKAsyKC5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZXJz",
+            "aGlwVG9rZW5SZXESXgogcmVnaXN0ZXJfdGVtcG9yYXJ5X293bmVyc2hpcF9y",
+            "ZXEYHSABKAsyNC5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmVnaXN0ZXJUZW1w",
+            "b3JhcnlPd25lcnNoaXBSZXEigg8KA1JzcBISCgpyZXF1ZXN0X2lkGAEgAigN",
+            "EjwKDmluaXRpYWxpemVfcnNwGAIgASgLMiQubWcucHJvdG9jb2wub3duZXJz",
+            "aGlwLkluaXRpYWxpemVSc3ASSwoWcmVnaXN0ZXJfb3duZXJzaGlwX3JzcBgD",
+            "IAEoCzIrLm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVyc2hp",
+            "cFJzcBJnCiZkZXByZWNhdGVkX2dldF9wcm9kdWN0X2Zyb21fY2Rfa2V5X3Jz",
+            "cBgFIAEoCzI3Lm1nLnByb3RvY29sLm93bmVyc2hpcC5EZXByZWNhdGVkR2V0",
+            "UHJvZHVjdEZyb21DZEtleVJzcBJKChZnZXRfcHJvZHVjdF9jb25maWdfcnNw",
+            "GAkgASgLMioubWcucHJvdG9jb2wub3duZXJzaGlwLkdldFByb2R1Y3RDb25m",
+            "aWdSc3ASYwojZGVwcmVjYXRlZF9nZXRfbGF0ZXN0X21hbmlmZXN0c19yc3AY",
+            "CiABKAsyNi5tZy5wcm90b2NvbC5vd25lcnNoaXAuRGVwcmVjYXRlZEdldExh",
+            "dGVzdE1hbmlmZXN0c1JzcBI+Cg1jbG91ZHNhdmVfcnNwGAsgASgLMiMubWcu",
+            "cHJvdG9jb2wub3duZXJzaGlwLkNsb3Vkc2F2ZVJzcEICGAESUwobZ2V0X2Jh",
+            "dGNoX2Rvd25sb2FkX3VybHNfcnNwGAwgASgLMi4ubWcucHJvdG9jb2wub3du",
+            "ZXJzaGlwLkdldEJhdGNoRG93bmxvYWRVcmxzUnNwEksKF2dldF91cGxheV9w",
+            "Y190aWNrZXRfcnNwGA0gASgLMioubWcucHJvdG9jb2wub3duZXJzaGlwLkdl",
+            "dFVwbGF5UENUaWNrZXRSc3ASQwoQY2xvdWRzYXZlX3JzcF92MhgOIAEoCzIl",
+            "Lm1nLnByb3RvY29sLm93bmVyc2hpcC5DbG91ZHNhdmVSc3BWMkICGAESSQoV",
+            "Y29uc3VtZV9vd25lcnNoaXBfcnNwGA8gASgLMioubWcucHJvdG9jb2wub3du",
+            "ZXJzaGlwLkNvbnN1bWVPd25lcnNoaXBSc3ASUAoZc3dpdGNoX3Byb2R1Y3Rf",
+            "YnJhbmNoX3JzcBgQIAEoCzItLm1nLnByb3RvY29sLm93bmVyc2hpcC5Td2l0",
+            "Y2hQcm9kdWN0QnJhbmNoUnNwElAKGXVubG9ja19wcm9kdWN0X2JyYW5jaF9y",
+            "c3AYESABKAsyLS5tZy5wcm90b2NvbC5vd25lcnNoaXAuVW5sb2NrUHJvZHVj",
+            "dEJyYW5jaFJzcBJdCiByZWdpc3Rlcl9vd25lcnNoaXBfc3RlYW1fcG9wX3Jz",
+            "cBgSIAEoCzIzLm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93bmVy",
+            "c2hpcFN0ZWFtUG9wUnNwEmEKInJlZ2lzdGVyX293bmVyc2hpcF9mcm9tX29j",
+            "dWx1c19yc3AYEyABKAsyNS5tZy5wcm90b2NvbC5vd25lcnNoaXAuUmVnaXN0",
+            "ZXJPd25lcnNoaXBGcm9tT2N1bHVzUnNwEkIKEmdldF9nYW1lX3Rva2VuX3Jz",
+            "cBgUIAEoCzImLm1nLnByb3RvY29sLm93bmVyc2hpcC5HZXRHYW1lVG9rZW5S",
+            "c3ASTgoYY2xhaW1fa2V5c3RvcmFnZV9rZXlfcnNwGBUgASgLMiwubWcucHJv",
+            "dG9jb2wub3duZXJzaGlwLkNsYWltS2V5c3RvcmFnZUtleVJzcBJNChhnZXRf",
+            "Z2FtZV90aW1lX3RpY2tldF9yc3AYFiABKAsyKy5tZy5wcm90b2NvbC5vd25l",
+            "cnNoaXAuR2V0R2FtZVRpbWVUaWNrZXRSc3ASWQoeZ2V0X2dhbWVfd2l0aGRy",
+            "YXdhbF9yaWdodHNfcnNwGBcgASgLMjEubWcucHJvdG9jb2wub3duZXJzaGlw",
+            "LkdldEdhbWVXaXRoZHJhd2FsUmlnaHRzUnNwEl0KIHdhaXZlX2dhbWVfd2l0",
+            "aGRyYXdhbF9yaWdodHNfcnNwGBggASgLMjMubWcucHJvdG9jb2wub3duZXJz",
+            "aGlwLldhaXZlR2FtZVdpdGhkcmF3YWxSaWdodHNSc3ASQwoSc2lnbl9vd25l",
+            "cnNoaXBfcnNwGBkgASgLMicubWcucHJvdG9jb2wub3duZXJzaGlwLlNpZ25P",
+            "d25lcnNoaXBSc3ASYQoicmVnaXN0ZXJfb3duZXJzaGlwX2Zyb21fd2VnYW1l",
+            "X3JzcBgaIAEoCzI1Lm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3Rlck93",
+            "bmVyc2hpcEZyb21XZUdhbWVSc3ASRQoTb3duZXJzaGlwX3Rva2VuX3JzcBgb",
+            "IAEoCzIoLm1nLnByb3RvY29sLm93bmVyc2hpcC5Pd25lcnNoaXBUb2tlblJz",
+            "cBJeCiByZWdpc3Rlcl90ZW1wb3Jhcnlfb3duZXJzaGlwX3JzcBgcIAEoCzI0",
+            "Lm1nLnByb3RvY29sLm93bmVyc2hpcC5SZWdpc3RlclRlbXBvcmFyeU93bmVy",
+            "c2hpcFJzcCKsAQoNT3duZWRHYW1lUHVzaBJJChVvd25lZF9nYW1lc19jb250",
+            "YWluZXIYAiABKAsyKi5tZy5wcm90b2NvbC5vd25lcnNoaXAuT3duZWRHYW1l",
+            "c0NvbnRhaW5lchI2Cgtvd25lZF9nYW1lcxgEIAEoCzIhLm1nLnByb3RvY29s",
+            "Lm93bmVyc2hpcC5Pd25lZEdhbWVzEhgKEHJlbW92ZWRfcHJvZHVjdHMYBSAD",
+            "KA0icwoQU3Vic2NyaXB0aW9uUHVzaBJEChJzdWJzY3JpcHRpb25fc3RhdGUY",
+            "ASABKA4yKC5tZy5wcm90b2NvbC5vd25lcnNoaXAuU3Vic2NyaXB0aW9uU3Rh",
+            "dGUSGQoRc3Vic2NyaXB0aW9uX3R5cGUYAiABKA0i6AEKBFB1c2gSPQoPb3du",
+            "ZWRfZ2FtZV9wdXNoGAEgASgLMiQubWcucHJvdG9jb2wub3duZXJzaGlwLk93",
+            "bmVkR2FtZVB1c2gSXQogdXBsYXlfY29yZV9nYW1lX2luaXRpYWxpemVkX3B1",
+            "c2gYAiABKAsyMy5tZy5wcm90b2NvbC5vd25lcnNoaXAuVXBsYXlDb3JlR2Ft",
+            "ZUluaXRpYWxpemVkUHVzaBJCChFzdWJzY3JpcHRpb25fcHVzaBgDIAEoCzIn",
+            "Lm1nLnByb3RvY29sLm93bmVyc2hpcC5TdWJzY3JpcHRpb25QdXNoIjcKCFVw",
+            "c3RyZWFtEisKB3JlcXVlc3QYASABKAsyGi5tZy5wcm90b2NvbC5vd25lcnNo",
+            "aXAuUmVxImUKCkRvd25zdHJlYW0SLAoIcmVzcG9uc2UYASABKAsyGi5tZy5w",
+            "cm90b2NvbC5vd25lcnNoaXAuUnNwEikKBHB1c2gYAiABKAsyGy5tZy5wcm90",
+            "b2NvbC5vd25lcnNoaXAuUHVzaCpzChFTdWJzY3JpcHRpb25TdGF0ZRIdChlT",
+            "dWJzY3JpcHRpb25TdGF0ZV9Ob1N0YXRlEAASIAocU3Vic2NyaXB0aW9uU3Rh",
+            "dGVfU3Vic2NyaWJlZBABEh0KGVN1YnNjcmlwdGlvblN0YXRlX0V4cGlyZWQQ",
+            "Ag=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Uplay.Ownership.SubscriptionState), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.StoreData), global::Uplay.Ownership.StoreData.Parser, new[]{ "StoreRef", "Configuration", "Associations", "PromotionScore" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGame), global::Uplay.Ownership.OwnedGame.Parser, new[]{ "ProductId", "CdKey", "Owned", "OrbitProductId", "ConfigVersion", "DownloadId", "DownloadVersion", "TitleId", "Platform", "ProductType", "State", "OrbitGameVersion", "OrbitGameVersionUrl", "ProductAssociations", "Configuration", "DeprecatedTestConfig", "UplayId", "LatestManifest", "GameCode", "Balance", "EncryptionKey", "ActiveBranchId", "AvailableBranches", "ActivationIds", "BrandId", "PendingKeystorageOwnership", "UbiservicesSpaceId", "UbiservicesAppId", "StoreData", "PackageOwnershipState", "SuspensionType", "IngameStoreData", "ActivationType", "LockedBySubscription", "TargetPartner", "DenuvoActivationOverwrite", "SubscriptionTypes" }, null, new[]{ typeof(global::Uplay.Ownership.OwnedGame.Types.PackageOwnershipState), typeof(global::Uplay.Ownership.OwnedGame.Types.SuspensionType), typeof(global::Uplay.Ownership.OwnedGame.Types.ActivationType), typeof(global::Uplay.Ownership.OwnedGame.Types.TargetPartner), typeof(global::Uplay.Ownership.OwnedGame.Types.DenuvoActivationOverwrite), typeof(global::Uplay.Ownership.OwnedGame.Types.ProductType), typeof(global::Uplay.Ownership.OwnedGame.Types.State) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGame.Types.ProductBranch), global::Uplay.Ownership.OwnedGame.Types.ProductBranch.Parser, new[]{ "BranchId", "BranchName" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGamesSignature), global::Uplay.Ownership.OwnedGamesSignature.Parser, new[]{ "ProductIds", "Signature" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UbiServicesDynamicConfig), global::Uplay.Ownership.UbiServicesDynamicConfig.Parser, new[]{ "LunaAppId", "GfnAppId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGame), global::Uplay.Ownership.OwnedGame.Parser, new[]{ "ProductId", "CdKey", "Owned", "OrbitProductId", "ConfigVersion", "DownloadId", "DownloadVersion", "TitleId", "Platform", "ProductType", "State", "OrbitGameVersion", "OrbitGameVersionUrl", "ProductAssociations", "Configuration", "DeprecatedTestConfig", "UplayId", "LatestManifest", "GameCode", "Balance", "EncryptionKey", "ActiveBranchId", "AvailableBranches", "ActivationIds", "BrandId", "PendingKeystorageOwnership", "UbiservicesSpaceId", "UbiservicesAppId", "StoreData", "PackageOwnershipState", "SuspensionType", "IngameStoreData", "ActivationType", "LockedBySubscription", "TargetPartner", "DenuvoActivationOverwrite", "SubscriptionTypes", "UbiservicesDynamicConfig" }, null, new[]{ typeof(global::Uplay.Ownership.OwnedGame.Types.PackageOwnershipState), typeof(global::Uplay.Ownership.OwnedGame.Types.SuspensionType), typeof(global::Uplay.Ownership.OwnedGame.Types.ActivationType), typeof(global::Uplay.Ownership.OwnedGame.Types.TargetPartner), typeof(global::Uplay.Ownership.OwnedGame.Types.DenuvoActivationOverwrite), typeof(global::Uplay.Ownership.OwnedGame.Types.ProductType), typeof(global::Uplay.Ownership.OwnedGame.Types.State) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGame.Types.ProductBranch), global::Uplay.Ownership.OwnedGame.Types.ProductBranch.Parser, new[]{ "BranchId", "BranchName" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGamesContainer), global::Uplay.Ownership.OwnedGamesContainer.Parser, new[]{ "ProductIds", "Signature", "VisibleOrInstallableProductIds" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGames), global::Uplay.Ownership.OwnedGames.Parser, new[]{ "OwnedGames_" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.InitializeReq), global::Uplay.Ownership.InitializeReq.Parser, new[]{ "DeprecatedTestConfig", "GetAssociations", "ProtoVersion", "Branches", "UseStaging", "Claims", "ClientIpOverride" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.InitializeReq.Types.ProductBranchData), global::Uplay.Ownership.InitializeReq.Types.ProductBranchData.Parser, new[]{ "ProductId", "ActiveBranchId", "Passwords" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.InitializeRsp), global::Uplay.Ownership.InitializeRsp.Parser, new[]{ "Success", "OwnedGames", "OwnedGamesSignature", "KeySpamBanSeconds", "SubscriptionState", "SubscriptionType", "ClaimedGames" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.InitializeRsp), global::Uplay.Ownership.InitializeRsp.Parser, new[]{ "Success", "OwnedGames", "OwnedGamesContainer", "KeySpamBanSeconds", "SubscriptionState", "SubscriptionType", "ClaimedGames" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.DeprecatedGetProductFromCdKeyReq), global::Uplay.Ownership.DeprecatedGetProductFromCdKeyReq.Parser, new[]{ "CdKey", "DeprecatedTestConfig" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.DeprecatedGetProductFromCdKeyRsp), global::Uplay.Ownership.DeprecatedGetProductFromCdKeyRsp.Parser, new[]{ "Result", "Product", "ProductAssociations" }, null, new[]{ typeof(global::Uplay.Ownership.DeprecatedGetProductFromCdKeyRsp.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipReq), global::Uplay.Ownership.RegisterOwnershipReq.Parser, new[]{ "ProductId", "CdKey", "DeprecatedTestConfig" }, null, null, null, null),
@@ -430,10 +439,10 @@ namespace Uplay.Ownership {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipSteamPopReq), global::Uplay.Ownership.RegisterOwnershipSteamPopReq.Parser, new[]{ "Ticket", "Confirm" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipSteamPopRsp), global::Uplay.Ownership.RegisterOwnershipSteamPopRsp.Parser, new[]{ "Result", "Configuration", "TicketsClaimedByOther" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipSteamPopRsp.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromOculusReq), global::Uplay.Ownership.RegisterOwnershipFromOculusReq.Parser, new[]{ "AccessToken", "OculusAppId", "OculusUserId", "UserId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromOculusRsp), global::Uplay.Ownership.RegisterOwnershipFromOculusRsp.Parser, new[]{ "Result", "ClaimedAccountId", "OwnedGames", "OwnedGamesSignature" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipFromOculusRsp.Types.Result) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromOculusRsp), global::Uplay.Ownership.RegisterOwnershipFromOculusRsp.Parser, new[]{ "Result", "ClaimedAccountId", "OwnedGames", "OwnedGamesContainer" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipFromOculusRsp.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromWeGameReq), global::Uplay.Ownership.RegisterOwnershipFromWeGameReq.Parser, new[]{ "JsonWebToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp), global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp.Parser, new[]{ "Result", "OwnedGames", "OwnedGamesSignature" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp.Types.Result) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipRsp), global::Uplay.Ownership.RegisterOwnershipRsp.Parser, new[]{ "Result", "OwnedGamesSignature", "OwnedGames", "BannedTime", "CdkeyClaimedDate" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipRsp.Types.Result) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp), global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp.Parser, new[]{ "Result", "OwnedGames", "OwnedGamesContainer" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipFromWeGameRsp.Types.Result) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterOwnershipRsp), global::Uplay.Ownership.RegisterOwnershipRsp.Parser, new[]{ "Result", "OwnedGamesContainer", "OwnedGames", "BannedTime", "CdkeyClaimedDate" }, null, new[]{ typeof(global::Uplay.Ownership.RegisterOwnershipRsp.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.ClaimKeystorageKeyReq), global::Uplay.Ownership.ClaimKeystorageKeyReq.Parser, new[]{ "ProductIds" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.ClaimKeystorageKeyRsp), global::Uplay.Ownership.ClaimKeystorageKeyRsp.Parser, new[]{ "Result", "ProductKeyPairs" }, null, new[]{ typeof(global::Uplay.Ownership.ClaimKeystorageKeyRsp.Types.Result) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.ClaimKeystorageKeyRsp.Types.ProductKeyPair), global::Uplay.Ownership.ClaimKeystorageKeyRsp.Types.ProductKeyPair.Parser, new[]{ "ProductId", "CdKey" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.GetBatchDownloadUrlsReq), global::Uplay.Ownership.GetBatchDownloadUrlsReq.Parser, new[]{ "UrlRequests" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.GetBatchDownloadUrlsReq.Types.UrlRequest), global::Uplay.Ownership.GetBatchDownloadUrlsReq.Types.UrlRequest.Parser, new[]{ "ProductId", "RelativeFilePaths", "DeprecatedTestConfig" }, null, null, null, null)}),
@@ -457,7 +466,7 @@ namespace Uplay.Ownership {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.SwitchProductBranchRsp), global::Uplay.Ownership.SwitchProductBranchRsp.Parser, new[]{ "Result", "Products" }, null, new[]{ typeof(global::Uplay.Ownership.SwitchProductBranchRsp.Types.Result) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UnlockProductBranchReq), global::Uplay.Ownership.UnlockProductBranchReq.Parser, new[]{ "Branch" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UnlockProductBranchReq.Types.ProductBranch), global::Uplay.Ownership.UnlockProductBranchReq.Types.ProductBranch.Parser, new[]{ "ProductId", "Password" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UnlockProductBranchRsp), global::Uplay.Ownership.UnlockProductBranchRsp.Parser, new[]{ "Result", "Branch" }, null, new[]{ typeof(global::Uplay.Ownership.UnlockProductBranchRsp.Types.Result) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UnlockProductBranchRsp.Types.ProductBranch), global::Uplay.Ownership.UnlockProductBranchRsp.Types.ProductBranch.Parser, new[]{ "BranchId", "BranchName" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.GetUplayPCTicketReq), global::Uplay.Ownership.GetUplayPCTicketReq.Parser, new[]{ "UplayId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.GetUplayPCTicketReq), global::Uplay.Ownership.GetUplayPCTicketReq.Parser, new[]{ "UplayId", "Platform" }, null, new[]{ typeof(global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.GetUplayPCTicketRsp), global::Uplay.Ownership.GetUplayPCTicketRsp.Parser, new[]{ "Success", "UplayPcTicket", "ErrorCode" }, null, new[]{ typeof(global::Uplay.Ownership.GetUplayPCTicketRsp.Types.ErrorCode) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.UplayCoreGameInitializedPush), global::Uplay.Ownership.UplayCoreGameInitializedPush.Parser, new[]{ "Success", "ProductId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RetryUplayCoreInitializeReq), global::Uplay.Ownership.RetryUplayCoreInitializeReq.Parser, new[]{ "ProductId", "DeprecatedTestConfig" }, null, null, null, null),
@@ -479,7 +488,7 @@ namespace Uplay.Ownership {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.RegisterTemporaryOwnershipRsp), global::Uplay.Ownership.RegisterTemporaryOwnershipRsp.Parser, new[]{ "Success", "ErrorMsg", "ProductIds" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.Req), global::Uplay.Ownership.Req.Parser, new[]{ "RequestId", "InitializeReq", "RegisterOwnershipReq", "RegisterOwnershipByCdKeyReq", "DeprecatedGetProductFromCdKeyReq", "GetProductConfigReq", "DeprecatedGetLatestManifestsReq", "CloudsaveReq", "GetBatchDownloadUrlsReq", "CloudsaveReqV2", "GetUplayPcTicketReq", "RetryUplayCoreInitializeReq", "ConsumeOwnershipReq", "SwitchProductBranchReq", "UnlockProductBranchReq", "RegisterOwnershipSteamPopReq", "RegisterOwnershipFromOculusReq", "GetGameTokenReq", "ClaimKeystorageKeyReq", "GetGameTimeTicketReq", "GetGameWithdrawalRightsReq", "WaiveGameWithdrawalRightsReq", "SignOwnershipReq", "RegisterOwnershipFromWegameReq", "OwnershipTokenReq", "RegisterTemporaryOwnershipReq" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.Rsp), global::Uplay.Ownership.Rsp.Parser, new[]{ "RequestId", "InitializeRsp", "RegisterOwnershipRsp", "DeprecatedGetProductFromCdKeyRsp", "GetProductConfigRsp", "DeprecatedGetLatestManifestsRsp", "CloudsaveRsp", "GetBatchDownloadUrlsRsp", "GetUplayPcTicketRsp", "CloudsaveRspV2", "ConsumeOwnershipRsp", "SwitchProductBranchRsp", "UnlockProductBranchRsp", "RegisterOwnershipSteamPopRsp", "RegisterOwnershipFromOculusRsp", "GetGameTokenRsp", "ClaimKeystorageKeyRsp", "GetGameTimeTicketRsp", "GetGameWithdrawalRightsRsp", "WaiveGameWithdrawalRightsRsp", "SignOwnershipRsp", "RegisterOwnershipFromWegameRsp", "OwnershipTokenRsp", "RegisterTemporaryOwnershipRsp" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGamePush), global::Uplay.Ownership.OwnedGamePush.Parser, new[]{ "OwnedGamesSignature", "OwnedGames", "RemovedProducts" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.OwnedGamePush), global::Uplay.Ownership.OwnedGamePush.Parser, new[]{ "OwnedGamesContainer", "OwnedGames", "RemovedProducts" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.SubscriptionPush), global::Uplay.Ownership.SubscriptionPush.Parser, new[]{ "SubscriptionState", "SubscriptionType" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.Push), global::Uplay.Ownership.Push.Parser, new[]{ "OwnedGamePush", "UplayCoreGameInitializedPush", "SubscriptionPush" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Ownership.Upstream), global::Uplay.Ownership.Upstream.Parser, new[]{ "Request" }, null, null, null, null),
@@ -835,6 +844,260 @@ namespace Uplay.Ownership {
 
   }
 
+  public sealed partial class UbiServicesDynamicConfig : pb::IMessage<UbiServicesDynamicConfig>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UbiServicesDynamicConfig> _parser = new pb::MessageParser<UbiServicesDynamicConfig>(() => new UbiServicesDynamicConfig());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UbiServicesDynamicConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UbiServicesDynamicConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UbiServicesDynamicConfig(UbiServicesDynamicConfig other) : this() {
+      lunaAppId_ = other.lunaAppId_;
+      gfnAppId_ = other.gfnAppId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UbiServicesDynamicConfig Clone() {
+      return new UbiServicesDynamicConfig(this);
+    }
+
+    /// <summary>Field number for the "luna_app_id" field.</summary>
+    public const int LunaAppIdFieldNumber = 1;
+    private readonly static string LunaAppIdDefaultValue = "";
+
+    private string lunaAppId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string LunaAppId {
+      get { return lunaAppId_ ?? LunaAppIdDefaultValue; }
+      set {
+        lunaAppId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "luna_app_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLunaAppId {
+      get { return lunaAppId_ != null; }
+    }
+    /// <summary>Clears the value of the "luna_app_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLunaAppId() {
+      lunaAppId_ = null;
+    }
+
+    /// <summary>Field number for the "gfn_app_id" field.</summary>
+    public const int GfnAppIdFieldNumber = 2;
+    private readonly static string GfnAppIdDefaultValue = "";
+
+    private string gfnAppId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GfnAppId {
+      get { return gfnAppId_ ?? GfnAppIdDefaultValue; }
+      set {
+        gfnAppId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "gfn_app_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGfnAppId {
+      get { return gfnAppId_ != null; }
+    }
+    /// <summary>Clears the value of the "gfn_app_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGfnAppId() {
+      gfnAppId_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UbiServicesDynamicConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UbiServicesDynamicConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (LunaAppId != other.LunaAppId) return false;
+      if (GfnAppId != other.GfnAppId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasLunaAppId) hash ^= LunaAppId.GetHashCode();
+      if (HasGfnAppId) hash ^= GfnAppId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasLunaAppId) {
+        output.WriteRawTag(10);
+        output.WriteString(LunaAppId);
+      }
+      if (HasGfnAppId) {
+        output.WriteRawTag(18);
+        output.WriteString(GfnAppId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasLunaAppId) {
+        output.WriteRawTag(10);
+        output.WriteString(LunaAppId);
+      }
+      if (HasGfnAppId) {
+        output.WriteRawTag(18);
+        output.WriteString(GfnAppId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasLunaAppId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LunaAppId);
+      }
+      if (HasGfnAppId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GfnAppId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UbiServicesDynamicConfig other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasLunaAppId) {
+        LunaAppId = other.LunaAppId;
+      }
+      if (other.HasGfnAppId) {
+        GfnAppId = other.GfnAppId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            LunaAppId = input.ReadString();
+            break;
+          }
+          case 18: {
+            GfnAppId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            LunaAppId = input.ReadString();
+            break;
+          }
+          case 18: {
+            GfnAppId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class OwnedGame : pb::IMessage<OwnedGame>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -850,7 +1113,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -908,6 +1171,7 @@ namespace Uplay.Ownership {
       targetPartner_ = other.targetPartner_;
       denuvoActivationOverwrite_ = other.denuvoActivationOverwrite_;
       subscriptionTypes_ = other.subscriptionTypes_.Clone();
+      ubiservicesDynamicConfig_ = other.ubiservicesDynamicConfig_ != null ? other.ubiservicesDynamicConfig_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1814,6 +2078,18 @@ namespace Uplay.Ownership {
       get { return subscriptionTypes_; }
     }
 
+    /// <summary>Field number for the "ubiservices_dynamic_config" field.</summary>
+    public const int UbiservicesDynamicConfigFieldNumber = 41;
+    private global::Uplay.Ownership.UbiServicesDynamicConfig ubiservicesDynamicConfig_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Ownership.UbiServicesDynamicConfig UbiservicesDynamicConfig {
+      get { return ubiservicesDynamicConfig_; }
+      set {
+        ubiservicesDynamicConfig_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1866,6 +2142,7 @@ namespace Uplay.Ownership {
       if (TargetPartner != other.TargetPartner) return false;
       if (DenuvoActivationOverwrite != other.DenuvoActivationOverwrite) return false;
       if(!subscriptionTypes_.Equals(other.subscriptionTypes_)) return false;
+      if (!object.Equals(UbiservicesDynamicConfig, other.UbiservicesDynamicConfig)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1910,6 +2187,7 @@ namespace Uplay.Ownership {
       if (HasTargetPartner) hash ^= TargetPartner.GetHashCode();
       if (HasDenuvoActivationOverwrite) hash ^= DenuvoActivationOverwrite.GetHashCode();
       hash ^= subscriptionTypes_.GetHashCode();
+      if (ubiservicesDynamicConfig_ != null) hash ^= UbiservicesDynamicConfig.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2064,6 +2342,10 @@ namespace Uplay.Ownership {
         output.WriteEnum((int) DenuvoActivationOverwrite);
       }
       subscriptionTypes_.WriteTo(output, _repeated_subscriptionTypes_codec);
+      if (ubiservicesDynamicConfig_ != null) {
+        output.WriteRawTag(202, 2);
+        output.WriteMessage(UbiservicesDynamicConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2210,6 +2492,10 @@ namespace Uplay.Ownership {
         output.WriteEnum((int) DenuvoActivationOverwrite);
       }
       subscriptionTypes_.WriteTo(ref output, _repeated_subscriptionTypes_codec);
+      if (ubiservicesDynamicConfig_ != null) {
+        output.WriteRawTag(202, 2);
+        output.WriteMessage(UbiservicesDynamicConfig);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2323,6 +2609,9 @@ namespace Uplay.Ownership {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DenuvoActivationOverwrite);
       }
       size += subscriptionTypes_.CalculateSize(_repeated_subscriptionTypes_codec);
+      if (ubiservicesDynamicConfig_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(UbiservicesDynamicConfig);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2444,6 +2733,12 @@ namespace Uplay.Ownership {
         DenuvoActivationOverwrite = other.DenuvoActivationOverwrite;
       }
       subscriptionTypes_.Add(other.subscriptionTypes_);
+      if (other.ubiservicesDynamicConfig_ != null) {
+        if (ubiservicesDynamicConfig_ == null) {
+          UbiservicesDynamicConfig = new global::Uplay.Ownership.UbiServicesDynamicConfig();
+        }
+        UbiservicesDynamicConfig.MergeFrom(other.UbiservicesDynamicConfig);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2614,6 +2909,13 @@ namespace Uplay.Ownership {
           case 322:
           case 320: {
             subscriptionTypes_.AddEntriesFrom(input, _repeated_subscriptionTypes_codec);
+            break;
+          }
+          case 330: {
+            if (ubiservicesDynamicConfig_ == null) {
+              UbiservicesDynamicConfig = new global::Uplay.Ownership.UbiServicesDynamicConfig();
+            }
+            input.ReadMessage(UbiservicesDynamicConfig);
             break;
           }
         }
@@ -2788,6 +3090,13 @@ namespace Uplay.Ownership {
             subscriptionTypes_.AddEntriesFrom(ref input, _repeated_subscriptionTypes_codec);
             break;
           }
+          case 330: {
+            if (ubiservicesDynamicConfig_ == null) {
+              UbiservicesDynamicConfig = new global::Uplay.Ownership.UbiServicesDynamicConfig();
+            }
+            input.ReadMessage(UbiservicesDynamicConfig);
+            break;
+          }
         }
       }
     }
@@ -2819,6 +3128,7 @@ namespace Uplay.Ownership {
         [pbr::OriginalName("TargetPartner_None")] None = 0,
         [pbr::OriginalName("TargetPartner_EpicGames")] EpicGames = 1,
         [pbr::OriginalName("TargetPartner_Neowiz")] Neowiz = 2,
+        [pbr::OriginalName("TargetPartner_Microsoft")] Microsoft = 3,
       }
 
       public enum DenuvoActivationOverwrite {
@@ -3111,21 +3421,21 @@ namespace Uplay.Ownership {
 
   }
 
-  public sealed partial class OwnedGamesSignature : pb::IMessage<OwnedGamesSignature>
+  public sealed partial class OwnedGamesContainer : pb::IMessage<OwnedGamesContainer>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<OwnedGamesSignature> _parser = new pb::MessageParser<OwnedGamesSignature>(() => new OwnedGamesSignature());
+    private static readonly pb::MessageParser<OwnedGamesContainer> _parser = new pb::MessageParser<OwnedGamesContainer>(() => new OwnedGamesContainer());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<OwnedGamesSignature> Parser { get { return _parser; } }
+    public static pb::MessageParser<OwnedGamesContainer> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3136,7 +3446,7 @@ namespace Uplay.Ownership {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OwnedGamesSignature() {
+    public OwnedGamesContainer() {
       OnConstruction();
     }
 
@@ -3144,16 +3454,17 @@ namespace Uplay.Ownership {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OwnedGamesSignature(OwnedGamesSignature other) : this() {
+    public OwnedGamesContainer(OwnedGamesContainer other) : this() {
       productIds_ = other.productIds_.Clone();
       signature_ = other.signature_;
+      visibleOrInstallableProductIds_ = other.visibleOrInstallableProductIds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public OwnedGamesSignature Clone() {
-      return new OwnedGamesSignature(this);
+    public OwnedGamesContainer Clone() {
+      return new OwnedGamesContainer(this);
     }
 
     /// <summary>Field number for the "product_ids" field.</summary>
@@ -3193,15 +3504,26 @@ namespace Uplay.Ownership {
       signature_ = null;
     }
 
+    /// <summary>Field number for the "visible_or_installable_product_ids" field.</summary>
+    public const int VisibleOrInstallableProductIdsFieldNumber = 3;
+    private static readonly pb::FieldCodec<uint> _repeated_visibleOrInstallableProductIds_codec
+        = pb::FieldCodec.ForUInt32(24);
+    private readonly pbc::RepeatedField<uint> visibleOrInstallableProductIds_ = new pbc::RepeatedField<uint>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as OwnedGamesSignature);
+    public pbc::RepeatedField<uint> VisibleOrInstallableProductIds {
+      get { return visibleOrInstallableProductIds_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(OwnedGamesSignature other) {
+    public override bool Equals(object other) {
+      return Equals(other as OwnedGamesContainer);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(OwnedGamesContainer other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3210,6 +3532,7 @@ namespace Uplay.Ownership {
       }
       if(!productIds_.Equals(other.productIds_)) return false;
       if (Signature != other.Signature) return false;
+      if(!visibleOrInstallableProductIds_.Equals(other.visibleOrInstallableProductIds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3219,6 +3542,7 @@ namespace Uplay.Ownership {
       int hash = 1;
       hash ^= productIds_.GetHashCode();
       if (HasSignature) hash ^= Signature.GetHashCode();
+      hash ^= visibleOrInstallableProductIds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3242,6 +3566,7 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteBytes(Signature);
       }
+      visibleOrInstallableProductIds_.WriteTo(output, _repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3257,6 +3582,7 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteBytes(Signature);
       }
+      visibleOrInstallableProductIds_.WriteTo(ref output, _repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3271,6 +3597,7 @@ namespace Uplay.Ownership {
       if (HasSignature) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Signature);
       }
+      size += visibleOrInstallableProductIds_.CalculateSize(_repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3279,7 +3606,7 @@ namespace Uplay.Ownership {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(OwnedGamesSignature other) {
+    public void MergeFrom(OwnedGamesContainer other) {
       if (other == null) {
         return;
       }
@@ -3287,6 +3614,7 @@ namespace Uplay.Ownership {
       if (other.HasSignature) {
         Signature = other.Signature;
       }
+      visibleOrInstallableProductIds_.Add(other.visibleOrInstallableProductIds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3309,6 +3637,11 @@ namespace Uplay.Ownership {
           }
           case 18: {
             Signature = input.ReadBytes();
+            break;
+          }
+          case 26:
+          case 24: {
+            visibleOrInstallableProductIds_.AddEntriesFrom(input, _repeated_visibleOrInstallableProductIds_codec);
             break;
           }
         }
@@ -3335,6 +3668,11 @@ namespace Uplay.Ownership {
             Signature = input.ReadBytes();
             break;
           }
+          case 26:
+          case 24: {
+            visibleOrInstallableProductIds_.AddEntriesFrom(ref input, _repeated_visibleOrInstallableProductIds_codec);
+            break;
+          }
         }
       }
     }
@@ -3356,7 +3694,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3535,7 +3873,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4296,7 +4634,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4319,7 +4657,7 @@ namespace Uplay.Ownership {
       _hasBits0 = other._hasBits0;
       success_ = other.success_;
       ownedGames_ = other.ownedGames_ != null ? other.ownedGames_.Clone() : null;
-      ownedGamesSignature_ = other.ownedGamesSignature_ != null ? other.ownedGamesSignature_.Clone() : null;
+      ownedGamesContainer_ = other.ownedGamesContainer_ != null ? other.ownedGamesContainer_.Clone() : null;
       keySpamBanSeconds_ = other.keySpamBanSeconds_;
       subscriptionState_ = other.subscriptionState_;
       subscriptionType_ = other.subscriptionType_;
@@ -4372,15 +4710,15 @@ namespace Uplay.Ownership {
       }
     }
 
-    /// <summary>Field number for the "owned_games_signature" field.</summary>
-    public const int OwnedGamesSignatureFieldNumber = 3;
-    private global::Uplay.Ownership.OwnedGamesSignature ownedGamesSignature_;
+    /// <summary>Field number for the "owned_games_container" field.</summary>
+    public const int OwnedGamesContainerFieldNumber = 3;
+    private global::Uplay.Ownership.OwnedGamesContainer ownedGamesContainer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Ownership.OwnedGamesSignature OwnedGamesSignature {
-      get { return ownedGamesSignature_; }
+    public global::Uplay.Ownership.OwnedGamesContainer OwnedGamesContainer {
+      get { return ownedGamesContainer_; }
       set {
-        ownedGamesSignature_ = value;
+        ownedGamesContainer_ = value;
       }
     }
 
@@ -4494,7 +4832,7 @@ namespace Uplay.Ownership {
       }
       if (Success != other.Success) return false;
       if (!object.Equals(OwnedGames, other.OwnedGames)) return false;
-      if (!object.Equals(OwnedGamesSignature, other.OwnedGamesSignature)) return false;
+      if (!object.Equals(OwnedGamesContainer, other.OwnedGamesContainer)) return false;
       if (KeySpamBanSeconds != other.KeySpamBanSeconds) return false;
       if (SubscriptionState != other.SubscriptionState) return false;
       if (SubscriptionType != other.SubscriptionType) return false;
@@ -4508,7 +4846,7 @@ namespace Uplay.Ownership {
       int hash = 1;
       if (HasSuccess) hash ^= Success.GetHashCode();
       if (ownedGames_ != null) hash ^= OwnedGames.GetHashCode();
-      if (ownedGamesSignature_ != null) hash ^= OwnedGamesSignature.GetHashCode();
+      if (ownedGamesContainer_ != null) hash ^= OwnedGamesContainer.GetHashCode();
       if (HasKeySpamBanSeconds) hash ^= KeySpamBanSeconds.GetHashCode();
       if (HasSubscriptionState) hash ^= SubscriptionState.GetHashCode();
       if (HasSubscriptionType) hash ^= SubscriptionType.GetHashCode();
@@ -4539,9 +4877,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(26);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (HasKeySpamBanSeconds) {
         output.WriteRawTag(32);
@@ -4577,9 +4915,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(26);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (HasKeySpamBanSeconds) {
         output.WriteRawTag(32);
@@ -4613,8 +4951,8 @@ namespace Uplay.Ownership {
       if (ownedGames_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesSignature);
+      if (ownedGamesContainer_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesContainer);
       }
       if (HasKeySpamBanSeconds) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(KeySpamBanSeconds);
@@ -4649,11 +4987,11 @@ namespace Uplay.Ownership {
         }
         OwnedGames.MergeFrom(other.OwnedGames);
       }
-      if (other.ownedGamesSignature_ != null) {
-        if (ownedGamesSignature_ == null) {
-          OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+      if (other.ownedGamesContainer_ != null) {
+        if (ownedGamesContainer_ == null) {
+          OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
         }
-        OwnedGamesSignature.MergeFrom(other.OwnedGamesSignature);
+        OwnedGamesContainer.MergeFrom(other.OwnedGamesContainer);
       }
       if (other.HasKeySpamBanSeconds) {
         KeySpamBanSeconds = other.KeySpamBanSeconds;
@@ -4697,10 +5035,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 26: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 32: {
@@ -4749,10 +5087,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 26: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 32: {
@@ -4796,7 +5134,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5053,7 +5391,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5352,7 +5690,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5661,7 +5999,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5970,7 +6308,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6202,7 +6540,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6474,7 +6812,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6831,7 +7169,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6855,7 +7193,7 @@ namespace Uplay.Ownership {
       result_ = other.result_;
       claimedAccountId_ = other.claimedAccountId_;
       ownedGames_ = other.ownedGames_ != null ? other.ownedGames_.Clone() : null;
-      ownedGamesSignature_ = other.ownedGamesSignature_ != null ? other.ownedGamesSignature_.Clone() : null;
+      ownedGamesContainer_ = other.ownedGamesContainer_ != null ? other.ownedGamesContainer_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6930,15 +7268,15 @@ namespace Uplay.Ownership {
       }
     }
 
-    /// <summary>Field number for the "owned_games_signature" field.</summary>
-    public const int OwnedGamesSignatureFieldNumber = 4;
-    private global::Uplay.Ownership.OwnedGamesSignature ownedGamesSignature_;
+    /// <summary>Field number for the "owned_games_container" field.</summary>
+    public const int OwnedGamesContainerFieldNumber = 4;
+    private global::Uplay.Ownership.OwnedGamesContainer ownedGamesContainer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Ownership.OwnedGamesSignature OwnedGamesSignature {
-      get { return ownedGamesSignature_; }
+    public global::Uplay.Ownership.OwnedGamesContainer OwnedGamesContainer {
+      get { return ownedGamesContainer_; }
       set {
-        ownedGamesSignature_ = value;
+        ownedGamesContainer_ = value;
       }
     }
 
@@ -6960,7 +7298,7 @@ namespace Uplay.Ownership {
       if (Result != other.Result) return false;
       if (ClaimedAccountId != other.ClaimedAccountId) return false;
       if (!object.Equals(OwnedGames, other.OwnedGames)) return false;
-      if (!object.Equals(OwnedGamesSignature, other.OwnedGamesSignature)) return false;
+      if (!object.Equals(OwnedGamesContainer, other.OwnedGamesContainer)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6971,7 +7309,7 @@ namespace Uplay.Ownership {
       if (HasResult) hash ^= Result.GetHashCode();
       if (HasClaimedAccountId) hash ^= ClaimedAccountId.GetHashCode();
       if (ownedGames_ != null) hash ^= OwnedGames.GetHashCode();
-      if (ownedGamesSignature_ != null) hash ^= OwnedGamesSignature.GetHashCode();
+      if (ownedGamesContainer_ != null) hash ^= OwnedGamesContainer.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7002,9 +7340,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(26);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(34);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -7028,9 +7366,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(26);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(34);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -7051,8 +7389,8 @@ namespace Uplay.Ownership {
       if (ownedGames_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesSignature);
+      if (ownedGamesContainer_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7078,11 +7416,11 @@ namespace Uplay.Ownership {
         }
         OwnedGames.MergeFrom(other.OwnedGames);
       }
-      if (other.ownedGamesSignature_ != null) {
-        if (ownedGamesSignature_ == null) {
-          OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+      if (other.ownedGamesContainer_ != null) {
+        if (ownedGamesContainer_ == null) {
+          OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
         }
-        OwnedGamesSignature.MergeFrom(other.OwnedGamesSignature);
+        OwnedGamesContainer.MergeFrom(other.OwnedGamesContainer);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7115,10 +7453,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 34: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
         }
@@ -7152,10 +7490,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 34: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
         }
@@ -7200,7 +7538,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7404,7 +7742,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7427,7 +7765,7 @@ namespace Uplay.Ownership {
       _hasBits0 = other._hasBits0;
       result_ = other.result_;
       ownedGames_ = other.ownedGames_ != null ? other.ownedGames_.Clone() : null;
-      ownedGamesSignature_ = other.ownedGamesSignature_ != null ? other.ownedGamesSignature_.Clone() : null;
+      ownedGamesContainer_ = other.ownedGamesContainer_ != null ? other.ownedGamesContainer_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7476,15 +7814,15 @@ namespace Uplay.Ownership {
       }
     }
 
-    /// <summary>Field number for the "owned_games_signature" field.</summary>
-    public const int OwnedGamesSignatureFieldNumber = 3;
-    private global::Uplay.Ownership.OwnedGamesSignature ownedGamesSignature_;
+    /// <summary>Field number for the "owned_games_container" field.</summary>
+    public const int OwnedGamesContainerFieldNumber = 3;
+    private global::Uplay.Ownership.OwnedGamesContainer ownedGamesContainer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Ownership.OwnedGamesSignature OwnedGamesSignature {
-      get { return ownedGamesSignature_; }
+    public global::Uplay.Ownership.OwnedGamesContainer OwnedGamesContainer {
+      get { return ownedGamesContainer_; }
       set {
-        ownedGamesSignature_ = value;
+        ownedGamesContainer_ = value;
       }
     }
 
@@ -7505,7 +7843,7 @@ namespace Uplay.Ownership {
       }
       if (Result != other.Result) return false;
       if (!object.Equals(OwnedGames, other.OwnedGames)) return false;
-      if (!object.Equals(OwnedGamesSignature, other.OwnedGamesSignature)) return false;
+      if (!object.Equals(OwnedGamesContainer, other.OwnedGamesContainer)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7515,7 +7853,7 @@ namespace Uplay.Ownership {
       int hash = 1;
       if (HasResult) hash ^= Result.GetHashCode();
       if (ownedGames_ != null) hash ^= OwnedGames.GetHashCode();
-      if (ownedGamesSignature_ != null) hash ^= OwnedGamesSignature.GetHashCode();
+      if (ownedGamesContainer_ != null) hash ^= OwnedGamesContainer.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7542,9 +7880,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(26);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -7564,9 +7902,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(18);
         output.WriteMessage(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(26);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -7584,8 +7922,8 @@ namespace Uplay.Ownership {
       if (ownedGames_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGames);
       }
-      if (ownedGamesSignature_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesSignature);
+      if (ownedGamesContainer_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesContainer);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7608,11 +7946,11 @@ namespace Uplay.Ownership {
         }
         OwnedGames.MergeFrom(other.OwnedGames);
       }
-      if (other.ownedGamesSignature_ != null) {
-        if (ownedGamesSignature_ == null) {
-          OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+      if (other.ownedGamesContainer_ != null) {
+        if (ownedGamesContainer_ == null) {
+          OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
         }
-        OwnedGamesSignature.MergeFrom(other.OwnedGamesSignature);
+        OwnedGamesContainer.MergeFrom(other.OwnedGamesContainer);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7641,10 +7979,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 26: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
         }
@@ -7674,10 +8012,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 26: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
         }
@@ -7719,7 +8057,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7741,7 +8079,7 @@ namespace Uplay.Ownership {
     public RegisterOwnershipRsp(RegisterOwnershipRsp other) : this() {
       _hasBits0 = other._hasBits0;
       result_ = other.result_;
-      ownedGamesSignature_ = other.ownedGamesSignature_ != null ? other.ownedGamesSignature_.Clone() : null;
+      ownedGamesContainer_ = other.ownedGamesContainer_ != null ? other.ownedGamesContainer_.Clone() : null;
       ownedGames_ = other.ownedGames_ != null ? other.ownedGames_.Clone() : null;
       bannedTime_ = other.bannedTime_;
       cdkeyClaimedDate_ = other.cdkeyClaimedDate_;
@@ -7781,15 +8119,15 @@ namespace Uplay.Ownership {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "owned_games_signature" field.</summary>
-    public const int OwnedGamesSignatureFieldNumber = 4;
-    private global::Uplay.Ownership.OwnedGamesSignature ownedGamesSignature_;
+    /// <summary>Field number for the "owned_games_container" field.</summary>
+    public const int OwnedGamesContainerFieldNumber = 4;
+    private global::Uplay.Ownership.OwnedGamesContainer ownedGamesContainer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Ownership.OwnedGamesSignature OwnedGamesSignature {
-      get { return ownedGamesSignature_; }
+    public global::Uplay.Ownership.OwnedGamesContainer OwnedGamesContainer {
+      get { return ownedGamesContainer_; }
       set {
-        ownedGamesSignature_ = value;
+        ownedGamesContainer_ = value;
       }
     }
 
@@ -7874,7 +8212,7 @@ namespace Uplay.Ownership {
         return true;
       }
       if (Result != other.Result) return false;
-      if (!object.Equals(OwnedGamesSignature, other.OwnedGamesSignature)) return false;
+      if (!object.Equals(OwnedGamesContainer, other.OwnedGamesContainer)) return false;
       if (!object.Equals(OwnedGames, other.OwnedGames)) return false;
       if (BannedTime != other.BannedTime) return false;
       if (CdkeyClaimedDate != other.CdkeyClaimedDate) return false;
@@ -7886,7 +8224,7 @@ namespace Uplay.Ownership {
     public override int GetHashCode() {
       int hash = 1;
       if (HasResult) hash ^= Result.GetHashCode();
-      if (ownedGamesSignature_ != null) hash ^= OwnedGamesSignature.GetHashCode();
+      if (ownedGamesContainer_ != null) hash ^= OwnedGamesContainer.GetHashCode();
       if (ownedGames_ != null) hash ^= OwnedGames.GetHashCode();
       if (HasBannedTime) hash ^= BannedTime.GetHashCode();
       if (HasCdkeyClaimedDate) hash ^= CdkeyClaimedDate.GetHashCode();
@@ -7912,9 +8250,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(8);
         output.WriteEnum((int) Result);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(34);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         output.WriteRawTag(42);
@@ -7942,9 +8280,9 @@ namespace Uplay.Ownership {
         output.WriteRawTag(8);
         output.WriteEnum((int) Result);
       }
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(34);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         output.WriteRawTag(42);
@@ -7971,8 +8309,8 @@ namespace Uplay.Ownership {
       if (HasResult) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Result);
       }
-      if (ownedGamesSignature_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesSignature);
+      if (ownedGamesContainer_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGames);
@@ -7998,11 +8336,11 @@ namespace Uplay.Ownership {
       if (other.HasResult) {
         Result = other.Result;
       }
-      if (other.ownedGamesSignature_ != null) {
-        if (ownedGamesSignature_ == null) {
-          OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+      if (other.ownedGamesContainer_ != null) {
+        if (ownedGamesContainer_ == null) {
+          OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
         }
-        OwnedGamesSignature.MergeFrom(other.OwnedGamesSignature);
+        OwnedGamesContainer.MergeFrom(other.OwnedGamesContainer);
       }
       if (other.ownedGames_ != null) {
         if (ownedGames_ == null) {
@@ -8036,10 +8374,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 34: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 42: {
@@ -8077,10 +8415,10 @@ namespace Uplay.Ownership {
             break;
           }
           case 34: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 42: {
@@ -8141,7 +8479,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8322,7 +8660,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8823,7 +9161,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9294,7 +9632,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9975,7 +10313,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10209,7 +10547,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10828,7 +11166,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12150,7 +12488,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12574,7 +12912,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14358,7 +14696,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14960,7 +15298,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15218,7 +15556,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15540,7 +15878,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16308,7 +16646,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16572,7 +16910,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17036,7 +17374,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17538,7 +17876,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17560,6 +17898,7 @@ namespace Uplay.Ownership {
     public GetUplayPCTicketReq(GetUplayPCTicketReq other) : this() {
       _hasBits0 = other._hasBits0;
       uplayId_ = other.uplayId_;
+      platform_ = other.platform_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -17596,6 +17935,33 @@ namespace Uplay.Ownership {
       _hasBits0 &= ~1;
     }
 
+    /// <summary>Field number for the "platform" field.</summary>
+    public const int PlatformFieldNumber = 2;
+    private readonly static global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform PlatformDefaultValue = global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform.Normal;
+
+    private global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform platform_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform Platform {
+      get { if ((_hasBits0 & 2) != 0) { return platform_; } else { return PlatformDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        platform_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatform {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "platform" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatform() {
+      _hasBits0 &= ~2;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -17612,6 +17978,7 @@ namespace Uplay.Ownership {
         return true;
       }
       if (UplayId != other.UplayId) return false;
+      if (Platform != other.Platform) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -17620,6 +17987,7 @@ namespace Uplay.Ownership {
     public override int GetHashCode() {
       int hash = 1;
       if (HasUplayId) hash ^= UplayId.GetHashCode();
+      if (HasPlatform) hash ^= Platform.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -17642,6 +18010,10 @@ namespace Uplay.Ownership {
         output.WriteRawTag(8);
         output.WriteUInt32(UplayId);
       }
+      if (HasPlatform) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Platform);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -17656,6 +18028,10 @@ namespace Uplay.Ownership {
         output.WriteRawTag(8);
         output.WriteUInt32(UplayId);
       }
+      if (HasPlatform) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Platform);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -17668,6 +18044,9 @@ namespace Uplay.Ownership {
       int size = 0;
       if (HasUplayId) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(UplayId);
+      }
+      if (HasPlatform) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Platform);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -17683,6 +18062,9 @@ namespace Uplay.Ownership {
       }
       if (other.HasUplayId) {
         UplayId = other.UplayId;
+      }
+      if (other.HasPlatform) {
+        Platform = other.Platform;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -17701,6 +18083,10 @@ namespace Uplay.Ownership {
             break;
           case 8: {
             UplayId = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            Platform = (global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform) input.ReadEnum();
             break;
           }
         }
@@ -17722,10 +18108,28 @@ namespace Uplay.Ownership {
             UplayId = input.ReadUInt32();
             break;
           }
+          case 16: {
+            Platform = (global::Uplay.Ownership.GetUplayPCTicketReq.Types.Platform) input.ReadEnum();
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the GetUplayPCTicketReq message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      public enum Platform {
+        [pbr::OriginalName("Normal")] Normal = 0,
+        [pbr::OriginalName("Luna")] Luna = 1,
+        [pbr::OriginalName("GFN")] Gfn = 2,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -17744,7 +18148,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18069,7 +18473,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18327,7 +18731,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18561,7 +18965,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18973,7 +19377,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19244,7 +19648,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19501,7 +19905,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19775,7 +20179,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20032,7 +20436,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20305,7 +20709,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20511,7 +20915,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20769,7 +21173,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20975,7 +21379,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21181,7 +21585,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21387,7 +21791,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21748,7 +22152,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21954,7 +22358,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22262,7 +22666,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22466,7 +22870,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -22751,7 +23155,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -24109,7 +24513,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -25374,7 +25778,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -25394,7 +25798,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public OwnedGamePush(OwnedGamePush other) : this() {
-      ownedGamesSignature_ = other.ownedGamesSignature_ != null ? other.ownedGamesSignature_.Clone() : null;
+      ownedGamesContainer_ = other.ownedGamesContainer_ != null ? other.ownedGamesContainer_.Clone() : null;
       ownedGames_ = other.ownedGames_ != null ? other.ownedGames_.Clone() : null;
       removedProducts_ = other.removedProducts_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -25406,15 +25810,15 @@ namespace Uplay.Ownership {
       return new OwnedGamePush(this);
     }
 
-    /// <summary>Field number for the "owned_games_signature" field.</summary>
-    public const int OwnedGamesSignatureFieldNumber = 2;
-    private global::Uplay.Ownership.OwnedGamesSignature ownedGamesSignature_;
+    /// <summary>Field number for the "owned_games_container" field.</summary>
+    public const int OwnedGamesContainerFieldNumber = 2;
+    private global::Uplay.Ownership.OwnedGamesContainer ownedGamesContainer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Ownership.OwnedGamesSignature OwnedGamesSignature {
-      get { return ownedGamesSignature_; }
+    public global::Uplay.Ownership.OwnedGamesContainer OwnedGamesContainer {
+      get { return ownedGamesContainer_; }
       set {
-        ownedGamesSignature_ = value;
+        ownedGamesContainer_ = value;
       }
     }
 
@@ -25456,7 +25860,7 @@ namespace Uplay.Ownership {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(OwnedGamesSignature, other.OwnedGamesSignature)) return false;
+      if (!object.Equals(OwnedGamesContainer, other.OwnedGamesContainer)) return false;
       if (!object.Equals(OwnedGames, other.OwnedGames)) return false;
       if(!removedProducts_.Equals(other.removedProducts_)) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -25466,7 +25870,7 @@ namespace Uplay.Ownership {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (ownedGamesSignature_ != null) hash ^= OwnedGamesSignature.GetHashCode();
+      if (ownedGamesContainer_ != null) hash ^= OwnedGamesContainer.GetHashCode();
       if (ownedGames_ != null) hash ^= OwnedGames.GetHashCode();
       hash ^= removedProducts_.GetHashCode();
       if (_unknownFields != null) {
@@ -25487,9 +25891,9 @@ namespace Uplay.Ownership {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         output.WriteRawTag(34);
@@ -25506,9 +25910,9 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ownedGamesSignature_ != null) {
+      if (ownedGamesContainer_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(OwnedGamesSignature);
+        output.WriteMessage(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         output.WriteRawTag(34);
@@ -25525,8 +25929,8 @@ namespace Uplay.Ownership {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (ownedGamesSignature_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesSignature);
+      if (ownedGamesContainer_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGamesContainer);
       }
       if (ownedGames_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OwnedGames);
@@ -25544,11 +25948,11 @@ namespace Uplay.Ownership {
       if (other == null) {
         return;
       }
-      if (other.ownedGamesSignature_ != null) {
-        if (ownedGamesSignature_ == null) {
-          OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+      if (other.ownedGamesContainer_ != null) {
+        if (ownedGamesContainer_ == null) {
+          OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
         }
-        OwnedGamesSignature.MergeFrom(other.OwnedGamesSignature);
+        OwnedGamesContainer.MergeFrom(other.OwnedGamesContainer);
       }
       if (other.ownedGames_ != null) {
         if (ownedGames_ == null) {
@@ -25573,10 +25977,10 @@ namespace Uplay.Ownership {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 18: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 34: {
@@ -25607,10 +26011,10 @@ namespace Uplay.Ownership {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 18: {
-            if (ownedGamesSignature_ == null) {
-              OwnedGamesSignature = new global::Uplay.Ownership.OwnedGamesSignature();
+            if (ownedGamesContainer_ == null) {
+              OwnedGamesContainer = new global::Uplay.Ownership.OwnedGamesContainer();
             }
-            input.ReadMessage(OwnedGamesSignature);
+            input.ReadMessage(OwnedGamesContainer);
             break;
           }
           case 34: {
@@ -25647,7 +26051,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[56]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -25904,7 +26308,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[57]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -26194,7 +26598,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[58]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -26392,7 +26796,7 @@ namespace Uplay.Ownership {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[59]; }
+      get { return global::Uplay.Ownership.OwnershipReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

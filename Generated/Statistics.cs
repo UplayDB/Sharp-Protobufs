@@ -256,163 +256,170 @@ namespace Uplay.Statistics {
             "CgltYWNoaW5lSWQYAiABKAkSGwoTZGVmYXVsdEZyaWVuZGx5TmFtZRgDIAEo",
             "CCJyCiZTaGFyZVBsYXlIb3N0U2Vzc2lvblN0cmVhbWluZ1N0YXJ0RGF0YRIN",
             "CgV3aWR0aBgBIAEoDRIOCgZoZWlnaHQYAiABKA0SDwoHYml0cmF0ZRgDIAEo",
-            "DRIYChBpc19hdWRpb19lbmFibGVkGAQgASgIIlgKHVN0cmVhbWluZ0hvc3RT",
-            "dGFydFNlc3Npb25EYXRhEhQKDGludml0YXRpb25JZBgBIAEoCRIMCgRzaWRl",
-            "GAIgASgJEhMKC3NwYWNlSWRHYW1lGAMgASgJImcKHFN0cmVhbWluZ0hvc3RT",
-            "dG9wU2Vzc2lvbkRhdGESFAoMaW52aXRhdGlvbklkGAEgASgJEgwKBHNpZGUY",
-            "AiABKAkSEwoLc3BhY2VJZEdhbWUYAyABKAkSDgoGcmVhc29uGAQgASgJIl4K",
-            "ElN0cmVhbWluZ0Vycm9yRGF0YRIRCgllcnJvck5hbWUYASABKAkSEQoJZXJy",
-            "b3JUeXBlGAIgASgJEhQKDGludml0YXRpb25JZBgDIAEoCRIMCgRzaWRlGAQg",
-            "ASgJIjcKJVNoYXJlUGxheUhvc3RTZXNzaW9uU3RyZWFtaW5nU3RvcERhdGES",
-            "DgoGcmVhc29uGAEgASgJIjgKIFNoYXJlUGxheUhvc3RPdXRPZkZvY3VzU3Rh",
-            "cnREYXRhEhQKDGludml0YXRpb25JZBgBIAEoCSI3Ch9TaGFyZVBsYXlIb3N0",
-            "T3V0T2ZGb2N1c1N0b3BEYXRhEhQKDGludml0YXRpb25JZBgBIAEoCSJTChdT",
-            "aGFyZVBsYXlPbmJvYXJkaW5nRGF0YRIaChJzb3VyY2VUcmFja2luZ0RhdGEY",
-            "ASABKAkSDgoGcmVhc29uGAIgASgJEgwKBHN0ZXAYAyABKA0iMwoVU2hhcmVQ",
-            "bGF5SG9zdFBhZ2VEYXRhEhoKEnNvdXJjZVRyYWNraW5nRGF0YRgBIAEoCSJu",
-            "ChxTaGFyZVBsYXlHdWVzdEludml0YXRpb25EYXRhEhgKEGludml0YXRpb25T",
-            "b3VyY2UYASABKAkSGAoQaW52aXRhdGlvblN0YXR1cxgCIAEoCRIaChJpbnZp",
-            "dGF0aW9uU2VudFRpbWUYAyABKAkiZwobU2hhcmVQbGF5SG9zdEludml0YXRp",
-            "b25EYXRhEhgKEGludml0YXRpb25UYXJnZXQYASABKAkSGAoQaW52aXRhdGlv",
-            "blN0YXR1cxgCIAEoCRIUCgxpbnZpdGF0aW9uSWQYAyABKAkilgEKFlNoYXJl",
-            "UGxheUhvc3RFcnJvckRhdGESEQoJZXJyb3JUeXBlGAEgASgJEhEKCWVycm9y",
-            "TmFtZRgCIAEoCRITCgtlcnJvclNvdXJjZRgDIAEoCRIUCgxpbnZpdGF0aW9u",
-            "SWQYBCABKAkSFAoMaG9zdFN0cmVhbUlkGAUgASgJEhUKDWd1ZXN0U3RyZWFt",
-            "SWQYBiABKAkijQEKGVNoYXJlUGxheUhvc3RTZXR0aW5nc0RhdGESDwoHYml0",
-            "cmF0ZRgBIAEoDRIlCh1tb3VzZUFuZEtleWJvYXJkQWNjZXNzQWxsb3dlZBgC",
-            "IAEoCBIcChRnYW1lcGFkQWNjZXNzQWxsb3dlZBgDIAEoCBIaChJzb3VyY2VU",
-            "cmFja2luZ0RhdGEYBCABKAkikwMKFVN0cmVhbWluZ0ZlZWRCYWNrRGF0YRIZ",
-            "CgphdWRpb0lzc3VlGAEgASgIOgVmYWxzZRIXCghpbnB1dExhZxgCIAEoCDoF",
-            "ZmFsc2USHwoQaW52aXRhdGlvbkZhaWxlZBgDIAEoCDoFZmFsc2USFAoFb3Ro",
-            "ZXIYBCABKAg6BWZhbHNlEh0KDnBvb3JDb25uZWN0aW9uGAUgASgIOgVmYWxz",
-            "ZRIOCgZyYXRpbmcYBiABKA0SEwoLaW5wdXRTb3VyY2UYByABKAkSDQoFYnJh",
-            "bmQYCCABKA0SFAoMaW52aXRhdGlvbklkGAkgASgJEiMKFGhvc3RQZXJmb3Jt",
-            "YW5jZUlzc3VlGAogASgIOgVmYWxzZRIkChVndWVzdFBlcmZvcm1hbmNlSXNz",
-            "dWUYCyABKAg6BWZhbHNlEiAKEXBvb3JHdWVzdEJlaGF2aW9yGAwgASgIOgVm",
-            "YWxzZRIZCgp2aWRlb0lzc3VlGA0gASgIOgVmYWxzZRIMCgRzaWRlGA4gASgJ",
-            "EhAKCHVzZXJUeXBlGA8gASgJIp8CCg1FdmVudFR5cGVEYXRhEjwKCWdhbWVT",
-            "dGFydBgBIAEoCzIpLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuR2FtZVN0YXJ0",
-            "VHlwZURhdGESSgoQZ2FtZUxvY2FsaXphdGlvbhgCIAEoCzIwLm1nLnByb3Rv",
-            "Y29sLnN0YXRpc3RpY3MuR2FtZUxvY2FsaXphdGlvblR5cGVEYXRhEkIKDGNv",
-            "bnRleHRTdGFydBgDIAEoCzIsLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuQ29u",
-            "dGV4dFN0YXJ0VHlwZURhdGESQAoLY29udGV4dFN0b3AYBCABKAsyKy5tZy5w",
-            "cm90b2NvbC5zdGF0aXN0aWNzLkNvbnRleHRTdG9wVHlwZURhdGEiyyIKD0V2",
-            "ZW50T2JqZWN0RGF0YRJACgpnYW1lTGF1bmNoGAEgASgLMiwubWcucHJvdG9j",
-            "b2wuc3RhdGlzdGljcy5HYW1lTGF1bmNoT2JqZWN0RGF0YRI2CgV1aU5hdhgC",
-            "IAEoCzInLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuVUlOYXZPYmplY3REYXRh",
-            "EjwKCGFwcFN0YXJ0GAMgASgLMioubWcucHJvdG9jb2wuc3RhdGlzdGljcy5B",
-            "cHBTdGFydE9iamVjdERhdGESPAoIZG93bmxvYWQYBCABKAsyKi5tZy5wcm90",
-            "b2NvbC5zdGF0aXN0aWNzLkRvd25sb2FkT2JqZWN0RGF0YRJACgpmb2xsb3dM",
-            "aW5rGAUgASgLMiwubWcucHJvdG9jb2wuc3RhdGlzdGljcy5Gb2xsb3dMaW5r",
-            "T2JqZWN0RGF0YRJOChFnYW1lQ2xvdWRTYXZlU3luYxgGIAEoCzIzLm1nLnBy",
-            "b3RvY29sLnN0YXRpc3RpY3MuR2FtZUNsb3VkU2F2ZVN5bmNPYmplY3REYXRh",
-            "EkgKDnNldHRpbmdDaGFuZ2VkGAcgASgLMjAubWcucHJvdG9jb2wuc3RhdGlz",
-            "dGljcy5TZXR0aW5nQ2hhbmdlZE9iamVjdERhdGESQgoLbWFjaGluZUNvbmYY",
-            "CCABKAsyLS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLk1hY2hpbmVDb25mT2Jq",
-            "ZWN0RGF0YRI6CgdkbEVycm9yGAkgASgLMikubWcucHJvdG9jb2wuc3RhdGlz",
-            "dGljcy5ETEVycm9yT2JqZWN0RGF0YRI6CgdhcHBRdWl0GAogASgLMikubWcu",
-            "cHJvdG9jb2wuc3RhdGlzdGljcy5BcHBRdWl0T2JqZWN0RGF0YRJUChRkZWNv",
-            "bXByZXNzU2xpY2VFcnJvchgLIAEoCzI2Lm1nLnByb3RvY29sLnN0YXRpc3Rp",
-            "Y3MuRGVjb21wcmVzc1NsaWNlRXJyb3JPYmplY3REYXRhEjoKB2dhbWVFbmQY",
-            "DCABKAsyKS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkdhbWVFbmRPYmplY3RE",
-            "YXRhElAKEmh0dHBTZXJ2aWNlUmVxdWVzdBgNIAEoCzI0Lm1nLnByb3RvY29s",
-            "LnN0YXRpc3RpY3MuSHR0cFNlcnZpY2VSZXF1ZXN0T2JqZWN0RGF0YRJQChJp",
-            "bXBvcnRTdGVhbUZyaWVuZHMYDiABKAsyNC5tZy5wcm90b2NvbC5zdGF0aXN0",
-            "aWNzLkltcG9ydFN0ZWFtRnJpZW5kc09iamVjdERhdGESSgoPYWN0aXZhdGVQ",
-            "cm9kdWN0GA8gASgLMjEubWcucHJvdG9jb2wuc3RhdGlzdGljcy5BY3RpdmF0",
-            "ZVByb2R1Y3RPYmplY3REYXRhEkQKDGZyaWVuZEFjdGlvbhgQIAEoCzIuLm1n",
-            "LnByb3RvY29sLnN0YXRpc3RpY3MuRnJpZW5kQWN0aW9uT2JqZWN0RGF0YRJE",
-            "CgxyZWRlZW1SZXdhcmQYESABKAsyLi5tZy5wcm90b2NvbC5zdGF0aXN0aWNz",
-            "LlJlZGVlbVJld2FyZE9iamVjdERhdGESSgoPYWNjb3VudENyZWF0aW9uGBIg",
-            "ASgLMjEubWcucHJvdG9jb2wuc3RhdGlzdGljcy5BY2NvdW50Q3JlYXRpb25P",
-            "YmplY3REYXRhEkwKEHN0cmVhbWluZ1Nlc3Npb24YEyABKAsyMi5tZy5wcm90",
-            "b2NvbC5zdGF0aXN0aWNzLlN0cmVhbWluZ1Nlc3Npb25PYmplY3REYXRhEkgK",
-            "DmFjY291bnRMaW5raW5nGBQgASgLMjAubWcucHJvdG9jb2wuc3RhdGlzdGlj",
-            "cy5BY2NvdW50TGlua2luZ09iamVjdERhdGESQgoLY2hhdFNlc3Npb24YFSAB",
-            "KAsyLS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkNoYXRTZXNzaW9uT2JqZWN0",
-            "RGF0YRI2CgVwYXJ0eRgWIAEoCzInLm1nLnByb3RvY29sLnN0YXRpc3RpY3Mu",
-            "UGFydHlPYmplY3REYXRhEkoKD2NoYWxsZW5nZUFjdGlvbhgXIAEoCzIxLm1n",
-            "LnByb3RvY29sLnN0YXRpc3RpY3MuQ2hhbGxlbmdlQWN0aW9uT2JqZWN0RGF0",
-            "YRI+CgluZXdzQ2xpY2sYGCABKAsyKy5tZy5wcm90b2NvbC5zdGF0aXN0aWNz",
-            "Lk5ld3NDbGlja09iamVjdERhdGESSAoObmV3c0ltcHJlc3Npb24YGSABKAsy",
-            "MC5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLk5ld3NJbXByZXNzaW9uT2JqZWN0",
-            "RGF0YRJKCg9uZXdzSW50ZXJhY3Rpb24YGiABKAsyMS5tZy5wcm90b2NvbC5z",
-            "dGF0aXN0aWNzLk5ld3NJbnRlcmFjdGlvbk9iamVjdERhdGESRgoNc2hvcEFk",
-            "ZFRvQ2FydBgbIAEoCzIvLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2hvcEFk",
-            "ZFRvQ2FydE9iamVjdERhdGESVAoUdGlja2V0UmVuZXdhbEZhaWx1cmUYHCAB",
-            "KAsyNi5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlRpY2tldFJlbmV3YWxGYWls",
-            "dXJlT2JqZWN0RGF0YRJCCgtncm91cEFjdGlvbhgdIAEoCzItLm1nLnByb3Rv",
-            "Y29sLnN0YXRpc3RpY3MuR3JvdXBBY3Rpb25PYmplY3REYXRhEkAKCmRpYWdu",
-            "b3N0aWMYHiABKAsyLC5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkRpYWdub3N0",
-            "aWNPYmplY3REYXRhEkwKEGluZ2FtZVNob3BBY3Rpb24YHyABKAsyMi5tZy5w",
-            "cm90b2NvbC5zdGF0aXN0aWNzLkluZ2FtZVNob3BBY3Rpb25PYmplY3REYXRh",
-            "ElQKFEluZ2FtZVNob3BJbXByZXNzaW9uGCAgASgLMjYubWcucHJvdG9jb2wu",
-            "c3RhdGlzdGljcy5JbmdhbWVTaG9wSW1wcmVzc2lvbk9iamVjdERhdGESUgoT",
-            "cHJvbW9UYWJJbnRlcmFjdGlvbhghIAEoCzI1Lm1nLnByb3RvY29sLnN0YXRp",
-            "c3RpY3MuUHJvbW9UYWJJbnRlcmFjdGlvbk9iamVjdERhdGESTgoRZW1haWxW",
-            "ZXJpZmljYXRpb24YIiABKAsyMy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkVt",
-            "YWlsVmVyaWZpY2F0aW9uT2JqZWN0RGF0YRJKCg90d29GQUFjdGl2YXRpb24Y",
-            "IyABKAsyMS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlR3b0ZBQWN0aXZhdGlv",
-            "bk9iamVjdERhdGESRAoMYWRJbXByZXNzaW9uGCQgASgLMi4ubWcucHJvdG9j",
-            "b2wuc3RhdGlzdGljcy5BZEltcHJlc3Npb25PYmplY3REYXRhEk4KEXBvcFVw",
-            "RGlzcGxheUV2ZW50GCUgASgLMjMubWcucHJvdG9jb2wuc3RhdGlzdGljcy5Q",
-            "b3BVcERpc3BsYXlFdmVudE9iamVjdERhdGESPAoIbmV3c09wZW4YJiABKAsy",
-            "Ki5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLk5ld3NPcGVuT2JqZWN0RGF0YRJM",
-            "ChBiYXR0bGVQYXNzQWN0aW9uGCcgASgLMjIubWcucHJvdG9jb2wuc3RhdGlz",
-            "dGljcy5CYXR0bGVQYXNzQWN0aW9uT2JqZWN0RGF0YRJMChN0cnVzdGVkRGV2",
-            "aWNlQWN0aW9uGCggASgLMi8ubWcucHJvdG9jb2wuc3RhdGlzdGljcy5UcnVz",
-            "dGVkRGV2aWNlQWN0aW9uRGF0YRJYChZmcmllbmRTdWdnZXN0aW9uQWN0aW9u",
-            "GCkgASgLMjgubWcucHJvdG9jb2wuc3RhdGlzdGljcy5GcmllbmRTdWdnZXN0",
-            "aW9uQWN0aW9uT2JqZWN0RGF0YRJgChpmcmllbmRTdWdnZXN0aW9uSW1wcmVz",
-            "c2lvbhgqIAEoCzI8Lm1nLnByb3RvY29sLnN0YXRpc3RpY3MuRnJpZW5kU3Vn",
-            "Z2VzdGlvbkltcHJlc3Npb25PYmplY3REYXRhEkYKDXBob25lU2VjdXJpdHkY",
-            "KyABKAsyLy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlBob25lU2VjdXJpdHlP",
-            "YmplY3REYXRhElAKDVNlbmRTbXNBY3Rpb24YLCABKAsyOS5tZy5wcm90b2Nv",
-            "bC5zdGF0aXN0aWNzLlNlbmRTbXNUcmFja0V2ZW50QWN0aW9uT2JqZWN0RGF0",
-            "YRJdChVzaGFyZVBsYXlTZXNzaW9uU3RhcnQYLSABKAsyPi5tZy5wcm90b2Nv",
-            "bC5zdGF0aXN0aWNzLlNoYXJlUGxheUhvc3RTZXNzaW9uU3RyZWFtaW5nU3Rh",
-            "cnREYXRhElsKFHNoYXJlUGxheVNlc3Npb25TdG9wGC4gASgLMj0ubWcucHJv",
-            "dG9jb2wuc3RhdGlzdGljcy5TaGFyZVBsYXlIb3N0U2Vzc2lvblN0cmVhbWlu",
-            "Z1N0b3BEYXRhEkgKEXNoYXJlUGxheUhvc3RQYWdlGC8gASgLMi0ubWcucHJv",
-            "dG9jb2wuc3RhdGlzdGljcy5TaGFyZVBsYXlIb3N0UGFnZURhdGESVgoYc2hh",
-            "cmVQbGF5R3Vlc3RJbnZpdGF0aW9uGDAgASgLMjQubWcucHJvdG9jb2wuc3Rh",
-            "dGlzdGljcy5TaGFyZVBsYXlHdWVzdEludml0YXRpb25EYXRhElQKF3NoYXJl",
-            "UGxheUhvc3RJbnZpdGF0aW9uGDEgASgLMjMubWcucHJvdG9jb2wuc3RhdGlz",
-            "dGljcy5TaGFyZVBsYXlIb3N0SW52aXRhdGlvbkRhdGESSgoSc2hhcmVQbGF5",
-            "SG9zdEVycm9yGDIgASgLMi4ubWcucHJvdG9jb2wuc3RhdGlzdGljcy5TaGFy",
-            "ZVBsYXlIb3N0RXJyb3JEYXRhElAKFXNoYXJlUGxheUhvc3RTZXR0aW5ncxgz",
-            "IAEoCzIxLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2hhcmVQbGF5SG9zdFNl",
-            "dHRpbmdzRGF0YRJMChNzaGFyZVBsYXlPbmJvYXJkaW5nGDQgASgLMi8ubWcu",
-            "cHJvdG9jb2wuc3RhdGlzdGljcy5TaGFyZVBsYXlPbmJvYXJkaW5nRGF0YRJe",
-            "ChxzaGFyZVBsYXlIb3N0T3V0T2ZGb2N1c1N0YXJ0GDUgASgLMjgubWcucHJv",
-            "dG9jb2wuc3RhdGlzdGljcy5TaGFyZVBsYXlIb3N0T3V0T2ZGb2N1c1N0YXJ0",
-            "RGF0YRJcChtzaGFyZVBsYXlIb3N0T3V0T2ZGb2N1c1N0b3AYNiABKAsyNy5t",
-            "Zy5wcm90b2NvbC5zdGF0aXN0aWNzLlNoYXJlUGxheUhvc3RPdXRPZkZvY3Vz",
-            "U3RvcERhdGESSAoRc3RyZWFtaW5nRmVlZEJhY2sYNyABKAsyLS5tZy5wcm90",
-            "b2NvbC5zdGF0aXN0aWNzLlN0cmVhbWluZ0ZlZWRCYWNrRGF0YRJYChlzdHJl",
-            "YW1pbmdIb3N0U3RhcnRTZXNzaW9uGDggASgLMjUubWcucHJvdG9jb2wuc3Rh",
-            "dGlzdGljcy5TdHJlYW1pbmdIb3N0U3RhcnRTZXNzaW9uRGF0YRJWChhzdHJl",
-            "YW1pbmdIb3N0U3RvcFNlc3Npb24YOSABKAsyNC5tZy5wcm90b2NvbC5zdGF0",
-            "aXN0aWNzLlN0cmVhbWluZ0hvc3RTdG9wU2Vzc2lvbkRhdGESQgoOc3RyZWFt",
-            "aW5nRXJyb3IYOiABKAsyKi5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlN0cmVh",
-            "bWluZ0Vycm9yRGF0YSKeAgoFRXZlbnQSDAoEdHlwZRgBIAIoCRINCgVzZXFJ",
-            "ZBgCIAEoDRITCgtjcmVhdGVkRGF0ZRgDIAEoCRIQCghjb250ZXh0cxgEIAMo",
-            "DRI0CgNvYmoYBSABKAsyJy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkV2ZW50",
-            "T2JqZWN0RGF0YRI3Cgh0eXBlRGF0YRgGIAEoCzIlLm1nLnByb3RvY29sLnN0",
-            "YXRpc3RpY3MuRXZlbnRUeXBlRGF0YRITCgtidWlsZE51bWJlchgHIAEoDRIV",
-            "Cg1jbGllbnRWZXJzaW9uGAggASgJEhIKCm93bmVkR2FtZXMYDCABKA0SEAoI",
-            "dXNlclR5cGUYDSABKAkSEAoIbUFjY291bnQYDiABKAgidQoPVHJhY2tpbmdT",
-            "ZXNzaW9uEi8KCGVuZEV2ZW50GAEgASgLMh0ubWcucHJvdG9jb2wuc3RhdGlz",
-            "dGljcy5FdmVudBIWCg5ydW50aW1lU2Vjb25kcxgCIAEoBBIZChFzZWNvbmRz",
-            "U2luY2VTdGFydBgDIAEoDSLzAQoRU3RhdGlzdGljc1Nlc3Npb24SLQoGZXZl",
-            "bnRzGAEgAygLMh0ubWcucHJvdG9jb2wuc3RhdGlzdGljcy5FdmVudBITCgti",
-            "dWlsZE51bWJlchgCIAEoDRIRCglhY2NvdW50SWQYAyABKAkSEQoJc2Vzc2lv",
-            "bklkGAQgASgJEhYKDm5leHRTZXF1ZW5jZUlkGAUgASgNEkEKEHRyYWNraW5n",
-            "U2Vzc2lvbnMYBiADKAsyJy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlRyYWNr",
-            "aW5nU2Vzc2lvbhIZChFzZWNvbmRzU2luY2VTdGFydBgHIAEoDSJtCg9TdGF0",
-            "aXN0aWNzQ2FjaGUSDwoHdmVyc2lvbhgBIAIoDRI7CghzZXNzaW9ucxgCIAMo",
-            "CzIpLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU3RhdGlzdGljc1Nlc3Npb24S",
-            "DAoEZGF0ZRgDIAEoCQ=="));
+            "DRIYChBpc19hdWRpb19lbmFibGVkGAQgASgIIjcKJVNoYXJlUGxheUhvc3RT",
+            "ZXNzaW9uU3RyZWFtaW5nU3RvcERhdGESDgoGcmVhc29uGAEgASgJIlMKF1No",
+            "YXJlUGxheU9uYm9hcmRpbmdEYXRhEhoKEnNvdXJjZVRyYWNraW5nRGF0YRgB",
+            "IAEoCRIOCgZyZWFzb24YAiABKAkSDAoEc3RlcBgDIAEoDSIzChVTaGFyZVBs",
+            "YXlIb3N0UGFnZURhdGESGgoSc291cmNlVHJhY2tpbmdEYXRhGAEgASgJIm4K",
+            "HFNoYXJlUGxheUd1ZXN0SW52aXRhdGlvbkRhdGESGAoQaW52aXRhdGlvblNv",
+            "dXJjZRgBIAEoCRIYChBpbnZpdGF0aW9uU3RhdHVzGAIgASgJEhoKEmludml0",
+            "YXRpb25TZW50VGltZRgDIAEoCSJnChtTaGFyZVBsYXlIb3N0SW52aXRhdGlv",
+            "bkRhdGESGAoQaW52aXRhdGlvblRhcmdldBgBIAEoCRIYChBpbnZpdGF0aW9u",
+            "U3RhdHVzGAIgASgJEhQKDGludml0YXRpb25JZBgDIAEoCSKWAQoWU2hhcmVQ",
+            "bGF5SG9zdEVycm9yRGF0YRIRCgllcnJvclR5cGUYASABKAkSEQoJZXJyb3JO",
+            "YW1lGAIgASgJEhMKC2Vycm9yU291cmNlGAMgASgJEhQKDGludml0YXRpb25J",
+            "ZBgEIAEoCRIUCgxob3N0U3RyZWFtSWQYBSABKAkSFQoNZ3Vlc3RTdHJlYW1J",
+            "ZBgGIAEoCSKNAQoZU2hhcmVQbGF5SG9zdFNldHRpbmdzRGF0YRIPCgdiaXRy",
+            "YXRlGAEgASgNEiUKHW1vdXNlQW5kS2V5Ym9hcmRBY2Nlc3NBbGxvd2VkGAIg",
+            "ASgIEhwKFGdhbWVwYWRBY2Nlc3NBbGxvd2VkGAMgASgIEhoKEnNvdXJjZVRy",
+            "YWNraW5nRGF0YRgEIAEoCSJrCh1TdHJlYW1pbmdIb3N0U3RhcnRTZXNzaW9u",
+            "RGF0YRISCgpob3N0UGVlcklkGAEgASgJEgwKBHNpZGUYAiABKAkSEwoLc3Bh",
+            "Y2VJZEdhbWUYAyABKAkSEwoLYml0cmF0ZU1icHMYBCABKA0iegocU3RyZWFt",
+            "aW5nSG9zdFN0b3BTZXNzaW9uRGF0YRISCgpob3N0UGVlcklkGAEgASgJEgwK",
+            "BHNpZGUYAiABKAkSEwoLc3BhY2VJZEdhbWUYAyABKAkSDgoGcmVhc29uGAQg",
+            "ASgJEhMKC2JpdHJhdGVNYnBzGAUgASgNIm4KI1N0cmVhbWluZ0hvc3RTZXNz",
+            "aW9uU2V0dGluZ3NDaGFuZ2VkEg4KBnNlbmRlchgBIAEoCRITCgtzZXR0aW5n",
+            "TmFtZRgCIAEoCRIQCghuZXdWYWx1ZRgDIAEoCRIQCghvbGRWYWx1ZRgEIAEo",
+            "CSJcChJTdHJlYW1pbmdFcnJvckRhdGESEQoJZXJyb3JOYW1lGAEgASgJEhEK",
+            "CWVycm9yVHlwZRgCIAEoCRISCgpob3N0UGVlcklkGAMgASgJEgwKBHNpZGUY",
+            "BCABKAkikwMKFVN0cmVhbWluZ0ZlZWRCYWNrRGF0YRIZCgphdWRpb0lzc3Vl",
+            "GAEgASgIOgVmYWxzZRIXCghpbnB1dExhZxgCIAEoCDoFZmFsc2USHwoQaW52",
+            "aXRhdGlvbkZhaWxlZBgDIAEoCDoFZmFsc2USFAoFb3RoZXIYBCABKAg6BWZh",
+            "bHNlEh0KDnBvb3JDb25uZWN0aW9uGAUgASgIOgVmYWxzZRIOCgZyYXRpbmcY",
+            "BiABKA0SEwoLaW5wdXRTb3VyY2UYByABKAkSDQoFYnJhbmQYCCABKA0SFAoM",
+            "aW52aXRhdGlvbklkGAkgASgJEiMKFGhvc3RQZXJmb3JtYW5jZUlzc3VlGAog",
+            "ASgIOgVmYWxzZRIkChVndWVzdFBlcmZvcm1hbmNlSXNzdWUYCyABKAg6BWZh",
+            "bHNlEiAKEXBvb3JHdWVzdEJlaGF2aW9yGAwgASgIOgVmYWxzZRIZCgp2aWRl",
+            "b0lzc3VlGA0gASgIOgVmYWxzZRIMCgRzaWRlGA4gASgJEhAKCHVzZXJUeXBl",
+            "GA8gASgJIlkKIFN0cmVhbWluZ0hvc3RPdXRPZkZvY3VzU3RhcnREYXRhEhIK",
+            "Cmhvc3RQZWVySWQYASABKAkSDAoEc2lkZRgCIAEoCRITCgtzcGFjZUlkR2Ft",
+            "ZRgDIAEoCSJYCh9TdHJlYW1pbmdIb3N0T3V0T2ZGb2N1c1N0b3BEYXRhEhIK",
+            "Cmhvc3RQZWVySWQYASABKAkSDAoEc2lkZRgCIAEoCRITCgtzcGFjZUlkR2Ft",
+            "ZRgDIAEoCSKfAgoNRXZlbnRUeXBlRGF0YRI8CglnYW1lU3RhcnQYASABKAsy",
+            "KS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkdhbWVTdGFydFR5cGVEYXRhEkoK",
+            "EGdhbWVMb2NhbGl6YXRpb24YAiABKAsyMC5tZy5wcm90b2NvbC5zdGF0aXN0",
+            "aWNzLkdhbWVMb2NhbGl6YXRpb25UeXBlRGF0YRJCCgxjb250ZXh0U3RhcnQY",
+            "AyABKAsyLC5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkNvbnRleHRTdGFydFR5",
+            "cGVEYXRhEkAKC2NvbnRleHRTdG9wGAQgASgLMisubWcucHJvdG9jb2wuc3Rh",
+            "dGlzdGljcy5Db250ZXh0U3RvcFR5cGVEYXRhIq4jCg9FdmVudE9iamVjdERh",
+            "dGESQAoKZ2FtZUxhdW5jaBgBIAEoCzIsLm1nLnByb3RvY29sLnN0YXRpc3Rp",
+            "Y3MuR2FtZUxhdW5jaE9iamVjdERhdGESNgoFdWlOYXYYAiABKAsyJy5tZy5w",
+            "cm90b2NvbC5zdGF0aXN0aWNzLlVJTmF2T2JqZWN0RGF0YRI8CghhcHBTdGFy",
+            "dBgDIAEoCzIqLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuQXBwU3RhcnRPYmpl",
+            "Y3REYXRhEjwKCGRvd25sb2FkGAQgASgLMioubWcucHJvdG9jb2wuc3RhdGlz",
+            "dGljcy5Eb3dubG9hZE9iamVjdERhdGESQAoKZm9sbG93TGluaxgFIAEoCzIs",
+            "Lm1nLnByb3RvY29sLnN0YXRpc3RpY3MuRm9sbG93TGlua09iamVjdERhdGES",
+            "TgoRZ2FtZUNsb3VkU2F2ZVN5bmMYBiABKAsyMy5tZy5wcm90b2NvbC5zdGF0",
+            "aXN0aWNzLkdhbWVDbG91ZFNhdmVTeW5jT2JqZWN0RGF0YRJICg5zZXR0aW5n",
+            "Q2hhbmdlZBgHIAEoCzIwLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2V0dGlu",
+            "Z0NoYW5nZWRPYmplY3REYXRhEkIKC21hY2hpbmVDb25mGAggASgLMi0ubWcu",
+            "cHJvdG9jb2wuc3RhdGlzdGljcy5NYWNoaW5lQ29uZk9iamVjdERhdGESOgoH",
+            "ZGxFcnJvchgJIAEoCzIpLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuRExFcnJv",
+            "ck9iamVjdERhdGESOgoHYXBwUXVpdBgKIAEoCzIpLm1nLnByb3RvY29sLnN0",
+            "YXRpc3RpY3MuQXBwUXVpdE9iamVjdERhdGESVAoUZGVjb21wcmVzc1NsaWNl",
+            "RXJyb3IYCyABKAsyNi5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkRlY29tcHJl",
+            "c3NTbGljZUVycm9yT2JqZWN0RGF0YRI6CgdnYW1lRW5kGAwgASgLMikubWcu",
+            "cHJvdG9jb2wuc3RhdGlzdGljcy5HYW1lRW5kT2JqZWN0RGF0YRJQChJodHRw",
+            "U2VydmljZVJlcXVlc3QYDSABKAsyNC5tZy5wcm90b2NvbC5zdGF0aXN0aWNz",
+            "Lkh0dHBTZXJ2aWNlUmVxdWVzdE9iamVjdERhdGESUAoSaW1wb3J0U3RlYW1G",
+            "cmllbmRzGA4gASgLMjQubWcucHJvdG9jb2wuc3RhdGlzdGljcy5JbXBvcnRT",
+            "dGVhbUZyaWVuZHNPYmplY3REYXRhEkoKD2FjdGl2YXRlUHJvZHVjdBgPIAEo",
+            "CzIxLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuQWN0aXZhdGVQcm9kdWN0T2Jq",
+            "ZWN0RGF0YRJECgxmcmllbmRBY3Rpb24YECABKAsyLi5tZy5wcm90b2NvbC5z",
+            "dGF0aXN0aWNzLkZyaWVuZEFjdGlvbk9iamVjdERhdGESRAoMcmVkZWVtUmV3",
+            "YXJkGBEgASgLMi4ubWcucHJvdG9jb2wuc3RhdGlzdGljcy5SZWRlZW1SZXdh",
+            "cmRPYmplY3REYXRhEkoKD2FjY291bnRDcmVhdGlvbhgSIAEoCzIxLm1nLnBy",
+            "b3RvY29sLnN0YXRpc3RpY3MuQWNjb3VudENyZWF0aW9uT2JqZWN0RGF0YRJM",
+            "ChBzdHJlYW1pbmdTZXNzaW9uGBMgASgLMjIubWcucHJvdG9jb2wuc3RhdGlz",
+            "dGljcy5TdHJlYW1pbmdTZXNzaW9uT2JqZWN0RGF0YRJICg5hY2NvdW50TGlu",
+            "a2luZxgUIAEoCzIwLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuQWNjb3VudExp",
+            "bmtpbmdPYmplY3REYXRhEkIKC2NoYXRTZXNzaW9uGBUgASgLMi0ubWcucHJv",
+            "dG9jb2wuc3RhdGlzdGljcy5DaGF0U2Vzc2lvbk9iamVjdERhdGESNgoFcGFy",
+            "dHkYFiABKAsyJy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlBhcnR5T2JqZWN0",
+            "RGF0YRJKCg9jaGFsbGVuZ2VBY3Rpb24YFyABKAsyMS5tZy5wcm90b2NvbC5z",
+            "dGF0aXN0aWNzLkNoYWxsZW5nZUFjdGlvbk9iamVjdERhdGESPgoJbmV3c0Ns",
+            "aWNrGBggASgLMisubWcucHJvdG9jb2wuc3RhdGlzdGljcy5OZXdzQ2xpY2tP",
+            "YmplY3REYXRhEkgKDm5ld3NJbXByZXNzaW9uGBkgASgLMjAubWcucHJvdG9j",
+            "b2wuc3RhdGlzdGljcy5OZXdzSW1wcmVzc2lvbk9iamVjdERhdGESSgoPbmV3",
+            "c0ludGVyYWN0aW9uGBogASgLMjEubWcucHJvdG9jb2wuc3RhdGlzdGljcy5O",
+            "ZXdzSW50ZXJhY3Rpb25PYmplY3REYXRhEkYKDXNob3BBZGRUb0NhcnQYGyAB",
+            "KAsyLy5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlNob3BBZGRUb0NhcnRPYmpl",
+            "Y3REYXRhElQKFHRpY2tldFJlbmV3YWxGYWlsdXJlGBwgASgLMjYubWcucHJv",
+            "dG9jb2wuc3RhdGlzdGljcy5UaWNrZXRSZW5ld2FsRmFpbHVyZU9iamVjdERh",
+            "dGESQgoLZ3JvdXBBY3Rpb24YHSABKAsyLS5tZy5wcm90b2NvbC5zdGF0aXN0",
+            "aWNzLkdyb3VwQWN0aW9uT2JqZWN0RGF0YRJACgpkaWFnbm9zdGljGB4gASgL",
+            "MiwubWcucHJvdG9jb2wuc3RhdGlzdGljcy5EaWFnbm9zdGljT2JqZWN0RGF0",
+            "YRJMChBpbmdhbWVTaG9wQWN0aW9uGB8gASgLMjIubWcucHJvdG9jb2wuc3Rh",
+            "dGlzdGljcy5JbmdhbWVTaG9wQWN0aW9uT2JqZWN0RGF0YRJUChRJbmdhbWVT",
+            "aG9wSW1wcmVzc2lvbhggIAEoCzI2Lm1nLnByb3RvY29sLnN0YXRpc3RpY3Mu",
+            "SW5nYW1lU2hvcEltcHJlc3Npb25PYmplY3REYXRhElIKE3Byb21vVGFiSW50",
+            "ZXJhY3Rpb24YISABKAsyNS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlByb21v",
+            "VGFiSW50ZXJhY3Rpb25PYmplY3REYXRhEk4KEWVtYWlsVmVyaWZpY2F0aW9u",
+            "GCIgASgLMjMubWcucHJvdG9jb2wuc3RhdGlzdGljcy5FbWFpbFZlcmlmaWNh",
+            "dGlvbk9iamVjdERhdGESSgoPdHdvRkFBY3RpdmF0aW9uGCMgASgLMjEubWcu",
+            "cHJvdG9jb2wuc3RhdGlzdGljcy5Ud29GQUFjdGl2YXRpb25PYmplY3REYXRh",
+            "EkQKDGFkSW1wcmVzc2lvbhgkIAEoCzIuLm1nLnByb3RvY29sLnN0YXRpc3Rp",
+            "Y3MuQWRJbXByZXNzaW9uT2JqZWN0RGF0YRJOChFwb3BVcERpc3BsYXlFdmVu",
+            "dBglIAEoCzIzLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuUG9wVXBEaXNwbGF5",
+            "RXZlbnRPYmplY3REYXRhEjwKCG5ld3NPcGVuGCYgASgLMioubWcucHJvdG9j",
+            "b2wuc3RhdGlzdGljcy5OZXdzT3Blbk9iamVjdERhdGESTAoQYmF0dGxlUGFz",
+            "c0FjdGlvbhgnIAEoCzIyLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuQmF0dGxl",
+            "UGFzc0FjdGlvbk9iamVjdERhdGESTAoTdHJ1c3RlZERldmljZUFjdGlvbhgo",
+            "IAEoCzIvLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuVHJ1c3RlZERldmljZUFj",
+            "dGlvbkRhdGESWAoWZnJpZW5kU3VnZ2VzdGlvbkFjdGlvbhgpIAEoCzI4Lm1n",
+            "LnByb3RvY29sLnN0YXRpc3RpY3MuRnJpZW5kU3VnZ2VzdGlvbkFjdGlvbk9i",
+            "amVjdERhdGESYAoaZnJpZW5kU3VnZ2VzdGlvbkltcHJlc3Npb24YKiABKAsy",
+            "PC5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLkZyaWVuZFN1Z2dlc3Rpb25JbXBy",
+            "ZXNzaW9uT2JqZWN0RGF0YRJGCg1waG9uZVNlY3VyaXR5GCsgASgLMi8ubWcu",
+            "cHJvdG9jb2wuc3RhdGlzdGljcy5QaG9uZVNlY3VyaXR5T2JqZWN0RGF0YRJQ",
+            "Cg1TZW5kU21zQWN0aW9uGCwgASgLMjkubWcucHJvdG9jb2wuc3RhdGlzdGlj",
+            "cy5TZW5kU21zVHJhY2tFdmVudEFjdGlvbk9iamVjdERhdGESXQoVc2hhcmVQ",
+            "bGF5U2Vzc2lvblN0YXJ0GC0gASgLMj4ubWcucHJvdG9jb2wuc3RhdGlzdGlj",
+            "cy5TaGFyZVBsYXlIb3N0U2Vzc2lvblN0cmVhbWluZ1N0YXJ0RGF0YRJbChRz",
+            "aGFyZVBsYXlTZXNzaW9uU3RvcBguIAEoCzI9Lm1nLnByb3RvY29sLnN0YXRp",
+            "c3RpY3MuU2hhcmVQbGF5SG9zdFNlc3Npb25TdHJlYW1pbmdTdG9wRGF0YRJI",
+            "ChFzaGFyZVBsYXlIb3N0UGFnZRgvIAEoCzItLm1nLnByb3RvY29sLnN0YXRp",
+            "c3RpY3MuU2hhcmVQbGF5SG9zdFBhZ2VEYXRhElYKGHNoYXJlUGxheUd1ZXN0",
+            "SW52aXRhdGlvbhgwIAEoCzI0Lm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2hh",
+            "cmVQbGF5R3Vlc3RJbnZpdGF0aW9uRGF0YRJUChdzaGFyZVBsYXlIb3N0SW52",
+            "aXRhdGlvbhgxIAEoCzIzLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2hhcmVQ",
+            "bGF5SG9zdEludml0YXRpb25EYXRhEkoKEnNoYXJlUGxheUhvc3RFcnJvchgy",
+            "IAEoCzIuLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU2hhcmVQbGF5SG9zdEVy",
+            "cm9yRGF0YRJQChVzaGFyZVBsYXlIb3N0U2V0dGluZ3MYMyABKAsyMS5tZy5w",
+            "cm90b2NvbC5zdGF0aXN0aWNzLlNoYXJlUGxheUhvc3RTZXR0aW5nc0RhdGES",
+            "TAoTc2hhcmVQbGF5T25ib2FyZGluZxg0IAEoCzIvLm1nLnByb3RvY29sLnN0",
+            "YXRpc3RpY3MuU2hhcmVQbGF5T25ib2FyZGluZ0RhdGESXgocc3RyZWFtaW5n",
+            "SG9zdE91dE9mRm9jdXNTdGFydBg1IAEoCzI4Lm1nLnByb3RvY29sLnN0YXRp",
+            "c3RpY3MuU3RyZWFtaW5nSG9zdE91dE9mRm9jdXNTdGFydERhdGESXAobc3Ry",
+            "ZWFtaW5nSG9zdE91dE9mRm9jdXNTdG9wGDYgASgLMjcubWcucHJvdG9jb2wu",
+            "c3RhdGlzdGljcy5TdHJlYW1pbmdIb3N0T3V0T2ZGb2N1c1N0b3BEYXRhEkgK",
+            "EXN0cmVhbWluZ0ZlZWRCYWNrGDcgASgLMi0ubWcucHJvdG9jb2wuc3RhdGlz",
+            "dGljcy5TdHJlYW1pbmdGZWVkQmFja0RhdGESWAoZc3RyZWFtaW5nSG9zdFN0",
+            "YXJ0U2Vzc2lvbhg4IAEoCzI1Lm1nLnByb3RvY29sLnN0YXRpc3RpY3MuU3Ry",
+            "ZWFtaW5nSG9zdFN0YXJ0U2Vzc2lvbkRhdGESVgoYc3RyZWFtaW5nSG9zdFN0",
+            "b3BTZXNzaW9uGDkgASgLMjQubWcucHJvdG9jb2wuc3RhdGlzdGljcy5TdHJl",
+            "YW1pbmdIb3N0U3RvcFNlc3Npb25EYXRhEkIKDnN0cmVhbWluZ0Vycm9yGDog",
+            "ASgLMioubWcucHJvdG9jb2wuc3RhdGlzdGljcy5TdHJlYW1pbmdFcnJvckRh",
+            "dGESYQocc3RyZWFtaW5nSG9zdFNlc3Npb25TZXR0aW5ncxg7IAEoCzI7Lm1n",
+            "LnByb3RvY29sLnN0YXRpc3RpY3MuU3RyZWFtaW5nSG9zdFNlc3Npb25TZXR0",
+            "aW5nc0NoYW5nZWQingIKBUV2ZW50EgwKBHR5cGUYASACKAkSDQoFc2VxSWQY",
+            "AiABKA0SEwoLY3JlYXRlZERhdGUYAyABKAkSEAoIY29udGV4dHMYBCADKA0S",
+            "NAoDb2JqGAUgASgLMicubWcucHJvdG9jb2wuc3RhdGlzdGljcy5FdmVudE9i",
+            "amVjdERhdGESNwoIdHlwZURhdGEYBiABKAsyJS5tZy5wcm90b2NvbC5zdGF0",
+            "aXN0aWNzLkV2ZW50VHlwZURhdGESEwoLYnVpbGROdW1iZXIYByABKA0SFQoN",
+            "Y2xpZW50VmVyc2lvbhgIIAEoCRISCgpvd25lZEdhbWVzGAwgASgNEhAKCHVz",
+            "ZXJUeXBlGA0gASgJEhAKCG1BY2NvdW50GA4gASgIInUKD1RyYWNraW5nU2Vz",
+            "c2lvbhIvCghlbmRFdmVudBgBIAEoCzIdLm1nLnByb3RvY29sLnN0YXRpc3Rp",
+            "Y3MuRXZlbnQSFgoOcnVudGltZVNlY29uZHMYAiABKAQSGQoRc2Vjb25kc1Np",
+            "bmNlU3RhcnQYAyABKA0i8wEKEVN0YXRpc3RpY3NTZXNzaW9uEi0KBmV2ZW50",
+            "cxgBIAMoCzIdLm1nLnByb3RvY29sLnN0YXRpc3RpY3MuRXZlbnQSEwoLYnVp",
+            "bGROdW1iZXIYAiABKA0SEQoJYWNjb3VudElkGAMgASgJEhEKCXNlc3Npb25J",
+            "ZBgEIAEoCRIWCg5uZXh0U2VxdWVuY2VJZBgFIAEoDRJBChB0cmFja2luZ1Nl",
+            "c3Npb25zGAYgAygLMicubWcucHJvdG9jb2wuc3RhdGlzdGljcy5UcmFja2lu",
+            "Z1Nlc3Npb24SGQoRc2Vjb25kc1NpbmNlU3RhcnQYByABKA0ibQoPU3RhdGlz",
+            "dGljc0NhY2hlEg8KB3ZlcnNpb24YASACKA0SOwoIc2Vzc2lvbnMYAiADKAsy",
+            "KS5tZy5wcm90b2NvbC5zdGF0aXN0aWNzLlN0YXRpc3RpY3NTZXNzaW9uEgwK",
+            "BGRhdGUYAyABKAk="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -470,21 +477,22 @@ namespace Uplay.Statistics {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.PopUpDisplayEventObjectData), global::Uplay.Statistics.PopUpDisplayEventObjectData.Parser, new[]{ "PopUpName", "ViewName", "FinalState", "ContentId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.TrustedDeviceActionData), global::Uplay.Statistics.TrustedDeviceActionData.Parser, new[]{ "Action", "MachineId", "DefaultFriendlyName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostSessionStreamingStartData), global::Uplay.Statistics.SharePlayHostSessionStreamingStartData.Parser, new[]{ "Width", "Height", "Bitrate", "IsAudioEnabled" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostStartSessionData), global::Uplay.Statistics.StreamingHostStartSessionData.Parser, new[]{ "InvitationId", "Side", "SpaceIdGame" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostStopSessionData), global::Uplay.Statistics.StreamingHostStopSessionData.Parser, new[]{ "InvitationId", "Side", "SpaceIdGame", "Reason" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingErrorData), global::Uplay.Statistics.StreamingErrorData.Parser, new[]{ "ErrorName", "ErrorType", "InvitationId", "Side" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostSessionStreamingStopData), global::Uplay.Statistics.SharePlayHostSessionStreamingStopData.Parser, new[]{ "Reason" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostOutOfFocusStartData), global::Uplay.Statistics.SharePlayHostOutOfFocusStartData.Parser, new[]{ "InvitationId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostOutOfFocusStopData), global::Uplay.Statistics.SharePlayHostOutOfFocusStopData.Parser, new[]{ "InvitationId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayOnboardingData), global::Uplay.Statistics.SharePlayOnboardingData.Parser, new[]{ "SourceTrackingData", "Reason", "Step" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostPageData), global::Uplay.Statistics.SharePlayHostPageData.Parser, new[]{ "SourceTrackingData" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayGuestInvitationData), global::Uplay.Statistics.SharePlayGuestInvitationData.Parser, new[]{ "InvitationSource", "InvitationStatus", "InvitationSentTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostInvitationData), global::Uplay.Statistics.SharePlayHostInvitationData.Parser, new[]{ "InvitationTarget", "InvitationStatus", "InvitationId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostErrorData), global::Uplay.Statistics.SharePlayHostErrorData.Parser, new[]{ "ErrorType", "ErrorName", "ErrorSource", "InvitationId", "HostStreamId", "GuestStreamId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.SharePlayHostSettingsData), global::Uplay.Statistics.SharePlayHostSettingsData.Parser, new[]{ "Bitrate", "MouseAndKeyboardAccessAllowed", "GamepadAccessAllowed", "SourceTrackingData" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostStartSessionData), global::Uplay.Statistics.StreamingHostStartSessionData.Parser, new[]{ "HostPeerId", "Side", "SpaceIdGame", "BitrateMbps" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostStopSessionData), global::Uplay.Statistics.StreamingHostStopSessionData.Parser, new[]{ "HostPeerId", "Side", "SpaceIdGame", "Reason", "BitrateMbps" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostSessionSettingsChanged), global::Uplay.Statistics.StreamingHostSessionSettingsChanged.Parser, new[]{ "Sender", "SettingName", "NewValue", "OldValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingErrorData), global::Uplay.Statistics.StreamingErrorData.Parser, new[]{ "ErrorName", "ErrorType", "HostPeerId", "Side" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingFeedBackData), global::Uplay.Statistics.StreamingFeedBackData.Parser, new[]{ "AudioIssue", "InputLag", "InvitationFailed", "Other", "PoorConnection", "Rating", "InputSource", "Brand", "InvitationId", "HostPerformanceIssue", "GuestPerformanceIssue", "PoorGuestBehavior", "VideoIssue", "Side", "UserType" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostOutOfFocusStartData), global::Uplay.Statistics.StreamingHostOutOfFocusStartData.Parser, new[]{ "HostPeerId", "Side", "SpaceIdGame" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StreamingHostOutOfFocusStopData), global::Uplay.Statistics.StreamingHostOutOfFocusStopData.Parser, new[]{ "HostPeerId", "Side", "SpaceIdGame" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.EventTypeData), global::Uplay.Statistics.EventTypeData.Parser, new[]{ "GameStart", "GameLocalization", "ContextStart", "ContextStop" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.EventObjectData), global::Uplay.Statistics.EventObjectData.Parser, new[]{ "GameLaunch", "UiNav", "AppStart", "Download", "FollowLink", "GameCloudSaveSync", "SettingChanged", "MachineConf", "DlError", "AppQuit", "DecompressSliceError", "GameEnd", "HttpServiceRequest", "ImportSteamFriends", "ActivateProduct", "FriendAction", "RedeemReward", "AccountCreation", "StreamingSession", "AccountLinking", "ChatSession", "Party", "ChallengeAction", "NewsClick", "NewsImpression", "NewsInteraction", "ShopAddToCart", "TicketRenewalFailure", "GroupAction", "Diagnostic", "IngameShopAction", "IngameShopImpression", "PromoTabInteraction", "EmailVerification", "TwoFAActivation", "AdImpression", "PopUpDisplayEvent", "NewsOpen", "BattlePassAction", "TrustedDeviceAction", "FriendSuggestionAction", "FriendSuggestionImpression", "PhoneSecurity", "SendSmsAction", "SharePlaySessionStart", "SharePlaySessionStop", "SharePlayHostPage", "SharePlayGuestInvitation", "SharePlayHostInvitation", "SharePlayHostError", "SharePlayHostSettings", "SharePlayOnboarding", "SharePlayHostOutOfFocusStart", "SharePlayHostOutOfFocusStop", "StreamingFeedBack", "StreamingHostStartSession", "StreamingHostStopSession", "StreamingError" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.EventObjectData), global::Uplay.Statistics.EventObjectData.Parser, new[]{ "GameLaunch", "UiNav", "AppStart", "Download", "FollowLink", "GameCloudSaveSync", "SettingChanged", "MachineConf", "DlError", "AppQuit", "DecompressSliceError", "GameEnd", "HttpServiceRequest", "ImportSteamFriends", "ActivateProduct", "FriendAction", "RedeemReward", "AccountCreation", "StreamingSession", "AccountLinking", "ChatSession", "Party", "ChallengeAction", "NewsClick", "NewsImpression", "NewsInteraction", "ShopAddToCart", "TicketRenewalFailure", "GroupAction", "Diagnostic", "IngameShopAction", "IngameShopImpression", "PromoTabInteraction", "EmailVerification", "TwoFAActivation", "AdImpression", "PopUpDisplayEvent", "NewsOpen", "BattlePassAction", "TrustedDeviceAction", "FriendSuggestionAction", "FriendSuggestionImpression", "PhoneSecurity", "SendSmsAction", "SharePlaySessionStart", "SharePlaySessionStop", "SharePlayHostPage", "SharePlayGuestInvitation", "SharePlayHostInvitation", "SharePlayHostError", "SharePlayHostSettings", "SharePlayOnboarding", "StreamingHostOutOfFocusStart", "StreamingHostOutOfFocusStop", "StreamingFeedBack", "StreamingHostStartSession", "StreamingHostStopSession", "StreamingError", "StreamingHostSessionSettings" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.Event), global::Uplay.Statistics.Event.Parser, new[]{ "Type", "SeqId", "CreatedDate", "Contexts", "Obj", "TypeData", "BuildNumber", "ClientVersion", "OwnedGames", "UserType", "MAccount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.TrackingSession), global::Uplay.Statistics.TrackingSession.Parser, new[]{ "EndEvent", "RuntimeSeconds", "SecondsSinceStart" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Statistics.StatisticsSession), global::Uplay.Statistics.StatisticsSession.Parser, new[]{ "Events", "BuildNumber", "AccountId", "SessionId", "NextSequenceId", "TrackingSessions", "SecondsSinceStart" }, null, null, null, null),
@@ -27912,1023 +27920,6 @@ namespace Uplay.Statistics {
 
   }
 
-  public sealed partial class StreamingHostStartSessionData : pb::IMessage<StreamingHostStartSessionData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StreamingHostStartSessionData> _parser = new pb::MessageParser<StreamingHostStartSessionData>(() => new StreamingHostStartSessionData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingHostStartSessionData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[54]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStartSessionData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStartSessionData(StreamingHostStartSessionData other) : this() {
-      invitationId_ = other.invitationId_;
-      side_ = other.side_;
-      spaceIdGame_ = other.spaceIdGame_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStartSessionData Clone() {
-      return new StreamingHostStartSessionData(this);
-    }
-
-    /// <summary>Field number for the "invitationId" field.</summary>
-    public const int InvitationIdFieldNumber = 1;
-    private readonly static string InvitationIdDefaultValue = "";
-
-    private string invitationId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InvitationId {
-      get { return invitationId_ ?? InvitationIdDefaultValue; }
-      set {
-        invitationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "invitationId" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInvitationId {
-      get { return invitationId_ != null; }
-    }
-    /// <summary>Clears the value of the "invitationId" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInvitationId() {
-      invitationId_ = null;
-    }
-
-    /// <summary>Field number for the "side" field.</summary>
-    public const int SideFieldNumber = 2;
-    private readonly static string SideDefaultValue = "";
-
-    private string side_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Side {
-      get { return side_ ?? SideDefaultValue; }
-      set {
-        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "side" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasSide {
-      get { return side_ != null; }
-    }
-    /// <summary>Clears the value of the "side" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSide() {
-      side_ = null;
-    }
-
-    /// <summary>Field number for the "spaceIdGame" field.</summary>
-    public const int SpaceIdGameFieldNumber = 3;
-    private readonly static string SpaceIdGameDefaultValue = "";
-
-    private string spaceIdGame_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string SpaceIdGame {
-      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
-      set {
-        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasSpaceIdGame {
-      get { return spaceIdGame_ != null; }
-    }
-    /// <summary>Clears the value of the "spaceIdGame" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSpaceIdGame() {
-      spaceIdGame_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingHostStartSessionData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingHostStartSessionData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (InvitationId != other.InvitationId) return false;
-      if (Side != other.Side) return false;
-      if (SpaceIdGame != other.SpaceIdGame) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HasInvitationId) hash ^= InvitationId.GetHashCode();
-      if (HasSide) hash ^= Side.GetHashCode();
-      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(18);
-        output.WriteString(Side);
-      }
-      if (HasSpaceIdGame) {
-        output.WriteRawTag(26);
-        output.WriteString(SpaceIdGame);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(18);
-        output.WriteString(Side);
-      }
-      if (HasSpaceIdGame) {
-        output.WriteRawTag(26);
-        output.WriteString(SpaceIdGame);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (HasInvitationId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InvitationId);
-      }
-      if (HasSide) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
-      }
-      if (HasSpaceIdGame) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingHostStartSessionData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HasInvitationId) {
-        InvitationId = other.InvitationId;
-      }
-      if (other.HasSide) {
-        Side = other.Side;
-      }
-      if (other.HasSpaceIdGame) {
-        SpaceIdGame = other.SpaceIdGame;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 18: {
-            Side = input.ReadString();
-            break;
-          }
-          case 26: {
-            SpaceIdGame = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 18: {
-            Side = input.ReadString();
-            break;
-          }
-          case 26: {
-            SpaceIdGame = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class StreamingHostStopSessionData : pb::IMessage<StreamingHostStopSessionData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StreamingHostStopSessionData> _parser = new pb::MessageParser<StreamingHostStopSessionData>(() => new StreamingHostStopSessionData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingHostStopSessionData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[55]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStopSessionData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStopSessionData(StreamingHostStopSessionData other) : this() {
-      invitationId_ = other.invitationId_;
-      side_ = other.side_;
-      spaceIdGame_ = other.spaceIdGame_;
-      reason_ = other.reason_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostStopSessionData Clone() {
-      return new StreamingHostStopSessionData(this);
-    }
-
-    /// <summary>Field number for the "invitationId" field.</summary>
-    public const int InvitationIdFieldNumber = 1;
-    private readonly static string InvitationIdDefaultValue = "";
-
-    private string invitationId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InvitationId {
-      get { return invitationId_ ?? InvitationIdDefaultValue; }
-      set {
-        invitationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "invitationId" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInvitationId {
-      get { return invitationId_ != null; }
-    }
-    /// <summary>Clears the value of the "invitationId" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInvitationId() {
-      invitationId_ = null;
-    }
-
-    /// <summary>Field number for the "side" field.</summary>
-    public const int SideFieldNumber = 2;
-    private readonly static string SideDefaultValue = "";
-
-    private string side_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Side {
-      get { return side_ ?? SideDefaultValue; }
-      set {
-        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "side" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasSide {
-      get { return side_ != null; }
-    }
-    /// <summary>Clears the value of the "side" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSide() {
-      side_ = null;
-    }
-
-    /// <summary>Field number for the "spaceIdGame" field.</summary>
-    public const int SpaceIdGameFieldNumber = 3;
-    private readonly static string SpaceIdGameDefaultValue = "";
-
-    private string spaceIdGame_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string SpaceIdGame {
-      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
-      set {
-        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasSpaceIdGame {
-      get { return spaceIdGame_ != null; }
-    }
-    /// <summary>Clears the value of the "spaceIdGame" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSpaceIdGame() {
-      spaceIdGame_ = null;
-    }
-
-    /// <summary>Field number for the "reason" field.</summary>
-    public const int ReasonFieldNumber = 4;
-    private readonly static string ReasonDefaultValue = "";
-
-    private string reason_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Reason {
-      get { return reason_ ?? ReasonDefaultValue; }
-      set {
-        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "reason" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasReason {
-      get { return reason_ != null; }
-    }
-    /// <summary>Clears the value of the "reason" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearReason() {
-      reason_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingHostStopSessionData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingHostStopSessionData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (InvitationId != other.InvitationId) return false;
-      if (Side != other.Side) return false;
-      if (SpaceIdGame != other.SpaceIdGame) return false;
-      if (Reason != other.Reason) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HasInvitationId) hash ^= InvitationId.GetHashCode();
-      if (HasSide) hash ^= Side.GetHashCode();
-      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
-      if (HasReason) hash ^= Reason.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(18);
-        output.WriteString(Side);
-      }
-      if (HasSpaceIdGame) {
-        output.WriteRawTag(26);
-        output.WriteString(SpaceIdGame);
-      }
-      if (HasReason) {
-        output.WriteRawTag(34);
-        output.WriteString(Reason);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(18);
-        output.WriteString(Side);
-      }
-      if (HasSpaceIdGame) {
-        output.WriteRawTag(26);
-        output.WriteString(SpaceIdGame);
-      }
-      if (HasReason) {
-        output.WriteRawTag(34);
-        output.WriteString(Reason);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (HasInvitationId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InvitationId);
-      }
-      if (HasSide) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
-      }
-      if (HasSpaceIdGame) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
-      }
-      if (HasReason) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingHostStopSessionData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HasInvitationId) {
-        InvitationId = other.InvitationId;
-      }
-      if (other.HasSide) {
-        Side = other.Side;
-      }
-      if (other.HasSpaceIdGame) {
-        SpaceIdGame = other.SpaceIdGame;
-      }
-      if (other.HasReason) {
-        Reason = other.Reason;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 18: {
-            Side = input.ReadString();
-            break;
-          }
-          case 26: {
-            SpaceIdGame = input.ReadString();
-            break;
-          }
-          case 34: {
-            Reason = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 18: {
-            Side = input.ReadString();
-            break;
-          }
-          case 26: {
-            SpaceIdGame = input.ReadString();
-            break;
-          }
-          case 34: {
-            Reason = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class StreamingErrorData : pb::IMessage<StreamingErrorData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StreamingErrorData> _parser = new pb::MessageParser<StreamingErrorData>(() => new StreamingErrorData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingErrorData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[56]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingErrorData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingErrorData(StreamingErrorData other) : this() {
-      errorName_ = other.errorName_;
-      errorType_ = other.errorType_;
-      invitationId_ = other.invitationId_;
-      side_ = other.side_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingErrorData Clone() {
-      return new StreamingErrorData(this);
-    }
-
-    /// <summary>Field number for the "errorName" field.</summary>
-    public const int ErrorNameFieldNumber = 1;
-    private readonly static string ErrorNameDefaultValue = "";
-
-    private string errorName_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ErrorName {
-      get { return errorName_ ?? ErrorNameDefaultValue; }
-      set {
-        errorName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "errorName" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasErrorName {
-      get { return errorName_ != null; }
-    }
-    /// <summary>Clears the value of the "errorName" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearErrorName() {
-      errorName_ = null;
-    }
-
-    /// <summary>Field number for the "errorType" field.</summary>
-    public const int ErrorTypeFieldNumber = 2;
-    private readonly static string ErrorTypeDefaultValue = "";
-
-    private string errorType_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ErrorType {
-      get { return errorType_ ?? ErrorTypeDefaultValue; }
-      set {
-        errorType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "errorType" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasErrorType {
-      get { return errorType_ != null; }
-    }
-    /// <summary>Clears the value of the "errorType" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearErrorType() {
-      errorType_ = null;
-    }
-
-    /// <summary>Field number for the "invitationId" field.</summary>
-    public const int InvitationIdFieldNumber = 3;
-    private readonly static string InvitationIdDefaultValue = "";
-
-    private string invitationId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InvitationId {
-      get { return invitationId_ ?? InvitationIdDefaultValue; }
-      set {
-        invitationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "invitationId" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInvitationId {
-      get { return invitationId_ != null; }
-    }
-    /// <summary>Clears the value of the "invitationId" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInvitationId() {
-      invitationId_ = null;
-    }
-
-    /// <summary>Field number for the "side" field.</summary>
-    public const int SideFieldNumber = 4;
-    private readonly static string SideDefaultValue = "";
-
-    private string side_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Side {
-      get { return side_ ?? SideDefaultValue; }
-      set {
-        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "side" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasSide {
-      get { return side_ != null; }
-    }
-    /// <summary>Clears the value of the "side" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearSide() {
-      side_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingErrorData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingErrorData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ErrorName != other.ErrorName) return false;
-      if (ErrorType != other.ErrorType) return false;
-      if (InvitationId != other.InvitationId) return false;
-      if (Side != other.Side) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HasErrorName) hash ^= ErrorName.GetHashCode();
-      if (HasErrorType) hash ^= ErrorType.GetHashCode();
-      if (HasInvitationId) hash ^= InvitationId.GetHashCode();
-      if (HasSide) hash ^= Side.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (HasErrorName) {
-        output.WriteRawTag(10);
-        output.WriteString(ErrorName);
-      }
-      if (HasErrorType) {
-        output.WriteRawTag(18);
-        output.WriteString(ErrorType);
-      }
-      if (HasInvitationId) {
-        output.WriteRawTag(26);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(34);
-        output.WriteString(Side);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasErrorName) {
-        output.WriteRawTag(10);
-        output.WriteString(ErrorName);
-      }
-      if (HasErrorType) {
-        output.WriteRawTag(18);
-        output.WriteString(ErrorType);
-      }
-      if (HasInvitationId) {
-        output.WriteRawTag(26);
-        output.WriteString(InvitationId);
-      }
-      if (HasSide) {
-        output.WriteRawTag(34);
-        output.WriteString(Side);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (HasErrorName) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorName);
-      }
-      if (HasErrorType) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorType);
-      }
-      if (HasInvitationId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InvitationId);
-      }
-      if (HasSide) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingErrorData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HasErrorName) {
-        ErrorName = other.ErrorName;
-      }
-      if (other.HasErrorType) {
-        ErrorType = other.ErrorType;
-      }
-      if (other.HasInvitationId) {
-        InvitationId = other.InvitationId;
-      }
-      if (other.HasSide) {
-        Side = other.Side;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            ErrorName = input.ReadString();
-            break;
-          }
-          case 18: {
-            ErrorType = input.ReadString();
-            break;
-          }
-          case 26: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 34: {
-            Side = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            ErrorName = input.ReadString();
-            break;
-          }
-          case 18: {
-            ErrorType = input.ReadString();
-            break;
-          }
-          case 26: {
-            InvitationId = input.ReadString();
-            break;
-          }
-          case 34: {
-            Side = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class SharePlayHostSessionStreamingStopData : pb::IMessage<SharePlayHostSessionStreamingStopData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -28943,7 +27934,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[57]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -29132,412 +28123,6 @@ namespace Uplay.Statistics {
 
   }
 
-  public sealed partial class SharePlayHostOutOfFocusStartData : pb::IMessage<SharePlayHostOutOfFocusStartData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<SharePlayHostOutOfFocusStartData> _parser = new pb::MessageParser<SharePlayHostOutOfFocusStartData>(() => new SharePlayHostOutOfFocusStartData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<SharePlayHostOutOfFocusStartData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[58]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStartData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStartData(SharePlayHostOutOfFocusStartData other) : this() {
-      invitationId_ = other.invitationId_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStartData Clone() {
-      return new SharePlayHostOutOfFocusStartData(this);
-    }
-
-    /// <summary>Field number for the "invitationId" field.</summary>
-    public const int InvitationIdFieldNumber = 1;
-    private readonly static string InvitationIdDefaultValue = "";
-
-    private string invitationId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InvitationId {
-      get { return invitationId_ ?? InvitationIdDefaultValue; }
-      set {
-        invitationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "invitationId" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInvitationId {
-      get { return invitationId_ != null; }
-    }
-    /// <summary>Clears the value of the "invitationId" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInvitationId() {
-      invitationId_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as SharePlayHostOutOfFocusStartData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(SharePlayHostOutOfFocusStartData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (InvitationId != other.InvitationId) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HasInvitationId) hash ^= InvitationId.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (HasInvitationId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InvitationId);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(SharePlayHostOutOfFocusStartData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HasInvitationId) {
-        InvitationId = other.InvitationId;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class SharePlayHostOutOfFocusStopData : pb::IMessage<SharePlayHostOutOfFocusStopData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<SharePlayHostOutOfFocusStopData> _parser = new pb::MessageParser<SharePlayHostOutOfFocusStopData>(() => new SharePlayHostOutOfFocusStopData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<SharePlayHostOutOfFocusStopData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[59]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStopData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStopData(SharePlayHostOutOfFocusStopData other) : this() {
-      invitationId_ = other.invitationId_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SharePlayHostOutOfFocusStopData Clone() {
-      return new SharePlayHostOutOfFocusStopData(this);
-    }
-
-    /// <summary>Field number for the "invitationId" field.</summary>
-    public const int InvitationIdFieldNumber = 1;
-    private readonly static string InvitationIdDefaultValue = "";
-
-    private string invitationId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InvitationId {
-      get { return invitationId_ ?? InvitationIdDefaultValue; }
-      set {
-        invitationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "invitationId" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInvitationId {
-      get { return invitationId_ != null; }
-    }
-    /// <summary>Clears the value of the "invitationId" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInvitationId() {
-      invitationId_ = null;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as SharePlayHostOutOfFocusStopData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(SharePlayHostOutOfFocusStopData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (InvitationId != other.InvitationId) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HasInvitationId) hash ^= InvitationId.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasInvitationId) {
-        output.WriteRawTag(10);
-        output.WriteString(InvitationId);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (HasInvitationId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InvitationId);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(SharePlayHostOutOfFocusStopData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HasInvitationId) {
-        InvitationId = other.InvitationId;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            InvitationId = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class SharePlayOnboardingData : pb::IMessage<SharePlayOnboardingData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -29553,7 +28138,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[60]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -29860,7 +28445,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[61]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -30063,7 +28648,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[62]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -30368,7 +28953,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[63]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -30673,7 +29258,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[64]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -31132,7 +29717,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[65]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -31478,6 +30063,1487 @@ namespace Uplay.Statistics {
 
   }
 
+  public sealed partial class StreamingHostStartSessionData : pb::IMessage<StreamingHostStartSessionData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostStartSessionData> _parser = new pb::MessageParser<StreamingHostStartSessionData>(() => new StreamingHostStartSessionData());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostStartSessionData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[61]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStartSessionData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStartSessionData(StreamingHostStartSessionData other) : this() {
+      _hasBits0 = other._hasBits0;
+      hostPeerId_ = other.hostPeerId_;
+      side_ = other.side_;
+      spaceIdGame_ = other.spaceIdGame_;
+      bitrateMbps_ = other.bitrateMbps_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStartSessionData Clone() {
+      return new StreamingHostStartSessionData(this);
+    }
+
+    /// <summary>Field number for the "hostPeerId" field.</summary>
+    public const int HostPeerIdFieldNumber = 1;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "hostPeerId" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "hostPeerId" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "side" field.</summary>
+    public const int SideFieldNumber = 2;
+    private readonly static string SideDefaultValue = "";
+
+    private string side_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Side {
+      get { return side_ ?? SideDefaultValue; }
+      set {
+        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "side" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSide {
+      get { return side_ != null; }
+    }
+    /// <summary>Clears the value of the "side" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSide() {
+      side_ = null;
+    }
+
+    /// <summary>Field number for the "spaceIdGame" field.</summary>
+    public const int SpaceIdGameFieldNumber = 3;
+    private readonly static string SpaceIdGameDefaultValue = "";
+
+    private string spaceIdGame_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SpaceIdGame {
+      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
+      set {
+        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSpaceIdGame {
+      get { return spaceIdGame_ != null; }
+    }
+    /// <summary>Clears the value of the "spaceIdGame" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSpaceIdGame() {
+      spaceIdGame_ = null;
+    }
+
+    /// <summary>Field number for the "bitrateMbps" field.</summary>
+    public const int BitrateMbpsFieldNumber = 4;
+    private readonly static uint BitrateMbpsDefaultValue = 0;
+
+    private uint bitrateMbps_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint BitrateMbps {
+      get { if ((_hasBits0 & 1) != 0) { return bitrateMbps_; } else { return BitrateMbpsDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        bitrateMbps_ = value;
+      }
+    }
+    /// <summary>Gets whether the "bitrateMbps" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasBitrateMbps {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "bitrateMbps" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearBitrateMbps() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostStartSessionData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostStartSessionData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (HostPeerId != other.HostPeerId) return false;
+      if (Side != other.Side) return false;
+      if (SpaceIdGame != other.SpaceIdGame) return false;
+      if (BitrateMbps != other.BitrateMbps) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasSide) hash ^= Side.GetHashCode();
+      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
+      if (HasBitrateMbps) hash ^= BitrateMbps.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (HasBitrateMbps) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (HasBitrateMbps) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasSide) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
+      }
+      if (HasSpaceIdGame) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
+      }
+      if (HasBitrateMbps) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostStartSessionData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasSide) {
+        Side = other.Side;
+      }
+      if (other.HasSpaceIdGame) {
+        SpaceIdGame = other.SpaceIdGame;
+      }
+      if (other.HasBitrateMbps) {
+        BitrateMbps = other.BitrateMbps;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+          case 32: {
+            BitrateMbps = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+          case 32: {
+            BitrateMbps = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostStopSessionData : pb::IMessage<StreamingHostStopSessionData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostStopSessionData> _parser = new pb::MessageParser<StreamingHostStopSessionData>(() => new StreamingHostStopSessionData());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostStopSessionData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[62]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStopSessionData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStopSessionData(StreamingHostStopSessionData other) : this() {
+      _hasBits0 = other._hasBits0;
+      hostPeerId_ = other.hostPeerId_;
+      side_ = other.side_;
+      spaceIdGame_ = other.spaceIdGame_;
+      reason_ = other.reason_;
+      bitrateMbps_ = other.bitrateMbps_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostStopSessionData Clone() {
+      return new StreamingHostStopSessionData(this);
+    }
+
+    /// <summary>Field number for the "hostPeerId" field.</summary>
+    public const int HostPeerIdFieldNumber = 1;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "hostPeerId" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "hostPeerId" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "side" field.</summary>
+    public const int SideFieldNumber = 2;
+    private readonly static string SideDefaultValue = "";
+
+    private string side_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Side {
+      get { return side_ ?? SideDefaultValue; }
+      set {
+        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "side" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSide {
+      get { return side_ != null; }
+    }
+    /// <summary>Clears the value of the "side" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSide() {
+      side_ = null;
+    }
+
+    /// <summary>Field number for the "spaceIdGame" field.</summary>
+    public const int SpaceIdGameFieldNumber = 3;
+    private readonly static string SpaceIdGameDefaultValue = "";
+
+    private string spaceIdGame_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SpaceIdGame {
+      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
+      set {
+        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSpaceIdGame {
+      get { return spaceIdGame_ != null; }
+    }
+    /// <summary>Clears the value of the "spaceIdGame" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSpaceIdGame() {
+      spaceIdGame_ = null;
+    }
+
+    /// <summary>Field number for the "reason" field.</summary>
+    public const int ReasonFieldNumber = 4;
+    private readonly static string ReasonDefaultValue = "";
+
+    private string reason_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Reason {
+      get { return reason_ ?? ReasonDefaultValue; }
+      set {
+        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "reason" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasReason {
+      get { return reason_ != null; }
+    }
+    /// <summary>Clears the value of the "reason" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearReason() {
+      reason_ = null;
+    }
+
+    /// <summary>Field number for the "bitrateMbps" field.</summary>
+    public const int BitrateMbpsFieldNumber = 5;
+    private readonly static uint BitrateMbpsDefaultValue = 0;
+
+    private uint bitrateMbps_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint BitrateMbps {
+      get { if ((_hasBits0 & 1) != 0) { return bitrateMbps_; } else { return BitrateMbpsDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        bitrateMbps_ = value;
+      }
+    }
+    /// <summary>Gets whether the "bitrateMbps" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasBitrateMbps {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "bitrateMbps" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearBitrateMbps() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostStopSessionData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostStopSessionData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (HostPeerId != other.HostPeerId) return false;
+      if (Side != other.Side) return false;
+      if (SpaceIdGame != other.SpaceIdGame) return false;
+      if (Reason != other.Reason) return false;
+      if (BitrateMbps != other.BitrateMbps) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasSide) hash ^= Side.GetHashCode();
+      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
+      if (HasReason) hash ^= Reason.GetHashCode();
+      if (HasBitrateMbps) hash ^= BitrateMbps.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (HasReason) {
+        output.WriteRawTag(34);
+        output.WriteString(Reason);
+      }
+      if (HasBitrateMbps) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (HasReason) {
+        output.WriteRawTag(34);
+        output.WriteString(Reason);
+      }
+      if (HasBitrateMbps) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasSide) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
+      }
+      if (HasSpaceIdGame) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
+      }
+      if (HasReason) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
+      }
+      if (HasBitrateMbps) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(BitrateMbps);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostStopSessionData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasSide) {
+        Side = other.Side;
+      }
+      if (other.HasSpaceIdGame) {
+        SpaceIdGame = other.SpaceIdGame;
+      }
+      if (other.HasReason) {
+        Reason = other.Reason;
+      }
+      if (other.HasBitrateMbps) {
+        BitrateMbps = other.BitrateMbps;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+          case 34: {
+            Reason = input.ReadString();
+            break;
+          }
+          case 40: {
+            BitrateMbps = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+          case 34: {
+            Reason = input.ReadString();
+            break;
+          }
+          case 40: {
+            BitrateMbps = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostSessionSettingsChanged : pb::IMessage<StreamingHostSessionSettingsChanged>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostSessionSettingsChanged> _parser = new pb::MessageParser<StreamingHostSessionSettingsChanged>(() => new StreamingHostSessionSettingsChanged());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostSessionSettingsChanged> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[63]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostSessionSettingsChanged() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostSessionSettingsChanged(StreamingHostSessionSettingsChanged other) : this() {
+      sender_ = other.sender_;
+      settingName_ = other.settingName_;
+      newValue_ = other.newValue_;
+      oldValue_ = other.oldValue_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostSessionSettingsChanged Clone() {
+      return new StreamingHostSessionSettingsChanged(this);
+    }
+
+    /// <summary>Field number for the "sender" field.</summary>
+    public const int SenderFieldNumber = 1;
+    private readonly static string SenderDefaultValue = "";
+
+    private string sender_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Sender {
+      get { return sender_ ?? SenderDefaultValue; }
+      set {
+        sender_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "sender" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSender {
+      get { return sender_ != null; }
+    }
+    /// <summary>Clears the value of the "sender" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSender() {
+      sender_ = null;
+    }
+
+    /// <summary>Field number for the "settingName" field.</summary>
+    public const int SettingNameFieldNumber = 2;
+    private readonly static string SettingNameDefaultValue = "";
+
+    private string settingName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SettingName {
+      get { return settingName_ ?? SettingNameDefaultValue; }
+      set {
+        settingName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "settingName" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSettingName {
+      get { return settingName_ != null; }
+    }
+    /// <summary>Clears the value of the "settingName" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSettingName() {
+      settingName_ = null;
+    }
+
+    /// <summary>Field number for the "newValue" field.</summary>
+    public const int NewValueFieldNumber = 3;
+    private readonly static string NewValueDefaultValue = "";
+
+    private string newValue_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NewValue {
+      get { return newValue_ ?? NewValueDefaultValue; }
+      set {
+        newValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "newValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasNewValue {
+      get { return newValue_ != null; }
+    }
+    /// <summary>Clears the value of the "newValue" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearNewValue() {
+      newValue_ = null;
+    }
+
+    /// <summary>Field number for the "oldValue" field.</summary>
+    public const int OldValueFieldNumber = 4;
+    private readonly static string OldValueDefaultValue = "";
+
+    private string oldValue_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string OldValue {
+      get { return oldValue_ ?? OldValueDefaultValue; }
+      set {
+        oldValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "oldValue" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasOldValue {
+      get { return oldValue_ != null; }
+    }
+    /// <summary>Clears the value of the "oldValue" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearOldValue() {
+      oldValue_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostSessionSettingsChanged);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostSessionSettingsChanged other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Sender != other.Sender) return false;
+      if (SettingName != other.SettingName) return false;
+      if (NewValue != other.NewValue) return false;
+      if (OldValue != other.OldValue) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasSender) hash ^= Sender.GetHashCode();
+      if (HasSettingName) hash ^= SettingName.GetHashCode();
+      if (HasNewValue) hash ^= NewValue.GetHashCode();
+      if (HasOldValue) hash ^= OldValue.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasSender) {
+        output.WriteRawTag(10);
+        output.WriteString(Sender);
+      }
+      if (HasSettingName) {
+        output.WriteRawTag(18);
+        output.WriteString(SettingName);
+      }
+      if (HasNewValue) {
+        output.WriteRawTag(26);
+        output.WriteString(NewValue);
+      }
+      if (HasOldValue) {
+        output.WriteRawTag(34);
+        output.WriteString(OldValue);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasSender) {
+        output.WriteRawTag(10);
+        output.WriteString(Sender);
+      }
+      if (HasSettingName) {
+        output.WriteRawTag(18);
+        output.WriteString(SettingName);
+      }
+      if (HasNewValue) {
+        output.WriteRawTag(26);
+        output.WriteString(NewValue);
+      }
+      if (HasOldValue) {
+        output.WriteRawTag(34);
+        output.WriteString(OldValue);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasSender) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Sender);
+      }
+      if (HasSettingName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SettingName);
+      }
+      if (HasNewValue) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NewValue);
+      }
+      if (HasOldValue) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(OldValue);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostSessionSettingsChanged other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasSender) {
+        Sender = other.Sender;
+      }
+      if (other.HasSettingName) {
+        SettingName = other.SettingName;
+      }
+      if (other.HasNewValue) {
+        NewValue = other.NewValue;
+      }
+      if (other.HasOldValue) {
+        OldValue = other.OldValue;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Sender = input.ReadString();
+            break;
+          }
+          case 18: {
+            SettingName = input.ReadString();
+            break;
+          }
+          case 26: {
+            NewValue = input.ReadString();
+            break;
+          }
+          case 34: {
+            OldValue = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Sender = input.ReadString();
+            break;
+          }
+          case 18: {
+            SettingName = input.ReadString();
+            break;
+          }
+          case 26: {
+            NewValue = input.ReadString();
+            break;
+          }
+          case 34: {
+            OldValue = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingErrorData : pb::IMessage<StreamingErrorData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingErrorData> _parser = new pb::MessageParser<StreamingErrorData>(() => new StreamingErrorData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingErrorData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[64]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingErrorData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingErrorData(StreamingErrorData other) : this() {
+      errorName_ = other.errorName_;
+      errorType_ = other.errorType_;
+      hostPeerId_ = other.hostPeerId_;
+      side_ = other.side_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingErrorData Clone() {
+      return new StreamingErrorData(this);
+    }
+
+    /// <summary>Field number for the "errorName" field.</summary>
+    public const int ErrorNameFieldNumber = 1;
+    private readonly static string ErrorNameDefaultValue = "";
+
+    private string errorName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ErrorName {
+      get { return errorName_ ?? ErrorNameDefaultValue; }
+      set {
+        errorName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "errorName" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasErrorName {
+      get { return errorName_ != null; }
+    }
+    /// <summary>Clears the value of the "errorName" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearErrorName() {
+      errorName_ = null;
+    }
+
+    /// <summary>Field number for the "errorType" field.</summary>
+    public const int ErrorTypeFieldNumber = 2;
+    private readonly static string ErrorTypeDefaultValue = "";
+
+    private string errorType_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ErrorType {
+      get { return errorType_ ?? ErrorTypeDefaultValue; }
+      set {
+        errorType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "errorType" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasErrorType {
+      get { return errorType_ != null; }
+    }
+    /// <summary>Clears the value of the "errorType" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearErrorType() {
+      errorType_ = null;
+    }
+
+    /// <summary>Field number for the "hostPeerId" field.</summary>
+    public const int HostPeerIdFieldNumber = 3;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "hostPeerId" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "hostPeerId" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "side" field.</summary>
+    public const int SideFieldNumber = 4;
+    private readonly static string SideDefaultValue = "";
+
+    private string side_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Side {
+      get { return side_ ?? SideDefaultValue; }
+      set {
+        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "side" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSide {
+      get { return side_ != null; }
+    }
+    /// <summary>Clears the value of the "side" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSide() {
+      side_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingErrorData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingErrorData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ErrorName != other.ErrorName) return false;
+      if (ErrorType != other.ErrorType) return false;
+      if (HostPeerId != other.HostPeerId) return false;
+      if (Side != other.Side) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasErrorName) hash ^= ErrorName.GetHashCode();
+      if (HasErrorType) hash ^= ErrorType.GetHashCode();
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasSide) hash ^= Side.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasErrorName) {
+        output.WriteRawTag(10);
+        output.WriteString(ErrorName);
+      }
+      if (HasErrorType) {
+        output.WriteRawTag(18);
+        output.WriteString(ErrorType);
+      }
+      if (HasHostPeerId) {
+        output.WriteRawTag(26);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(34);
+        output.WriteString(Side);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasErrorName) {
+        output.WriteRawTag(10);
+        output.WriteString(ErrorName);
+      }
+      if (HasErrorType) {
+        output.WriteRawTag(18);
+        output.WriteString(ErrorType);
+      }
+      if (HasHostPeerId) {
+        output.WriteRawTag(26);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(34);
+        output.WriteString(Side);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasErrorName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorName);
+      }
+      if (HasErrorType) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorType);
+      }
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasSide) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingErrorData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasErrorName) {
+        ErrorName = other.ErrorName;
+      }
+      if (other.HasErrorType) {
+        ErrorType = other.ErrorType;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasSide) {
+        Side = other.Side;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ErrorName = input.ReadString();
+            break;
+          }
+          case 18: {
+            ErrorType = input.ReadString();
+            break;
+          }
+          case 26: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Side = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            ErrorName = input.ReadString();
+            break;
+          }
+          case 18: {
+            ErrorType = input.ReadString();
+            break;
+          }
+          case 26: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Side = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class StreamingFeedBackData : pb::IMessage<StreamingFeedBackData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -31493,7 +31559,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[66]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[65]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -32408,6 +32474,616 @@ namespace Uplay.Statistics {
 
   }
 
+  public sealed partial class StreamingHostOutOfFocusStartData : pb::IMessage<StreamingHostOutOfFocusStartData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostOutOfFocusStartData> _parser = new pb::MessageParser<StreamingHostOutOfFocusStartData>(() => new StreamingHostOutOfFocusStartData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostOutOfFocusStartData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[66]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStartData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStartData(StreamingHostOutOfFocusStartData other) : this() {
+      hostPeerId_ = other.hostPeerId_;
+      side_ = other.side_;
+      spaceIdGame_ = other.spaceIdGame_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStartData Clone() {
+      return new StreamingHostOutOfFocusStartData(this);
+    }
+
+    /// <summary>Field number for the "hostPeerId" field.</summary>
+    public const int HostPeerIdFieldNumber = 1;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "hostPeerId" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "hostPeerId" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "side" field.</summary>
+    public const int SideFieldNumber = 2;
+    private readonly static string SideDefaultValue = "";
+
+    private string side_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Side {
+      get { return side_ ?? SideDefaultValue; }
+      set {
+        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "side" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSide {
+      get { return side_ != null; }
+    }
+    /// <summary>Clears the value of the "side" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSide() {
+      side_ = null;
+    }
+
+    /// <summary>Field number for the "spaceIdGame" field.</summary>
+    public const int SpaceIdGameFieldNumber = 3;
+    private readonly static string SpaceIdGameDefaultValue = "";
+
+    private string spaceIdGame_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SpaceIdGame {
+      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
+      set {
+        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSpaceIdGame {
+      get { return spaceIdGame_ != null; }
+    }
+    /// <summary>Clears the value of the "spaceIdGame" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSpaceIdGame() {
+      spaceIdGame_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostOutOfFocusStartData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostOutOfFocusStartData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (HostPeerId != other.HostPeerId) return false;
+      if (Side != other.Side) return false;
+      if (SpaceIdGame != other.SpaceIdGame) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasSide) hash ^= Side.GetHashCode();
+      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasSide) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
+      }
+      if (HasSpaceIdGame) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostOutOfFocusStartData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasSide) {
+        Side = other.Side;
+      }
+      if (other.HasSpaceIdGame) {
+        SpaceIdGame = other.SpaceIdGame;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostOutOfFocusStopData : pb::IMessage<StreamingHostOutOfFocusStopData>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostOutOfFocusStopData> _parser = new pb::MessageParser<StreamingHostOutOfFocusStopData>(() => new StreamingHostOutOfFocusStopData());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostOutOfFocusStopData> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[67]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStopData() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStopData(StreamingHostOutOfFocusStopData other) : this() {
+      hostPeerId_ = other.hostPeerId_;
+      side_ = other.side_;
+      spaceIdGame_ = other.spaceIdGame_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostOutOfFocusStopData Clone() {
+      return new StreamingHostOutOfFocusStopData(this);
+    }
+
+    /// <summary>Field number for the "hostPeerId" field.</summary>
+    public const int HostPeerIdFieldNumber = 1;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "hostPeerId" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "hostPeerId" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "side" field.</summary>
+    public const int SideFieldNumber = 2;
+    private readonly static string SideDefaultValue = "";
+
+    private string side_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Side {
+      get { return side_ ?? SideDefaultValue; }
+      set {
+        side_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "side" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSide {
+      get { return side_ != null; }
+    }
+    /// <summary>Clears the value of the "side" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSide() {
+      side_ = null;
+    }
+
+    /// <summary>Field number for the "spaceIdGame" field.</summary>
+    public const int SpaceIdGameFieldNumber = 3;
+    private readonly static string SpaceIdGameDefaultValue = "";
+
+    private string spaceIdGame_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SpaceIdGame {
+      get { return spaceIdGame_ ?? SpaceIdGameDefaultValue; }
+      set {
+        spaceIdGame_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "spaceIdGame" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSpaceIdGame {
+      get { return spaceIdGame_ != null; }
+    }
+    /// <summary>Clears the value of the "spaceIdGame" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSpaceIdGame() {
+      spaceIdGame_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostOutOfFocusStopData);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostOutOfFocusStopData other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (HostPeerId != other.HostPeerId) return false;
+      if (Side != other.Side) return false;
+      if (SpaceIdGame != other.SpaceIdGame) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasSide) hash ^= Side.GetHashCode();
+      if (HasSpaceIdGame) hash ^= SpaceIdGame.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasHostPeerId) {
+        output.WriteRawTag(10);
+        output.WriteString(HostPeerId);
+      }
+      if (HasSide) {
+        output.WriteRawTag(18);
+        output.WriteString(Side);
+      }
+      if (HasSpaceIdGame) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasSide) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Side);
+      }
+      if (HasSpaceIdGame) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceIdGame);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostOutOfFocusStopData other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasSide) {
+        Side = other.Side;
+      }
+      if (other.HasSpaceIdGame) {
+        SpaceIdGame = other.SpaceIdGame;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 18: {
+            Side = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceIdGame = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class EventTypeData : pb::IMessage<EventTypeData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -32422,7 +33098,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[67]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[68]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -32758,7 +33434,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[68]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[69]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -32830,12 +33506,13 @@ namespace Uplay.Statistics {
       sharePlayHostError_ = other.sharePlayHostError_ != null ? other.sharePlayHostError_.Clone() : null;
       sharePlayHostSettings_ = other.sharePlayHostSettings_ != null ? other.sharePlayHostSettings_.Clone() : null;
       sharePlayOnboarding_ = other.sharePlayOnboarding_ != null ? other.sharePlayOnboarding_.Clone() : null;
-      sharePlayHostOutOfFocusStart_ = other.sharePlayHostOutOfFocusStart_ != null ? other.sharePlayHostOutOfFocusStart_.Clone() : null;
-      sharePlayHostOutOfFocusStop_ = other.sharePlayHostOutOfFocusStop_ != null ? other.sharePlayHostOutOfFocusStop_.Clone() : null;
+      streamingHostOutOfFocusStart_ = other.streamingHostOutOfFocusStart_ != null ? other.streamingHostOutOfFocusStart_.Clone() : null;
+      streamingHostOutOfFocusStop_ = other.streamingHostOutOfFocusStop_ != null ? other.streamingHostOutOfFocusStop_.Clone() : null;
       streamingFeedBack_ = other.streamingFeedBack_ != null ? other.streamingFeedBack_.Clone() : null;
       streamingHostStartSession_ = other.streamingHostStartSession_ != null ? other.streamingHostStartSession_.Clone() : null;
       streamingHostStopSession_ = other.streamingHostStopSession_ != null ? other.streamingHostStopSession_.Clone() : null;
       streamingError_ = other.streamingError_ != null ? other.streamingError_.Clone() : null;
+      streamingHostSessionSettings_ = other.streamingHostSessionSettings_ != null ? other.streamingHostSessionSettings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -33469,27 +34146,27 @@ namespace Uplay.Statistics {
       }
     }
 
-    /// <summary>Field number for the "sharePlayHostOutOfFocusStart" field.</summary>
-    public const int SharePlayHostOutOfFocusStartFieldNumber = 53;
-    private global::Uplay.Statistics.SharePlayHostOutOfFocusStartData sharePlayHostOutOfFocusStart_;
+    /// <summary>Field number for the "streamingHostOutOfFocusStart" field.</summary>
+    public const int StreamingHostOutOfFocusStartFieldNumber = 53;
+    private global::Uplay.Statistics.StreamingHostOutOfFocusStartData streamingHostOutOfFocusStart_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Statistics.SharePlayHostOutOfFocusStartData SharePlayHostOutOfFocusStart {
-      get { return sharePlayHostOutOfFocusStart_; }
+    public global::Uplay.Statistics.StreamingHostOutOfFocusStartData StreamingHostOutOfFocusStart {
+      get { return streamingHostOutOfFocusStart_; }
       set {
-        sharePlayHostOutOfFocusStart_ = value;
+        streamingHostOutOfFocusStart_ = value;
       }
     }
 
-    /// <summary>Field number for the "sharePlayHostOutOfFocusStop" field.</summary>
-    public const int SharePlayHostOutOfFocusStopFieldNumber = 54;
-    private global::Uplay.Statistics.SharePlayHostOutOfFocusStopData sharePlayHostOutOfFocusStop_;
+    /// <summary>Field number for the "streamingHostOutOfFocusStop" field.</summary>
+    public const int StreamingHostOutOfFocusStopFieldNumber = 54;
+    private global::Uplay.Statistics.StreamingHostOutOfFocusStopData streamingHostOutOfFocusStop_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Statistics.SharePlayHostOutOfFocusStopData SharePlayHostOutOfFocusStop {
-      get { return sharePlayHostOutOfFocusStop_; }
+    public global::Uplay.Statistics.StreamingHostOutOfFocusStopData StreamingHostOutOfFocusStop {
+      get { return streamingHostOutOfFocusStop_; }
       set {
-        sharePlayHostOutOfFocusStop_ = value;
+        streamingHostOutOfFocusStop_ = value;
       }
     }
 
@@ -33538,6 +34215,18 @@ namespace Uplay.Statistics {
       get { return streamingError_; }
       set {
         streamingError_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streamingHostSessionSettings" field.</summary>
+    public const int StreamingHostSessionSettingsFieldNumber = 59;
+    private global::Uplay.Statistics.StreamingHostSessionSettingsChanged streamingHostSessionSettings_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Statistics.StreamingHostSessionSettingsChanged StreamingHostSessionSettings {
+      get { return streamingHostSessionSettings_; }
+      set {
+        streamingHostSessionSettings_ = value;
       }
     }
 
@@ -33608,12 +34297,13 @@ namespace Uplay.Statistics {
       if (!object.Equals(SharePlayHostError, other.SharePlayHostError)) return false;
       if (!object.Equals(SharePlayHostSettings, other.SharePlayHostSettings)) return false;
       if (!object.Equals(SharePlayOnboarding, other.SharePlayOnboarding)) return false;
-      if (!object.Equals(SharePlayHostOutOfFocusStart, other.SharePlayHostOutOfFocusStart)) return false;
-      if (!object.Equals(SharePlayHostOutOfFocusStop, other.SharePlayHostOutOfFocusStop)) return false;
+      if (!object.Equals(StreamingHostOutOfFocusStart, other.StreamingHostOutOfFocusStart)) return false;
+      if (!object.Equals(StreamingHostOutOfFocusStop, other.StreamingHostOutOfFocusStop)) return false;
       if (!object.Equals(StreamingFeedBack, other.StreamingFeedBack)) return false;
       if (!object.Equals(StreamingHostStartSession, other.StreamingHostStartSession)) return false;
       if (!object.Equals(StreamingHostStopSession, other.StreamingHostStopSession)) return false;
       if (!object.Equals(StreamingError, other.StreamingError)) return false;
+      if (!object.Equals(StreamingHostSessionSettings, other.StreamingHostSessionSettings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -33673,12 +34363,13 @@ namespace Uplay.Statistics {
       if (sharePlayHostError_ != null) hash ^= SharePlayHostError.GetHashCode();
       if (sharePlayHostSettings_ != null) hash ^= SharePlayHostSettings.GetHashCode();
       if (sharePlayOnboarding_ != null) hash ^= SharePlayOnboarding.GetHashCode();
-      if (sharePlayHostOutOfFocusStart_ != null) hash ^= SharePlayHostOutOfFocusStart.GetHashCode();
-      if (sharePlayHostOutOfFocusStop_ != null) hash ^= SharePlayHostOutOfFocusStop.GetHashCode();
+      if (streamingHostOutOfFocusStart_ != null) hash ^= StreamingHostOutOfFocusStart.GetHashCode();
+      if (streamingHostOutOfFocusStop_ != null) hash ^= StreamingHostOutOfFocusStop.GetHashCode();
       if (streamingFeedBack_ != null) hash ^= StreamingFeedBack.GetHashCode();
       if (streamingHostStartSession_ != null) hash ^= StreamingHostStartSession.GetHashCode();
       if (streamingHostStopSession_ != null) hash ^= StreamingHostStopSession.GetHashCode();
       if (streamingError_ != null) hash ^= StreamingError.GetHashCode();
+      if (streamingHostSessionSettings_ != null) hash ^= StreamingHostSessionSettings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -33905,13 +34596,13 @@ namespace Uplay.Statistics {
         output.WriteRawTag(162, 3);
         output.WriteMessage(SharePlayOnboarding);
       }
-      if (sharePlayHostOutOfFocusStart_ != null) {
+      if (streamingHostOutOfFocusStart_ != null) {
         output.WriteRawTag(170, 3);
-        output.WriteMessage(SharePlayHostOutOfFocusStart);
+        output.WriteMessage(StreamingHostOutOfFocusStart);
       }
-      if (sharePlayHostOutOfFocusStop_ != null) {
+      if (streamingHostOutOfFocusStop_ != null) {
         output.WriteRawTag(178, 3);
-        output.WriteMessage(SharePlayHostOutOfFocusStop);
+        output.WriteMessage(StreamingHostOutOfFocusStop);
       }
       if (streamingFeedBack_ != null) {
         output.WriteRawTag(186, 3);
@@ -33928,6 +34619,10 @@ namespace Uplay.Statistics {
       if (streamingError_ != null) {
         output.WriteRawTag(210, 3);
         output.WriteMessage(StreamingError);
+      }
+      if (streamingHostSessionSettings_ != null) {
+        output.WriteRawTag(218, 3);
+        output.WriteMessage(StreamingHostSessionSettings);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -34147,13 +34842,13 @@ namespace Uplay.Statistics {
         output.WriteRawTag(162, 3);
         output.WriteMessage(SharePlayOnboarding);
       }
-      if (sharePlayHostOutOfFocusStart_ != null) {
+      if (streamingHostOutOfFocusStart_ != null) {
         output.WriteRawTag(170, 3);
-        output.WriteMessage(SharePlayHostOutOfFocusStart);
+        output.WriteMessage(StreamingHostOutOfFocusStart);
       }
-      if (sharePlayHostOutOfFocusStop_ != null) {
+      if (streamingHostOutOfFocusStop_ != null) {
         output.WriteRawTag(178, 3);
-        output.WriteMessage(SharePlayHostOutOfFocusStop);
+        output.WriteMessage(StreamingHostOutOfFocusStop);
       }
       if (streamingFeedBack_ != null) {
         output.WriteRawTag(186, 3);
@@ -34170,6 +34865,10 @@ namespace Uplay.Statistics {
       if (streamingError_ != null) {
         output.WriteRawTag(210, 3);
         output.WriteMessage(StreamingError);
+      }
+      if (streamingHostSessionSettings_ != null) {
+        output.WriteRawTag(218, 3);
+        output.WriteMessage(StreamingHostSessionSettings);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -34337,11 +35036,11 @@ namespace Uplay.Statistics {
       if (sharePlayOnboarding_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(SharePlayOnboarding);
       }
-      if (sharePlayHostOutOfFocusStart_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(SharePlayHostOutOfFocusStart);
+      if (streamingHostOutOfFocusStart_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostOutOfFocusStart);
       }
-      if (sharePlayHostOutOfFocusStop_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(SharePlayHostOutOfFocusStop);
+      if (streamingHostOutOfFocusStop_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostOutOfFocusStop);
       }
       if (streamingFeedBack_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingFeedBack);
@@ -34354,6 +35053,9 @@ namespace Uplay.Statistics {
       }
       if (streamingError_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingError);
+      }
+      if (streamingHostSessionSettings_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostSessionSettings);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -34679,17 +35381,17 @@ namespace Uplay.Statistics {
         }
         SharePlayOnboarding.MergeFrom(other.SharePlayOnboarding);
       }
-      if (other.sharePlayHostOutOfFocusStart_ != null) {
-        if (sharePlayHostOutOfFocusStart_ == null) {
-          SharePlayHostOutOfFocusStart = new global::Uplay.Statistics.SharePlayHostOutOfFocusStartData();
+      if (other.streamingHostOutOfFocusStart_ != null) {
+        if (streamingHostOutOfFocusStart_ == null) {
+          StreamingHostOutOfFocusStart = new global::Uplay.Statistics.StreamingHostOutOfFocusStartData();
         }
-        SharePlayHostOutOfFocusStart.MergeFrom(other.SharePlayHostOutOfFocusStart);
+        StreamingHostOutOfFocusStart.MergeFrom(other.StreamingHostOutOfFocusStart);
       }
-      if (other.sharePlayHostOutOfFocusStop_ != null) {
-        if (sharePlayHostOutOfFocusStop_ == null) {
-          SharePlayHostOutOfFocusStop = new global::Uplay.Statistics.SharePlayHostOutOfFocusStopData();
+      if (other.streamingHostOutOfFocusStop_ != null) {
+        if (streamingHostOutOfFocusStop_ == null) {
+          StreamingHostOutOfFocusStop = new global::Uplay.Statistics.StreamingHostOutOfFocusStopData();
         }
-        SharePlayHostOutOfFocusStop.MergeFrom(other.SharePlayHostOutOfFocusStop);
+        StreamingHostOutOfFocusStop.MergeFrom(other.StreamingHostOutOfFocusStop);
       }
       if (other.streamingFeedBack_ != null) {
         if (streamingFeedBack_ == null) {
@@ -34714,6 +35416,12 @@ namespace Uplay.Statistics {
           StreamingError = new global::Uplay.Statistics.StreamingErrorData();
         }
         StreamingError.MergeFrom(other.StreamingError);
+      }
+      if (other.streamingHostSessionSettings_ != null) {
+        if (streamingHostSessionSettings_ == null) {
+          StreamingHostSessionSettings = new global::Uplay.Statistics.StreamingHostSessionSettingsChanged();
+        }
+        StreamingHostSessionSettings.MergeFrom(other.StreamingHostSessionSettings);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -35095,17 +35803,17 @@ namespace Uplay.Statistics {
             break;
           }
           case 426: {
-            if (sharePlayHostOutOfFocusStart_ == null) {
-              SharePlayHostOutOfFocusStart = new global::Uplay.Statistics.SharePlayHostOutOfFocusStartData();
+            if (streamingHostOutOfFocusStart_ == null) {
+              StreamingHostOutOfFocusStart = new global::Uplay.Statistics.StreamingHostOutOfFocusStartData();
             }
-            input.ReadMessage(SharePlayHostOutOfFocusStart);
+            input.ReadMessage(StreamingHostOutOfFocusStart);
             break;
           }
           case 434: {
-            if (sharePlayHostOutOfFocusStop_ == null) {
-              SharePlayHostOutOfFocusStop = new global::Uplay.Statistics.SharePlayHostOutOfFocusStopData();
+            if (streamingHostOutOfFocusStop_ == null) {
+              StreamingHostOutOfFocusStop = new global::Uplay.Statistics.StreamingHostOutOfFocusStopData();
             }
-            input.ReadMessage(SharePlayHostOutOfFocusStop);
+            input.ReadMessage(StreamingHostOutOfFocusStop);
             break;
           }
           case 442: {
@@ -35134,6 +35842,13 @@ namespace Uplay.Statistics {
               StreamingError = new global::Uplay.Statistics.StreamingErrorData();
             }
             input.ReadMessage(StreamingError);
+            break;
+          }
+          case 474: {
+            if (streamingHostSessionSettings_ == null) {
+              StreamingHostSessionSettings = new global::Uplay.Statistics.StreamingHostSessionSettingsChanged();
+            }
+            input.ReadMessage(StreamingHostSessionSettings);
             break;
           }
         }
@@ -35516,17 +36231,17 @@ namespace Uplay.Statistics {
             break;
           }
           case 426: {
-            if (sharePlayHostOutOfFocusStart_ == null) {
-              SharePlayHostOutOfFocusStart = new global::Uplay.Statistics.SharePlayHostOutOfFocusStartData();
+            if (streamingHostOutOfFocusStart_ == null) {
+              StreamingHostOutOfFocusStart = new global::Uplay.Statistics.StreamingHostOutOfFocusStartData();
             }
-            input.ReadMessage(SharePlayHostOutOfFocusStart);
+            input.ReadMessage(StreamingHostOutOfFocusStart);
             break;
           }
           case 434: {
-            if (sharePlayHostOutOfFocusStop_ == null) {
-              SharePlayHostOutOfFocusStop = new global::Uplay.Statistics.SharePlayHostOutOfFocusStopData();
+            if (streamingHostOutOfFocusStop_ == null) {
+              StreamingHostOutOfFocusStop = new global::Uplay.Statistics.StreamingHostOutOfFocusStopData();
             }
-            input.ReadMessage(SharePlayHostOutOfFocusStop);
+            input.ReadMessage(StreamingHostOutOfFocusStop);
             break;
           }
           case 442: {
@@ -35557,6 +36272,13 @@ namespace Uplay.Statistics {
             input.ReadMessage(StreamingError);
             break;
           }
+          case 474: {
+            if (streamingHostSessionSettings_ == null) {
+              StreamingHostSessionSettings = new global::Uplay.Statistics.StreamingHostSessionSettingsChanged();
+            }
+            input.ReadMessage(StreamingHostSessionSettings);
+            break;
+          }
         }
       }
     }
@@ -35579,7 +36301,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[69]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[70]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -36265,7 +36987,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[70]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[71]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -36569,7 +37291,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[71]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[72]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -37033,7 +37755,7 @@ namespace Uplay.Statistics {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[72]; }
+      get { return global::Uplay.Statistics.StatisticsReflection.Descriptor.MessageTypes[73]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

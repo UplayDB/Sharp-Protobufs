@@ -25,7 +25,7 @@ namespace Uplay.OwnershipCache {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChVvd25lcnNoaXBfY2FjaGUucHJvdG8SG21nLnByb3RvY29sLm93bmVyc2hp",
-            "cF9jYWNoZSLyBgoJT3duZWRHYW1lEhIKCnByb2R1Y3RfaWQYASACKA0SEAoI",
+            "cF9jYWNoZSKpBwoJT3duZWRHYW1lEhIKCnByb2R1Y3RfaWQYASACKA0SEAoI",
             "dXBsYXlfaWQYAiABKA0SEwoLZG93bmxvYWRfaWQYCSABKA0SEAoIb3JiaXRf",
             "aWQYAyABKA0SDgoGY2Rfa2V5GAQgASgJEhAKCHBsYXRmb3JtGAUgASgNEhQK",
             "DHByb2R1Y3RfdHlwZRgGIAEoDRINCgVzdGF0ZRgHIAEoDRIcChRwcm9kdWN0",
@@ -37,22 +37,24 @@ namespace Uplay.OwnershipCache {
             "b3duZXJzaGlwX2NhY2hlLk93bmVkR2FtZS5UYXJnZXRQYXJ0bmVyEk4KD2Fj",
             "dGl2YXRpb25fdHlwZRgSIAEoDjI1Lm1nLnByb3RvY29sLm93bmVyc2hpcF9j",
             "YWNoZS5Pd25lZEdhbWUuQWN0aXZhdGlvblR5cGUSGgoSdWJpU2VydmljZXNf",
-            "YXBwX2lkGBMgASgJIkQKDVRhcmdldFBhcnRuZXISFgoSVGFyZ2V0UGFydG5l",
-            "cl9Ob25lEAASGwoXVGFyZ2V0UGFydG5lcl9FcGljR2FtZXMQASJoCg5BY3Rp",
-            "dmF0aW9uVHlwZRIbChdBY3RpdmF0aW9uVHlwZV9QdXJjaGFzZRAAEhgKFEFj",
-            "dGl2YXRpb25UeXBlX1RyaWFsEAESHwobQWN0aXZhdGlvblR5cGVfU3Vic2Ny",
-            "aXB0aW9uEAIioQEKDFBhY2thZ2VTdGF0ZRIcChhQYWNrYWdlU3RhdGVfVW5h",
-            "dmFpbGFibGUQABIcChhQYWNrYWdlU3RhdGVfUHJlUmVsZWFzZWQQARIgChxQ",
-            "YWNrYWdlU3RhdGVfUHJlRG93bmxvYWRhYmxlEAISGQoVUGFja2FnZVN0YXRl",
-            "X1JlbGVhc2VkEAMSGAoUUGFja2FnZVN0YXRlX0V4cGlyZWQQBCJiCg5Pd25l",
-            "cnNoaXBDYWNoZRI7Cgtvd25lZF9nYW1lcxgBIAMoCzImLm1nLnByb3RvY29s",
-            "Lm93bmVyc2hpcF9jYWNoZS5Pd25lZEdhbWUSEwoLcHJvZHVjdF9pZHMYAiAD",
-            "KA0="));
+            "YXBwX2lkGBMgASgJInsKDVRhcmdldFBhcnRuZXISFgoSVGFyZ2V0UGFydG5l",
+            "cl9Ob25lEAASGwoXVGFyZ2V0UGFydG5lcl9FcGljR2FtZXMQARIYChRUYXJn",
+            "ZXRQYXJ0bmVyX05lb3dpehACEhsKF1RhcmdldFBhcnRuZXJfTWljcm9zb2Z0",
+            "EAMiaAoOQWN0aXZhdGlvblR5cGUSGwoXQWN0aXZhdGlvblR5cGVfUHVyY2hh",
+            "c2UQABIYChRBY3RpdmF0aW9uVHlwZV9UcmlhbBABEh8KG0FjdGl2YXRpb25U",
+            "eXBlX1N1YnNjcmlwdGlvbhACIqEBCgxQYWNrYWdlU3RhdGUSHAoYUGFja2Fn",
+            "ZVN0YXRlX1VuYXZhaWxhYmxlEAASHAoYUGFja2FnZVN0YXRlX1ByZVJlbGVh",
+            "c2VkEAESIAocUGFja2FnZVN0YXRlX1ByZURvd25sb2FkYWJsZRACEhkKFVBh",
+            "Y2thZ2VTdGF0ZV9SZWxlYXNlZBADEhgKFFBhY2thZ2VTdGF0ZV9FeHBpcmVk",
+            "EAQijgEKDk93bmVyc2hpcENhY2hlEjsKC293bmVkX2dhbWVzGAEgAygLMiYu",
+            "bWcucHJvdG9jb2wub3duZXJzaGlwX2NhY2hlLk93bmVkR2FtZRITCgtwcm9k",
+            "dWN0X2lkcxgCIAMoDRIqCiJ2aXNpYmxlX29yX2luc3RhbGxhYmxlX3Byb2R1",
+            "Y3RfaWRzGAMgAygN"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.OwnershipCache.OwnedGame), global::Uplay.OwnershipCache.OwnedGame.Parser, new[]{ "ProductId", "UplayId", "DownloadId", "OrbitId", "CdKey", "Platform", "ProductType", "State", "ProductAssociations", "GameCode", "BrandId", "PendingKeystorageOwnership", "LegacySpaceId", "LegacyAppId", "GameToken", "ActivationIds", "TargetPartner", "ActivationType", "UbiServicesAppId" }, null, new[]{ typeof(global::Uplay.OwnershipCache.OwnedGame.Types.TargetPartner), typeof(global::Uplay.OwnershipCache.OwnedGame.Types.ActivationType), typeof(global::Uplay.OwnershipCache.OwnedGame.Types.PackageState) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.OwnershipCache.OwnershipCache), global::Uplay.OwnershipCache.OwnershipCache.Parser, new[]{ "OwnedGames", "ProductIds" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.OwnershipCache.OwnershipCache), global::Uplay.OwnershipCache.OwnershipCache.Parser, new[]{ "OwnedGames", "ProductIds", "VisibleOrInstallableProductIds" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1153,6 +1155,8 @@ namespace Uplay.OwnershipCache {
       public enum TargetPartner {
         [pbr::OriginalName("TargetPartner_None")] None = 0,
         [pbr::OriginalName("TargetPartner_EpicGames")] EpicGames = 1,
+        [pbr::OriginalName("TargetPartner_Neowiz")] Neowiz = 2,
+        [pbr::OriginalName("TargetPartner_Microsoft")] Microsoft = 3,
       }
 
       public enum ActivationType {
@@ -1210,6 +1214,7 @@ namespace Uplay.OwnershipCache {
     public OwnershipCache(OwnershipCache other) : this() {
       ownedGames_ = other.ownedGames_.Clone();
       productIds_ = other.productIds_.Clone();
+      visibleOrInstallableProductIds_ = other.visibleOrInstallableProductIds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1241,6 +1246,17 @@ namespace Uplay.OwnershipCache {
       get { return productIds_; }
     }
 
+    /// <summary>Field number for the "visible_or_installable_product_ids" field.</summary>
+    public const int VisibleOrInstallableProductIdsFieldNumber = 3;
+    private static readonly pb::FieldCodec<uint> _repeated_visibleOrInstallableProductIds_codec
+        = pb::FieldCodec.ForUInt32(24);
+    private readonly pbc::RepeatedField<uint> visibleOrInstallableProductIds_ = new pbc::RepeatedField<uint>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<uint> VisibleOrInstallableProductIds {
+      get { return visibleOrInstallableProductIds_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1258,6 +1274,7 @@ namespace Uplay.OwnershipCache {
       }
       if(!ownedGames_.Equals(other.ownedGames_)) return false;
       if(!productIds_.Equals(other.productIds_)) return false;
+      if(!visibleOrInstallableProductIds_.Equals(other.visibleOrInstallableProductIds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1267,6 +1284,7 @@ namespace Uplay.OwnershipCache {
       int hash = 1;
       hash ^= ownedGames_.GetHashCode();
       hash ^= productIds_.GetHashCode();
+      hash ^= visibleOrInstallableProductIds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1287,6 +1305,7 @@ namespace Uplay.OwnershipCache {
     #else
       ownedGames_.WriteTo(output, _repeated_ownedGames_codec);
       productIds_.WriteTo(output, _repeated_productIds_codec);
+      visibleOrInstallableProductIds_.WriteTo(output, _repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1299,6 +1318,7 @@ namespace Uplay.OwnershipCache {
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       ownedGames_.WriteTo(ref output, _repeated_ownedGames_codec);
       productIds_.WriteTo(ref output, _repeated_productIds_codec);
+      visibleOrInstallableProductIds_.WriteTo(ref output, _repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1311,6 +1331,7 @@ namespace Uplay.OwnershipCache {
       int size = 0;
       size += ownedGames_.CalculateSize(_repeated_ownedGames_codec);
       size += productIds_.CalculateSize(_repeated_productIds_codec);
+      size += visibleOrInstallableProductIds_.CalculateSize(_repeated_visibleOrInstallableProductIds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1325,6 +1346,7 @@ namespace Uplay.OwnershipCache {
       }
       ownedGames_.Add(other.ownedGames_);
       productIds_.Add(other.productIds_);
+      visibleOrInstallableProductIds_.Add(other.visibleOrInstallableProductIds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1349,6 +1371,11 @@ namespace Uplay.OwnershipCache {
             productIds_.AddEntriesFrom(input, _repeated_productIds_codec);
             break;
           }
+          case 26:
+          case 24: {
+            visibleOrInstallableProductIds_.AddEntriesFrom(input, _repeated_visibleOrInstallableProductIds_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1371,6 +1398,11 @@ namespace Uplay.OwnershipCache {
           case 18:
           case 16: {
             productIds_.AddEntriesFrom(ref input, _repeated_productIds_codec);
+            break;
+          }
+          case 26:
+          case 24: {
+            visibleOrInstallableProductIds_.AddEntriesFrom(ref input, _repeated_visibleOrInstallableProductIds_codec);
             break;
           }
         }
