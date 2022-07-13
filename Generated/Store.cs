@@ -15,7 +15,7 @@ namespace Uplay.Store {
   public static partial class StoreReflection {
 
     #region Descriptor
-    /// <summary>File descriptor for store.proto</summary>
+    /// <summary>File descriptor for upc_dump_6/store.proto</summary>
     public static pbr::FileDescriptor Descriptor {
       get { return descriptor; }
     }
@@ -24,85 +24,86 @@ namespace Uplay.Store {
     static StoreReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "CgtzdG9yZS5wcm90bxIRbWcucHJvdG9jb2wuc3RvcmUipwIKDFN0b3JlUHJv",
-            "ZHVjdBISCgpwcm9kdWN0X2lkGAEgASgNEhUKDWNvbmZpZ3VyYXRpb24YAiAB",
-            "KAwSDwoHc3RhZ2luZxgDIAEoCBIXCg9zdG9yZV9yZWZlcmVuY2UYBCABKAkS",
-            "FAoMYXNzb2NpYXRpb25zGAUgAygNEhoKD3Byb21vdGlvbl9zY29yZRgGIAEo",
-            "DToBMRIQCghyZXZpc2lvbhgHIAEoDRITCgtjcmVkZW50aWFscxgIIAEoCRIe",
-            "ChZvd25lcnNoaXBfYXNzb2NpYXRpb25zGAkgAygNEhEKCXVzZXJfYmxvYhgK",
-            "IAEoCRI2Cg1zdG9yZV9wYXJ0bmVyGAsgASgOMh8ubWcucHJvdG9jb2wuc3Rv",
-            "cmUuU3RvcmVQYXJ0bmVyIl4KFlN0b3JlUHJvZHVjdFVwZGF0ZUluZm8SEgoK",
-            "cHJvZHVjdF9pZBgBIAEoDRIQCghyZXZpc2lvbhgCIAEoDRIeChZvd25lcnNo",
-            "aXBfYXNzb2NpYXRpb25zGAMgAygNIiMKClN0b3JlZnJvbnQSFQoNY29uZmln",
-            "dXJhdGlvbhgBIAEoCSJiCg1Jbml0aWFsaXplUmVxEhoKC3VzZV9zdGFnaW5n",
-            "GAEgASgIOgVmYWxzZRIVCg1wcm90b192ZXJzaW9uGAIgASgNEh4KEmNsaWVu",
-            "dF9pcF9vdmVycmlkZRhjIAEoDUICGAEiUwoNSW5pdGlhbGl6ZVJzcBIPCgdz",
-            "dWNjZXNzGAEgASgIEjEKCnN0b3JlZnJvbnQYAiABKAsyHS5tZy5wcm90b2Nv",
-            "bC5zdG9yZS5TdG9yZWZyb250Ig0KC0dldFN0b3JlUmVxInYKC0dldFN0b3Jl",
-            "UnNwEi4KBnJlc3VsdBgBIAIoDjIeLm1nLnByb3RvY29sLnN0b3JlLlN0b3Jl",
-            "UmVzdWx0EjcKDnN0b3JlX3Byb2R1Y3RzGAIgAygLMh8ubWcucHJvdG9jb2wu",
-            "c3RvcmUuU3RvcmVQcm9kdWN0ImUKEFN0b3JlVXBkYXRlZFB1c2gSNwoOc3Rv",
-            "cmVfcHJvZHVjdHMYASADKAsyHy5tZy5wcm90b2NvbC5zdG9yZS5TdG9yZVBy",
-            "b2R1Y3QSGAoQcmVtb3ZlZF9wcm9kdWN0cxgCIAMoDSJXCgpHZXREYXRhUmVx",
-            "EjUKD3N0b3JlX2RhdGFfdHlwZRgBIAEoDjIcLm1nLnByb3RvY29sLnN0b3Jl",
-            "LlN0b3JlVHlwZRISCgpwcm9kdWN0X2lkGAIgAygNIqYBCgpHZXREYXRhUnNw",
-            "Ei4KBnJlc3VsdBgBIAIoDjIeLm1nLnByb3RvY29sLnN0b3JlLlN0b3JlUmVz",
-            "dWx0EjUKD3N0b3JlX2RhdGFfdHlwZRgCIAEoDjIcLm1nLnByb3RvY29sLnN0",
-            "b3JlLlN0b3JlVHlwZRIxCghwcm9kdWN0cxgDIAMoCzIfLm1nLnByb3RvY29s",
-            "LnN0b3JlLlN0b3JlUHJvZHVjdCKnAQoUUmV2aXNpb25zVXBkYXRlZFB1c2gS",
-            "NQoPc3RvcmVfZGF0YV90eXBlGAEgASgOMhwubWcucHJvdG9jb2wuc3RvcmUu",
-            "U3RvcmVUeXBlEj4KC3VwZGF0ZV9pbmZvGAIgAygLMikubWcucHJvdG9jb2wu",
-            "c3RvcmUuU3RvcmVQcm9kdWN0VXBkYXRlSW5mbxIYChByZW1vdmVkX3Byb2R1",
-            "Y3RzGAMgAygNIo8BChZJbmdhbWVTdG9yZUNyZWRlbnRpYWxzEhIKCnViaV90",
-            "aWNrZXQYASABKAkSEgoKdWJpX2FwcF9pZBgCIAEoCRITCgtzYWxlc190b2tl",
-            "bhgDIAEoCRI4Cg5zYWxlc19wbGF0Zm9ybRgEIAEoDjIgLm1nLnByb3RvY29s",
-            "LnN0b3JlLlNhbGVzUGxhdGZvcm0iKgoMS2V5VmFsdWVQYWlyEgsKA2tleRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoCSLRAQoLQ2hlY2tvdXRSZXESEgoKcHJvZHVj",
-            "dF9pZBgBIAEoCRISCgpwcmljZV9jb2RlGAIgASgJEhwKFHVybF9yZWRpcmVj",
-            "dF9zdWNjZXNzGAMgASgJEhwKFHVybF9yZWRpcmVjdF9mYWlsdXJlGAQgASgJ",
-            "EhUKDWxhbmd1YWdlX2NvZGUYBSABKAkSLgoFZXh0cmEYBiADKAsyHy5tZy5w",
-            "cm90b2NvbC5zdG9yZS5LZXlWYWx1ZVBhaXISFwoPcmVkaXJlY3RfbG9jYWxl",
-            "GAcgASgJIlEKC0NoZWNrb3V0UnNwEgsKA3VybBgBIAEoCRIXCg9uZXdfd2lu",
-            "ZG93X2ZsYWcYAiABKAgSHAoUcmVkaXJlY3RfbG9jYWxlX2NvZGUYAyABKAki",
-            "mwEKFkluZ2FtZVN0b3JlQ2hlY2tvdXRSZXESSwoYaW5nYW1lX3N0b3JlX2Ny",
-            "ZWRlbnRpYWxzGAEgASgLMikubWcucHJvdG9jb2wuc3RvcmUuSW5nYW1lU3Rv",
-            "cmVDcmVkZW50aWFscxI0CgxjaGVja291dF9yZXEYAiABKAsyHi5tZy5wcm90",
-            "b2NvbC5zdG9yZS5DaGVja291dFJlcSJ+ChZJbmdhbWVTdG9yZUNoZWNrb3V0",
-            "UnNwEi4KBnJlc3VsdBgBIAEoDjIeLm1nLnByb3RvY29sLnN0b3JlLlN0b3Jl",
-            "UmVzdWx0EjQKDGNoZWNrb3V0X3JzcBgCIAEoCzIeLm1nLnByb3RvY29sLnN0",
-            "b3JlLkNoZWNrb3V0UnNwIooBCgRQdXNoEjkKDHN0b3JlX3VwZGF0ZRgBIAEo",
-            "CzIjLm1nLnByb3RvY29sLnN0b3JlLlN0b3JlVXBkYXRlZFB1c2gSRwoWcmV2",
-            "aXNpb25zX3VwZGF0ZWRfcHVzaBgCIAEoCzInLm1nLnByb3RvY29sLnN0b3Jl",
-            "LlJldmlzaW9uc1VwZGF0ZWRQdXNoIo0CCgNSZXESEgoKcmVxdWVzdF9pZBgB",
-            "IAIoDRI4Cg5pbml0aWFsaXplX3JlcRgCIAEoCzIgLm1nLnByb3RvY29sLnN0",
-            "b3JlLkluaXRpYWxpemVSZXESNQoNZ2V0X3N0b3JlX3JlcRgDIAEoCzIeLm1n",
-            "LnByb3RvY29sLnN0b3JlLkdldFN0b3JlUmVxEjMKDGdldF9kYXRhX3JlcRgE",
-            "IAEoCzIdLm1nLnByb3RvY29sLnN0b3JlLkdldERhdGFSZXESTAoZaW5nYW1l",
-            "X3N0b3JlX2NoZWNrb3V0X3JlcRgFIAEoCzIpLm1nLnByb3RvY29sLnN0b3Jl",
-            "LkluZ2FtZVN0b3JlQ2hlY2tvdXRSZXEijQIKA1JzcBISCgpyZXF1ZXN0X2lk",
-            "GAEgAigNEjgKDmluaXRpYWxpemVfcnNwGAIgASgLMiAubWcucHJvdG9jb2wu",
-            "c3RvcmUuSW5pdGlhbGl6ZVJzcBI1Cg1nZXRfc3RvcmVfcnNwGAMgASgLMh4u",
-            "bWcucHJvdG9jb2wuc3RvcmUuR2V0U3RvcmVSc3ASMwoMZ2V0X2RhdGFfcnNw",
-            "GAQgASgLMh0ubWcucHJvdG9jb2wuc3RvcmUuR2V0RGF0YVJzcBJMChlpbmdh",
-            "bWVfc3RvcmVfY2hlY2tvdXRfcnNwGAUgASgLMikubWcucHJvdG9jb2wuc3Rv",
-            "cmUuSW5nYW1lU3RvcmVDaGVja291dFJzcCIzCghVcHN0cmVhbRInCgdyZXF1",
-            "ZXN0GAEgASgLMhYubWcucHJvdG9jb2wuc3RvcmUuUmVxIl0KCkRvd25zdHJl",
-            "YW0SKAoIcmVzcG9uc2UYASABKAsyFi5tZy5wcm90b2NvbC5zdG9yZS5Sc3AS",
-            "JQoEcHVzaBgCIAEoCzIXLm1nLnByb3RvY29sLnN0b3JlLlB1c2gqKwoUU3Rv",
-            "cmVQcm90b2NvbFZlcnNpb24SEwoPUHJvdG9jb2xWZXJzaW9uEAMq6gIKC1N0",
-            "b3JlUmVzdWx0EhkKFVN0b3JlUmVzcG9uc2VfU3VjY2VzcxABEhkKFVN0b3Jl",
-            "UmVzcG9uc2VfRmFpbHVyZRACEh8KG1N0b3JlUmVzcG9uc2VfU2VydmVyVGlt",
-            "ZU91dBADEiAKHFN0b3JlUmVzcG9uc2VfSW52YWxpZFJlcXVlc3QQBBIhCh1T",
-            "dG9yZVJlc3BvbnNlX0ludmFsaWRSZXNwb25zZRAFEh8KG1N0b3JlUmVzcG9u",
-            "c2VfSHR0cFF1ZXVlRnVsbBAGEh0KGVN0b3JlUmVzcG9uc2VfSHR0cEZhaWx1",
-            "cmUQBxImCiJTdG9yZVJlc3BvbnNlX1NhbGVzUGxhdGZvcm1GYWlsdXJlEAgS",
-            "JwojU3RvcmVSZXNwb25zZV9TYWxlc1BsYXRmb3JtUmVkaXJlY3QQCRIuCipT",
-            "dG9yZVJlc3BvbnNlX1NhbGVzUGxhdGZvcm1BbnRpZnJhdWRSZWplY3QQCipH",
-            "CgxTdG9yZVBhcnRuZXISGwoXU3RvcmVQYXJ0bmVyX0RlbWFuZHdhcmUQABIa",
-            "ChZTdG9yZVBhcnRuZXJfRXBpY3N0b3JlEAEqNwoJU3RvcmVUeXBlEhQKEFN0",
-            "b3JlVHlwZV9VcHNlbGwQARIUChBTdG9yZVR5cGVfSW5nYW1lEAIqQwoNU2Fs",
-            "ZXNQbGF0Zm9ybRIZChVTYWxlc1BsYXRmb3JtX01lcmN1cnkQARIXChNTYWxl",
-            "c1BsYXRmb3JtX1NpZ21hEAI="));
+            "ChZ1cGNfZHVtcF82L3N0b3JlLnByb3RvEhFtZy5wcm90b2NvbC5zdG9yZSKn",
+            "AgoMU3RvcmVQcm9kdWN0EhIKCnByb2R1Y3RfaWQYASABKA0SFQoNY29uZmln",
+            "dXJhdGlvbhgCIAEoDBIPCgdzdGFnaW5nGAMgASgIEhcKD3N0b3JlX3JlZmVy",
+            "ZW5jZRgEIAEoCRIUCgxhc3NvY2lhdGlvbnMYBSADKA0SGgoPcHJvbW90aW9u",
+            "X3Njb3JlGAYgASgNOgExEhAKCHJldmlzaW9uGAcgASgNEhMKC2NyZWRlbnRp",
+            "YWxzGAggASgJEh4KFm93bmVyc2hpcF9hc3NvY2lhdGlvbnMYCSADKA0SEQoJ",
+            "dXNlcl9ibG9iGAogASgJEjYKDXN0b3JlX3BhcnRuZXIYCyABKA4yHy5tZy5w",
+            "cm90b2NvbC5zdG9yZS5TdG9yZVBhcnRuZXIiXgoWU3RvcmVQcm9kdWN0VXBk",
+            "YXRlSW5mbxISCgpwcm9kdWN0X2lkGAEgASgNEhAKCHJldmlzaW9uGAIgASgN",
+            "Eh4KFm93bmVyc2hpcF9hc3NvY2lhdGlvbnMYAyADKA0iIwoKU3RvcmVmcm9u",
+            "dBIVCg1jb25maWd1cmF0aW9uGAEgASgJImIKDUluaXRpYWxpemVSZXESGgoL",
+            "dXNlX3N0YWdpbmcYASABKAg6BWZhbHNlEhUKDXByb3RvX3ZlcnNpb24YAiAB",
+            "KA0SHgoSY2xpZW50X2lwX292ZXJyaWRlGGMgASgNQgIYASJTCg1Jbml0aWFs",
+            "aXplUnNwEg8KB3N1Y2Nlc3MYASABKAgSMQoKc3RvcmVmcm9udBgCIAEoCzId",
+            "Lm1nLnByb3RvY29sLnN0b3JlLlN0b3JlZnJvbnQiDQoLR2V0U3RvcmVSZXEi",
+            "dgoLR2V0U3RvcmVSc3ASLgoGcmVzdWx0GAEgAigOMh4ubWcucHJvdG9jb2wu",
+            "c3RvcmUuU3RvcmVSZXN1bHQSNwoOc3RvcmVfcHJvZHVjdHMYAiADKAsyHy5t",
+            "Zy5wcm90b2NvbC5zdG9yZS5TdG9yZVByb2R1Y3QiZQoQU3RvcmVVcGRhdGVk",
+            "UHVzaBI3Cg5zdG9yZV9wcm9kdWN0cxgBIAMoCzIfLm1nLnByb3RvY29sLnN0",
+            "b3JlLlN0b3JlUHJvZHVjdBIYChByZW1vdmVkX3Byb2R1Y3RzGAIgAygNIlcK",
+            "CkdldERhdGFSZXESNQoPc3RvcmVfZGF0YV90eXBlGAEgASgOMhwubWcucHJv",
+            "dG9jb2wuc3RvcmUuU3RvcmVUeXBlEhIKCnByb2R1Y3RfaWQYAiADKA0ipgEK",
+            "CkdldERhdGFSc3ASLgoGcmVzdWx0GAEgAigOMh4ubWcucHJvdG9jb2wuc3Rv",
+            "cmUuU3RvcmVSZXN1bHQSNQoPc3RvcmVfZGF0YV90eXBlGAIgASgOMhwubWcu",
+            "cHJvdG9jb2wuc3RvcmUuU3RvcmVUeXBlEjEKCHByb2R1Y3RzGAMgAygLMh8u",
+            "bWcucHJvdG9jb2wuc3RvcmUuU3RvcmVQcm9kdWN0IqcBChRSZXZpc2lvbnNV",
+            "cGRhdGVkUHVzaBI1Cg9zdG9yZV9kYXRhX3R5cGUYASABKA4yHC5tZy5wcm90",
+            "b2NvbC5zdG9yZS5TdG9yZVR5cGUSPgoLdXBkYXRlX2luZm8YAiADKAsyKS5t",
+            "Zy5wcm90b2NvbC5zdG9yZS5TdG9yZVByb2R1Y3RVcGRhdGVJbmZvEhgKEHJl",
+            "bW92ZWRfcHJvZHVjdHMYAyADKA0ijwEKFkluZ2FtZVN0b3JlQ3JlZGVudGlh",
+            "bHMSEgoKdWJpX3RpY2tldBgBIAEoCRISCgp1YmlfYXBwX2lkGAIgASgJEhMK",
+            "C3NhbGVzX3Rva2VuGAMgASgJEjgKDnNhbGVzX3BsYXRmb3JtGAQgASgOMiAu",
+            "bWcucHJvdG9jb2wuc3RvcmUuU2FsZXNQbGF0Zm9ybSIqCgxLZXlWYWx1ZVBh",
+            "aXISCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJIvABCgtDaGVja291dFJl",
+            "cRISCgpwcm9kdWN0X2lkGAEgASgJEhIKCnByaWNlX2NvZGUYAiABKAkSHAoU",
+            "dXJsX3JlZGlyZWN0X3N1Y2Nlc3MYAyABKAkSHAoUdXJsX3JlZGlyZWN0X2Zh",
+            "aWx1cmUYBCABKAkSFQoNbGFuZ3VhZ2VfY29kZRgFIAEoCRIuCgVleHRyYRgG",
+            "IAMoCzIfLm1nLnByb3RvY29sLnN0b3JlLktleVZhbHVlUGFpchIXCg9yZWRp",
+            "cmVjdF9sb2NhbGUYByABKAkSHQoVcGFydG5lcl9wbGF0Zm9ybV9uYW1lGAgg",
+            "ASgJIlEKC0NoZWNrb3V0UnNwEgsKA3VybBgBIAEoCRIXCg9uZXdfd2luZG93",
+            "X2ZsYWcYAiABKAgSHAoUcmVkaXJlY3RfbG9jYWxlX2NvZGUYAyABKAkimwEK",
+            "FkluZ2FtZVN0b3JlQ2hlY2tvdXRSZXESSwoYaW5nYW1lX3N0b3JlX2NyZWRl",
+            "bnRpYWxzGAEgASgLMikubWcucHJvdG9jb2wuc3RvcmUuSW5nYW1lU3RvcmVD",
+            "cmVkZW50aWFscxI0CgxjaGVja291dF9yZXEYAiABKAsyHi5tZy5wcm90b2Nv",
+            "bC5zdG9yZS5DaGVja291dFJlcSJ+ChZJbmdhbWVTdG9yZUNoZWNrb3V0UnNw",
+            "Ei4KBnJlc3VsdBgBIAEoDjIeLm1nLnByb3RvY29sLnN0b3JlLlN0b3JlUmVz",
+            "dWx0EjQKDGNoZWNrb3V0X3JzcBgCIAEoCzIeLm1nLnByb3RvY29sLnN0b3Jl",
+            "LkNoZWNrb3V0UnNwIooBCgRQdXNoEjkKDHN0b3JlX3VwZGF0ZRgBIAEoCzIj",
+            "Lm1nLnByb3RvY29sLnN0b3JlLlN0b3JlVXBkYXRlZFB1c2gSRwoWcmV2aXNp",
+            "b25zX3VwZGF0ZWRfcHVzaBgCIAEoCzInLm1nLnByb3RvY29sLnN0b3JlLlJl",
+            "dmlzaW9uc1VwZGF0ZWRQdXNoIo0CCgNSZXESEgoKcmVxdWVzdF9pZBgBIAIo",
+            "DRI4Cg5pbml0aWFsaXplX3JlcRgCIAEoCzIgLm1nLnByb3RvY29sLnN0b3Jl",
+            "LkluaXRpYWxpemVSZXESNQoNZ2V0X3N0b3JlX3JlcRgDIAEoCzIeLm1nLnBy",
+            "b3RvY29sLnN0b3JlLkdldFN0b3JlUmVxEjMKDGdldF9kYXRhX3JlcRgEIAEo",
+            "CzIdLm1nLnByb3RvY29sLnN0b3JlLkdldERhdGFSZXESTAoZaW5nYW1lX3N0",
+            "b3JlX2NoZWNrb3V0X3JlcRgFIAEoCzIpLm1nLnByb3RvY29sLnN0b3JlLklu",
+            "Z2FtZVN0b3JlQ2hlY2tvdXRSZXEijQIKA1JzcBISCgpyZXF1ZXN0X2lkGAEg",
+            "AigNEjgKDmluaXRpYWxpemVfcnNwGAIgASgLMiAubWcucHJvdG9jb2wuc3Rv",
+            "cmUuSW5pdGlhbGl6ZVJzcBI1Cg1nZXRfc3RvcmVfcnNwGAMgASgLMh4ubWcu",
+            "cHJvdG9jb2wuc3RvcmUuR2V0U3RvcmVSc3ASMwoMZ2V0X2RhdGFfcnNwGAQg",
+            "ASgLMh0ubWcucHJvdG9jb2wuc3RvcmUuR2V0RGF0YVJzcBJMChlpbmdhbWVf",
+            "c3RvcmVfY2hlY2tvdXRfcnNwGAUgASgLMikubWcucHJvdG9jb2wuc3RvcmUu",
+            "SW5nYW1lU3RvcmVDaGVja291dFJzcCIzCghVcHN0cmVhbRInCgdyZXF1ZXN0",
+            "GAEgASgLMhYubWcucHJvdG9jb2wuc3RvcmUuUmVxIl0KCkRvd25zdHJlYW0S",
+            "KAoIcmVzcG9uc2UYASABKAsyFi5tZy5wcm90b2NvbC5zdG9yZS5Sc3ASJQoE",
+            "cHVzaBgCIAEoCzIXLm1nLnByb3RvY29sLnN0b3JlLlB1c2gqKwoUU3RvcmVQ",
+            "cm90b2NvbFZlcnNpb24SEwoPUHJvdG9jb2xWZXJzaW9uEAMq6gIKC1N0b3Jl",
+            "UmVzdWx0EhkKFVN0b3JlUmVzcG9uc2VfU3VjY2VzcxABEhkKFVN0b3JlUmVz",
+            "cG9uc2VfRmFpbHVyZRACEh8KG1N0b3JlUmVzcG9uc2VfU2VydmVyVGltZU91",
+            "dBADEiAKHFN0b3JlUmVzcG9uc2VfSW52YWxpZFJlcXVlc3QQBBIhCh1TdG9y",
+            "ZVJlc3BvbnNlX0ludmFsaWRSZXNwb25zZRAFEh8KG1N0b3JlUmVzcG9uc2Vf",
+            "SHR0cFF1ZXVlRnVsbBAGEh0KGVN0b3JlUmVzcG9uc2VfSHR0cEZhaWx1cmUQ",
+            "BxImCiJTdG9yZVJlc3BvbnNlX1NhbGVzUGxhdGZvcm1GYWlsdXJlEAgSJwoj",
+            "U3RvcmVSZXNwb25zZV9TYWxlc1BsYXRmb3JtUmVkaXJlY3QQCRIuCipTdG9y",
+            "ZVJlc3BvbnNlX1NhbGVzUGxhdGZvcm1BbnRpZnJhdWRSZWplY3QQCipHCgxT",
+            "dG9yZVBhcnRuZXISGwoXU3RvcmVQYXJ0bmVyX0RlbWFuZHdhcmUQABIaChZT",
+            "dG9yZVBhcnRuZXJfRXBpY3N0b3JlEAEqNwoJU3RvcmVUeXBlEhQKEFN0b3Jl",
+            "VHlwZV9VcHNlbGwQARIUChBTdG9yZVR5cGVfSW5nYW1lEAIqQwoNU2FsZXNQ",
+            "bGF0Zm9ybRIZChVTYWxlc1BsYXRmb3JtX01lcmN1cnkQARIXChNTYWxlc1Bs",
+            "YXRmb3JtX1NpZ21hEAI="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Uplay.Store.StoreProtocolVersion), typeof(global::Uplay.Store.StoreResult), typeof(global::Uplay.Store.StorePartner), typeof(global::Uplay.Store.StoreType), typeof(global::Uplay.Store.SalesPlatform), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -119,7 +120,7 @@ namespace Uplay.Store {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.RevisionsUpdatedPush), global::Uplay.Store.RevisionsUpdatedPush.Parser, new[]{ "StoreDataType", "UpdateInfo", "RemovedProducts" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.IngameStoreCredentials), global::Uplay.Store.IngameStoreCredentials.Parser, new[]{ "UbiTicket", "UbiAppId", "SalesToken", "SalesPlatform" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.KeyValuePair), global::Uplay.Store.KeyValuePair.Parser, new[]{ "Key", "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.CheckoutReq), global::Uplay.Store.CheckoutReq.Parser, new[]{ "ProductId", "PriceCode", "UrlRedirectSuccess", "UrlRedirectFailure", "LanguageCode", "Extra", "RedirectLocale" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.CheckoutReq), global::Uplay.Store.CheckoutReq.Parser, new[]{ "ProductId", "PriceCode", "UrlRedirectSuccess", "UrlRedirectFailure", "LanguageCode", "Extra", "RedirectLocale", "PartnerPlatformName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.CheckoutRsp), global::Uplay.Store.CheckoutRsp.Parser, new[]{ "Url", "NewWindowFlag", "RedirectLocaleCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.IngameStoreCheckoutReq), global::Uplay.Store.IngameStoreCheckoutReq.Parser, new[]{ "IngameStoreCredentials", "CheckoutReq" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Store.IngameStoreCheckoutRsp), global::Uplay.Store.IngameStoreCheckoutRsp.Parser, new[]{ "Result", "CheckoutRsp" }, null, null, null, null),
@@ -3919,6 +3920,7 @@ namespace Uplay.Store {
       languageCode_ = other.languageCode_;
       extra_ = other.extra_.Clone();
       redirectLocale_ = other.redirectLocale_;
+      partnerPlatformName_ = other.partnerPlatformName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4095,6 +4097,32 @@ namespace Uplay.Store {
       redirectLocale_ = null;
     }
 
+    /// <summary>Field number for the "partner_platform_name" field.</summary>
+    public const int PartnerPlatformNameFieldNumber = 8;
+    private readonly static string PartnerPlatformNameDefaultValue = "";
+
+    private string partnerPlatformName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string PartnerPlatformName {
+      get { return partnerPlatformName_ ?? PartnerPlatformNameDefaultValue; }
+      set {
+        partnerPlatformName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "partner_platform_name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPartnerPlatformName {
+      get { return partnerPlatformName_ != null; }
+    }
+    /// <summary>Clears the value of the "partner_platform_name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPartnerPlatformName() {
+      partnerPlatformName_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4117,6 +4145,7 @@ namespace Uplay.Store {
       if (LanguageCode != other.LanguageCode) return false;
       if(!extra_.Equals(other.extra_)) return false;
       if (RedirectLocale != other.RedirectLocale) return false;
+      if (PartnerPlatformName != other.PartnerPlatformName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4131,6 +4160,7 @@ namespace Uplay.Store {
       if (HasLanguageCode) hash ^= LanguageCode.GetHashCode();
       hash ^= extra_.GetHashCode();
       if (HasRedirectLocale) hash ^= RedirectLocale.GetHashCode();
+      if (HasPartnerPlatformName) hash ^= PartnerPlatformName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4174,6 +4204,10 @@ namespace Uplay.Store {
         output.WriteRawTag(58);
         output.WriteString(RedirectLocale);
       }
+      if (HasPartnerPlatformName) {
+        output.WriteRawTag(66);
+        output.WriteString(PartnerPlatformName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4209,6 +4243,10 @@ namespace Uplay.Store {
         output.WriteRawTag(58);
         output.WriteString(RedirectLocale);
       }
+      if (HasPartnerPlatformName) {
+        output.WriteRawTag(66);
+        output.WriteString(PartnerPlatformName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4237,6 +4275,9 @@ namespace Uplay.Store {
       size += extra_.CalculateSize(_repeated_extra_codec);
       if (HasRedirectLocale) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RedirectLocale);
+      }
+      if (HasPartnerPlatformName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PartnerPlatformName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4268,6 +4309,9 @@ namespace Uplay.Store {
       extra_.Add(other.extra_);
       if (other.HasRedirectLocale) {
         RedirectLocale = other.RedirectLocale;
+      }
+      if (other.HasPartnerPlatformName) {
+        PartnerPlatformName = other.PartnerPlatformName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4312,6 +4356,10 @@ namespace Uplay.Store {
             RedirectLocale = input.ReadString();
             break;
           }
+          case 66: {
+            PartnerPlatformName = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -4353,6 +4401,10 @@ namespace Uplay.Store {
           }
           case 58: {
             RedirectLocale = input.ReadString();
+            break;
+          }
+          case 66: {
+            PartnerPlatformName = input.ReadString();
             break;
           }
         }
