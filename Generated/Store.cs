@@ -15,7 +15,7 @@ namespace Uplay.Store {
   public static partial class StoreReflection {
 
     #region Descriptor
-    /// <summary>File descriptor for upc_dump_6/store.proto</summary>
+    /// <summary>File descriptor for store.proto</summary>
     public static pbr::FileDescriptor Descriptor {
       get { return descriptor; }
     }
