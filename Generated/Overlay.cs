@@ -15,7 +15,7 @@ namespace Uplay.Overlay {
   public static partial class OverlayReflection {
 
     #region Descriptor
-    /// <summary>File descriptor for uplay/overlay.proto</summary>
+    /// <summary>File descriptor for overlay.proto</summary>
     public static pbr::FileDescriptor Descriptor {
       get { return descriptor; }
     }
@@ -24,185 +24,210 @@ namespace Uplay.Overlay {
     static OverlayReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChN1cGxheS9vdmVybGF5LnByb3RvEhNtZy5wcm90b2NvbC5vdmVybGF5IhUK",
-            "E0dldENvbmZpZ3VyYXRpb25SZXEiKwoTR2V0Q29uZmlndXJhdGlvblJzcBIU",
-            "CgxsaWJyYXJ5X3BhdGgYASACKAkiNgoIU3RhcnRSZXESDQoFd2lkdGgYASAC",
-            "KA0SDgoGaGVpZ2h0GAIgAigNEgsKA3BpZBgDIAIoDSLHAQoPU3RhcnRTdWNj",
-            "ZXNzUnNwEhoKEnNoYXJlZF9tZW1vcnlfbmFtZRgBIAIoCRIgChhzaGFyZWRf",
-            "bWVtb3J5X211dGV4X25hbWUYAiACKAkSEgoKcHJvZHVjdF9pZBgDIAIoDRIi",
-            "Chp1YmlzZXJ2aWNlc19hcHBsaWNhdGlvbl9pZBgEIAEoCRIcChR1YmlzZXJ2",
-            "aWNlc19zcGFjZV9pZBgFIAEoCRIgChh2aXJ0dWFsX2NvbnRyb2xzX2VuYWJs",
-            "ZWQYBiABKAgiEQoPU3RhcnRGYWlsdXJlUnNwIoABCghTdGFydFJzcBI5Cgtz",
-            "dWNjZXNzX3JzcBgBIAEoCzIkLm1nLnByb3RvY29sLm92ZXJsYXkuU3RhcnRT",
-            "dWNjZXNzUnNwEjkKC2ZhaWx1cmVfcnNwGAIgASgLMiQubWcucHJvdG9jb2wu",
-            "b3ZlcmxheS5TdGFydEZhaWx1cmVSc3AiKgoJUmVzaXplUmVxEg0KBXdpZHRo",
-            "GAEgAigNEg4KBmhlaWdodBgCIAIoDSJQChBSZXNpemVTdWNjZXNzUnNwEhoK",
-            "EnNoYXJlZF9tZW1vcnlfbmFtZRgBIAIoCRIgChhzaGFyZWRfbWVtb3J5X211",
-            "dGV4X25hbWUYAiACKAkiEgoQUmVzaXplRmFpbHVyZVJzcCKDAQoJUmVzaXpl",
-            "UnNwEjoKC3N1Y2Nlc3NfcnNwGAEgASgLMiUubWcucHJvdG9jb2wub3Zlcmxh",
-            "eS5SZXNpemVTdWNjZXNzUnNwEjoKC2ZhaWx1cmVfcnNwGAIgASgLMiUubWcu",
-            "cHJvdG9jb2wub3ZlcmxheS5SZXNpemVGYWlsdXJlUnNwIm8KCVJlY3Rhbmds",
-            "ZRIVCg10b3BfbGVmdF9wb3NYGAEgAigNEhUKDXRvcF9sZWZ0X3Bvc1kYAiAC",
-            "KA0SGQoRYm90dG9tX3JpZ2h0X3Bvc1gYAyACKA0SGQoRYm90dG9tX3JpZ2h0",
-            "X3Bvc1kYBCACKA0iWgoOVmlld1VwZGF0ZWRSc3ASNwoPZGlydHlSZWN0YW5n",
-            "bGVzGAEgAygLMh4ubWcucHJvdG9jb2wub3ZlcmxheS5SZWN0YW5nbGUSDwoH",
-            "dmVyc2lvbhgCIAIoDSIeCg1Gb2N1c0V2ZW50UmVxEg0KBWZvY3VzGAEgASgI",
-            "IkcKEldpbjMyS2V5TWVzc2FnZVJlcRIPCgdtZXNzYWdlGAEgAigFEg8KB3df",
-            "cGFyYW0YAiACKAUSDwoHbF9wYXJhbRgDIAIoBSKnAQoQQXBwbGVLZXlFdmVu",
-            "dFJlcRIMCgR0eXBlGAEgAigFEhUKDW1vZGlmaWVyRmxhZ3MYAiACKAUSEQoJ",
-            "dGltZXN0YW1wGAMgAigBEhIKCmNoYXJhY3RlcnMYBCACKAkSIwobY2hhcmFj",
-            "dGVyc0lnbm9yaW5nTW9kaWZpZXJzGAUgAigJEhEKCWlzQVJlcGVhdBgGIAIo",
-            "BRIPCgdrZXlDb2RlGAcgAigNIicKFU1vdXNlQnV0dG9uUHJlc3NlZFJlcRIO",
-            "CgZidXR0b24YASACKAUiKAoWTW91c2VCdXR0b25SZWxlYXNlZFJlcRIOCgZi",
-            "dXR0b24YASACKAUiJQoTTW91c2VEb3VibGVDbGlja1JlcRIOCgZidXR0b24Y",
-            "ASACKAUiTAoNTW91c2VNb3ZlZFJlcRIJCgF4GAEgAigFEgkKAXkYAiACKAUS",
-            "EQoJbW9kaWZpZXJzGAMgASgFEhIKCmlzX3ZpcnR1YWwYBCABKAgiOAoSTW91",
-            "c2VXaGVlbE1vdmVkUmVxEhAKCHNjcm9sbF94GAEgAigFEhAKCHNjcm9sbF95",
-            "GAIgAigFIicKDUxhbmdDaGFuZ2VSZXESFgoObGFuZ0FiYnJldmlhdGUYASAB",
-            "KAkiCwoJU2hvd1VpUmVxIgwKCkNsb3NlVWlSZXEiDgoMUmVmcmVzaFVpUmVx",
-            "IhAKDkJ1ZmZlclJlYWR5UmVxIjIKEENyZWF0ZVByb2Nlc3NSZXESCwoDcGlk",
-            "GAEgAigNEhEKCXN0YXJ0ZXJJZBgCIAIoDSIfChBDcmVhdGVQcm9jZXNzUnNw",
-            "EgsKA3BpZBgBIAIoDSIqChJWaWRlb0ZyYW1lUmVhZHlSZXESFAoMYnVmZmVy",
-            "X2luZGV4GAEgAigNIi0KFVZpZGVvRnJhbWVSZWxlYXNlZFJzcBIUCgxidWZm",
-            "ZXJfaW5kZXgYASACKA0ibAoVQ2FwdHVyZVNjcmVlbnNob3RQdXNoEhMKC2Zy",
-            "YW1lX3dpZHRoGAEgAigNEhQKDGZyYW1lX2hlaWdodBgCIAIoDRITCgtidWZm",
-            "ZXJfbmFtZRgDIAIoCRITCgtidWZmZXJfc2l6ZRgEIAIoDSIfCgxVaU9wZW5l",
-            "ZFB1c2gSDwoHc3VjY2VzcxgBIAIoCCIfCgxVaUNsb3NlZFB1c2gSDwoHc3Vj",
-            "Y2VzcxgBIAIoCCIZChdJTUVDbGVhckNvbXBvc2l0aW9uUHVzaCI6ChZJTUVT",
-            "ZWxlY3RDYW5kaWRhdGVQdXNoEiAKGHNlbGVjdGVkX2NhbmRpZGF0ZV9pbmRl",
-            "eBgBIAIoDSIlChBDdXJzb3JDaGFuZ2VQdXNoEhEKCWN1cnNvcl9pZBgBIAIo",
-            "DSK+AQoWU3RyZWFtaW5nSG9zdFN0YXJ0UHVzaBISCgpzZXNzaW9uX2lkGAEg",
-            "AigJEg0KBXRva2VuGAIgAigJEg4KBmFwcF9pZBgDIAIoCRIOCgZpc191YXQY",
-            "BCACKAgSDwoHYml0cmF0ZRgFIAIoDRIeChZtb3VzZV9rZXlib2FyZF9hbGxv",
-            "d2VkGAYgAigIEhcKD2dhbWVwYWRfYWxsb3dlZBgHIAIoCBIXCg9ob3N0X3By",
-            "b2ZpbGVfaWQYCCACKAkiqgEKGlN0cmVhbWluZ0hvc3RTdGFydFJlc3BvbnNl",
-            "Eg4KBnJlc3VsdBgBIAIoCBIUCgxpbnZpdGVfdG9rZW4YAiABKAkSPwoMc3Rh",
-            "cnRfY29uZmlnGAMgASgLMikubWcucHJvdG9jb2wub3ZlcmxheS5TdHJlYW1p",
-            "bmdTdGFydENvbmZpZxIRCgllcnJvcl9tc2cYBCABKAkSEgoKZXJyb3JfY29k",
-            "ZRgFIAEoBSJkCh1TdHJlYW1pbmdIb3N0R3Vlc3RQZXJtaXNzaW9ucxIPCgdn",
-            "YW1lcGFkGAEgAigIEhAKCGtleWJvYXJkGAIgAigIEg0KBW1vdXNlGAMgAigI",
-            "EhEKCWltbWVyc2l2ZRgEIAIoCCJtCiJTdHJlYW1pbmdIb3N0R3Vlc3RTZXR0",
-            "aW5nc1Jlc3BvbnNlEkcKC3Blcm1pc3Npb25zGAEgAigLMjIubWcucHJvdG9j",
-            "b2wub3ZlcmxheS5TdHJlYW1pbmdIb3N0R3Vlc3RQZXJtaXNzaW9ucyKNAQoa",
-            "U3RyZWFtaW5nSG9zdEd1ZXN0UmVzcG9uc2USEAoIZ3Vlc3RfaWQYASACKA0S",
-            "EgoKcHJvZmlsZV9pZBgCIAIoCRJJCghzZXR0aW5ncxgDIAIoCzI3Lm1nLnBy",
-            "b3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdEd1ZXN0U2V0dGluZ3NSZXNw",
-            "b25zZSJgCh5TdHJlYW1pbmdIb3N0R3Vlc3RDb25uZWN0ZWRSZXESPgoFZ3Vl",
-            "c3QYASACKAsyLy5tZy5wcm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hvc3RH",
-            "dWVzdFJlc3BvbnNlIkkKIVN0cmVhbWluZ0hvc3RHdWVzdERpc2Nvbm5lY3Rl",
-            "ZFJlcRIQCghndWVzdF9pZBgBIAIoDRISCgpwcm9maWxlX2lkGAIgAigJIhcK",
-            "FVN0cmVhbWluZ0hvc3RTdG9wUHVzaCIpChVTdHJlYW1pbmdIb3N0S2lja1B1",
-            "c2gSEAoIZ3Vlc3RfaWQYASACKA0iYQoVU3RyZWFtaW5nU2V0dGluZ3NQdXNo",
-            "Eg8KB2JpdHJhdGUYASACKA0SHgoWbW91c2Vfa2V5Ym9hcmRfYWxsb3dlZBgC",
-            "IAIoCBIXCg9nYW1lcGFkX2FsbG93ZWQYAyACKAgiagocU3RyZWFtaW5nSG9z",
-            "dFBlcm1pc3Npb25zUHVzaBIRCgljbGllbnRfaWQYASACKA0SHgoWbW91c2Vf",
-            "a2V5Ym9hcmRfYWxsb3dlZBgCIAIoCBIXCg9nYW1lcGFkX2FsbG93ZWQYAyAC",
-            "KAgiRAolU3RyZWFtaW5nSG9zdEFkZEFsbG93ZWRQcm9maWxlSWRzUHVzaBIb",
-            "ChNhbGxvd2VkX3Byb2ZpbGVfaWRzGAEgAygJInQKFFN0cmVhbWluZ1N0YXJ0",
-            "Q29uZmlnEg0KBXdpZHRoGAEgASgNEg4KBmhlaWdodBgCIAEoDRIPCgdiaXRy",
-            "YXRlGAMgASgNEhgKEGlzX2F1ZGlvX2VuYWJsZWQYBCABKAgSEgoKaXNfZm9j",
-            "dXNlZBgFIAEoCCImChRTdHJlYW1pbmdIb3N0U3RvcFJlcRIOCgZyZXN1bHQY",
-            "ASACKAgiJgoUU3RyZWFtaW5nU2V0dGluZ3NSZXESDgoGcmVzdWx0GAEgAigN",
-            "IjoKE1N0cmVhbWluZ0xhdGVuY3lSZXESDwoHbGF0ZW5jeRgBIAIoDRISCgpw",
-            "cm9maWxlX2lkGAIgAigJIk4KF1N0cmVhbWluZ0hvc3RNZXRyaWNzUmVxEg8K",
-            "B2xhdGVuY3kYASACKA0SDwoHYml0cmF0ZRgCIAIoAhIRCgljbGllbnRfaWQY",
-            "AyACKA0iVQoRU3RyZWFtaW5nVkdQRXZlbnQSDgoGc291cmNlGAEgAigNEhIK",
+            "Chl1cGNfZHVtcF8xMC9vdmVybGF5LnByb3RvEhNtZy5wcm90b2NvbC5vdmVy",
+            "bGF5IhUKE0dldENvbmZpZ3VyYXRpb25SZXEiKwoTR2V0Q29uZmlndXJhdGlv",
+            "blJzcBIUCgxsaWJyYXJ5X3BhdGgYASACKAkiNgoIU3RhcnRSZXESDQoFd2lk",
+            "dGgYASACKA0SDgoGaGVpZ2h0GAIgAigNEgsKA3BpZBgDIAIoDSLHAQoPU3Rh",
+            "cnRTdWNjZXNzUnNwEhoKEnNoYXJlZF9tZW1vcnlfbmFtZRgBIAIoCRIgChhz",
+            "aGFyZWRfbWVtb3J5X211dGV4X25hbWUYAiACKAkSEgoKcHJvZHVjdF9pZBgD",
+            "IAIoDRIiChp1YmlzZXJ2aWNlc19hcHBsaWNhdGlvbl9pZBgEIAEoCRIcChR1",
+            "YmlzZXJ2aWNlc19zcGFjZV9pZBgFIAEoCRIgChh2aXJ0dWFsX2NvbnRyb2xz",
+            "X2VuYWJsZWQYBiABKAgiEQoPU3RhcnRGYWlsdXJlUnNwIoABCghTdGFydFJz",
+            "cBI5CgtzdWNjZXNzX3JzcBgBIAEoCzIkLm1nLnByb3RvY29sLm92ZXJsYXku",
+            "U3RhcnRTdWNjZXNzUnNwEjkKC2ZhaWx1cmVfcnNwGAIgASgLMiQubWcucHJv",
+            "dG9jb2wub3ZlcmxheS5TdGFydEZhaWx1cmVSc3AiKgoJUmVzaXplUmVxEg0K",
+            "BXdpZHRoGAEgAigNEg4KBmhlaWdodBgCIAIoDSJQChBSZXNpemVTdWNjZXNz",
+            "UnNwEhoKEnNoYXJlZF9tZW1vcnlfbmFtZRgBIAIoCRIgChhzaGFyZWRfbWVt",
+            "b3J5X211dGV4X25hbWUYAiACKAkiEgoQUmVzaXplRmFpbHVyZVJzcCKDAQoJ",
+            "UmVzaXplUnNwEjoKC3N1Y2Nlc3NfcnNwGAEgASgLMiUubWcucHJvdG9jb2wu",
+            "b3ZlcmxheS5SZXNpemVTdWNjZXNzUnNwEjoKC2ZhaWx1cmVfcnNwGAIgASgL",
+            "MiUubWcucHJvdG9jb2wub3ZlcmxheS5SZXNpemVGYWlsdXJlUnNwIm8KCVJl",
+            "Y3RhbmdsZRIVCg10b3BfbGVmdF9wb3NYGAEgAigNEhUKDXRvcF9sZWZ0X3Bv",
+            "c1kYAiACKA0SGQoRYm90dG9tX3JpZ2h0X3Bvc1gYAyACKA0SGQoRYm90dG9t",
+            "X3JpZ2h0X3Bvc1kYBCACKA0iWgoOVmlld1VwZGF0ZWRSc3ASNwoPZGlydHlS",
+            "ZWN0YW5nbGVzGAEgAygLMh4ubWcucHJvdG9jb2wub3ZlcmxheS5SZWN0YW5n",
+            "bGUSDwoHdmVyc2lvbhgCIAIoDSIeCg1Gb2N1c0V2ZW50UmVxEg0KBWZvY3Vz",
+            "GAEgASgIIkcKEldpbjMyS2V5TWVzc2FnZVJlcRIPCgdtZXNzYWdlGAEgAigF",
+            "Eg8KB3dfcGFyYW0YAiACKAUSDwoHbF9wYXJhbRgDIAIoBSKnAQoQQXBwbGVL",
+            "ZXlFdmVudFJlcRIMCgR0eXBlGAEgAigFEhUKDW1vZGlmaWVyRmxhZ3MYAiAC",
+            "KAUSEQoJdGltZXN0YW1wGAMgAigBEhIKCmNoYXJhY3RlcnMYBCACKAkSIwob",
+            "Y2hhcmFjdGVyc0lnbm9yaW5nTW9kaWZpZXJzGAUgAigJEhEKCWlzQVJlcGVh",
+            "dBgGIAIoBRIPCgdrZXlDb2RlGAcgAigNIicKFU1vdXNlQnV0dG9uUHJlc3Nl",
+            "ZFJlcRIOCgZidXR0b24YASACKAUiKAoWTW91c2VCdXR0b25SZWxlYXNlZFJl",
+            "cRIOCgZidXR0b24YASACKAUiJQoTTW91c2VEb3VibGVDbGlja1JlcRIOCgZi",
+            "dXR0b24YASACKAUiTAoNTW91c2VNb3ZlZFJlcRIJCgF4GAEgAigFEgkKAXkY",
+            "AiACKAUSEQoJbW9kaWZpZXJzGAMgASgFEhIKCmlzX3ZpcnR1YWwYBCABKAgi",
+            "OAoSTW91c2VXaGVlbE1vdmVkUmVxEhAKCHNjcm9sbF94GAEgAigFEhAKCHNj",
+            "cm9sbF95GAIgAigFIicKDUxhbmdDaGFuZ2VSZXESFgoObGFuZ0FiYnJldmlh",
+            "dGUYASABKAkiCwoJU2hvd1VpUmVxIgwKCkNsb3NlVWlSZXEiDgoMUmVmcmVz",
+            "aFVpUmVxIhAKDkJ1ZmZlclJlYWR5UmVxIjIKEENyZWF0ZVByb2Nlc3NSZXES",
+            "CwoDcGlkGAEgAigNEhEKCXN0YXJ0ZXJJZBgCIAIoDSIfChBDcmVhdGVQcm9j",
+            "ZXNzUnNwEgsKA3BpZBgBIAIoDSIqChJWaWRlb0ZyYW1lUmVhZHlSZXESFAoM",
+            "YnVmZmVyX2luZGV4GAEgAigNIi0KFVZpZGVvRnJhbWVSZWxlYXNlZFJzcBIU",
+            "CgxidWZmZXJfaW5kZXgYASACKA0ibAoVQ2FwdHVyZVNjcmVlbnNob3RQdXNo",
+            "EhMKC2ZyYW1lX3dpZHRoGAEgAigNEhQKDGZyYW1lX2hlaWdodBgCIAIoDRIT",
+            "CgtidWZmZXJfbmFtZRgDIAIoCRITCgtidWZmZXJfc2l6ZRgEIAIoDSIfCgxV",
+            "aU9wZW5lZFB1c2gSDwoHc3VjY2VzcxgBIAIoCCIfCgxVaUNsb3NlZFB1c2gS",
+            "DwoHc3VjY2VzcxgBIAIoCCIZChdJTUVDbGVhckNvbXBvc2l0aW9uUHVzaCI6",
+            "ChZJTUVTZWxlY3RDYW5kaWRhdGVQdXNoEiAKGHNlbGVjdGVkX2NhbmRpZGF0",
+            "ZV9pbmRleBgBIAIoDSIlChBDdXJzb3JDaGFuZ2VQdXNoEhEKCWN1cnNvcl9p",
+            "ZBgBIAIoDSLUAQoWU3RyZWFtaW5nSG9zdFN0YXJ0UHVzaBISCgpzZXNzaW9u",
+            "X2lkGAEgAigJEhIKCnViaV90aWNrZXQYAiACKAkSDgoGYXBwX2lkGAMgAigJ",
+            "Eg4KBmlzX3VhdBgEIAIoCBIPCgdiaXRyYXRlGAUgAigNEhIKCnJlc29sdXRp",
+            "b24YBiACKA0SCwoDZnBzGAcgAigNEhEKCWdhbWVfbmFtZRgIIAIoCRIUCgxn",
+            "dWVzdHNfbGltaXQYCSACKA0SFwoPaG9zdF9wcm9maWxlX2lkGAogAigJIqoB",
+            "ChpTdHJlYW1pbmdIb3N0U3RhcnRSZXNwb25zZRIOCgZyZXN1bHQYASACKAgS",
+            "FAoMaG9zdF9wZWVyX2lkGAIgASgJEj8KDHN0YXJ0X2NvbmZpZxgDIAEoCzIp",
+            "Lm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nU3RhcnRDb25maWcSEQoJ",
+            "ZXJyb3JfbXNnGAQgASgJEhIKCmVycm9yX2NvZGUYBSABKAUiZAodU3RyZWFt",
+            "aW5nSG9zdEd1ZXN0UGVybWlzc2lvbnMSDwoHZ2FtZXBhZBgBIAIoCBIQCghr",
+            "ZXlib2FyZBgCIAIoCBINCgVtb3VzZRgDIAIoCBIRCglpbW1lcnNpdmUYBCAC",
+            "KAgibQoiU3RyZWFtaW5nSG9zdEd1ZXN0U2V0dGluZ3NSZXNwb25zZRJHCgtw",
+            "ZXJtaXNzaW9ucxgBIAIoCzIyLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFt",
+            "aW5nSG9zdEd1ZXN0UGVybWlzc2lvbnMipwEKHlN0cmVhbWluZ0hvc3RHdWVz",
+            "dENvbm5lY3RlZFJlcRIQCghndWVzdF9pZBgBIAIoDRISCgpwcm9maWxlX2lk",
+            "GAIgAigJEkkKCHNldHRpbmdzGAMgAigLMjcubWcucHJvdG9jb2wub3Zlcmxh",
+            "eS5TdHJlYW1pbmdIb3N0R3Vlc3RTZXR0aW5nc1Jlc3BvbnNlEhQKDGNvbm5l",
+            "Y3RlZF90cxgEIAIoBCJJCiFTdHJlYW1pbmdIb3N0R3Vlc3REaXNjb25uZWN0",
+            "ZWRSZXESEAoIZ3Vlc3RfaWQYASACKA0SEgoKcHJvZmlsZV9pZBgCIAIoCSIX",
+            "ChVTdHJlYW1pbmdIb3N0U3RvcFB1c2giKQoVU3RyZWFtaW5nSG9zdEtpY2tQ",
+            "dXNoEhAKCGd1ZXN0X2lkGAEgAigNIkkKFVN0cmVhbWluZ1NldHRpbmdzUHVz",
+            "aBIPCgdiaXRyYXRlGAEgAigNEhIKCnJlc29sdXRpb24YAiACKA0SCwoDZnBz",
+            "GAMgAigNImoKHFN0cmVhbWluZ0hvc3RQZXJtaXNzaW9uc1B1c2gSEQoJY2xp",
+            "ZW50X2lkGAEgAigNEh4KFm1vdXNlX2tleWJvYXJkX2FsbG93ZWQYAiACKAgS",
+            "FwoPZ2FtZXBhZF9hbGxvd2VkGAMgAigIInQKFFN0cmVhbWluZ1N0YXJ0Q29u",
+            "ZmlnEg0KBXdpZHRoGAEgASgNEg4KBmhlaWdodBgCIAEoDRIPCgdiaXRyYXRl",
+            "GAMgASgNEhgKEGlzX2F1ZGlvX2VuYWJsZWQYBCABKAgSEgoKaXNfZm9jdXNl",
+            "ZBgFIAEoCCImChRTdHJlYW1pbmdIb3N0U3RvcFJlcRIOCgZyZXN1bHQYASAC",
+            "KAgiJgoUU3RyZWFtaW5nU2V0dGluZ3NSZXESDgoGcmVzdWx0GAEgAigNIjoK",
+            "E1N0cmVhbWluZ0xhdGVuY3lSZXESDwoHbGF0ZW5jeRgBIAIoDRISCgpwcm9m",
+            "aWxlX2lkGAIgAigJIk4KF1N0cmVhbWluZ0hvc3RNZXRyaWNzUmVxEg8KB2xh",
+            "dGVuY3kYASACKA0SDwoHYml0cmF0ZRgCIAIoAhIRCgljbGllbnRfaWQYAyAC",
+            "KA0iWAoUU3RyZWFtaW5nVkdQRXZlbnRSZXESDgoGc291cmNlGAEgAigNEhIK",
             "CnByb2ZpbGVfaWQYAiACKAkSHAoUc3RyZWFtaW5nX2dhbWVwYWRfaWQYAyAC",
-            "KA0iKQoSU2NyZWVuc2hvdFJlYWR5UmVxEhMKC2lzVnVsa2FuSERSGAEgAigI",
-            "Ih0KG1NjcmVlbnNob3RDYXB0dXJlRmFpbHVyZVJlcSIYChZWaWRlb0NhcHR1",
-            "cmVGYWlsdXJlUmVxIh0KDUlNRUNvbW1pdFRleHQSDAoEdGV4dBgBIAEoCSJr",
-            "ChdJTUVDb21wb3NpdGlvblVuZGVybGluZRIMCgRmcm9tGAEgASgFEgoKAnRv",
-            "GAIgASgFEg0KBWNvbG9yGAMgASgNEhgKEGJhY2tncm91bmRfY29sb3IYBCAB",
-            "KA0SDQoFdGhpY2sYBSABKAUigQEKFElNRVNldENvbXBvc2l0aW9uUmVxEgwK",
-            "BHRleHQYASABKAkSGQoRY29tcG9zaXRpb25fc3RhcnQYAiABKAUSQAoKdW5k",
-            "ZXJsaW5lcxgDIAMoCzIsLm1nLnByb3RvY29sLm92ZXJsYXkuSU1FQ29tcG9z",
-            "aXRpb25VbmRlcmxpbmUiGQoXSU1FQ2FuY2VsQ29tcG9zaXRpb25SZXEiRAoW",
-            "SU1FVXBkYXRlQ2FuZGlkYXRlc1JlcRISCgpjYW5kaWRhdGVzGAEgAygJEhYK",
-            "DnNlbGVjdGVkX2luZGV4GAIgASgNIs4RCgNSZXESMAoJc3RhcnRfcmVxGAEg",
-            "ASgLMh0ubWcucHJvdG9jb2wub3ZlcmxheS5TdGFydFJlcRIyCgpyZXNpemVf",
-            "cmVxGAIgASgLMh4ubWcucHJvdG9jb2wub3ZlcmxheS5SZXNpemVSZXESRwoW",
-            "d2luXzMyX2tleV9tZXNzYWdlX3JlcRgDIAEoCzInLm1nLnByb3RvY29sLm92",
-            "ZXJsYXkuV2luMzJLZXlNZXNzYWdlUmVxEkIKE2FwcGxlX2tleV9ldmVudF9y",
-            "ZXEYBCABKAsyJS5tZy5wcm90b2NvbC5vdmVybGF5LkFwcGxlS2V5RXZlbnRS",
-            "ZXESTAoYbW91c2VfYnV0dG9uX3ByZXNzZWRfcmVxGAUgASgLMioubWcucHJv",
-            "dG9jb2wub3ZlcmxheS5Nb3VzZUJ1dHRvblByZXNzZWRSZXESTgoZbW91c2Vf",
-            "YnV0dG9uX3JlbGVhc2VkX3JlcRgGIAEoCzIrLm1nLnByb3RvY29sLm92ZXJs",
-            "YXkuTW91c2VCdXR0b25SZWxlYXNlZFJlcRI7Cg9tb3VzZV9tb3ZlZF9yZXEY",
-            "ByABKAsyIi5tZy5wcm90b2NvbC5vdmVybGF5Lk1vdXNlTW92ZWRSZXESRgoV",
-            "bW91c2Vfd2hlZWxfbW92ZWRfcmVxGAggASgLMicubWcucHJvdG9jb2wub3Zl",
-            "cmxheS5Nb3VzZVdoZWVsTW92ZWRSZXESNQoMY2xvc2VfdWlfcmVxGAogASgL",
-            "Mh8ubWcucHJvdG9jb2wub3ZlcmxheS5DbG9zZVVpUmVxEjkKDnJlZnJlc2hf",
-            "dWlfcmVxGAsgASgLMiEubWcucHJvdG9jb2wub3ZlcmxheS5SZWZyZXNoVWlS",
-            "ZXESRwoVZ2V0X2NvbmZpZ3VyYXRpb25fcmVxGAwgASgLMigubWcucHJvdG9j",
-            "b2wub3ZlcmxheS5HZXRDb25maWd1cmF0aW9uUmVxEkgKFm1vdXNlX2RvdWJs",
-            "ZV9jbGlja19yZXEYDiABKAsyKC5tZy5wcm90b2NvbC5vdmVybGF5Lk1vdXNl",
-            "RG91YmxlQ2xpY2tSZXESPQoQYnVmZmVyX3JlYWR5X3JlcRgPIAEoCzIjLm1n",
-            "LnByb3RvY29sLm92ZXJsYXkuQnVmZmVyUmVhZHlSZXESRgoVdmlkZW9fZnJh",
-            "bWVfcmVhZHlfcmVxGBAgASgLMicubWcucHJvdG9jb2wub3ZlcmxheS5WaWRl",
-            "b0ZyYW1lUmVhZHlSZXESRQoUc2NyZWVuc2hvdF9yZWFkeV9yZXEYESABKAsy",
-            "Jy5tZy5wcm90b2NvbC5vdmVybGF5LlNjcmVlbnNob3RSZWFkeVJlcRJYCh5z",
-            "Y3JlZW5zaG90X2NhcHR1cmVfZmFpbHVyZV9yZXEYEiABKAsyMC5tZy5wcm90",
-            "b2NvbC5vdmVybGF5LlNjcmVlbnNob3RDYXB0dXJlRmFpbHVyZVJlcRJOChl2",
-            "aWRlb19jYXB0dXJlX2ZhaWx1cmVfcmVxGBMgASgLMisubWcucHJvdG9jb2wu",
-            "b3ZlcmxheS5WaWRlb0NhcHR1cmVGYWlsdXJlUmVxEjsKD2xhbmdfY2hhbmdl",
-            "X3JlcRgUIAEoCzIiLm1nLnByb3RvY29sLm92ZXJsYXkuTGFuZ0NoYW5nZVJl",
-            "cRI5Cg51cGRhdGVfZnBzX3JlcRgVIAEoCzIhLm1nLnByb3RvY29sLm92ZXJs",
-            "YXkuVXBkYXRlRnBzUmVxEjsKD2ZvY3VzX2V2ZW50X3JlcRgWIAEoCzIiLm1n",
-            "LnByb3RvY29sLm92ZXJsYXkuRm9jdXNFdmVudFJlcRI/ChNpbWVfY29tbWl0",
-            "X3RleHRfcmVxGBcgASgLMiIubWcucHJvdG9jb2wub3ZlcmxheS5JTUVDb21t",
-            "aXRUZXh0EkoKF2ltZV9zZXRfY29tcG9zaXRpb25fcmVxGBggASgLMikubWcu",
-            "cHJvdG9jb2wub3ZlcmxheS5JTUVTZXRDb21wb3NpdGlvblJlcRJQChppbWVf",
-            "Y2FuY2VsX2NvbXBvc2l0aW9uX3JlcRgZIAEoCzIsLm1nLnByb3RvY29sLm92",
-            "ZXJsYXkuSU1FQ2FuY2VsQ29tcG9zaXRpb25SZXESTgoZaW1lX3VwZGF0ZV9j",
-            "YW5kaWRhdGVzX3JlcRgaIAEoCzIrLm1nLnByb3RvY29sLm92ZXJsYXkuSU1F",
-            "VXBkYXRlQ2FuZGlkYXRlc1JlcRJJChZzdHJlYW1pbmdfc2V0dGluZ3NfcmVx",
-            "GBsgASgLMikubWcucHJvdG9jb2wub3ZlcmxheS5TdHJlYW1pbmdTZXR0aW5n",
-            "c1JlcRJWCh1zdHJlYW1pbmdfaG9zdF9zdGFydF9yZXNwb25zZRgdIAEoCzIv",
-            "Lm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdFN0YXJ0UmVzcG9u",
-            "c2USXwoic3RyZWFtaW5nX2hvc3RfZ3Vlc3RfY29ubmVjdGVkX3JlcRgeIAEo",
-            "CzIzLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdEd1ZXN0Q29u",
-            "bmVjdGVkUmVxEmUKJXN0cmVhbWluZ19ob3N0X2d1ZXN0X2Rpc2Nvbm5lY3Rl",
-            "ZF9yZXEYHyABKAsyNi5tZy5wcm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hv",
-            "c3RHdWVzdERpc2Nvbm5lY3RlZFJlcRJKChdzdHJlYW1pbmdfaG9zdF9zdG9w",
-            "X3JlcRggIAEoCzIpLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9z",
-            "dFN0b3BSZXESUAoac3RyZWFtaW5nX2hvc3RfbWV0cmljc19yZXEYISADKAsy",
-            "LC5tZy5wcm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hvc3RNZXRyaWNzUmVx",
-            "EkcKF3N0cmVhbWluZ192Z3BfZXZlbnRfcmVxGCIgASgLMiYubWcucHJvdG9j",
-            "b2wub3ZlcmxheS5TdHJlYW1pbmdWR1BFdmVudCLBAgoDUnNwEjAKCXN0YXJ0",
-            "X3JzcBgBIAEoCzIdLm1nLnByb3RvY29sLm92ZXJsYXkuU3RhcnRSc3ASMgoK",
-            "cmVzaXplX3JzcBgCIAEoCzIeLm1nLnByb3RvY29sLm92ZXJsYXkuUmVzaXpl",
-            "UnNwEj0KEHZpZXdfdXBkYXRlZF9yc3AYAyABKAsyIy5tZy5wcm90b2NvbC5v",
-            "dmVybGF5LlZpZXdVcGRhdGVkUnNwEkcKFWdldF9jb25maWd1cmF0aW9uX3Jz",
-            "cBgEIAEoCzIoLm1nLnByb3RvY29sLm92ZXJsYXkuR2V0Q29uZmlndXJhdGlv",
-            "blJzcBJMChh2aWRlb19mcmFtZV9yZWxlYXNlZF9yc3AYBiABKAsyKi5tZy5w",
-            "cm90b2NvbC5vdmVybGF5LlZpZGVvRnJhbWVSZWxlYXNlZFJzcCIPCg1NdWx0",
-            "aXBsZUxvZ2luIhAKDlVzZXJCYW5uZWRQdXNoIu0HCgRQdXNoEjoKDm11bHRp",
-            "cGxlX2xvZ2luGAEgASgLMiIubWcucHJvdG9jb2wub3ZlcmxheS5NdWx0aXBs",
-            "ZUxvZ2luEkYKEmNhcHR1cmVfc2NyZWVuc2hvdBgCIAEoCzIqLm1nLnByb3Rv",
-            "Y29sLm92ZXJsYXkuQ2FwdHVyZVNjcmVlbnNob3RQdXNoEjwKDWN1cnNvcl9j",
-            "aGFuZ2UYAyABKAsyJS5tZy5wcm90b2NvbC5vdmVybGF5LkN1cnNvckNoYW5n",
-            "ZVB1c2gSOAoLdXNlcl9iYW5uZWQYBCABKAsyIy5tZy5wcm90b2NvbC5vdmVy",
-            "bGF5LlVzZXJCYW5uZWRQdXNoEjQKCXVpX29wZW5lZBgFIAEoCzIhLm1nLnBy",
-            "b3RvY29sLm92ZXJsYXkuVWlPcGVuZWRQdXNoEjQKCXVpX2Nsb3NlZBgGIAEo",
-            "CzIhLm1nLnByb3RvY29sLm92ZXJsYXkuVWlDbG9zZWRQdXNoEksKFWltZV9j",
-            "bGVhcl9jb21wb3NpdGlvbhgHIAEoCzIsLm1nLnByb3RvY29sLm92ZXJsYXku",
-            "SU1FQ2xlYXJDb21wb3NpdGlvblB1c2gSSQoUaW1lX3NlbGVjdF9jYW5kaWRh",
-            "dGUYCCABKAsyKy5tZy5wcm90b2NvbC5vdmVybGF5LklNRVNlbGVjdENhbmRp",
-            "ZGF0ZVB1c2gSRgoSc3RyZWFtaW5nX3NldHRpbmdzGAkgASgLMioubWcucHJv",
-            "dG9jb2wub3ZlcmxheS5TdHJlYW1pbmdTZXR0aW5nc1B1c2gSSQoUc3RyZWFt",
-            "aW5nX2hvc3Rfc3RhcnQYCiABKAsyKy5tZy5wcm90b2NvbC5vdmVybGF5LlN0",
-            "cmVhbWluZ0hvc3RTdGFydFB1c2gSRwoTc3RyZWFtaW5nX2hvc3Rfc3RvcBgL",
-            "IAEoCzIqLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdFN0b3BQ",
-            "dXNoEkcKE3N0cmVhbWluZ19ob3N0X2tpY2sYDCABKAsyKi5tZy5wcm90b2Nv",
-            "bC5vdmVybGF5LlN0cmVhbWluZ0hvc3RLaWNrUHVzaBJpCiVzdHJlYW1pbmdf",
-            "aG9zdF9hZGRfYWxsb3dlZF9wcm9maWxlSWRzGA0gASgLMjoubWcucHJvdG9j",
-            "b2wub3ZlcmxheS5TdHJlYW1pbmdIb3N0QWRkQWxsb3dlZFByb2ZpbGVJZHNQ",
-            "dXNoElUKGnN0cmVhbWluZ19ob3N0X3Blcm1pc3Npb25zGA4gASgLMjEubWcu",
-            "cHJvdG9jb2wub3ZlcmxheS5TdHJlYW1pbmdIb3N0UGVybWlzc2lvbnNQdXNo",
-            "IjEKCFVwc3RyZWFtEiUKA3JlcRgBIAEoCzIYLm1nLnByb3RvY29sLm92ZXJs",
-            "YXkuUmVxIlwKCkRvd25zdHJlYW0SJwoEcHVzaBgBIAEoCzIZLm1nLnByb3Rv",
-            "Y29sLm92ZXJsYXkuUHVzaBIlCgNyc3AYAiABKAsyGC5tZy5wcm90b2NvbC5v",
-            "dmVybGF5LlJzcCIbCgxVcGRhdGVGcHNSZXESCwoDZnBzGAEgAigN"));
+            "KA0icQocU3RyZWFtaW5nSG9zdENyZWF0ZVRva2VuUHVzaBITCgt1c2FnZV9s",
+            "aW1pdBgBIAIoDRISCgpleHBpcmF0aW9uGAIgAigNEhIKCnByb2ZpbGVfaWQY",
+            "AyACKAkSFAoMdG9rZW5fbnVtYmVyGAQgAigNIlIKG1N0cmVhbWluZ0hvc3RD",
+            "cmVhdGVUb2tlblJlcRIOCgZyZXN1bHQYASACKAgSDQoFdG9rZW4YAiACKAkS",
+            "FAoMdG9rZW5fbnVtYmVyGAMgAigNIkMKHFN0cmVhbWluZ0hvc3REZWNvZGVU",
+            "b2tlblB1c2gSDQoFdG9rZW4YASACKAkSFAoMdG9rZW5fbnVtYmVyGAIgAigN",
+            "IowBChtTdHJlYW1pbmdIb3N0RGVjb2RlVG9rZW5SZXESDgoGcmVzdWx0GAEg",
+            "AigIEg4KBmFwcF9pZBgCIAIoCRIQCghzcGFjZV9pZBgDIAIoCRISCgpwcm9k",
+            "dWN0X2lkGAQgAigNEhQKDHRva2VuX251bWJlchgFIAIoDRIRCglnYW1lX25h",
+            "bWUYBiACKAkiJgoVU3RyZWFtaW5nSG9zdEZvY3VzUmVxEg0KBWZvY3VzGAEg",
+            "AigIIlYKKVN0cmVhbWluZ0hvc3RVcGRhdGVHdWVzdFJlbWFpbmluZ1RpbWVQ",
+            "dXNoEhEKCWNsaWVudF9pZBgBIAIoDRIWCg5yZW1haW5pbmdfdGltZRgCIAIo",
+            "DSJ3CihTdHJlYW1pbmdIb3N0VXBkYXRlR3Vlc3RSZW1haW5pbmdUaW1lUmVx",
+            "Eg4KBnJlc3VsdBgBIAIoCBIUCgxob3N0X3BlZXJfaWQYAiACKAkSEQoJZXJy",
+            "b3JfbXNnGAMgAigJEhIKCmVycm9yX2NvZGUYBCACKAUiKQoSU2NyZWVuc2hv",
+            "dFJlYWR5UmVxEhMKC2lzVnVsa2FuSERSGAEgAigIIh0KG1NjcmVlbnNob3RD",
+            "YXB0dXJlRmFpbHVyZVJlcSIYChZWaWRlb0NhcHR1cmVGYWlsdXJlUmVxIh0K",
+            "DUlNRUNvbW1pdFRleHQSDAoEdGV4dBgBIAEoCSJrChdJTUVDb21wb3NpdGlv",
+            "blVuZGVybGluZRIMCgRmcm9tGAEgASgFEgoKAnRvGAIgASgFEg0KBWNvbG9y",
+            "GAMgASgNEhgKEGJhY2tncm91bmRfY29sb3IYBCABKA0SDQoFdGhpY2sYBSAB",
+            "KAUigQEKFElNRVNldENvbXBvc2l0aW9uUmVxEgwKBHRleHQYASABKAkSGQoR",
+            "Y29tcG9zaXRpb25fc3RhcnQYAiABKAUSQAoKdW5kZXJsaW5lcxgDIAMoCzIs",
+            "Lm1nLnByb3RvY29sLm92ZXJsYXkuSU1FQ29tcG9zaXRpb25VbmRlcmxpbmUi",
+            "GQoXSU1FQ2FuY2VsQ29tcG9zaXRpb25SZXEiRAoWSU1FVXBkYXRlQ2FuZGlk",
+            "YXRlc1JlcRISCgpjYW5kaWRhdGVzGAEgAygJEhYKDnNlbGVjdGVkX2luZGV4",
+            "GAIgASgNIswUCgNSZXESMAoJc3RhcnRfcmVxGAEgASgLMh0ubWcucHJvdG9j",
+            "b2wub3ZlcmxheS5TdGFydFJlcRIyCgpyZXNpemVfcmVxGAIgASgLMh4ubWcu",
+            "cHJvdG9jb2wub3ZlcmxheS5SZXNpemVSZXESRwoWd2luXzMyX2tleV9tZXNz",
+            "YWdlX3JlcRgDIAEoCzInLm1nLnByb3RvY29sLm92ZXJsYXkuV2luMzJLZXlN",
+            "ZXNzYWdlUmVxEkIKE2FwcGxlX2tleV9ldmVudF9yZXEYBCABKAsyJS5tZy5w",
+            "cm90b2NvbC5vdmVybGF5LkFwcGxlS2V5RXZlbnRSZXESTAoYbW91c2VfYnV0",
+            "dG9uX3ByZXNzZWRfcmVxGAUgASgLMioubWcucHJvdG9jb2wub3ZlcmxheS5N",
+            "b3VzZUJ1dHRvblByZXNzZWRSZXESTgoZbW91c2VfYnV0dG9uX3JlbGVhc2Vk",
+            "X3JlcRgGIAEoCzIrLm1nLnByb3RvY29sLm92ZXJsYXkuTW91c2VCdXR0b25S",
+            "ZWxlYXNlZFJlcRI7Cg9tb3VzZV9tb3ZlZF9yZXEYByABKAsyIi5tZy5wcm90",
+            "b2NvbC5vdmVybGF5Lk1vdXNlTW92ZWRSZXESRgoVbW91c2Vfd2hlZWxfbW92",
+            "ZWRfcmVxGAggASgLMicubWcucHJvdG9jb2wub3ZlcmxheS5Nb3VzZVdoZWVs",
+            "TW92ZWRSZXESNQoMY2xvc2VfdWlfcmVxGAogASgLMh8ubWcucHJvdG9jb2wu",
+            "b3ZlcmxheS5DbG9zZVVpUmVxEjkKDnJlZnJlc2hfdWlfcmVxGAsgASgLMiEu",
+            "bWcucHJvdG9jb2wub3ZlcmxheS5SZWZyZXNoVWlSZXESRwoVZ2V0X2NvbmZp",
+            "Z3VyYXRpb25fcmVxGAwgASgLMigubWcucHJvdG9jb2wub3ZlcmxheS5HZXRD",
+            "b25maWd1cmF0aW9uUmVxEkgKFm1vdXNlX2RvdWJsZV9jbGlja19yZXEYDiAB",
+            "KAsyKC5tZy5wcm90b2NvbC5vdmVybGF5Lk1vdXNlRG91YmxlQ2xpY2tSZXES",
+            "PQoQYnVmZmVyX3JlYWR5X3JlcRgPIAEoCzIjLm1nLnByb3RvY29sLm92ZXJs",
+            "YXkuQnVmZmVyUmVhZHlSZXESRgoVdmlkZW9fZnJhbWVfcmVhZHlfcmVxGBAg",
+            "ASgLMicubWcucHJvdG9jb2wub3ZlcmxheS5WaWRlb0ZyYW1lUmVhZHlSZXES",
+            "RQoUc2NyZWVuc2hvdF9yZWFkeV9yZXEYESABKAsyJy5tZy5wcm90b2NvbC5v",
+            "dmVybGF5LlNjcmVlbnNob3RSZWFkeVJlcRJYCh5zY3JlZW5zaG90X2NhcHR1",
+            "cmVfZmFpbHVyZV9yZXEYEiABKAsyMC5tZy5wcm90b2NvbC5vdmVybGF5LlNj",
+            "cmVlbnNob3RDYXB0dXJlRmFpbHVyZVJlcRJOChl2aWRlb19jYXB0dXJlX2Zh",
+            "aWx1cmVfcmVxGBMgASgLMisubWcucHJvdG9jb2wub3ZlcmxheS5WaWRlb0Nh",
+            "cHR1cmVGYWlsdXJlUmVxEjsKD2xhbmdfY2hhbmdlX3JlcRgUIAEoCzIiLm1n",
+            "LnByb3RvY29sLm92ZXJsYXkuTGFuZ0NoYW5nZVJlcRI5Cg51cGRhdGVfZnBz",
+            "X3JlcRgVIAEoCzIhLm1nLnByb3RvY29sLm92ZXJsYXkuVXBkYXRlRnBzUmVx",
+            "EjsKD2ZvY3VzX2V2ZW50X3JlcRgWIAEoCzIiLm1nLnByb3RvY29sLm92ZXJs",
+            "YXkuRm9jdXNFdmVudFJlcRI/ChNpbWVfY29tbWl0X3RleHRfcmVxGBcgASgL",
+            "MiIubWcucHJvdG9jb2wub3ZlcmxheS5JTUVDb21taXRUZXh0EkoKF2ltZV9z",
+            "ZXRfY29tcG9zaXRpb25fcmVxGBggASgLMikubWcucHJvdG9jb2wub3Zlcmxh",
+            "eS5JTUVTZXRDb21wb3NpdGlvblJlcRJQChppbWVfY2FuY2VsX2NvbXBvc2l0",
+            "aW9uX3JlcRgZIAEoCzIsLm1nLnByb3RvY29sLm92ZXJsYXkuSU1FQ2FuY2Vs",
+            "Q29tcG9zaXRpb25SZXESTgoZaW1lX3VwZGF0ZV9jYW5kaWRhdGVzX3JlcRga",
+            "IAEoCzIrLm1nLnByb3RvY29sLm92ZXJsYXkuSU1FVXBkYXRlQ2FuZGlkYXRl",
+            "c1JlcRJJChZzdHJlYW1pbmdfc2V0dGluZ3NfcmVxGBsgASgLMikubWcucHJv",
+            "dG9jb2wub3ZlcmxheS5TdHJlYW1pbmdTZXR0aW5nc1JlcRJWCh1zdHJlYW1p",
+            "bmdfaG9zdF9zdGFydF9yZXNwb25zZRgdIAEoCzIvLm1nLnByb3RvY29sLm92",
+            "ZXJsYXkuU3RyZWFtaW5nSG9zdFN0YXJ0UmVzcG9uc2USXwoic3RyZWFtaW5n",
+            "X2hvc3RfZ3Vlc3RfY29ubmVjdGVkX3JlcRgeIAEoCzIzLm1nLnByb3RvY29s",
+            "Lm92ZXJsYXkuU3RyZWFtaW5nSG9zdEd1ZXN0Q29ubmVjdGVkUmVxEmUKJXN0",
+            "cmVhbWluZ19ob3N0X2d1ZXN0X2Rpc2Nvbm5lY3RlZF9yZXEYHyABKAsyNi5t",
+            "Zy5wcm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hvc3RHdWVzdERpc2Nvbm5l",
+            "Y3RlZFJlcRJKChdzdHJlYW1pbmdfaG9zdF9zdG9wX3JlcRggIAEoCzIpLm1n",
+            "LnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdFN0b3BSZXESUAoac3Ry",
+            "ZWFtaW5nX2hvc3RfbWV0cmljc19yZXEYISADKAsyLC5tZy5wcm90b2NvbC5v",
+            "dmVybGF5LlN0cmVhbWluZ0hvc3RNZXRyaWNzUmVxEkoKF3N0cmVhbWluZ192",
+            "Z3BfZXZlbnRfcmVxGCIgASgLMikubWcucHJvdG9jb2wub3ZlcmxheS5TdHJl",
+            "YW1pbmdWR1BFdmVudFJlcRJZCh9zdHJlYW1pbmdfaG9zdF9jcmVhdGVfdG9r",
+            "ZW5fcmVxGCMgASgLMjAubWcucHJvdG9jb2wub3ZlcmxheS5TdHJlYW1pbmdI",
+            "b3N0Q3JlYXRlVG9rZW5SZXESWQofc3RyZWFtaW5nX2hvc3RfZGVjb2RlX3Rv",
+            "a2VuX3JlcRgkIAEoCzIwLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5n",
+            "SG9zdERlY29kZVRva2VuUmVxEkwKGHN0cmVhbWluZ19ob3N0X2ZvY3VzX3Jl",
+            "cRglIAEoCzIqLm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nSG9zdEZv",
+            "Y3VzUmVxEnUKLnN0cmVhbWluZ19ob3N0X3VwZGF0ZV9ndWVzdF9yZW1haW5p",
+            "bmdfdGltZV9yZXEYJiABKAsyPS5tZy5wcm90b2NvbC5vdmVybGF5LlN0cmVh",
+            "bWluZ0hvc3RVcGRhdGVHdWVzdFJlbWFpbmluZ1RpbWVSZXEiwQIKA1JzcBIw",
+            "CglzdGFydF9yc3AYASABKAsyHS5tZy5wcm90b2NvbC5vdmVybGF5LlN0YXJ0",
+            "UnNwEjIKCnJlc2l6ZV9yc3AYAiABKAsyHi5tZy5wcm90b2NvbC5vdmVybGF5",
+            "LlJlc2l6ZVJzcBI9ChB2aWV3X3VwZGF0ZWRfcnNwGAMgASgLMiMubWcucHJv",
+            "dG9jb2wub3ZlcmxheS5WaWV3VXBkYXRlZFJzcBJHChVnZXRfY29uZmlndXJh",
+            "dGlvbl9yc3AYBCABKAsyKC5tZy5wcm90b2NvbC5vdmVybGF5LkdldENvbmZp",
+            "Z3VyYXRpb25Sc3ASTAoYdmlkZW9fZnJhbWVfcmVsZWFzZWRfcnNwGAYgASgL",
+            "MioubWcucHJvdG9jb2wub3ZlcmxheS5WaWRlb0ZyYW1lUmVsZWFzZWRSc3Ai",
+            "DwoNTXVsdGlwbGVMb2dpbiIQCg5Vc2VyQmFubmVkUHVzaCKmCQoEUHVzaBI6",
+            "Cg5tdWx0aXBsZV9sb2dpbhgBIAEoCzIiLm1nLnByb3RvY29sLm92ZXJsYXku",
+            "TXVsdGlwbGVMb2dpbhJGChJjYXB0dXJlX3NjcmVlbnNob3QYAiABKAsyKi5t",
+            "Zy5wcm90b2NvbC5vdmVybGF5LkNhcHR1cmVTY3JlZW5zaG90UHVzaBI8Cg1j",
+            "dXJzb3JfY2hhbmdlGAMgASgLMiUubWcucHJvdG9jb2wub3ZlcmxheS5DdXJz",
+            "b3JDaGFuZ2VQdXNoEjgKC3VzZXJfYmFubmVkGAQgASgLMiMubWcucHJvdG9j",
+            "b2wub3ZlcmxheS5Vc2VyQmFubmVkUHVzaBI0Cgl1aV9vcGVuZWQYBSABKAsy",
+            "IS5tZy5wcm90b2NvbC5vdmVybGF5LlVpT3BlbmVkUHVzaBI0Cgl1aV9jbG9z",
+            "ZWQYBiABKAsyIS5tZy5wcm90b2NvbC5vdmVybGF5LlVpQ2xvc2VkUHVzaBJL",
+            "ChVpbWVfY2xlYXJfY29tcG9zaXRpb24YByABKAsyLC5tZy5wcm90b2NvbC5v",
+            "dmVybGF5LklNRUNsZWFyQ29tcG9zaXRpb25QdXNoEkkKFGltZV9zZWxlY3Rf",
+            "Y2FuZGlkYXRlGAggASgLMisubWcucHJvdG9jb2wub3ZlcmxheS5JTUVTZWxl",
+            "Y3RDYW5kaWRhdGVQdXNoEkYKEnN0cmVhbWluZ19zZXR0aW5ncxgJIAEoCzIq",
+            "Lm1nLnByb3RvY29sLm92ZXJsYXkuU3RyZWFtaW5nU2V0dGluZ3NQdXNoEkkK",
+            "FHN0cmVhbWluZ19ob3N0X3N0YXJ0GAogASgLMisubWcucHJvdG9jb2wub3Zl",
+            "cmxheS5TdHJlYW1pbmdIb3N0U3RhcnRQdXNoEkcKE3N0cmVhbWluZ19ob3N0",
+            "X3N0b3AYCyABKAsyKi5tZy5wcm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hv",
+            "c3RTdG9wUHVzaBJHChNzdHJlYW1pbmdfaG9zdF9raWNrGAwgASgLMioubWcu",
+            "cHJvdG9jb2wub3ZlcmxheS5TdHJlYW1pbmdIb3N0S2lja1B1c2gSVQoac3Ry",
+            "ZWFtaW5nX2hvc3RfcGVybWlzc2lvbnMYDSABKAsyMS5tZy5wcm90b2NvbC5v",
+            "dmVybGF5LlN0cmVhbWluZ0hvc3RQZXJtaXNzaW9uc1B1c2gSVgobc3RyZWFt",
+            "aW5nX2hvc3RfY3JlYXRlX3Rva2VuGA4gASgLMjEubWcucHJvdG9jb2wub3Zl",
+            "cmxheS5TdHJlYW1pbmdIb3N0Q3JlYXRlVG9rZW5QdXNoElYKG3N0cmVhbWlu",
+            "Z19ob3N0X2RlY29kZV90b2tlbhgPIAEoCzIxLm1nLnByb3RvY29sLm92ZXJs",
+            "YXkuU3RyZWFtaW5nSG9zdERlY29kZVRva2VuUHVzaBJyCipzdHJlYW1pbmdf",
+            "aG9zdF91cGRhdGVfZ3Vlc3RfcmVtYWluaW5nX3RpbWUYECABKAsyPi5tZy5w",
+            "cm90b2NvbC5vdmVybGF5LlN0cmVhbWluZ0hvc3RVcGRhdGVHdWVzdFJlbWFp",
+            "bmluZ1RpbWVQdXNoIjEKCFVwc3RyZWFtEiUKA3JlcRgBIAEoCzIYLm1nLnBy",
+            "b3RvY29sLm92ZXJsYXkuUmVxIlwKCkRvd25zdHJlYW0SJwoEcHVzaBgBIAEo",
+            "CzIZLm1nLnByb3RvY29sLm92ZXJsYXkuUHVzaBIlCgNyc3AYAiABKAsyGC5t",
+            "Zy5wcm90b2NvbC5vdmVybGF5LlJzcCIbCgxVcGRhdGVGcHNSZXESCwoDZnBz",
+            "GAEgAigN"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -241,24 +266,29 @@ namespace Uplay.Overlay {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.IMEClearCompositionPush), global::Uplay.Overlay.IMEClearCompositionPush.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.IMESelectCandidatePush), global::Uplay.Overlay.IMESelectCandidatePush.Parser, new[]{ "SelectedCandidateIndex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.CursorChangePush), global::Uplay.Overlay.CursorChangePush.Parser, new[]{ "CursorId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStartPush), global::Uplay.Overlay.StreamingHostStartPush.Parser, new[]{ "SessionId", "Token", "AppId", "IsUat", "Bitrate", "MouseKeyboardAllowed", "GamepadAllowed", "HostProfileId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStartResponse), global::Uplay.Overlay.StreamingHostStartResponse.Parser, new[]{ "Result", "InviteToken", "StartConfig", "ErrorMsg", "ErrorCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStartPush), global::Uplay.Overlay.StreamingHostStartPush.Parser, new[]{ "SessionId", "UbiTicket", "AppId", "IsUat", "Bitrate", "Resolution", "Fps", "GameName", "GuestsLimit", "HostProfileId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStartResponse), global::Uplay.Overlay.StreamingHostStartResponse.Parser, new[]{ "Result", "HostPeerId", "StartConfig", "ErrorMsg", "ErrorCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestPermissions), global::Uplay.Overlay.StreamingHostGuestPermissions.Parser, new[]{ "Gamepad", "Keyboard", "Mouse", "Immersive" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestSettingsResponse), global::Uplay.Overlay.StreamingHostGuestSettingsResponse.Parser, new[]{ "Permissions" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestResponse), global::Uplay.Overlay.StreamingHostGuestResponse.Parser, new[]{ "GuestId", "ProfileId", "Settings" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestConnectedReq), global::Uplay.Overlay.StreamingHostGuestConnectedReq.Parser, new[]{ "Guest" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestConnectedReq), global::Uplay.Overlay.StreamingHostGuestConnectedReq.Parser, new[]{ "GuestId", "ProfileId", "Settings", "ConnectedTs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostGuestDisconnectedReq), global::Uplay.Overlay.StreamingHostGuestDisconnectedReq.Parser, new[]{ "GuestId", "ProfileId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStopPush), global::Uplay.Overlay.StreamingHostStopPush.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostKickPush), global::Uplay.Overlay.StreamingHostKickPush.Parser, new[]{ "GuestId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingSettingsPush), global::Uplay.Overlay.StreamingSettingsPush.Parser, new[]{ "Bitrate", "MouseKeyboardAllowed", "GamepadAllowed" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingSettingsPush), global::Uplay.Overlay.StreamingSettingsPush.Parser, new[]{ "Bitrate", "Resolution", "Fps" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostPermissionsPush), global::Uplay.Overlay.StreamingHostPermissionsPush.Parser, new[]{ "ClientId", "MouseKeyboardAllowed", "GamepadAllowed" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush), global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush.Parser, new[]{ "AllowedProfileIds" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingStartConfig), global::Uplay.Overlay.StreamingStartConfig.Parser, new[]{ "Width", "Height", "Bitrate", "IsAudioEnabled", "IsFocused" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostStopReq), global::Uplay.Overlay.StreamingHostStopReq.Parser, new[]{ "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingSettingsReq), global::Uplay.Overlay.StreamingSettingsReq.Parser, new[]{ "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingLatencyReq), global::Uplay.Overlay.StreamingLatencyReq.Parser, new[]{ "Latency", "ProfileId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostMetricsReq), global::Uplay.Overlay.StreamingHostMetricsReq.Parser, new[]{ "Latency", "Bitrate", "ClientId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingVGPEvent), global::Uplay.Overlay.StreamingVGPEvent.Parser, new[]{ "Source", "ProfileId", "StreamingGamepadId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingVGPEventReq), global::Uplay.Overlay.StreamingVGPEventReq.Parser, new[]{ "Source", "ProfileId", "StreamingGamepadId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostCreateTokenPush), global::Uplay.Overlay.StreamingHostCreateTokenPush.Parser, new[]{ "UsageLimit", "Expiration", "ProfileId", "TokenNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostCreateTokenReq), global::Uplay.Overlay.StreamingHostCreateTokenReq.Parser, new[]{ "Result", "Token", "TokenNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostDecodeTokenPush), global::Uplay.Overlay.StreamingHostDecodeTokenPush.Parser, new[]{ "Token", "TokenNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostDecodeTokenReq), global::Uplay.Overlay.StreamingHostDecodeTokenReq.Parser, new[]{ "Result", "AppId", "SpaceId", "ProductId", "TokenNumber", "GameName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostFocusReq), global::Uplay.Overlay.StreamingHostFocusReq.Parser, new[]{ "Focus" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush), global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush.Parser, new[]{ "ClientId", "RemainingTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq), global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq.Parser, new[]{ "Result", "HostPeerId", "ErrorMsg", "ErrorCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.ScreenshotReadyReq), global::Uplay.Overlay.ScreenshotReadyReq.Parser, new[]{ "IsVulkanHDR" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.ScreenshotCaptureFailureReq), global::Uplay.Overlay.ScreenshotCaptureFailureReq.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.VideoCaptureFailureReq), global::Uplay.Overlay.VideoCaptureFailureReq.Parser, null, null, null, null, null),
@@ -267,11 +297,11 @@ namespace Uplay.Overlay {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.IMESetCompositionReq), global::Uplay.Overlay.IMESetCompositionReq.Parser, new[]{ "Text", "CompositionStart", "Underlines" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.IMECancelCompositionReq), global::Uplay.Overlay.IMECancelCompositionReq.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.IMEUpdateCandidatesReq), global::Uplay.Overlay.IMEUpdateCandidatesReq.Parser, new[]{ "Candidates", "SelectedIndex" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Req), global::Uplay.Overlay.Req.Parser, new[]{ "StartReq", "ResizeReq", "Win32KeyMessageReq", "AppleKeyEventReq", "MouseButtonPressedReq", "MouseButtonReleasedReq", "MouseMovedReq", "MouseWheelMovedReq", "CloseUiReq", "RefreshUiReq", "GetConfigurationReq", "MouseDoubleClickReq", "BufferReadyReq", "VideoFrameReadyReq", "ScreenshotReadyReq", "ScreenshotCaptureFailureReq", "VideoCaptureFailureReq", "LangChangeReq", "UpdateFpsReq", "FocusEventReq", "ImeCommitTextReq", "ImeSetCompositionReq", "ImeCancelCompositionReq", "ImeUpdateCandidatesReq", "StreamingSettingsReq", "StreamingHostStartResponse", "StreamingHostGuestConnectedReq", "StreamingHostGuestDisconnectedReq", "StreamingHostStopReq", "StreamingHostMetricsReq", "StreamingVgpEventReq" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Req), global::Uplay.Overlay.Req.Parser, new[]{ "StartReq", "ResizeReq", "Win32KeyMessageReq", "AppleKeyEventReq", "MouseButtonPressedReq", "MouseButtonReleasedReq", "MouseMovedReq", "MouseWheelMovedReq", "CloseUiReq", "RefreshUiReq", "GetConfigurationReq", "MouseDoubleClickReq", "BufferReadyReq", "VideoFrameReadyReq", "ScreenshotReadyReq", "ScreenshotCaptureFailureReq", "VideoCaptureFailureReq", "LangChangeReq", "UpdateFpsReq", "FocusEventReq", "ImeCommitTextReq", "ImeSetCompositionReq", "ImeCancelCompositionReq", "ImeUpdateCandidatesReq", "StreamingSettingsReq", "StreamingHostStartResponse", "StreamingHostGuestConnectedReq", "StreamingHostGuestDisconnectedReq", "StreamingHostStopReq", "StreamingHostMetricsReq", "StreamingVgpEventReq", "StreamingHostCreateTokenReq", "StreamingHostDecodeTokenReq", "StreamingHostFocusReq", "StreamingHostUpdateGuestRemainingTimeReq" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Rsp), global::Uplay.Overlay.Rsp.Parser, new[]{ "StartRsp", "ResizeRsp", "ViewUpdatedRsp", "GetConfigurationRsp", "VideoFrameReleasedRsp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.MultipleLogin), global::Uplay.Overlay.MultipleLogin.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.UserBannedPush), global::Uplay.Overlay.UserBannedPush.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Push), global::Uplay.Overlay.Push.Parser, new[]{ "MultipleLogin", "CaptureScreenshot", "CursorChange", "UserBanned", "UiOpened", "UiClosed", "ImeClearComposition", "ImeSelectCandidate", "StreamingSettings", "StreamingHostStart", "StreamingHostStop", "StreamingHostKick", "StreamingHostAddAllowedProfileIds", "StreamingHostPermissions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Push), global::Uplay.Overlay.Push.Parser, new[]{ "MultipleLogin", "CaptureScreenshot", "CursorChange", "UserBanned", "UiOpened", "UiClosed", "ImeClearComposition", "ImeSelectCandidate", "StreamingSettings", "StreamingHostStart", "StreamingHostStop", "StreamingHostKick", "StreamingHostPermissions", "StreamingHostCreateToken", "StreamingHostDecodeToken", "StreamingHostUpdateGuestRemainingTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Upstream), global::Uplay.Overlay.Upstream.Parser, new[]{ "Req" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.Downstream), global::Uplay.Overlay.Downstream.Parser, new[]{ "Push", "Rsp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.Overlay.UpdateFpsReq), global::Uplay.Overlay.UpdateFpsReq.Parser, new[]{ "Fps" }, null, null, null, null)
@@ -8637,12 +8667,14 @@ namespace Uplay.Overlay {
     public StreamingHostStartPush(StreamingHostStartPush other) : this() {
       _hasBits0 = other._hasBits0;
       sessionId_ = other.sessionId_;
-      token_ = other.token_;
+      ubiTicket_ = other.ubiTicket_;
       appId_ = other.appId_;
       isUat_ = other.isUat_;
       bitrate_ = other.bitrate_;
-      mouseKeyboardAllowed_ = other.mouseKeyboardAllowed_;
-      gamepadAllowed_ = other.gamepadAllowed_;
+      resolution_ = other.resolution_;
+      fps_ = other.fps_;
+      gameName_ = other.gameName_;
+      guestsLimit_ = other.guestsLimit_;
       hostProfileId_ = other.hostProfileId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -8679,30 +8711,30 @@ namespace Uplay.Overlay {
       sessionId_ = null;
     }
 
-    /// <summary>Field number for the "token" field.</summary>
-    public const int TokenFieldNumber = 2;
-    private readonly static string TokenDefaultValue = "";
+    /// <summary>Field number for the "ubi_ticket" field.</summary>
+    public const int UbiTicketFieldNumber = 2;
+    private readonly static string UbiTicketDefaultValue = "";
 
-    private string token_;
+    private string ubiTicket_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Token {
-      get { return token_ ?? TokenDefaultValue; }
+    public string UbiTicket {
+      get { return ubiTicket_ ?? UbiTicketDefaultValue; }
       set {
-        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        ubiTicket_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-    /// <summary>Gets whether the "token" field is set</summary>
+    /// <summary>Gets whether the "ubi_ticket" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasToken {
-      get { return token_ != null; }
+    public bool HasUbiTicket {
+      get { return ubiTicket_ != null; }
     }
-    /// <summary>Clears the value of the "token" field</summary>
+    /// <summary>Clears the value of the "ubi_ticket" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearToken() {
-      token_ = null;
+    public void ClearUbiTicket() {
+      ubiTicket_ = null;
     }
 
     /// <summary>Field number for the "app_id" field.</summary>
@@ -8785,62 +8817,115 @@ namespace Uplay.Overlay {
       _hasBits0 &= ~2;
     }
 
-    /// <summary>Field number for the "mouse_keyboard_allowed" field.</summary>
-    public const int MouseKeyboardAllowedFieldNumber = 6;
-    private readonly static bool MouseKeyboardAllowedDefaultValue = false;
+    /// <summary>Field number for the "resolution" field.</summary>
+    public const int ResolutionFieldNumber = 6;
+    private readonly static uint ResolutionDefaultValue = 0;
 
-    private bool mouseKeyboardAllowed_;
+    private uint resolution_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool MouseKeyboardAllowed {
-      get { if ((_hasBits0 & 4) != 0) { return mouseKeyboardAllowed_; } else { return MouseKeyboardAllowedDefaultValue; } }
+    public uint Resolution {
+      get { if ((_hasBits0 & 4) != 0) { return resolution_; } else { return ResolutionDefaultValue; } }
       set {
         _hasBits0 |= 4;
-        mouseKeyboardAllowed_ = value;
+        resolution_ = value;
       }
     }
-    /// <summary>Gets whether the "mouse_keyboard_allowed" field is set</summary>
+    /// <summary>Gets whether the "resolution" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasMouseKeyboardAllowed {
+    public bool HasResolution {
       get { return (_hasBits0 & 4) != 0; }
     }
-    /// <summary>Clears the value of the "mouse_keyboard_allowed" field</summary>
+    /// <summary>Clears the value of the "resolution" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearMouseKeyboardAllowed() {
+    public void ClearResolution() {
       _hasBits0 &= ~4;
     }
 
-    /// <summary>Field number for the "gamepad_allowed" field.</summary>
-    public const int GamepadAllowedFieldNumber = 7;
-    private readonly static bool GamepadAllowedDefaultValue = false;
+    /// <summary>Field number for the "fps" field.</summary>
+    public const int FpsFieldNumber = 7;
+    private readonly static uint FpsDefaultValue = 0;
 
-    private bool gamepadAllowed_;
+    private uint fps_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool GamepadAllowed {
-      get { if ((_hasBits0 & 8) != 0) { return gamepadAllowed_; } else { return GamepadAllowedDefaultValue; } }
+    public uint Fps {
+      get { if ((_hasBits0 & 8) != 0) { return fps_; } else { return FpsDefaultValue; } }
       set {
         _hasBits0 |= 8;
-        gamepadAllowed_ = value;
+        fps_ = value;
       }
     }
-    /// <summary>Gets whether the "gamepad_allowed" field is set</summary>
+    /// <summary>Gets whether the "fps" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasGamepadAllowed {
+    public bool HasFps {
       get { return (_hasBits0 & 8) != 0; }
     }
-    /// <summary>Clears the value of the "gamepad_allowed" field</summary>
+    /// <summary>Clears the value of the "fps" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearGamepadAllowed() {
+    public void ClearFps() {
       _hasBits0 &= ~8;
     }
 
+    /// <summary>Field number for the "game_name" field.</summary>
+    public const int GameNameFieldNumber = 8;
+    private readonly static string GameNameDefaultValue = "";
+
+    private string gameName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GameName {
+      get { return gameName_ ?? GameNameDefaultValue; }
+      set {
+        gameName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "game_name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGameName {
+      get { return gameName_ != null; }
+    }
+    /// <summary>Clears the value of the "game_name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGameName() {
+      gameName_ = null;
+    }
+
+    /// <summary>Field number for the "guests_limit" field.</summary>
+    public const int GuestsLimitFieldNumber = 9;
+    private readonly static uint GuestsLimitDefaultValue = 0;
+
+    private uint guestsLimit_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint GuestsLimit {
+      get { if ((_hasBits0 & 16) != 0) { return guestsLimit_; } else { return GuestsLimitDefaultValue; } }
+      set {
+        _hasBits0 |= 16;
+        guestsLimit_ = value;
+      }
+    }
+    /// <summary>Gets whether the "guests_limit" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGuestsLimit {
+      get { return (_hasBits0 & 16) != 0; }
+    }
+    /// <summary>Clears the value of the "guests_limit" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGuestsLimit() {
+      _hasBits0 &= ~16;
+    }
+
     /// <summary>Field number for the "host_profile_id" field.</summary>
-    public const int HostProfileIdFieldNumber = 8;
+    public const int HostProfileIdFieldNumber = 10;
     private readonly static string HostProfileIdDefaultValue = "";
 
     private string hostProfileId_;
@@ -8881,12 +8966,14 @@ namespace Uplay.Overlay {
         return true;
       }
       if (SessionId != other.SessionId) return false;
-      if (Token != other.Token) return false;
+      if (UbiTicket != other.UbiTicket) return false;
       if (AppId != other.AppId) return false;
       if (IsUat != other.IsUat) return false;
       if (Bitrate != other.Bitrate) return false;
-      if (MouseKeyboardAllowed != other.MouseKeyboardAllowed) return false;
-      if (GamepadAllowed != other.GamepadAllowed) return false;
+      if (Resolution != other.Resolution) return false;
+      if (Fps != other.Fps) return false;
+      if (GameName != other.GameName) return false;
+      if (GuestsLimit != other.GuestsLimit) return false;
       if (HostProfileId != other.HostProfileId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -8896,12 +8983,14 @@ namespace Uplay.Overlay {
     public override int GetHashCode() {
       int hash = 1;
       if (HasSessionId) hash ^= SessionId.GetHashCode();
-      if (HasToken) hash ^= Token.GetHashCode();
+      if (HasUbiTicket) hash ^= UbiTicket.GetHashCode();
       if (HasAppId) hash ^= AppId.GetHashCode();
       if (HasIsUat) hash ^= IsUat.GetHashCode();
       if (HasBitrate) hash ^= Bitrate.GetHashCode();
-      if (HasMouseKeyboardAllowed) hash ^= MouseKeyboardAllowed.GetHashCode();
-      if (HasGamepadAllowed) hash ^= GamepadAllowed.GetHashCode();
+      if (HasResolution) hash ^= Resolution.GetHashCode();
+      if (HasFps) hash ^= Fps.GetHashCode();
+      if (HasGameName) hash ^= GameName.GetHashCode();
+      if (HasGuestsLimit) hash ^= GuestsLimit.GetHashCode();
       if (HasHostProfileId) hash ^= HostProfileId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -8925,9 +9014,9 @@ namespace Uplay.Overlay {
         output.WriteRawTag(10);
         output.WriteString(SessionId);
       }
-      if (HasToken) {
+      if (HasUbiTicket) {
         output.WriteRawTag(18);
-        output.WriteString(Token);
+        output.WriteString(UbiTicket);
       }
       if (HasAppId) {
         output.WriteRawTag(26);
@@ -8941,16 +9030,24 @@ namespace Uplay.Overlay {
         output.WriteRawTag(40);
         output.WriteUInt32(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
+      if (HasResolution) {
         output.WriteRawTag(48);
-        output.WriteBool(MouseKeyboardAllowed);
+        output.WriteUInt32(Resolution);
       }
-      if (HasGamepadAllowed) {
+      if (HasFps) {
         output.WriteRawTag(56);
-        output.WriteBool(GamepadAllowed);
+        output.WriteUInt32(Fps);
+      }
+      if (HasGameName) {
+        output.WriteRawTag(66);
+        output.WriteString(GameName);
+      }
+      if (HasGuestsLimit) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(GuestsLimit);
       }
       if (HasHostProfileId) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(82);
         output.WriteString(HostProfileId);
       }
       if (_unknownFields != null) {
@@ -8967,9 +9064,9 @@ namespace Uplay.Overlay {
         output.WriteRawTag(10);
         output.WriteString(SessionId);
       }
-      if (HasToken) {
+      if (HasUbiTicket) {
         output.WriteRawTag(18);
-        output.WriteString(Token);
+        output.WriteString(UbiTicket);
       }
       if (HasAppId) {
         output.WriteRawTag(26);
@@ -8983,16 +9080,24 @@ namespace Uplay.Overlay {
         output.WriteRawTag(40);
         output.WriteUInt32(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
+      if (HasResolution) {
         output.WriteRawTag(48);
-        output.WriteBool(MouseKeyboardAllowed);
+        output.WriteUInt32(Resolution);
       }
-      if (HasGamepadAllowed) {
+      if (HasFps) {
         output.WriteRawTag(56);
-        output.WriteBool(GamepadAllowed);
+        output.WriteUInt32(Fps);
+      }
+      if (HasGameName) {
+        output.WriteRawTag(66);
+        output.WriteString(GameName);
+      }
+      if (HasGuestsLimit) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(GuestsLimit);
       }
       if (HasHostProfileId) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(82);
         output.WriteString(HostProfileId);
       }
       if (_unknownFields != null) {
@@ -9008,8 +9113,8 @@ namespace Uplay.Overlay {
       if (HasSessionId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SessionId);
       }
-      if (HasToken) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      if (HasUbiTicket) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UbiTicket);
       }
       if (HasAppId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AppId);
@@ -9020,11 +9125,17 @@ namespace Uplay.Overlay {
       if (HasBitrate) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
-        size += 1 + 1;
+      if (HasResolution) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Resolution);
       }
-      if (HasGamepadAllowed) {
-        size += 1 + 1;
+      if (HasFps) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Fps);
+      }
+      if (HasGameName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GameName);
+      }
+      if (HasGuestsLimit) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(GuestsLimit);
       }
       if (HasHostProfileId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(HostProfileId);
@@ -9044,8 +9155,8 @@ namespace Uplay.Overlay {
       if (other.HasSessionId) {
         SessionId = other.SessionId;
       }
-      if (other.HasToken) {
-        Token = other.Token;
+      if (other.HasUbiTicket) {
+        UbiTicket = other.UbiTicket;
       }
       if (other.HasAppId) {
         AppId = other.AppId;
@@ -9056,11 +9167,17 @@ namespace Uplay.Overlay {
       if (other.HasBitrate) {
         Bitrate = other.Bitrate;
       }
-      if (other.HasMouseKeyboardAllowed) {
-        MouseKeyboardAllowed = other.MouseKeyboardAllowed;
+      if (other.HasResolution) {
+        Resolution = other.Resolution;
       }
-      if (other.HasGamepadAllowed) {
-        GamepadAllowed = other.GamepadAllowed;
+      if (other.HasFps) {
+        Fps = other.Fps;
+      }
+      if (other.HasGameName) {
+        GameName = other.GameName;
+      }
+      if (other.HasGuestsLimit) {
+        GuestsLimit = other.GuestsLimit;
       }
       if (other.HasHostProfileId) {
         HostProfileId = other.HostProfileId;
@@ -9085,7 +9202,7 @@ namespace Uplay.Overlay {
             break;
           }
           case 18: {
-            Token = input.ReadString();
+            UbiTicket = input.ReadString();
             break;
           }
           case 26: {
@@ -9101,14 +9218,22 @@ namespace Uplay.Overlay {
             break;
           }
           case 48: {
-            MouseKeyboardAllowed = input.ReadBool();
+            Resolution = input.ReadUInt32();
             break;
           }
           case 56: {
-            GamepadAllowed = input.ReadBool();
+            Fps = input.ReadUInt32();
             break;
           }
           case 66: {
+            GameName = input.ReadString();
+            break;
+          }
+          case 72: {
+            GuestsLimit = input.ReadUInt32();
+            break;
+          }
+          case 82: {
             HostProfileId = input.ReadString();
             break;
           }
@@ -9132,7 +9257,7 @@ namespace Uplay.Overlay {
             break;
           }
           case 18: {
-            Token = input.ReadString();
+            UbiTicket = input.ReadString();
             break;
           }
           case 26: {
@@ -9148,14 +9273,22 @@ namespace Uplay.Overlay {
             break;
           }
           case 48: {
-            MouseKeyboardAllowed = input.ReadBool();
+            Resolution = input.ReadUInt32();
             break;
           }
           case 56: {
-            GamepadAllowed = input.ReadBool();
+            Fps = input.ReadUInt32();
             break;
           }
           case 66: {
+            GameName = input.ReadString();
+            break;
+          }
+          case 72: {
+            GuestsLimit = input.ReadUInt32();
+            break;
+          }
+          case 82: {
             HostProfileId = input.ReadString();
             break;
           }
@@ -9203,7 +9336,7 @@ namespace Uplay.Overlay {
     public StreamingHostStartResponse(StreamingHostStartResponse other) : this() {
       _hasBits0 = other._hasBits0;
       result_ = other.result_;
-      inviteToken_ = other.inviteToken_;
+      hostPeerId_ = other.hostPeerId_;
       startConfig_ = other.startConfig_ != null ? other.startConfig_.Clone() : null;
       errorMsg_ = other.errorMsg_;
       errorCode_ = other.errorCode_;
@@ -9243,30 +9376,30 @@ namespace Uplay.Overlay {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "invite_token" field.</summary>
-    public const int InviteTokenFieldNumber = 2;
-    private readonly static string InviteTokenDefaultValue = "";
+    /// <summary>Field number for the "host_peer_id" field.</summary>
+    public const int HostPeerIdFieldNumber = 2;
+    private readonly static string HostPeerIdDefaultValue = "";
 
-    private string inviteToken_;
+    private string hostPeerId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string InviteToken {
-      get { return inviteToken_ ?? InviteTokenDefaultValue; }
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
       set {
-        inviteToken_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-    /// <summary>Gets whether the "invite_token" field is set</summary>
+    /// <summary>Gets whether the "host_peer_id" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasInviteToken {
-      get { return inviteToken_ != null; }
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
     }
-    /// <summary>Clears the value of the "invite_token" field</summary>
+    /// <summary>Clears the value of the "host_peer_id" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearInviteToken() {
-      inviteToken_ = null;
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
     }
 
     /// <summary>Field number for the "start_config" field.</summary>
@@ -9350,7 +9483,7 @@ namespace Uplay.Overlay {
         return true;
       }
       if (Result != other.Result) return false;
-      if (InviteToken != other.InviteToken) return false;
+      if (HostPeerId != other.HostPeerId) return false;
       if (!object.Equals(StartConfig, other.StartConfig)) return false;
       if (ErrorMsg != other.ErrorMsg) return false;
       if (ErrorCode != other.ErrorCode) return false;
@@ -9362,7 +9495,7 @@ namespace Uplay.Overlay {
     public override int GetHashCode() {
       int hash = 1;
       if (HasResult) hash ^= Result.GetHashCode();
-      if (HasInviteToken) hash ^= InviteToken.GetHashCode();
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
       if (startConfig_ != null) hash ^= StartConfig.GetHashCode();
       if (HasErrorMsg) hash ^= ErrorMsg.GetHashCode();
       if (HasErrorCode) hash ^= ErrorCode.GetHashCode();
@@ -9388,9 +9521,9 @@ namespace Uplay.Overlay {
         output.WriteRawTag(8);
         output.WriteBool(Result);
       }
-      if (HasInviteToken) {
+      if (HasHostPeerId) {
         output.WriteRawTag(18);
-        output.WriteString(InviteToken);
+        output.WriteString(HostPeerId);
       }
       if (startConfig_ != null) {
         output.WriteRawTag(26);
@@ -9418,9 +9551,9 @@ namespace Uplay.Overlay {
         output.WriteRawTag(8);
         output.WriteBool(Result);
       }
-      if (HasInviteToken) {
+      if (HasHostPeerId) {
         output.WriteRawTag(18);
-        output.WriteString(InviteToken);
+        output.WriteString(HostPeerId);
       }
       if (startConfig_ != null) {
         output.WriteRawTag(26);
@@ -9447,8 +9580,8 @@ namespace Uplay.Overlay {
       if (HasResult) {
         size += 1 + 1;
       }
-      if (HasInviteToken) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(InviteToken);
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
       }
       if (startConfig_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartConfig);
@@ -9474,8 +9607,8 @@ namespace Uplay.Overlay {
       if (other.HasResult) {
         Result = other.Result;
       }
-      if (other.HasInviteToken) {
-        InviteToken = other.InviteToken;
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
       }
       if (other.startConfig_ != null) {
         if (startConfig_ == null) {
@@ -9509,7 +9642,7 @@ namespace Uplay.Overlay {
             break;
           }
           case 18: {
-            InviteToken = input.ReadString();
+            HostPeerId = input.ReadString();
             break;
           }
           case 26: {
@@ -9547,7 +9680,7 @@ namespace Uplay.Overlay {
             break;
           }
           case 18: {
-            InviteToken = input.ReadString();
+            HostPeerId = input.ReadString();
             break;
           }
           case 26: {
@@ -10132,17 +10265,17 @@ namespace Uplay.Overlay {
 
   }
 
-  public sealed partial class StreamingHostGuestResponse : pb::IMessage<StreamingHostGuestResponse>
+  public sealed partial class StreamingHostGuestConnectedReq : pb::IMessage<StreamingHostGuestConnectedReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<StreamingHostGuestResponse> _parser = new pb::MessageParser<StreamingHostGuestResponse>(() => new StreamingHostGuestResponse());
+    private static readonly pb::MessageParser<StreamingHostGuestConnectedReq> _parser = new pb::MessageParser<StreamingHostGuestConnectedReq>(() => new StreamingHostGuestConnectedReq());
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingHostGuestResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<StreamingHostGuestConnectedReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10158,7 +10291,7 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestResponse() {
+    public StreamingHostGuestConnectedReq() {
       OnConstruction();
     }
 
@@ -10166,18 +10299,19 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestResponse(StreamingHostGuestResponse other) : this() {
+    public StreamingHostGuestConnectedReq(StreamingHostGuestConnectedReq other) : this() {
       _hasBits0 = other._hasBits0;
       guestId_ = other.guestId_;
       profileId_ = other.profileId_;
       settings_ = other.settings_ != null ? other.settings_.Clone() : null;
+      connectedTs_ = other.connectedTs_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestResponse Clone() {
-      return new StreamingHostGuestResponse(this);
+    public StreamingHostGuestConnectedReq Clone() {
+      return new StreamingHostGuestConnectedReq(this);
     }
 
     /// <summary>Field number for the "guest_id" field.</summary>
@@ -10245,15 +10379,42 @@ namespace Uplay.Overlay {
       }
     }
 
+    /// <summary>Field number for the "connected_ts" field.</summary>
+    public const int ConnectedTsFieldNumber = 4;
+    private readonly static ulong ConnectedTsDefaultValue = 0UL;
+
+    private ulong connectedTs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingHostGuestResponse);
+    public ulong ConnectedTs {
+      get { if ((_hasBits0 & 2) != 0) { return connectedTs_; } else { return ConnectedTsDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        connectedTs_ = value;
+      }
+    }
+    /// <summary>Gets whether the "connected_ts" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasConnectedTs {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "connected_ts" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearConnectedTs() {
+      _hasBits0 &= ~2;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingHostGuestResponse other) {
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostGuestConnectedReq);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostGuestConnectedReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -10263,6 +10424,7 @@ namespace Uplay.Overlay {
       if (GuestId != other.GuestId) return false;
       if (ProfileId != other.ProfileId) return false;
       if (!object.Equals(Settings, other.Settings)) return false;
+      if (ConnectedTs != other.ConnectedTs) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10273,6 +10435,7 @@ namespace Uplay.Overlay {
       if (HasGuestId) hash ^= GuestId.GetHashCode();
       if (HasProfileId) hash ^= ProfileId.GetHashCode();
       if (settings_ != null) hash ^= Settings.GetHashCode();
+      if (HasConnectedTs) hash ^= ConnectedTs.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10303,6 +10466,10 @@ namespace Uplay.Overlay {
         output.WriteRawTag(26);
         output.WriteMessage(Settings);
       }
+      if (HasConnectedTs) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(ConnectedTs);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10324,6 +10491,10 @@ namespace Uplay.Overlay {
       if (settings_ != null) {
         output.WriteRawTag(26);
         output.WriteMessage(Settings);
+      }
+      if (HasConnectedTs) {
+        output.WriteRawTag(32);
+        output.WriteUInt64(ConnectedTs);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -10344,6 +10515,9 @@ namespace Uplay.Overlay {
       if (settings_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Settings);
       }
+      if (HasConnectedTs) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(ConnectedTs);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -10352,7 +10526,7 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingHostGuestResponse other) {
+    public void MergeFrom(StreamingHostGuestConnectedReq other) {
       if (other == null) {
         return;
       }
@@ -10368,6 +10542,9 @@ namespace Uplay.Overlay {
         }
         Settings.MergeFrom(other.Settings);
       }
+      if (other.HasConnectedTs) {
+        ConnectedTs = other.ConnectedTs;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -10396,6 +10573,10 @@ namespace Uplay.Overlay {
               Settings = new global::Uplay.Overlay.StreamingHostGuestSettingsResponse();
             }
             input.ReadMessage(Settings);
+            break;
+          }
+          case 32: {
+            ConnectedTs = input.ReadUInt64();
             break;
           }
         }
@@ -10428,202 +10609,8 @@ namespace Uplay.Overlay {
             input.ReadMessage(Settings);
             break;
           }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class StreamingHostGuestConnectedReq : pb::IMessage<StreamingHostGuestConnectedReq>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StreamingHostGuestConnectedReq> _parser = new pb::MessageParser<StreamingHostGuestConnectedReq>(() => new StreamingHostGuestConnectedReq());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingHostGuestConnectedReq> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[40]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestConnectedReq() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestConnectedReq(StreamingHostGuestConnectedReq other) : this() {
-      guest_ = other.guest_ != null ? other.guest_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostGuestConnectedReq Clone() {
-      return new StreamingHostGuestConnectedReq(this);
-    }
-
-    /// <summary>Field number for the "guest" field.</summary>
-    public const int GuestFieldNumber = 1;
-    private global::Uplay.Overlay.StreamingHostGuestResponse guest_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Overlay.StreamingHostGuestResponse Guest {
-      get { return guest_; }
-      set {
-        guest_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingHostGuestConnectedReq);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingHostGuestConnectedReq other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(Guest, other.Guest)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (guest_ != null) hash ^= Guest.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (guest_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Guest);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (guest_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Guest);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (guest_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Guest);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingHostGuestConnectedReq other) {
-      if (other == null) {
-        return;
-      }
-      if (other.guest_ != null) {
-        if (guest_ == null) {
-          Guest = new global::Uplay.Overlay.StreamingHostGuestResponse();
-        }
-        Guest.MergeFrom(other.Guest);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (guest_ == null) {
-              Guest = new global::Uplay.Overlay.StreamingHostGuestResponse();
-            }
-            input.ReadMessage(Guest);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (guest_ == null) {
-              Guest = new global::Uplay.Overlay.StreamingHostGuestResponse();
-            }
-            input.ReadMessage(Guest);
+          case 32: {
+            ConnectedTs = input.ReadUInt64();
             break;
           }
         }
@@ -10648,7 +10635,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10904,7 +10891,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11057,7 +11044,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11263,7 +11250,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11285,8 +11272,8 @@ namespace Uplay.Overlay {
     public StreamingSettingsPush(StreamingSettingsPush other) : this() {
       _hasBits0 = other._hasBits0;
       bitrate_ = other.bitrate_;
-      mouseKeyboardAllowed_ = other.mouseKeyboardAllowed_;
-      gamepadAllowed_ = other.gamepadAllowed_;
+      resolution_ = other.resolution_;
+      fps_ = other.fps_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -11323,57 +11310,57 @@ namespace Uplay.Overlay {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "mouse_keyboard_allowed" field.</summary>
-    public const int MouseKeyboardAllowedFieldNumber = 2;
-    private readonly static bool MouseKeyboardAllowedDefaultValue = false;
+    /// <summary>Field number for the "resolution" field.</summary>
+    public const int ResolutionFieldNumber = 2;
+    private readonly static uint ResolutionDefaultValue = 0;
 
-    private bool mouseKeyboardAllowed_;
+    private uint resolution_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool MouseKeyboardAllowed {
-      get { if ((_hasBits0 & 2) != 0) { return mouseKeyboardAllowed_; } else { return MouseKeyboardAllowedDefaultValue; } }
+    public uint Resolution {
+      get { if ((_hasBits0 & 2) != 0) { return resolution_; } else { return ResolutionDefaultValue; } }
       set {
         _hasBits0 |= 2;
-        mouseKeyboardAllowed_ = value;
+        resolution_ = value;
       }
     }
-    /// <summary>Gets whether the "mouse_keyboard_allowed" field is set</summary>
+    /// <summary>Gets whether the "resolution" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasMouseKeyboardAllowed {
+    public bool HasResolution {
       get { return (_hasBits0 & 2) != 0; }
     }
-    /// <summary>Clears the value of the "mouse_keyboard_allowed" field</summary>
+    /// <summary>Clears the value of the "resolution" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearMouseKeyboardAllowed() {
+    public void ClearResolution() {
       _hasBits0 &= ~2;
     }
 
-    /// <summary>Field number for the "gamepad_allowed" field.</summary>
-    public const int GamepadAllowedFieldNumber = 3;
-    private readonly static bool GamepadAllowedDefaultValue = false;
+    /// <summary>Field number for the "fps" field.</summary>
+    public const int FpsFieldNumber = 3;
+    private readonly static uint FpsDefaultValue = 0;
 
-    private bool gamepadAllowed_;
+    private uint fps_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool GamepadAllowed {
-      get { if ((_hasBits0 & 4) != 0) { return gamepadAllowed_; } else { return GamepadAllowedDefaultValue; } }
+    public uint Fps {
+      get { if ((_hasBits0 & 4) != 0) { return fps_; } else { return FpsDefaultValue; } }
       set {
         _hasBits0 |= 4;
-        gamepadAllowed_ = value;
+        fps_ = value;
       }
     }
-    /// <summary>Gets whether the "gamepad_allowed" field is set</summary>
+    /// <summary>Gets whether the "fps" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasGamepadAllowed {
+    public bool HasFps {
       get { return (_hasBits0 & 4) != 0; }
     }
-    /// <summary>Clears the value of the "gamepad_allowed" field</summary>
+    /// <summary>Clears the value of the "fps" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearGamepadAllowed() {
+    public void ClearFps() {
       _hasBits0 &= ~4;
     }
 
@@ -11393,8 +11380,8 @@ namespace Uplay.Overlay {
         return true;
       }
       if (Bitrate != other.Bitrate) return false;
-      if (MouseKeyboardAllowed != other.MouseKeyboardAllowed) return false;
-      if (GamepadAllowed != other.GamepadAllowed) return false;
+      if (Resolution != other.Resolution) return false;
+      if (Fps != other.Fps) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -11403,8 +11390,8 @@ namespace Uplay.Overlay {
     public override int GetHashCode() {
       int hash = 1;
       if (HasBitrate) hash ^= Bitrate.GetHashCode();
-      if (HasMouseKeyboardAllowed) hash ^= MouseKeyboardAllowed.GetHashCode();
-      if (HasGamepadAllowed) hash ^= GamepadAllowed.GetHashCode();
+      if (HasResolution) hash ^= Resolution.GetHashCode();
+      if (HasFps) hash ^= Fps.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -11427,13 +11414,13 @@ namespace Uplay.Overlay {
         output.WriteRawTag(8);
         output.WriteUInt32(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
+      if (HasResolution) {
         output.WriteRawTag(16);
-        output.WriteBool(MouseKeyboardAllowed);
+        output.WriteUInt32(Resolution);
       }
-      if (HasGamepadAllowed) {
+      if (HasFps) {
         output.WriteRawTag(24);
-        output.WriteBool(GamepadAllowed);
+        output.WriteUInt32(Fps);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -11449,13 +11436,13 @@ namespace Uplay.Overlay {
         output.WriteRawTag(8);
         output.WriteUInt32(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
+      if (HasResolution) {
         output.WriteRawTag(16);
-        output.WriteBool(MouseKeyboardAllowed);
+        output.WriteUInt32(Resolution);
       }
-      if (HasGamepadAllowed) {
+      if (HasFps) {
         output.WriteRawTag(24);
-        output.WriteBool(GamepadAllowed);
+        output.WriteUInt32(Fps);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -11470,11 +11457,11 @@ namespace Uplay.Overlay {
       if (HasBitrate) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Bitrate);
       }
-      if (HasMouseKeyboardAllowed) {
-        size += 1 + 1;
+      if (HasResolution) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Resolution);
       }
-      if (HasGamepadAllowed) {
-        size += 1 + 1;
+      if (HasFps) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Fps);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -11491,11 +11478,11 @@ namespace Uplay.Overlay {
       if (other.HasBitrate) {
         Bitrate = other.Bitrate;
       }
-      if (other.HasMouseKeyboardAllowed) {
-        MouseKeyboardAllowed = other.MouseKeyboardAllowed;
+      if (other.HasResolution) {
+        Resolution = other.Resolution;
       }
-      if (other.HasGamepadAllowed) {
-        GamepadAllowed = other.GamepadAllowed;
+      if (other.HasFps) {
+        Fps = other.Fps;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11517,11 +11504,11 @@ namespace Uplay.Overlay {
             break;
           }
           case 16: {
-            MouseKeyboardAllowed = input.ReadBool();
+            Resolution = input.ReadUInt32();
             break;
           }
           case 24: {
-            GamepadAllowed = input.ReadBool();
+            Fps = input.ReadUInt32();
             break;
           }
         }
@@ -11544,11 +11531,11 @@ namespace Uplay.Overlay {
             break;
           }
           case 16: {
-            MouseKeyboardAllowed = input.ReadBool();
+            Resolution = input.ReadUInt32();
             break;
           }
           case 24: {
-            GamepadAllowed = input.ReadBool();
+            Fps = input.ReadUInt32();
             break;
           }
         }
@@ -11573,7 +11560,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11868,184 +11855,6 @@ namespace Uplay.Overlay {
 
   }
 
-  public sealed partial class StreamingHostAddAllowedProfileIdsPush : pb::IMessage<StreamingHostAddAllowedProfileIdsPush>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<StreamingHostAddAllowedProfileIdsPush> _parser = new pb::MessageParser<StreamingHostAddAllowedProfileIdsPush>(() => new StreamingHostAddAllowedProfileIdsPush());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingHostAddAllowedProfileIdsPush> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[46]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostAddAllowedProfileIdsPush() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostAddAllowedProfileIdsPush(StreamingHostAddAllowedProfileIdsPush other) : this() {
-      allowedProfileIds_ = other.allowedProfileIds_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingHostAddAllowedProfileIdsPush Clone() {
-      return new StreamingHostAddAllowedProfileIdsPush(this);
-    }
-
-    /// <summary>Field number for the "allowed_profile_ids" field.</summary>
-    public const int AllowedProfileIdsFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _repeated_allowedProfileIds_codec
-        = pb::FieldCodec.ForString(10);
-    private readonly pbc::RepeatedField<string> allowedProfileIds_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<string> AllowedProfileIds {
-      get { return allowedProfileIds_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as StreamingHostAddAllowedProfileIdsPush);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingHostAddAllowedProfileIdsPush other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!allowedProfileIds_.Equals(other.allowedProfileIds_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= allowedProfileIds_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      allowedProfileIds_.WriteTo(output, _repeated_allowedProfileIds_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      allowedProfileIds_.WriteTo(ref output, _repeated_allowedProfileIds_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += allowedProfileIds_.CalculateSize(_repeated_allowedProfileIds_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingHostAddAllowedProfileIdsPush other) {
-      if (other == null) {
-        return;
-      }
-      allowedProfileIds_.Add(other.allowedProfileIds_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            allowedProfileIds_.AddEntriesFrom(input, _repeated_allowedProfileIds_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            allowedProfileIds_.AddEntriesFrom(ref input, _repeated_allowedProfileIds_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class StreamingStartConfig : pb::IMessage<StreamingStartConfig>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -12061,7 +11870,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12475,7 +12284,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12681,7 +12490,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12887,7 +12696,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13144,7 +12953,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13439,22 +13248,22 @@ namespace Uplay.Overlay {
 
   }
 
-  public sealed partial class StreamingVGPEvent : pb::IMessage<StreamingVGPEvent>
+  public sealed partial class StreamingVGPEventReq : pb::IMessage<StreamingVGPEventReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<StreamingVGPEvent> _parser = new pb::MessageParser<StreamingVGPEvent>(() => new StreamingVGPEvent());
+    private static readonly pb::MessageParser<StreamingVGPEventReq> _parser = new pb::MessageParser<StreamingVGPEventReq>(() => new StreamingVGPEventReq());
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<StreamingVGPEvent> Parser { get { return _parser; } }
+    public static pb::MessageParser<StreamingVGPEventReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13465,7 +13274,7 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingVGPEvent() {
+    public StreamingVGPEventReq() {
       OnConstruction();
     }
 
@@ -13473,7 +13282,7 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingVGPEvent(StreamingVGPEvent other) : this() {
+    public StreamingVGPEventReq(StreamingVGPEventReq other) : this() {
       _hasBits0 = other._hasBits0;
       source_ = other.source_;
       profileId_ = other.profileId_;
@@ -13483,8 +13292,8 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public StreamingVGPEvent Clone() {
-      return new StreamingVGPEvent(this);
+    public StreamingVGPEventReq Clone() {
+      return new StreamingVGPEventReq(this);
     }
 
     /// <summary>Field number for the "source" field.</summary>
@@ -13570,12 +13379,12 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as StreamingVGPEvent);
+      return Equals(other as StreamingVGPEventReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(StreamingVGPEvent other) {
+    public bool Equals(StreamingVGPEventReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -13674,7 +13483,7 @@ namespace Uplay.Overlay {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(StreamingVGPEvent other) {
+    public void MergeFrom(StreamingVGPEventReq other) {
       if (other == null) {
         return;
       }
@@ -13748,6 +13557,2220 @@ namespace Uplay.Overlay {
 
   }
 
+  public sealed partial class StreamingHostCreateTokenPush : pb::IMessage<StreamingHostCreateTokenPush>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostCreateTokenPush> _parser = new pb::MessageParser<StreamingHostCreateTokenPush>(() => new StreamingHostCreateTokenPush());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostCreateTokenPush> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[51]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenPush() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenPush(StreamingHostCreateTokenPush other) : this() {
+      _hasBits0 = other._hasBits0;
+      usageLimit_ = other.usageLimit_;
+      expiration_ = other.expiration_;
+      profileId_ = other.profileId_;
+      tokenNumber_ = other.tokenNumber_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenPush Clone() {
+      return new StreamingHostCreateTokenPush(this);
+    }
+
+    /// <summary>Field number for the "usage_limit" field.</summary>
+    public const int UsageLimitFieldNumber = 1;
+    private readonly static uint UsageLimitDefaultValue = 0;
+
+    private uint usageLimit_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint UsageLimit {
+      get { if ((_hasBits0 & 1) != 0) { return usageLimit_; } else { return UsageLimitDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        usageLimit_ = value;
+      }
+    }
+    /// <summary>Gets whether the "usage_limit" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasUsageLimit {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "usage_limit" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearUsageLimit() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "expiration" field.</summary>
+    public const int ExpirationFieldNumber = 2;
+    private readonly static uint ExpirationDefaultValue = 0;
+
+    private uint expiration_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Expiration {
+      get { if ((_hasBits0 & 2) != 0) { return expiration_; } else { return ExpirationDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        expiration_ = value;
+      }
+    }
+    /// <summary>Gets whether the "expiration" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasExpiration {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "expiration" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearExpiration() {
+      _hasBits0 &= ~2;
+    }
+
+    /// <summary>Field number for the "profile_id" field.</summary>
+    public const int ProfileIdFieldNumber = 3;
+    private readonly static string ProfileIdDefaultValue = "";
+
+    private string profileId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ProfileId {
+      get { return profileId_ ?? ProfileIdDefaultValue; }
+      set {
+        profileId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "profile_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasProfileId {
+      get { return profileId_ != null; }
+    }
+    /// <summary>Clears the value of the "profile_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearProfileId() {
+      profileId_ = null;
+    }
+
+    /// <summary>Field number for the "token_number" field.</summary>
+    public const int TokenNumberFieldNumber = 4;
+    private readonly static uint TokenNumberDefaultValue = 0;
+
+    private uint tokenNumber_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint TokenNumber {
+      get { if ((_hasBits0 & 4) != 0) { return tokenNumber_; } else { return TokenNumberDefaultValue; } }
+      set {
+        _hasBits0 |= 4;
+        tokenNumber_ = value;
+      }
+    }
+    /// <summary>Gets whether the "token_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTokenNumber {
+      get { return (_hasBits0 & 4) != 0; }
+    }
+    /// <summary>Clears the value of the "token_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTokenNumber() {
+      _hasBits0 &= ~4;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostCreateTokenPush);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostCreateTokenPush other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (UsageLimit != other.UsageLimit) return false;
+      if (Expiration != other.Expiration) return false;
+      if (ProfileId != other.ProfileId) return false;
+      if (TokenNumber != other.TokenNumber) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasUsageLimit) hash ^= UsageLimit.GetHashCode();
+      if (HasExpiration) hash ^= Expiration.GetHashCode();
+      if (HasProfileId) hash ^= ProfileId.GetHashCode();
+      if (HasTokenNumber) hash ^= TokenNumber.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasUsageLimit) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(UsageLimit);
+      }
+      if (HasExpiration) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Expiration);
+      }
+      if (HasProfileId) {
+        output.WriteRawTag(26);
+        output.WriteString(ProfileId);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasUsageLimit) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(UsageLimit);
+      }
+      if (HasExpiration) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Expiration);
+      }
+      if (HasProfileId) {
+        output.WriteRawTag(26);
+        output.WriteString(ProfileId);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasUsageLimit) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(UsageLimit);
+      }
+      if (HasExpiration) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Expiration);
+      }
+      if (HasProfileId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProfileId);
+      }
+      if (HasTokenNumber) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostCreateTokenPush other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasUsageLimit) {
+        UsageLimit = other.UsageLimit;
+      }
+      if (other.HasExpiration) {
+        Expiration = other.Expiration;
+      }
+      if (other.HasProfileId) {
+        ProfileId = other.ProfileId;
+      }
+      if (other.HasTokenNumber) {
+        TokenNumber = other.TokenNumber;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            UsageLimit = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            Expiration = input.ReadUInt32();
+            break;
+          }
+          case 26: {
+            ProfileId = input.ReadString();
+            break;
+          }
+          case 32: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            UsageLimit = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            Expiration = input.ReadUInt32();
+            break;
+          }
+          case 26: {
+            ProfileId = input.ReadString();
+            break;
+          }
+          case 32: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostCreateTokenReq : pb::IMessage<StreamingHostCreateTokenReq>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostCreateTokenReq> _parser = new pb::MessageParser<StreamingHostCreateTokenReq>(() => new StreamingHostCreateTokenReq());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostCreateTokenReq> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[52]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenReq() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenReq(StreamingHostCreateTokenReq other) : this() {
+      _hasBits0 = other._hasBits0;
+      result_ = other.result_;
+      token_ = other.token_;
+      tokenNumber_ = other.tokenNumber_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostCreateTokenReq Clone() {
+      return new StreamingHostCreateTokenReq(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private readonly static bool ResultDefaultValue = false;
+
+    private bool result_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Result {
+      get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        result_ = value;
+      }
+    }
+    /// <summary>Gets whether the "result" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasResult {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "result" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearResult() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 2;
+    private readonly static string TokenDefaultValue = "";
+
+    private string token_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Token {
+      get { return token_ ?? TokenDefaultValue; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "token" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasToken {
+      get { return token_ != null; }
+    }
+    /// <summary>Clears the value of the "token" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearToken() {
+      token_ = null;
+    }
+
+    /// <summary>Field number for the "token_number" field.</summary>
+    public const int TokenNumberFieldNumber = 3;
+    private readonly static uint TokenNumberDefaultValue = 0;
+
+    private uint tokenNumber_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint TokenNumber {
+      get { if ((_hasBits0 & 2) != 0) { return tokenNumber_; } else { return TokenNumberDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        tokenNumber_ = value;
+      }
+    }
+    /// <summary>Gets whether the "token_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTokenNumber {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "token_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTokenNumber() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostCreateTokenReq);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostCreateTokenReq other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (Token != other.Token) return false;
+      if (TokenNumber != other.TokenNumber) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasResult) hash ^= Result.GetHashCode();
+      if (HasToken) hash ^= Token.GetHashCode();
+      if (HasTokenNumber) hash ^= TokenNumber.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasToken) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasToken) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasResult) {
+        size += 1 + 1;
+      }
+      if (HasToken) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      }
+      if (HasTokenNumber) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostCreateTokenReq other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasResult) {
+        Result = other.Result;
+      }
+      if (other.HasToken) {
+        Token = other.Token;
+      }
+      if (other.HasTokenNumber) {
+        TokenNumber = other.TokenNumber;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
+          case 24: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
+          case 24: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostDecodeTokenPush : pb::IMessage<StreamingHostDecodeTokenPush>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostDecodeTokenPush> _parser = new pb::MessageParser<StreamingHostDecodeTokenPush>(() => new StreamingHostDecodeTokenPush());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostDecodeTokenPush> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[53]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenPush() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenPush(StreamingHostDecodeTokenPush other) : this() {
+      _hasBits0 = other._hasBits0;
+      token_ = other.token_;
+      tokenNumber_ = other.tokenNumber_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenPush Clone() {
+      return new StreamingHostDecodeTokenPush(this);
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 1;
+    private readonly static string TokenDefaultValue = "";
+
+    private string token_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Token {
+      get { return token_ ?? TokenDefaultValue; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "token" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasToken {
+      get { return token_ != null; }
+    }
+    /// <summary>Clears the value of the "token" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearToken() {
+      token_ = null;
+    }
+
+    /// <summary>Field number for the "token_number" field.</summary>
+    public const int TokenNumberFieldNumber = 2;
+    private readonly static uint TokenNumberDefaultValue = 0;
+
+    private uint tokenNumber_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint TokenNumber {
+      get { if ((_hasBits0 & 1) != 0) { return tokenNumber_; } else { return TokenNumberDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        tokenNumber_ = value;
+      }
+    }
+    /// <summary>Gets whether the "token_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTokenNumber {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "token_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTokenNumber() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostDecodeTokenPush);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostDecodeTokenPush other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Token != other.Token) return false;
+      if (TokenNumber != other.TokenNumber) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasToken) hash ^= Token.GetHashCode();
+      if (HasTokenNumber) hash ^= TokenNumber.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasToken) {
+        output.WriteRawTag(10);
+        output.WriteString(Token);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasToken) {
+        output.WriteRawTag(10);
+        output.WriteString(Token);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasToken) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      }
+      if (HasTokenNumber) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TokenNumber);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostDecodeTokenPush other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasToken) {
+        Token = other.Token;
+      }
+      if (other.HasTokenNumber) {
+        TokenNumber = other.TokenNumber;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Token = input.ReadString();
+            break;
+          }
+          case 16: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Token = input.ReadString();
+            break;
+          }
+          case 16: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostDecodeTokenReq : pb::IMessage<StreamingHostDecodeTokenReq>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostDecodeTokenReq> _parser = new pb::MessageParser<StreamingHostDecodeTokenReq>(() => new StreamingHostDecodeTokenReq());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostDecodeTokenReq> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[54]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenReq() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenReq(StreamingHostDecodeTokenReq other) : this() {
+      _hasBits0 = other._hasBits0;
+      result_ = other.result_;
+      appId_ = other.appId_;
+      spaceId_ = other.spaceId_;
+      productId_ = other.productId_;
+      tokenNumber_ = other.tokenNumber_;
+      gameName_ = other.gameName_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostDecodeTokenReq Clone() {
+      return new StreamingHostDecodeTokenReq(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private readonly static bool ResultDefaultValue = false;
+
+    private bool result_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Result {
+      get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        result_ = value;
+      }
+    }
+    /// <summary>Gets whether the "result" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasResult {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "result" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearResult() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "app_id" field.</summary>
+    public const int AppIdFieldNumber = 2;
+    private readonly static string AppIdDefaultValue = "";
+
+    private string appId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AppId {
+      get { return appId_ ?? AppIdDefaultValue; }
+      set {
+        appId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "app_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAppId {
+      get { return appId_ != null; }
+    }
+    /// <summary>Clears the value of the "app_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAppId() {
+      appId_ = null;
+    }
+
+    /// <summary>Field number for the "space_id" field.</summary>
+    public const int SpaceIdFieldNumber = 3;
+    private readonly static string SpaceIdDefaultValue = "";
+
+    private string spaceId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SpaceId {
+      get { return spaceId_ ?? SpaceIdDefaultValue; }
+      set {
+        spaceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "space_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSpaceId {
+      get { return spaceId_ != null; }
+    }
+    /// <summary>Clears the value of the "space_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSpaceId() {
+      spaceId_ = null;
+    }
+
+    /// <summary>Field number for the "product_id" field.</summary>
+    public const int ProductIdFieldNumber = 4;
+    private readonly static uint ProductIdDefaultValue = 0;
+
+    private uint productId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint ProductId {
+      get { if ((_hasBits0 & 2) != 0) { return productId_; } else { return ProductIdDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        productId_ = value;
+      }
+    }
+    /// <summary>Gets whether the "product_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasProductId {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "product_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearProductId() {
+      _hasBits0 &= ~2;
+    }
+
+    /// <summary>Field number for the "token_number" field.</summary>
+    public const int TokenNumberFieldNumber = 5;
+    private readonly static uint TokenNumberDefaultValue = 0;
+
+    private uint tokenNumber_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint TokenNumber {
+      get { if ((_hasBits0 & 4) != 0) { return tokenNumber_; } else { return TokenNumberDefaultValue; } }
+      set {
+        _hasBits0 |= 4;
+        tokenNumber_ = value;
+      }
+    }
+    /// <summary>Gets whether the "token_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasTokenNumber {
+      get { return (_hasBits0 & 4) != 0; }
+    }
+    /// <summary>Clears the value of the "token_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearTokenNumber() {
+      _hasBits0 &= ~4;
+    }
+
+    /// <summary>Field number for the "game_name" field.</summary>
+    public const int GameNameFieldNumber = 6;
+    private readonly static string GameNameDefaultValue = "";
+
+    private string gameName_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GameName {
+      get { return gameName_ ?? GameNameDefaultValue; }
+      set {
+        gameName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "game_name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGameName {
+      get { return gameName_ != null; }
+    }
+    /// <summary>Clears the value of the "game_name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGameName() {
+      gameName_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostDecodeTokenReq);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostDecodeTokenReq other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (AppId != other.AppId) return false;
+      if (SpaceId != other.SpaceId) return false;
+      if (ProductId != other.ProductId) return false;
+      if (TokenNumber != other.TokenNumber) return false;
+      if (GameName != other.GameName) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasResult) hash ^= Result.GetHashCode();
+      if (HasAppId) hash ^= AppId.GetHashCode();
+      if (HasSpaceId) hash ^= SpaceId.GetHashCode();
+      if (HasProductId) hash ^= ProductId.GetHashCode();
+      if (HasTokenNumber) hash ^= TokenNumber.GetHashCode();
+      if (HasGameName) hash ^= GameName.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasAppId) {
+        output.WriteRawTag(18);
+        output.WriteString(AppId);
+      }
+      if (HasSpaceId) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceId);
+      }
+      if (HasProductId) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(ProductId);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (HasGameName) {
+        output.WriteRawTag(50);
+        output.WriteString(GameName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasAppId) {
+        output.WriteRawTag(18);
+        output.WriteString(AppId);
+      }
+      if (HasSpaceId) {
+        output.WriteRawTag(26);
+        output.WriteString(SpaceId);
+      }
+      if (HasProductId) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(ProductId);
+      }
+      if (HasTokenNumber) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(TokenNumber);
+      }
+      if (HasGameName) {
+        output.WriteRawTag(50);
+        output.WriteString(GameName);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasResult) {
+        size += 1 + 1;
+      }
+      if (HasAppId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AppId);
+      }
+      if (HasSpaceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpaceId);
+      }
+      if (HasProductId) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ProductId);
+      }
+      if (HasTokenNumber) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TokenNumber);
+      }
+      if (HasGameName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GameName);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostDecodeTokenReq other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasResult) {
+        Result = other.Result;
+      }
+      if (other.HasAppId) {
+        AppId = other.AppId;
+      }
+      if (other.HasSpaceId) {
+        SpaceId = other.SpaceId;
+      }
+      if (other.HasProductId) {
+        ProductId = other.ProductId;
+      }
+      if (other.HasTokenNumber) {
+        TokenNumber = other.TokenNumber;
+      }
+      if (other.HasGameName) {
+        GameName = other.GameName;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            AppId = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceId = input.ReadString();
+            break;
+          }
+          case 32: {
+            ProductId = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+          case 50: {
+            GameName = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            AppId = input.ReadString();
+            break;
+          }
+          case 26: {
+            SpaceId = input.ReadString();
+            break;
+          }
+          case 32: {
+            ProductId = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            TokenNumber = input.ReadUInt32();
+            break;
+          }
+          case 50: {
+            GameName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostFocusReq : pb::IMessage<StreamingHostFocusReq>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostFocusReq> _parser = new pb::MessageParser<StreamingHostFocusReq>(() => new StreamingHostFocusReq());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostFocusReq> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[55]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostFocusReq() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostFocusReq(StreamingHostFocusReq other) : this() {
+      _hasBits0 = other._hasBits0;
+      focus_ = other.focus_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostFocusReq Clone() {
+      return new StreamingHostFocusReq(this);
+    }
+
+    /// <summary>Field number for the "focus" field.</summary>
+    public const int FocusFieldNumber = 1;
+    private readonly static bool FocusDefaultValue = false;
+
+    private bool focus_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Focus {
+      get { if ((_hasBits0 & 1) != 0) { return focus_; } else { return FocusDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        focus_ = value;
+      }
+    }
+    /// <summary>Gets whether the "focus" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFocus {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "focus" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFocus() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostFocusReq);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostFocusReq other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Focus != other.Focus) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasFocus) hash ^= Focus.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasFocus) {
+        output.WriteRawTag(8);
+        output.WriteBool(Focus);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasFocus) {
+        output.WriteRawTag(8);
+        output.WriteBool(Focus);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasFocus) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostFocusReq other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasFocus) {
+        Focus = other.Focus;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Focus = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Focus = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostUpdateGuestRemainingTimePush : pb::IMessage<StreamingHostUpdateGuestRemainingTimePush>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostUpdateGuestRemainingTimePush> _parser = new pb::MessageParser<StreamingHostUpdateGuestRemainingTimePush>(() => new StreamingHostUpdateGuestRemainingTimePush());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostUpdateGuestRemainingTimePush> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[56]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimePush() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimePush(StreamingHostUpdateGuestRemainingTimePush other) : this() {
+      _hasBits0 = other._hasBits0;
+      clientId_ = other.clientId_;
+      remainingTime_ = other.remainingTime_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimePush Clone() {
+      return new StreamingHostUpdateGuestRemainingTimePush(this);
+    }
+
+    /// <summary>Field number for the "client_id" field.</summary>
+    public const int ClientIdFieldNumber = 1;
+    private readonly static uint ClientIdDefaultValue = 0;
+
+    private uint clientId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint ClientId {
+      get { if ((_hasBits0 & 1) != 0) { return clientId_; } else { return ClientIdDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        clientId_ = value;
+      }
+    }
+    /// <summary>Gets whether the "client_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasClientId {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "client_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearClientId() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "remaining_time" field.</summary>
+    public const int RemainingTimeFieldNumber = 2;
+    private readonly static uint RemainingTimeDefaultValue = 0;
+
+    private uint remainingTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint RemainingTime {
+      get { if ((_hasBits0 & 2) != 0) { return remainingTime_; } else { return RemainingTimeDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        remainingTime_ = value;
+      }
+    }
+    /// <summary>Gets whether the "remaining_time" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRemainingTime {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "remaining_time" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRemainingTime() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostUpdateGuestRemainingTimePush);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostUpdateGuestRemainingTimePush other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClientId != other.ClientId) return false;
+      if (RemainingTime != other.RemainingTime) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasClientId) hash ^= ClientId.GetHashCode();
+      if (HasRemainingTime) hash ^= RemainingTime.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasClientId) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(ClientId);
+      }
+      if (HasRemainingTime) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RemainingTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasClientId) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(ClientId);
+      }
+      if (HasRemainingTime) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(RemainingTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasClientId) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ClientId);
+      }
+      if (HasRemainingTime) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RemainingTime);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostUpdateGuestRemainingTimePush other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasClientId) {
+        ClientId = other.ClientId;
+      }
+      if (other.HasRemainingTime) {
+        RemainingTime = other.RemainingTime;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ClientId = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            RemainingTime = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            ClientId = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            RemainingTime = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class StreamingHostUpdateGuestRemainingTimeReq : pb::IMessage<StreamingHostUpdateGuestRemainingTimeReq>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StreamingHostUpdateGuestRemainingTimeReq> _parser = new pb::MessageParser<StreamingHostUpdateGuestRemainingTimeReq>(() => new StreamingHostUpdateGuestRemainingTimeReq());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StreamingHostUpdateGuestRemainingTimeReq> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[57]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimeReq() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimeReq(StreamingHostUpdateGuestRemainingTimeReq other) : this() {
+      _hasBits0 = other._hasBits0;
+      result_ = other.result_;
+      hostPeerId_ = other.hostPeerId_;
+      errorMsg_ = other.errorMsg_;
+      errorCode_ = other.errorCode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingHostUpdateGuestRemainingTimeReq Clone() {
+      return new StreamingHostUpdateGuestRemainingTimeReq(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private readonly static bool ResultDefaultValue = false;
+
+    private bool result_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Result {
+      get { if ((_hasBits0 & 1) != 0) { return result_; } else { return ResultDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        result_ = value;
+      }
+    }
+    /// <summary>Gets whether the "result" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasResult {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "result" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearResult() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "host_peer_id" field.</summary>
+    public const int HostPeerIdFieldNumber = 2;
+    private readonly static string HostPeerIdDefaultValue = "";
+
+    private string hostPeerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string HostPeerId {
+      get { return hostPeerId_ ?? HostPeerIdDefaultValue; }
+      set {
+        hostPeerId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "host_peer_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasHostPeerId {
+      get { return hostPeerId_ != null; }
+    }
+    /// <summary>Clears the value of the "host_peer_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearHostPeerId() {
+      hostPeerId_ = null;
+    }
+
+    /// <summary>Field number for the "error_msg" field.</summary>
+    public const int ErrorMsgFieldNumber = 3;
+    private readonly static string ErrorMsgDefaultValue = "";
+
+    private string errorMsg_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ErrorMsg {
+      get { return errorMsg_ ?? ErrorMsgDefaultValue; }
+      set {
+        errorMsg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error_msg" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasErrorMsg {
+      get { return errorMsg_ != null; }
+    }
+    /// <summary>Clears the value of the "error_msg" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearErrorMsg() {
+      errorMsg_ = null;
+    }
+
+    /// <summary>Field number for the "error_code" field.</summary>
+    public const int ErrorCodeFieldNumber = 4;
+    private readonly static int ErrorCodeDefaultValue = 0;
+
+    private int errorCode_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int ErrorCode {
+      get { if ((_hasBits0 & 2) != 0) { return errorCode_; } else { return ErrorCodeDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        errorCode_ = value;
+      }
+    }
+    /// <summary>Gets whether the "error_code" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasErrorCode {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "error_code" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearErrorCode() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StreamingHostUpdateGuestRemainingTimeReq);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StreamingHostUpdateGuestRemainingTimeReq other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (HostPeerId != other.HostPeerId) return false;
+      if (ErrorMsg != other.ErrorMsg) return false;
+      if (ErrorCode != other.ErrorCode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasResult) hash ^= Result.GetHashCode();
+      if (HasHostPeerId) hash ^= HostPeerId.GetHashCode();
+      if (HasErrorMsg) hash ^= ErrorMsg.GetHashCode();
+      if (HasErrorCode) hash ^= ErrorCode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasHostPeerId) {
+        output.WriteRawTag(18);
+        output.WriteString(HostPeerId);
+      }
+      if (HasErrorMsg) {
+        output.WriteRawTag(26);
+        output.WriteString(ErrorMsg);
+      }
+      if (HasErrorCode) {
+        output.WriteRawTag(32);
+        output.WriteInt32(ErrorCode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasResult) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (HasHostPeerId) {
+        output.WriteRawTag(18);
+        output.WriteString(HostPeerId);
+      }
+      if (HasErrorMsg) {
+        output.WriteRawTag(26);
+        output.WriteString(ErrorMsg);
+      }
+      if (HasErrorCode) {
+        output.WriteRawTag(32);
+        output.WriteInt32(ErrorCode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasResult) {
+        size += 1 + 1;
+      }
+      if (HasHostPeerId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HostPeerId);
+      }
+      if (HasErrorMsg) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorMsg);
+      }
+      if (HasErrorCode) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ErrorCode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StreamingHostUpdateGuestRemainingTimeReq other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasResult) {
+        Result = other.Result;
+      }
+      if (other.HasHostPeerId) {
+        HostPeerId = other.HostPeerId;
+      }
+      if (other.HasErrorMsg) {
+        ErrorMsg = other.ErrorMsg;
+      }
+      if (other.HasErrorCode) {
+        ErrorCode = other.ErrorCode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 26: {
+            ErrorMsg = input.ReadString();
+            break;
+          }
+          case 32: {
+            ErrorCode = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 18: {
+            HostPeerId = input.ReadString();
+            break;
+          }
+          case 26: {
+            ErrorMsg = input.ReadString();
+            break;
+          }
+          case 32: {
+            ErrorCode = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class ScreenshotReadyReq : pb::IMessage<ScreenshotReadyReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -13763,7 +15786,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13968,7 +15991,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14120,7 +16143,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14272,7 +16295,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[56]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[61]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14476,7 +16499,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[57]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[62]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14890,7 +16913,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[58]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[63]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15172,7 +17195,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[59]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[64]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15325,7 +17348,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[60]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[65]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15556,7 +17579,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[61]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[66]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15607,6 +17630,10 @@ namespace Uplay.Overlay {
       streamingHostStopReq_ = other.streamingHostStopReq_ != null ? other.streamingHostStopReq_.Clone() : null;
       streamingHostMetricsReq_ = other.streamingHostMetricsReq_.Clone();
       streamingVgpEventReq_ = other.streamingVgpEventReq_ != null ? other.streamingVgpEventReq_.Clone() : null;
+      streamingHostCreateTokenReq_ = other.streamingHostCreateTokenReq_ != null ? other.streamingHostCreateTokenReq_.Clone() : null;
+      streamingHostDecodeTokenReq_ = other.streamingHostDecodeTokenReq_ != null ? other.streamingHostDecodeTokenReq_.Clone() : null;
+      streamingHostFocusReq_ = other.streamingHostFocusReq_ != null ? other.streamingHostFocusReq_.Clone() : null;
+      streamingHostUpdateGuestRemainingTimeReq_ = other.streamingHostUpdateGuestRemainingTimeReq_ != null ? other.streamingHostUpdateGuestRemainingTimeReq_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -15977,13 +18004,61 @@ namespace Uplay.Overlay {
 
     /// <summary>Field number for the "streaming_vgp_event_req" field.</summary>
     public const int StreamingVgpEventReqFieldNumber = 34;
-    private global::Uplay.Overlay.StreamingVGPEvent streamingVgpEventReq_;
+    private global::Uplay.Overlay.StreamingVGPEventReq streamingVgpEventReq_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Overlay.StreamingVGPEvent StreamingVgpEventReq {
+    public global::Uplay.Overlay.StreamingVGPEventReq StreamingVgpEventReq {
       get { return streamingVgpEventReq_; }
       set {
         streamingVgpEventReq_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_create_token_req" field.</summary>
+    public const int StreamingHostCreateTokenReqFieldNumber = 35;
+    private global::Uplay.Overlay.StreamingHostCreateTokenReq streamingHostCreateTokenReq_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostCreateTokenReq StreamingHostCreateTokenReq {
+      get { return streamingHostCreateTokenReq_; }
+      set {
+        streamingHostCreateTokenReq_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_decode_token_req" field.</summary>
+    public const int StreamingHostDecodeTokenReqFieldNumber = 36;
+    private global::Uplay.Overlay.StreamingHostDecodeTokenReq streamingHostDecodeTokenReq_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostDecodeTokenReq StreamingHostDecodeTokenReq {
+      get { return streamingHostDecodeTokenReq_; }
+      set {
+        streamingHostDecodeTokenReq_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_focus_req" field.</summary>
+    public const int StreamingHostFocusReqFieldNumber = 37;
+    private global::Uplay.Overlay.StreamingHostFocusReq streamingHostFocusReq_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostFocusReq StreamingHostFocusReq {
+      get { return streamingHostFocusReq_; }
+      set {
+        streamingHostFocusReq_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_update_guest_remaining_time_req" field.</summary>
+    public const int StreamingHostUpdateGuestRemainingTimeReqFieldNumber = 38;
+    private global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq streamingHostUpdateGuestRemainingTimeReq_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq StreamingHostUpdateGuestRemainingTimeReq {
+      get { return streamingHostUpdateGuestRemainingTimeReq_; }
+      set {
+        streamingHostUpdateGuestRemainingTimeReq_ = value;
       }
     }
 
@@ -16033,6 +18108,10 @@ namespace Uplay.Overlay {
       if (!object.Equals(StreamingHostStopReq, other.StreamingHostStopReq)) return false;
       if(!streamingHostMetricsReq_.Equals(other.streamingHostMetricsReq_)) return false;
       if (!object.Equals(StreamingVgpEventReq, other.StreamingVgpEventReq)) return false;
+      if (!object.Equals(StreamingHostCreateTokenReq, other.StreamingHostCreateTokenReq)) return false;
+      if (!object.Equals(StreamingHostDecodeTokenReq, other.StreamingHostDecodeTokenReq)) return false;
+      if (!object.Equals(StreamingHostFocusReq, other.StreamingHostFocusReq)) return false;
+      if (!object.Equals(StreamingHostUpdateGuestRemainingTimeReq, other.StreamingHostUpdateGuestRemainingTimeReq)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -16071,6 +18150,10 @@ namespace Uplay.Overlay {
       if (streamingHostStopReq_ != null) hash ^= StreamingHostStopReq.GetHashCode();
       hash ^= streamingHostMetricsReq_.GetHashCode();
       if (streamingVgpEventReq_ != null) hash ^= StreamingVgpEventReq.GetHashCode();
+      if (streamingHostCreateTokenReq_ != null) hash ^= StreamingHostCreateTokenReq.GetHashCode();
+      if (streamingHostDecodeTokenReq_ != null) hash ^= StreamingHostDecodeTokenReq.GetHashCode();
+      if (streamingHostFocusReq_ != null) hash ^= StreamingHostFocusReq.GetHashCode();
+      if (streamingHostUpdateGuestRemainingTimeReq_ != null) hash ^= StreamingHostUpdateGuestRemainingTimeReq.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -16210,6 +18293,22 @@ namespace Uplay.Overlay {
         output.WriteRawTag(146, 2);
         output.WriteMessage(StreamingVgpEventReq);
       }
+      if (streamingHostCreateTokenReq_ != null) {
+        output.WriteRawTag(154, 2);
+        output.WriteMessage(StreamingHostCreateTokenReq);
+      }
+      if (streamingHostDecodeTokenReq_ != null) {
+        output.WriteRawTag(162, 2);
+        output.WriteMessage(StreamingHostDecodeTokenReq);
+      }
+      if (streamingHostFocusReq_ != null) {
+        output.WriteRawTag(170, 2);
+        output.WriteMessage(StreamingHostFocusReq);
+      }
+      if (streamingHostUpdateGuestRemainingTimeReq_ != null) {
+        output.WriteRawTag(178, 2);
+        output.WriteMessage(StreamingHostUpdateGuestRemainingTimeReq);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -16341,6 +18440,22 @@ namespace Uplay.Overlay {
         output.WriteRawTag(146, 2);
         output.WriteMessage(StreamingVgpEventReq);
       }
+      if (streamingHostCreateTokenReq_ != null) {
+        output.WriteRawTag(154, 2);
+        output.WriteMessage(StreamingHostCreateTokenReq);
+      }
+      if (streamingHostDecodeTokenReq_ != null) {
+        output.WriteRawTag(162, 2);
+        output.WriteMessage(StreamingHostDecodeTokenReq);
+      }
+      if (streamingHostFocusReq_ != null) {
+        output.WriteRawTag(170, 2);
+        output.WriteMessage(StreamingHostFocusReq);
+      }
+      if (streamingHostUpdateGuestRemainingTimeReq_ != null) {
+        output.WriteRawTag(178, 2);
+        output.WriteMessage(StreamingHostUpdateGuestRemainingTimeReq);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -16441,6 +18556,18 @@ namespace Uplay.Overlay {
       size += streamingHostMetricsReq_.CalculateSize(_repeated_streamingHostMetricsReq_codec);
       if (streamingVgpEventReq_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingVgpEventReq);
+      }
+      if (streamingHostCreateTokenReq_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostCreateTokenReq);
+      }
+      if (streamingHostDecodeTokenReq_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostDecodeTokenReq);
+      }
+      if (streamingHostFocusReq_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostFocusReq);
+      }
+      if (streamingHostUpdateGuestRemainingTimeReq_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostUpdateGuestRemainingTimeReq);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -16631,9 +18758,33 @@ namespace Uplay.Overlay {
       streamingHostMetricsReq_.Add(other.streamingHostMetricsReq_);
       if (other.streamingVgpEventReq_ != null) {
         if (streamingVgpEventReq_ == null) {
-          StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEvent();
+          StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEventReq();
         }
         StreamingVgpEventReq.MergeFrom(other.StreamingVgpEventReq);
+      }
+      if (other.streamingHostCreateTokenReq_ != null) {
+        if (streamingHostCreateTokenReq_ == null) {
+          StreamingHostCreateTokenReq = new global::Uplay.Overlay.StreamingHostCreateTokenReq();
+        }
+        StreamingHostCreateTokenReq.MergeFrom(other.StreamingHostCreateTokenReq);
+      }
+      if (other.streamingHostDecodeTokenReq_ != null) {
+        if (streamingHostDecodeTokenReq_ == null) {
+          StreamingHostDecodeTokenReq = new global::Uplay.Overlay.StreamingHostDecodeTokenReq();
+        }
+        StreamingHostDecodeTokenReq.MergeFrom(other.StreamingHostDecodeTokenReq);
+      }
+      if (other.streamingHostFocusReq_ != null) {
+        if (streamingHostFocusReq_ == null) {
+          StreamingHostFocusReq = new global::Uplay.Overlay.StreamingHostFocusReq();
+        }
+        StreamingHostFocusReq.MergeFrom(other.StreamingHostFocusReq);
+      }
+      if (other.streamingHostUpdateGuestRemainingTimeReq_ != null) {
+        if (streamingHostUpdateGuestRemainingTimeReq_ == null) {
+          StreamingHostUpdateGuestRemainingTimeReq = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq();
+        }
+        StreamingHostUpdateGuestRemainingTimeReq.MergeFrom(other.StreamingHostUpdateGuestRemainingTimeReq);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -16859,9 +19010,37 @@ namespace Uplay.Overlay {
           }
           case 274: {
             if (streamingVgpEventReq_ == null) {
-              StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEvent();
+              StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEventReq();
             }
             input.ReadMessage(StreamingVgpEventReq);
+            break;
+          }
+          case 282: {
+            if (streamingHostCreateTokenReq_ == null) {
+              StreamingHostCreateTokenReq = new global::Uplay.Overlay.StreamingHostCreateTokenReq();
+            }
+            input.ReadMessage(StreamingHostCreateTokenReq);
+            break;
+          }
+          case 290: {
+            if (streamingHostDecodeTokenReq_ == null) {
+              StreamingHostDecodeTokenReq = new global::Uplay.Overlay.StreamingHostDecodeTokenReq();
+            }
+            input.ReadMessage(StreamingHostDecodeTokenReq);
+            break;
+          }
+          case 298: {
+            if (streamingHostFocusReq_ == null) {
+              StreamingHostFocusReq = new global::Uplay.Overlay.StreamingHostFocusReq();
+            }
+            input.ReadMessage(StreamingHostFocusReq);
+            break;
+          }
+          case 306: {
+            if (streamingHostUpdateGuestRemainingTimeReq_ == null) {
+              StreamingHostUpdateGuestRemainingTimeReq = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq();
+            }
+            input.ReadMessage(StreamingHostUpdateGuestRemainingTimeReq);
             break;
           }
         }
@@ -17088,9 +19267,37 @@ namespace Uplay.Overlay {
           }
           case 274: {
             if (streamingVgpEventReq_ == null) {
-              StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEvent();
+              StreamingVgpEventReq = new global::Uplay.Overlay.StreamingVGPEventReq();
             }
             input.ReadMessage(StreamingVgpEventReq);
+            break;
+          }
+          case 282: {
+            if (streamingHostCreateTokenReq_ == null) {
+              StreamingHostCreateTokenReq = new global::Uplay.Overlay.StreamingHostCreateTokenReq();
+            }
+            input.ReadMessage(StreamingHostCreateTokenReq);
+            break;
+          }
+          case 290: {
+            if (streamingHostDecodeTokenReq_ == null) {
+              StreamingHostDecodeTokenReq = new global::Uplay.Overlay.StreamingHostDecodeTokenReq();
+            }
+            input.ReadMessage(StreamingHostDecodeTokenReq);
+            break;
+          }
+          case 298: {
+            if (streamingHostFocusReq_ == null) {
+              StreamingHostFocusReq = new global::Uplay.Overlay.StreamingHostFocusReq();
+            }
+            input.ReadMessage(StreamingHostFocusReq);
+            break;
+          }
+          case 306: {
+            if (streamingHostUpdateGuestRemainingTimeReq_ == null) {
+              StreamingHostUpdateGuestRemainingTimeReq = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimeReq();
+            }
+            input.ReadMessage(StreamingHostUpdateGuestRemainingTimeReq);
             break;
           }
         }
@@ -17114,7 +19321,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[62]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[67]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17496,7 +19703,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[63]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[68]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17648,7 +19855,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[64]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[69]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17800,7 +20007,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[65]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[70]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17832,8 +20039,10 @@ namespace Uplay.Overlay {
       streamingHostStart_ = other.streamingHostStart_ != null ? other.streamingHostStart_.Clone() : null;
       streamingHostStop_ = other.streamingHostStop_ != null ? other.streamingHostStop_.Clone() : null;
       streamingHostKick_ = other.streamingHostKick_ != null ? other.streamingHostKick_.Clone() : null;
-      streamingHostAddAllowedProfileIds_ = other.streamingHostAddAllowedProfileIds_ != null ? other.streamingHostAddAllowedProfileIds_.Clone() : null;
       streamingHostPermissions_ = other.streamingHostPermissions_ != null ? other.streamingHostPermissions_.Clone() : null;
+      streamingHostCreateToken_ = other.streamingHostCreateToken_ != null ? other.streamingHostCreateToken_.Clone() : null;
+      streamingHostDecodeToken_ = other.streamingHostDecodeToken_ != null ? other.streamingHostDecodeToken_.Clone() : null;
+      streamingHostUpdateGuestRemainingTime_ = other.streamingHostUpdateGuestRemainingTime_ != null ? other.streamingHostUpdateGuestRemainingTime_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -17987,20 +20196,8 @@ namespace Uplay.Overlay {
       }
     }
 
-    /// <summary>Field number for the "streaming_host_add_allowed_profileIds" field.</summary>
-    public const int StreamingHostAddAllowedProfileIdsFieldNumber = 13;
-    private global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush streamingHostAddAllowedProfileIds_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush StreamingHostAddAllowedProfileIds {
-      get { return streamingHostAddAllowedProfileIds_; }
-      set {
-        streamingHostAddAllowedProfileIds_ = value;
-      }
-    }
-
     /// <summary>Field number for the "streaming_host_permissions" field.</summary>
-    public const int StreamingHostPermissionsFieldNumber = 14;
+    public const int StreamingHostPermissionsFieldNumber = 13;
     private global::Uplay.Overlay.StreamingHostPermissionsPush streamingHostPermissions_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -18008,6 +20205,42 @@ namespace Uplay.Overlay {
       get { return streamingHostPermissions_; }
       set {
         streamingHostPermissions_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_create_token" field.</summary>
+    public const int StreamingHostCreateTokenFieldNumber = 14;
+    private global::Uplay.Overlay.StreamingHostCreateTokenPush streamingHostCreateToken_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostCreateTokenPush StreamingHostCreateToken {
+      get { return streamingHostCreateToken_; }
+      set {
+        streamingHostCreateToken_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_decode_token" field.</summary>
+    public const int StreamingHostDecodeTokenFieldNumber = 15;
+    private global::Uplay.Overlay.StreamingHostDecodeTokenPush streamingHostDecodeToken_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostDecodeTokenPush StreamingHostDecodeToken {
+      get { return streamingHostDecodeToken_; }
+      set {
+        streamingHostDecodeToken_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "streaming_host_update_guest_remaining_time" field.</summary>
+    public const int StreamingHostUpdateGuestRemainingTimeFieldNumber = 16;
+    private global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush streamingHostUpdateGuestRemainingTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush StreamingHostUpdateGuestRemainingTime {
+      get { return streamingHostUpdateGuestRemainingTime_; }
+      set {
+        streamingHostUpdateGuestRemainingTime_ = value;
       }
     }
 
@@ -18038,8 +20271,10 @@ namespace Uplay.Overlay {
       if (!object.Equals(StreamingHostStart, other.StreamingHostStart)) return false;
       if (!object.Equals(StreamingHostStop, other.StreamingHostStop)) return false;
       if (!object.Equals(StreamingHostKick, other.StreamingHostKick)) return false;
-      if (!object.Equals(StreamingHostAddAllowedProfileIds, other.StreamingHostAddAllowedProfileIds)) return false;
       if (!object.Equals(StreamingHostPermissions, other.StreamingHostPermissions)) return false;
+      if (!object.Equals(StreamingHostCreateToken, other.StreamingHostCreateToken)) return false;
+      if (!object.Equals(StreamingHostDecodeToken, other.StreamingHostDecodeToken)) return false;
+      if (!object.Equals(StreamingHostUpdateGuestRemainingTime, other.StreamingHostUpdateGuestRemainingTime)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -18059,8 +20294,10 @@ namespace Uplay.Overlay {
       if (streamingHostStart_ != null) hash ^= StreamingHostStart.GetHashCode();
       if (streamingHostStop_ != null) hash ^= StreamingHostStop.GetHashCode();
       if (streamingHostKick_ != null) hash ^= StreamingHostKick.GetHashCode();
-      if (streamingHostAddAllowedProfileIds_ != null) hash ^= StreamingHostAddAllowedProfileIds.GetHashCode();
       if (streamingHostPermissions_ != null) hash ^= StreamingHostPermissions.GetHashCode();
+      if (streamingHostCreateToken_ != null) hash ^= StreamingHostCreateToken.GetHashCode();
+      if (streamingHostDecodeToken_ != null) hash ^= StreamingHostDecodeToken.GetHashCode();
+      if (streamingHostUpdateGuestRemainingTime_ != null) hash ^= StreamingHostUpdateGuestRemainingTime.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -18127,13 +20364,21 @@ namespace Uplay.Overlay {
         output.WriteRawTag(98);
         output.WriteMessage(StreamingHostKick);
       }
-      if (streamingHostAddAllowedProfileIds_ != null) {
-        output.WriteRawTag(106);
-        output.WriteMessage(StreamingHostAddAllowedProfileIds);
-      }
       if (streamingHostPermissions_ != null) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(106);
         output.WriteMessage(StreamingHostPermissions);
+      }
+      if (streamingHostCreateToken_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(StreamingHostCreateToken);
+      }
+      if (streamingHostDecodeToken_ != null) {
+        output.WriteRawTag(122);
+        output.WriteMessage(StreamingHostDecodeToken);
+      }
+      if (streamingHostUpdateGuestRemainingTime_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(StreamingHostUpdateGuestRemainingTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -18193,13 +20438,21 @@ namespace Uplay.Overlay {
         output.WriteRawTag(98);
         output.WriteMessage(StreamingHostKick);
       }
-      if (streamingHostAddAllowedProfileIds_ != null) {
-        output.WriteRawTag(106);
-        output.WriteMessage(StreamingHostAddAllowedProfileIds);
-      }
       if (streamingHostPermissions_ != null) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(106);
         output.WriteMessage(StreamingHostPermissions);
+      }
+      if (streamingHostCreateToken_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(StreamingHostCreateToken);
+      }
+      if (streamingHostDecodeToken_ != null) {
+        output.WriteRawTag(122);
+        output.WriteMessage(StreamingHostDecodeToken);
+      }
+      if (streamingHostUpdateGuestRemainingTime_ != null) {
+        output.WriteRawTag(130, 1);
+        output.WriteMessage(StreamingHostUpdateGuestRemainingTime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -18247,11 +20500,17 @@ namespace Uplay.Overlay {
       if (streamingHostKick_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostKick);
       }
-      if (streamingHostAddAllowedProfileIds_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostAddAllowedProfileIds);
-      }
       if (streamingHostPermissions_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostPermissions);
+      }
+      if (streamingHostCreateToken_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostCreateToken);
+      }
+      if (streamingHostDecodeToken_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostDecodeToken);
+      }
+      if (streamingHostUpdateGuestRemainingTime_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StreamingHostUpdateGuestRemainingTime);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -18337,17 +20596,29 @@ namespace Uplay.Overlay {
         }
         StreamingHostKick.MergeFrom(other.StreamingHostKick);
       }
-      if (other.streamingHostAddAllowedProfileIds_ != null) {
-        if (streamingHostAddAllowedProfileIds_ == null) {
-          StreamingHostAddAllowedProfileIds = new global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush();
-        }
-        StreamingHostAddAllowedProfileIds.MergeFrom(other.StreamingHostAddAllowedProfileIds);
-      }
       if (other.streamingHostPermissions_ != null) {
         if (streamingHostPermissions_ == null) {
           StreamingHostPermissions = new global::Uplay.Overlay.StreamingHostPermissionsPush();
         }
         StreamingHostPermissions.MergeFrom(other.StreamingHostPermissions);
+      }
+      if (other.streamingHostCreateToken_ != null) {
+        if (streamingHostCreateToken_ == null) {
+          StreamingHostCreateToken = new global::Uplay.Overlay.StreamingHostCreateTokenPush();
+        }
+        StreamingHostCreateToken.MergeFrom(other.StreamingHostCreateToken);
+      }
+      if (other.streamingHostDecodeToken_ != null) {
+        if (streamingHostDecodeToken_ == null) {
+          StreamingHostDecodeToken = new global::Uplay.Overlay.StreamingHostDecodeTokenPush();
+        }
+        StreamingHostDecodeToken.MergeFrom(other.StreamingHostDecodeToken);
+      }
+      if (other.streamingHostUpdateGuestRemainingTime_ != null) {
+        if (streamingHostUpdateGuestRemainingTime_ == null) {
+          StreamingHostUpdateGuestRemainingTime = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush();
+        }
+        StreamingHostUpdateGuestRemainingTime.MergeFrom(other.StreamingHostUpdateGuestRemainingTime);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -18449,17 +20720,31 @@ namespace Uplay.Overlay {
             break;
           }
           case 106: {
-            if (streamingHostAddAllowedProfileIds_ == null) {
-              StreamingHostAddAllowedProfileIds = new global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush();
-            }
-            input.ReadMessage(StreamingHostAddAllowedProfileIds);
-            break;
-          }
-          case 114: {
             if (streamingHostPermissions_ == null) {
               StreamingHostPermissions = new global::Uplay.Overlay.StreamingHostPermissionsPush();
             }
             input.ReadMessage(StreamingHostPermissions);
+            break;
+          }
+          case 114: {
+            if (streamingHostCreateToken_ == null) {
+              StreamingHostCreateToken = new global::Uplay.Overlay.StreamingHostCreateTokenPush();
+            }
+            input.ReadMessage(StreamingHostCreateToken);
+            break;
+          }
+          case 122: {
+            if (streamingHostDecodeToken_ == null) {
+              StreamingHostDecodeToken = new global::Uplay.Overlay.StreamingHostDecodeTokenPush();
+            }
+            input.ReadMessage(StreamingHostDecodeToken);
+            break;
+          }
+          case 130: {
+            if (streamingHostUpdateGuestRemainingTime_ == null) {
+              StreamingHostUpdateGuestRemainingTime = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush();
+            }
+            input.ReadMessage(StreamingHostUpdateGuestRemainingTime);
             break;
           }
         }
@@ -18562,17 +20847,31 @@ namespace Uplay.Overlay {
             break;
           }
           case 106: {
-            if (streamingHostAddAllowedProfileIds_ == null) {
-              StreamingHostAddAllowedProfileIds = new global::Uplay.Overlay.StreamingHostAddAllowedProfileIdsPush();
-            }
-            input.ReadMessage(StreamingHostAddAllowedProfileIds);
-            break;
-          }
-          case 114: {
             if (streamingHostPermissions_ == null) {
               StreamingHostPermissions = new global::Uplay.Overlay.StreamingHostPermissionsPush();
             }
             input.ReadMessage(StreamingHostPermissions);
+            break;
+          }
+          case 114: {
+            if (streamingHostCreateToken_ == null) {
+              StreamingHostCreateToken = new global::Uplay.Overlay.StreamingHostCreateTokenPush();
+            }
+            input.ReadMessage(StreamingHostCreateToken);
+            break;
+          }
+          case 122: {
+            if (streamingHostDecodeToken_ == null) {
+              StreamingHostDecodeToken = new global::Uplay.Overlay.StreamingHostDecodeTokenPush();
+            }
+            input.ReadMessage(StreamingHostDecodeToken);
+            break;
+          }
+          case 130: {
+            if (streamingHostUpdateGuestRemainingTime_ == null) {
+              StreamingHostUpdateGuestRemainingTime = new global::Uplay.Overlay.StreamingHostUpdateGuestRemainingTimePush();
+            }
+            input.ReadMessage(StreamingHostUpdateGuestRemainingTime);
             break;
           }
         }
@@ -18596,7 +20895,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[66]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[71]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18794,7 +21093,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[67]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[72]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19039,7 +21338,7 @@ namespace Uplay.Overlay {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[68]; }
+      get { return global::Uplay.Overlay.OverlayReflection.Descriptor.MessageTypes[73]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

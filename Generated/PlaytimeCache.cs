@@ -24,11 +24,11 @@ namespace Uplay.PlaytimeCache {
     static PlaytimeCacheReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChRwbGF5dGltZV9jYWNoZS5wcm90bxIabWcucHJvdG9jb2wucGxheXRpbWVf",
-            "Y2FjaGUiOgoMUGxheXRpbWVJdGVtEhIKCnByb2R1Y3RfaWQYASACKA0SFgoO",
-            "c2Vjb25kc19idWZmZXIYAiABKA0iXQoNUGxheXRpbWVDYWNoZRIPCgd2ZXJz",
-            "aW9uGAEgAigNEjsKCXBsYXl0aW1lcxgCIAMoCzIoLm1nLnByb3RvY29sLnBs",
-            "YXl0aW1lX2NhY2hlLlBsYXl0aW1lSXRlbQ=="));
+            "CiB1cGNfZHVtcF8xMC9wbGF5dGltZV9jYWNoZS5wcm90bxIabWcucHJvdG9j",
+            "b2wucGxheXRpbWVfY2FjaGUiOgoMUGxheXRpbWVJdGVtEhIKCnByb2R1Y3Rf",
+            "aWQYASACKA0SFgoOc2Vjb25kc19idWZmZXIYAiABKA0iXQoNUGxheXRpbWVD",
+            "YWNoZRIPCgd2ZXJzaW9uGAEgAigNEjsKCXBsYXl0aW1lcxgCIAMoCzIoLm1n",
+            "LnByb3RvY29sLnBsYXl0aW1lX2NhY2hlLlBsYXl0aW1lSXRlbQ=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

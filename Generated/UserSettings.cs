@@ -24,81 +24,82 @@ namespace Uplay.UserSettings {
     static UserSettingsReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChN1c2VyX3NldHRpbmdzLnByb3RvEhltZy5wcm90b2NvbC51c2VyX3NldHRp",
-            "bmdzIiIKDUZhdm91cml0ZUdhbWUSEQoJcHJvZHVjdElkGAEgAigNIh8KCkhp",
-            "ZGRlbkdhbWUSEQoJcHJvZHVjdElkGAEgAigNIkkKDkZhdm91cml0ZUdhbWVz",
-            "EjcKBWdhbWVzGAEgAygLMigubWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5G",
-            "YXZvdXJpdGVHYW1lIkMKC0hpZGRlbkdhbWVzEjQKBWdhbWVzGAEgAygLMiUu",
-            "bWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5IaWRkZW5HYW1lIlYKClBsYXll",
-            "ZEdhbWUSEQoJcHJvZHVjdElkGAEgAigNEhAKCGV4ZUluZGV4GAIgAigNEhEK",
-            "CXRpbWVzdGFtcBgDIAIoDRIQCghwbGF5VGltZRgEIAEoDSJDCgtQbGF5ZWRH",
-            "YW1lcxI0CgVnYW1lcxgBIAMoCzIlLm1nLnByb3RvY29sLnVzZXJfc2V0dGlu",
-            "Z3MuUGxheWVkR2FtZSJaCg1Qcm9kdWN0QnJhbmNoEhEKCXByb2R1Y3RJZBgB",
-            "IAIoDRIQCghicmFuY2hJZBgCIAEoDRISCgp1c2VEZWZhdWx0GAMgASgIEhAK",
-            "CHBhc3N3b3JkGAQgASgJIk0KD1Byb2R1Y3RCcmFuY2hlcxI6CghicmFuY2hl",
-            "cxgBIAMoCzIoLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuUHJvZHVjdEJy",
-            "YW5jaCJYCgtLbm93bkJyYW5jaBIRCglwcm9kdWN0SWQYASACKA0SEAoIYnJh",
-            "bmNoSWQYAiABKA0SEgoKYnJhbmNoTmFtZRgDIAEoCRIQCghwYXNzd29yZBgE",
-            "IAEoCSJJCg1Lbm93bkJyYW5jaGVzEjgKCGJyYW5jaGVzGAEgAygLMiYubWcu",
-            "cHJvdG9jb2wudXNlcl9zZXR0aW5ncy5Lbm93bkJyYW5jaCIuChlBdXRvUGF0",
-            "Y2hCbGFja2xpc3RQcm9kdWN0EhEKCXByb2R1Y3RJZBgBIAIoDSJWCgxBdXRv",
-            "UGF0Y2hpbmcSRgoIcHJvZHVjdHMYASADKAsyNC5tZy5wcm90b2NvbC51c2Vy",
-            "X3NldHRpbmdzLkF1dG9QYXRjaEJsYWNrbGlzdFByb2R1Y3QiyAMKC0dhbWVM",
-            "aWJyYXJ5ElMKBXN0eWxlGAEgASgOMisubWcucHJvdG9jb2wudXNlcl9zZXR0",
-            "aW5ncy5HYW1lTGlicmFyeVN0eWxlOhdHYW1lTGlicmFyeVN0eWxlX1RodW1i",
-            "cxJfCgl0aHVtYlNpemUYAiABKA4yLy5tZy5wcm90b2NvbC51c2VyX3NldHRp",
-            "bmdzLkdhbWVMaWJyYXJ5VGh1bWJTaXplOhtHYW1lTGlicmFyeVRodW1iU2l6",
-            "ZV9NZWRpdW0SXQoJbGlzdFN0eWxlGAMgASgOMi8ubWcucHJvdG9jb2wudXNl",
-            "cl9zZXR0aW5ncy5HYW1lTGlicmFyeUxpc3RTdHlsZToZR2FtZUxpYnJhcnlM",
-            "aXN0U3R5bGVfV2lkZRIhChNzaG93X2Zhdm9yaXRlX2dhbWVzGAQgASgIOgR0",
-            "cnVlEh4KEHNob3dfb3duZWRfZ2FtZXMYBSABKAg6BHRydWUSIgoUc2hvd19p",
-            "bnN0YWxsZWRfZ2FtZXMYBiABKAg6BHRydWUSHQoPc2hvd19mcmVlX2dhbWVz",
-            "GAcgASgIOgR0cnVlEh4KEHNob3dfb3RoZXJfZ2FtZXMYCCABKAg6BHRydWUi",
-            "NwoSR2FtZVN0YXJ0QXJndW1lbnRzEg4KBmdhbWVpZBgBIAEoDRIRCglhcmd1",
-            "bWVudHMYAiABKAkiYAoTR2FtZXNTdGFydEFyZ3VtZW50cxJJChJnYW1lU3Rh",
-            "cnRBcmd1bWVudHMYASADKAsyLS5tZy5wcm90b2NvbC51c2VyX3NldHRpbmdz",
-            "LkdhbWVTdGFydEFyZ3VtZW50cyIsCgROZXdzEhQKDGRpc3BsYXlfbW9kZRgB",
-            "IAEoCRIOCgZmaWx0ZXIYAiADKAkiIAoIUHJvbW9UYWISFAoMcHJvbW9fdGFi",
-            "X2lkGAEgASgNIk0KDVNlZW5Qcm9tb1RhYnMSPAoPc2Vlbl9wcm9tb190YWJz",
-            "GAEgAygLMiMubWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5Qcm9tb1RhYiI7",
-            "ChhTcG90bGlnaHRTaG93blRpbWVzdGFtcHMSHwoXc3BvdGxpZ2h0U2hvd25U",
-            "aW1lc3RhbXAYASADKAQijwkKDFVzZXJTZXR0aW5ncxJBCg5mYXZvdXJpdGVH",
-            "YW1lcxgBIAEoCzIpLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuRmF2b3Vy",
-            "aXRlR2FtZXMSOwoLaGlkZGVuR2FtZXMYAiABKAsyJi5tZy5wcm90b2NvbC51",
-            "c2VyX3NldHRpbmdzLkhpZGRlbkdhbWVzEj8KD2xhc3RQbGF5ZWRHYW1lcxgE",
-            "IAEoCzImLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuUGxheWVkR2FtZXMS",
-            "QwoPcHJvZHVjdEJyYW5jaGVzGAUgASgLMioubWcucHJvdG9jb2wudXNlcl9z",
-            "ZXR0aW5ncy5Qcm9kdWN0QnJhbmNoZXMSPwoNa25vd25CcmFuY2hlcxgGIAEo",
-            "CzIoLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuS25vd25CcmFuY2hlcxIe",
-            "ChZkb250VXBsb2FkQ3Jhc2hSZXBvcnRzGAcgASgIEj0KDGF1dG9QYXRjaGlu",
-            "ZxgIIAEoCzInLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuQXV0b1BhdGNo",
-            "aW5nEhYKDmFjdGl2aXR5U3RhdHVzGAkgASgJEh4KFnJlbWluZE1lT2ZTdGVh",
-            "bUxpbmtpbmcYDSABKAgSOwoLZ2FtZUxpYnJhcnkYDiABKAsyJi5tZy5wcm90",
-            "b2NvbC51c2VyX3NldHRpbmdzLkdhbWVMaWJyYXJ5EksKE2dhbWVzU3RhcnRB",
-            "cmd1bWVudHMYECABKAsyLi5tZy5wcm90b2NvbC51c2VyX3NldHRpbmdzLkdh",
-            "bWVzU3RhcnRBcmd1bWVudHMSJgoeZXhwaXJlZFNlY3VyaXR5UHJvbXB0VGlt",
-            "ZXN0YW1wGBEgASgEEiIKGmxhc3REaXNtaXNzZWRQcm9tb0J1YmJsZUlkGBIg",
-            "ASgJEi0KBG5ld3MYEyABKAsyHy5tZy5wcm90b2NvbC51c2VyX3NldHRpbmdz",
-            "Lk5ld3MSaQoXbGFzdFNlY3VyaXR5UHJvbXB0U3RhdGUYFCABKA4yLi5tZy5w",
-            "cm90b2NvbC51c2VyX3NldHRpbmdzLlNlY3VyaXR5UHJvbXB0U3RhdGU6GFNl",
-            "Y3VyaXR5UHJvbXB0U3RhdGVfTm9uZRInCh9sYXN0RW1haWxWZXJpZmljUHJv",
-            "bXB0VGltZXN0YW1wGBUgASgEEicKH2xhc3RkaXNzbWlzc2VkdXBsYXlwbHVz",
-            "YnViYmxlaWQYFiABKAkSIgoaaXNleHBpcmF0aW9uYmFubmVyZGlzYWJsZWQY",
-            "FyABKAgSPwoNc2VlblByb21vVGFicxgYIAEoCzIoLm1nLnByb3RvY29sLnVz",
-            "ZXJfc2V0dGluZ3MuU2VlblByb21vVGFicxIjChtpc3VuYXZhaWxhYmxlYmFu",
-            "bmVyZGlzYWJsZWQYGSABKAgSVQoYc3BvdGxpZ2h0U2hvd25UaW1lc3RhbXBz",
-            "GBogASgLMjMubWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5TcG90bGlnaHRT",
-            "aG93blRpbWVzdGFtcHMqSgoQR2FtZUxpYnJhcnlTdHlsZRIbChdHYW1lTGli",
-            "cmFyeVN0eWxlX1RodW1icxAAEhkKFUdhbWVMaWJyYXJ5U3R5bGVfTGlzdBAB",
-            "KncKFEdhbWVMaWJyYXJ5VGh1bWJTaXplEh4KGkdhbWVMaWJyYXJ5VGh1bWJT",
-            "aXplX1NtYWxsEAASHwobR2FtZUxpYnJhcnlUaHVtYlNpemVfTWVkaXVtEAES",
-            "HgoaR2FtZUxpYnJhcnlUaHVtYlNpemVfTGFyZ2UQAipWChRHYW1lTGlicmFy",
-            "eUxpc3RTdHlsZRIdChlHYW1lTGlicmFyeUxpc3RTdHlsZV9XaWRlEAASHwob",
-            "R2FtZUxpYnJhcnlMaXN0U3R5bGVfTmFycm93EAEqpAEKE1NlY3VyaXR5UHJv",
-            "bXB0U3RhdGUSHAoYU2VjdXJpdHlQcm9tcHRTdGF0ZV9Ob25lEAASGwoXU2Vj",
-            "dXJpdHlQcm9tcHRTdGF0ZV8yRkEQARIpCiVTZWN1cml0eVByb21wdFN0YXRl",
-            "X0VtYWlsVmVyaWZpY2F0aW9uEAISJwojU2VjdXJpdHlQcm9tcHRTdGF0ZV9Q",
-            "aG9uZUNvbGxlY3Rpb24QAw=="));
+            "Ch91cGNfZHVtcF8xMC91c2VyX3NldHRpbmdzLnByb3RvEhltZy5wcm90b2Nv",
+            "bC51c2VyX3NldHRpbmdzIiIKDUZhdm91cml0ZUdhbWUSEQoJcHJvZHVjdElk",
+            "GAEgAigNIh8KCkhpZGRlbkdhbWUSEQoJcHJvZHVjdElkGAEgAigNIkkKDkZh",
+            "dm91cml0ZUdhbWVzEjcKBWdhbWVzGAEgAygLMigubWcucHJvdG9jb2wudXNl",
+            "cl9zZXR0aW5ncy5GYXZvdXJpdGVHYW1lIkMKC0hpZGRlbkdhbWVzEjQKBWdh",
+            "bWVzGAEgAygLMiUubWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5IaWRkZW5H",
+            "YW1lIlYKClBsYXllZEdhbWUSEQoJcHJvZHVjdElkGAEgAigNEhAKCGV4ZUlu",
+            "ZGV4GAIgAigNEhEKCXRpbWVzdGFtcBgDIAIoDRIQCghwbGF5VGltZRgEIAEo",
+            "DSJDCgtQbGF5ZWRHYW1lcxI0CgVnYW1lcxgBIAMoCzIlLm1nLnByb3RvY29s",
+            "LnVzZXJfc2V0dGluZ3MuUGxheWVkR2FtZSJaCg1Qcm9kdWN0QnJhbmNoEhEK",
+            "CXByb2R1Y3RJZBgBIAIoDRIQCghicmFuY2hJZBgCIAEoDRISCgp1c2VEZWZh",
+            "dWx0GAMgASgIEhAKCHBhc3N3b3JkGAQgASgJIk0KD1Byb2R1Y3RCcmFuY2hl",
+            "cxI6CghicmFuY2hlcxgBIAMoCzIoLm1nLnByb3RvY29sLnVzZXJfc2V0dGlu",
+            "Z3MuUHJvZHVjdEJyYW5jaCJYCgtLbm93bkJyYW5jaBIRCglwcm9kdWN0SWQY",
+            "ASACKA0SEAoIYnJhbmNoSWQYAiABKA0SEgoKYnJhbmNoTmFtZRgDIAEoCRIQ",
+            "CghwYXNzd29yZBgEIAEoCSJJCg1Lbm93bkJyYW5jaGVzEjgKCGJyYW5jaGVz",
+            "GAEgAygLMiYubWcucHJvdG9jb2wudXNlcl9zZXR0aW5ncy5Lbm93bkJyYW5j",
+            "aCIuChlBdXRvUGF0Y2hCbGFja2xpc3RQcm9kdWN0EhEKCXByb2R1Y3RJZBgB",
+            "IAIoDSJWCgxBdXRvUGF0Y2hpbmcSRgoIcHJvZHVjdHMYASADKAsyNC5tZy5w",
+            "cm90b2NvbC51c2VyX3NldHRpbmdzLkF1dG9QYXRjaEJsYWNrbGlzdFByb2R1",
+            "Y3QiyAMKC0dhbWVMaWJyYXJ5ElMKBXN0eWxlGAEgASgOMisubWcucHJvdG9j",
+            "b2wudXNlcl9zZXR0aW5ncy5HYW1lTGlicmFyeVN0eWxlOhdHYW1lTGlicmFy",
+            "eVN0eWxlX1RodW1icxJfCgl0aHVtYlNpemUYAiABKA4yLy5tZy5wcm90b2Nv",
+            "bC51c2VyX3NldHRpbmdzLkdhbWVMaWJyYXJ5VGh1bWJTaXplOhtHYW1lTGli",
+            "cmFyeVRodW1iU2l6ZV9NZWRpdW0SXQoJbGlzdFN0eWxlGAMgASgOMi8ubWcu",
+            "cHJvdG9jb2wudXNlcl9zZXR0aW5ncy5HYW1lTGlicmFyeUxpc3RTdHlsZToZ",
+            "R2FtZUxpYnJhcnlMaXN0U3R5bGVfV2lkZRIhChNzaG93X2Zhdm9yaXRlX2dh",
+            "bWVzGAQgASgIOgR0cnVlEh4KEHNob3dfb3duZWRfZ2FtZXMYBSABKAg6BHRy",
+            "dWUSIgoUc2hvd19pbnN0YWxsZWRfZ2FtZXMYBiABKAg6BHRydWUSHQoPc2hv",
+            "d19mcmVlX2dhbWVzGAcgASgIOgR0cnVlEh4KEHNob3dfb3RoZXJfZ2FtZXMY",
+            "CCABKAg6BHRydWUiNwoSR2FtZVN0YXJ0QXJndW1lbnRzEg4KBmdhbWVpZBgB",
+            "IAEoDRIRCglhcmd1bWVudHMYAiABKAkiYAoTR2FtZXNTdGFydEFyZ3VtZW50",
+            "cxJJChJnYW1lU3RhcnRBcmd1bWVudHMYASADKAsyLS5tZy5wcm90b2NvbC51",
+            "c2VyX3NldHRpbmdzLkdhbWVTdGFydEFyZ3VtZW50cyIsCgROZXdzEhQKDGRp",
+            "c3BsYXlfbW9kZRgBIAEoCRIOCgZmaWx0ZXIYAiADKAkiIAoIUHJvbW9UYWIS",
+            "FAoMcHJvbW9fdGFiX2lkGAEgASgNIk0KDVNlZW5Qcm9tb1RhYnMSPAoPc2Vl",
+            "bl9wcm9tb190YWJzGAEgAygLMiMubWcucHJvdG9jb2wudXNlcl9zZXR0aW5n",
+            "cy5Qcm9tb1RhYiI7ChhTcG90bGlnaHRTaG93blRpbWVzdGFtcHMSHwoXc3Bv",
+            "dGxpZ2h0U2hvd25UaW1lc3RhbXAYASADKAQisgkKDFVzZXJTZXR0aW5ncxJB",
+            "Cg5mYXZvdXJpdGVHYW1lcxgBIAEoCzIpLm1nLnByb3RvY29sLnVzZXJfc2V0",
+            "dGluZ3MuRmF2b3VyaXRlR2FtZXMSOwoLaGlkZGVuR2FtZXMYAiABKAsyJi5t",
+            "Zy5wcm90b2NvbC51c2VyX3NldHRpbmdzLkhpZGRlbkdhbWVzEj8KD2xhc3RQ",
+            "bGF5ZWRHYW1lcxgEIAEoCzImLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3Mu",
+            "UGxheWVkR2FtZXMSQwoPcHJvZHVjdEJyYW5jaGVzGAUgASgLMioubWcucHJv",
+            "dG9jb2wudXNlcl9zZXR0aW5ncy5Qcm9kdWN0QnJhbmNoZXMSPwoNa25vd25C",
+            "cmFuY2hlcxgGIAEoCzIoLm1nLnByb3RvY29sLnVzZXJfc2V0dGluZ3MuS25v",
+            "d25CcmFuY2hlcxIeChZkb250VXBsb2FkQ3Jhc2hSZXBvcnRzGAcgASgIEj0K",
+            "DGF1dG9QYXRjaGluZxgIIAEoCzInLm1nLnByb3RvY29sLnVzZXJfc2V0dGlu",
+            "Z3MuQXV0b1BhdGNoaW5nEhYKDmFjdGl2aXR5U3RhdHVzGAkgASgJEh4KFnJl",
+            "bWluZE1lT2ZTdGVhbUxpbmtpbmcYDSABKAgSOwoLZ2FtZUxpYnJhcnkYDiAB",
+            "KAsyJi5tZy5wcm90b2NvbC51c2VyX3NldHRpbmdzLkdhbWVMaWJyYXJ5EksK",
+            "E2dhbWVzU3RhcnRBcmd1bWVudHMYECABKAsyLi5tZy5wcm90b2NvbC51c2Vy",
+            "X3NldHRpbmdzLkdhbWVzU3RhcnRBcmd1bWVudHMSJgoeZXhwaXJlZFNlY3Vy",
+            "aXR5UHJvbXB0VGltZXN0YW1wGBEgASgEEiIKGmxhc3REaXNtaXNzZWRQcm9t",
+            "b0J1YmJsZUlkGBIgASgJEi0KBG5ld3MYEyABKAsyHy5tZy5wcm90b2NvbC51",
+            "c2VyX3NldHRpbmdzLk5ld3MSaQoXbGFzdFNlY3VyaXR5UHJvbXB0U3RhdGUY",
+            "FCABKA4yLi5tZy5wcm90b2NvbC51c2VyX3NldHRpbmdzLlNlY3VyaXR5UHJv",
+            "bXB0U3RhdGU6GFNlY3VyaXR5UHJvbXB0U3RhdGVfTm9uZRInCh9sYXN0RW1h",
+            "aWxWZXJpZmljUHJvbXB0VGltZXN0YW1wGBUgASgEEicKH2xhc3RkaXNzbWlz",
+            "c2VkdXBsYXlwbHVzYnViYmxlaWQYFiABKAkSIgoaaXNleHBpcmF0aW9uYmFu",
+            "bmVyZGlzYWJsZWQYFyABKAgSPwoNc2VlblByb21vVGFicxgYIAEoCzIoLm1n",
+            "LnByb3RvY29sLnVzZXJfc2V0dGluZ3MuU2VlblByb21vVGFicxIjChtpc3Vu",
+            "YXZhaWxhYmxlYmFubmVyZGlzYWJsZWQYGSABKAgSVQoYc3BvdGxpZ2h0U2hv",
+            "d25UaW1lc3RhbXBzGBogASgLMjMubWcucHJvdG9jb2wudXNlcl9zZXR0aW5n",
+            "cy5TcG90bGlnaHRTaG93blRpbWVzdGFtcHMSIQoZY29ubmVjdEJldGFQcm9t",
+            "b0Rpc21pc3NlZBgbIAEoCCpKChBHYW1lTGlicmFyeVN0eWxlEhsKF0dhbWVM",
+            "aWJyYXJ5U3R5bGVfVGh1bWJzEAASGQoVR2FtZUxpYnJhcnlTdHlsZV9MaXN0",
+            "EAEqdwoUR2FtZUxpYnJhcnlUaHVtYlNpemUSHgoaR2FtZUxpYnJhcnlUaHVt",
+            "YlNpemVfU21hbGwQABIfChtHYW1lTGlicmFyeVRodW1iU2l6ZV9NZWRpdW0Q",
+            "ARIeChpHYW1lTGlicmFyeVRodW1iU2l6ZV9MYXJnZRACKlYKFEdhbWVMaWJy",
+            "YXJ5TGlzdFN0eWxlEh0KGUdhbWVMaWJyYXJ5TGlzdFN0eWxlX1dpZGUQABIf",
+            "ChtHYW1lTGlicmFyeUxpc3RTdHlsZV9OYXJyb3cQASqkAQoTU2VjdXJpdHlQ",
+            "cm9tcHRTdGF0ZRIcChhTZWN1cml0eVByb21wdFN0YXRlX05vbmUQABIbChdT",
+            "ZWN1cml0eVByb21wdFN0YXRlXzJGQRABEikKJVNlY3VyaXR5UHJvbXB0U3Rh",
+            "dGVfRW1haWxWZXJpZmljYXRpb24QAhInCiNTZWN1cml0eVByb21wdFN0YXRl",
+            "X1Bob25lQ29sbGVjdGlvbhAD"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Uplay.UserSettings.GameLibraryStyle), typeof(global::Uplay.UserSettings.GameLibraryThumbSize), typeof(global::Uplay.UserSettings.GameLibraryListStyle), typeof(global::Uplay.UserSettings.SecurityPromptState), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -121,7 +122,7 @@ namespace Uplay.UserSettings {
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.UserSettings.PromoTab), global::Uplay.UserSettings.PromoTab.Parser, new[]{ "PromoTabId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.UserSettings.SeenPromoTabs), global::Uplay.UserSettings.SeenPromoTabs.Parser, new[]{ "SeenPromoTabs_" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.UserSettings.SpotlightShownTimestamps), global::Uplay.UserSettings.SpotlightShownTimestamps.Parser, new[]{ "SpotlightShownTimestamp" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.UserSettings.UserSettings), global::Uplay.UserSettings.UserSettings.Parser, new[]{ "FavouriteGames", "HiddenGames", "LastPlayedGames", "ProductBranches", "KnownBranches", "DontUploadCrashReports", "AutoPatching", "ActivityStatus", "RemindMeOfSteamLinking", "GameLibrary", "GamesStartArguments", "ExpiredSecurityPromptTimestamp", "LastDismissedPromoBubbleId", "News", "LastSecurityPromptState", "LastEmailVerificPromptTimestamp", "Lastdissmisseduplayplusbubbleid", "Isexpirationbannerdisabled", "SeenPromoTabs", "Isunavailablebannerdisabled", "SpotlightShownTimestamps" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Uplay.UserSettings.UserSettings), global::Uplay.UserSettings.UserSettings.Parser, new[]{ "FavouriteGames", "HiddenGames", "LastPlayedGames", "ProductBranches", "KnownBranches", "DontUploadCrashReports", "AutoPatching", "ActivityStatus", "RemindMeOfSteamLinking", "GameLibrary", "GamesStartArguments", "ExpiredSecurityPromptTimestamp", "LastDismissedPromoBubbleId", "News", "LastSecurityPromptState", "LastEmailVerificPromptTimestamp", "Lastdissmisseduplayplusbubbleid", "Isexpirationbannerdisabled", "SeenPromoTabs", "Isunavailablebannerdisabled", "SpotlightShownTimestamps", "ConnectBetaPromoDismissed" }, null, null, null, null)
           }));
     }
     #endregion
@@ -4778,6 +4779,7 @@ namespace Uplay.UserSettings {
       seenPromoTabs_ = other.seenPromoTabs_ != null ? other.seenPromoTabs_.Clone() : null;
       isunavailablebannerdisabled_ = other.isunavailablebannerdisabled_;
       spotlightShownTimestamps_ = other.spotlightShownTimestamps_ != null ? other.spotlightShownTimestamps_.Clone() : null;
+      connectBetaPromoDismissed_ = other.connectBetaPromoDismissed_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5186,6 +5188,33 @@ namespace Uplay.UserSettings {
       }
     }
 
+    /// <summary>Field number for the "connectBetaPromoDismissed" field.</summary>
+    public const int ConnectBetaPromoDismissedFieldNumber = 27;
+    private readonly static bool ConnectBetaPromoDismissedDefaultValue = false;
+
+    private bool connectBetaPromoDismissed_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool ConnectBetaPromoDismissed {
+      get { if ((_hasBits0 & 128) != 0) { return connectBetaPromoDismissed_; } else { return ConnectBetaPromoDismissedDefaultValue; } }
+      set {
+        _hasBits0 |= 128;
+        connectBetaPromoDismissed_ = value;
+      }
+    }
+    /// <summary>Gets whether the "connectBetaPromoDismissed" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasConnectBetaPromoDismissed {
+      get { return (_hasBits0 & 128) != 0; }
+    }
+    /// <summary>Clears the value of the "connectBetaPromoDismissed" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearConnectBetaPromoDismissed() {
+      _hasBits0 &= ~128;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5222,6 +5251,7 @@ namespace Uplay.UserSettings {
       if (!object.Equals(SeenPromoTabs, other.SeenPromoTabs)) return false;
       if (Isunavailablebannerdisabled != other.Isunavailablebannerdisabled) return false;
       if (!object.Equals(SpotlightShownTimestamps, other.SpotlightShownTimestamps)) return false;
+      if (ConnectBetaPromoDismissed != other.ConnectBetaPromoDismissed) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5250,6 +5280,7 @@ namespace Uplay.UserSettings {
       if (seenPromoTabs_ != null) hash ^= SeenPromoTabs.GetHashCode();
       if (HasIsunavailablebannerdisabled) hash ^= Isunavailablebannerdisabled.GetHashCode();
       if (spotlightShownTimestamps_ != null) hash ^= SpotlightShownTimestamps.GetHashCode();
+      if (HasConnectBetaPromoDismissed) hash ^= ConnectBetaPromoDismissed.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5352,6 +5383,10 @@ namespace Uplay.UserSettings {
         output.WriteRawTag(210, 1);
         output.WriteMessage(SpotlightShownTimestamps);
       }
+      if (HasConnectBetaPromoDismissed) {
+        output.WriteRawTag(216, 1);
+        output.WriteBool(ConnectBetaPromoDismissed);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5446,6 +5481,10 @@ namespace Uplay.UserSettings {
         output.WriteRawTag(210, 1);
         output.WriteMessage(SpotlightShownTimestamps);
       }
+      if (HasConnectBetaPromoDismissed) {
+        output.WriteRawTag(216, 1);
+        output.WriteBool(ConnectBetaPromoDismissed);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5518,6 +5557,9 @@ namespace Uplay.UserSettings {
       }
       if (spotlightShownTimestamps_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(SpotlightShownTimestamps);
+      }
+      if (HasConnectBetaPromoDismissed) {
+        size += 2 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5626,6 +5668,9 @@ namespace Uplay.UserSettings {
           SpotlightShownTimestamps = new global::Uplay.UserSettings.SpotlightShownTimestamps();
         }
         SpotlightShownTimestamps.MergeFrom(other.SpotlightShownTimestamps);
+      }
+      if (other.HasConnectBetaPromoDismissed) {
+        ConnectBetaPromoDismissed = other.ConnectBetaPromoDismissed;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5759,6 +5804,10 @@ namespace Uplay.UserSettings {
             input.ReadMessage(SpotlightShownTimestamps);
             break;
           }
+          case 216: {
+            ConnectBetaPromoDismissed = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -5889,6 +5938,10 @@ namespace Uplay.UserSettings {
               SpotlightShownTimestamps = new global::Uplay.UserSettings.SpotlightShownTimestamps();
             }
             input.ReadMessage(SpotlightShownTimestamps);
+            break;
+          }
+          case 216: {
+            ConnectBetaPromoDismissed = input.ReadBool();
             break;
           }
         }

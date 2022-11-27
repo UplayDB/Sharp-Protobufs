@@ -24,16 +24,16 @@ namespace Uplay.CrashReporter {
     static CrashReporterReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChRjcmFzaF9yZXBvcnRlci5wcm90bxIabWcucHJvdG9jb2wuY3Jhc2hfcmVw",
-            "b3J0ZXIiPgoNVXBsb2FkRHVtcFJlcRIVCg1kdW1wX2ZpbGVuYW1lGAEgAigJ",
-            "EhYKDmNhbGxzdGFja19oYXNoGAIgAigJIiAKDVVwbG9hZER1bXBSc3ASDwoH",
-            "c3VjY2VzcxgBIAIoCCJFCgNSZXESPgoLdXBsb2FkX2R1bXAYASABKAsyKS5t",
-            "Zy5wcm90b2NvbC5jcmFzaF9yZXBvcnRlci5VcGxvYWREdW1wUmVxIkUKA1Jz",
-            "cBI+Cgt1cGxvYWRfZHVtcBgBIAEoCzIpLm1nLnByb3RvY29sLmNyYXNoX3Jl",
-            "cG9ydGVyLlVwbG9hZER1bXBSc3AiOAoIVXBzdHJlYW0SLAoDcmVxGAEgASgL",
-            "Mh8ubWcucHJvdG9jb2wuY3Jhc2hfcmVwb3J0ZXIuUmVxIjoKCkRvd25zdHJl",
-            "YW0SLAoDcnNwGAEgASgLMh8ubWcucHJvdG9jb2wuY3Jhc2hfcmVwb3J0ZXIu",
-            "UnNw"));
+            "CiB1cGNfZHVtcF8xMC9jcmFzaF9yZXBvcnRlci5wcm90bxIabWcucHJvdG9j",
+            "b2wuY3Jhc2hfcmVwb3J0ZXIiPgoNVXBsb2FkRHVtcFJlcRIVCg1kdW1wX2Zp",
+            "bGVuYW1lGAEgAigJEhYKDmNhbGxzdGFja19oYXNoGAIgAigJIiAKDVVwbG9h",
+            "ZER1bXBSc3ASDwoHc3VjY2VzcxgBIAIoCCJFCgNSZXESPgoLdXBsb2FkX2R1",
+            "bXAYASABKAsyKS5tZy5wcm90b2NvbC5jcmFzaF9yZXBvcnRlci5VcGxvYWRE",
+            "dW1wUmVxIkUKA1JzcBI+Cgt1cGxvYWRfZHVtcBgBIAEoCzIpLm1nLnByb3Rv",
+            "Y29sLmNyYXNoX3JlcG9ydGVyLlVwbG9hZER1bXBSc3AiOAoIVXBzdHJlYW0S",
+            "LAoDcmVxGAEgASgLMh8ubWcucHJvdG9jb2wuY3Jhc2hfcmVwb3J0ZXIuUmVx",
+            "IjoKCkRvd25zdHJlYW0SLAoDcnNwGAEgASgLMh8ubWcucHJvdG9jb2wuY3Jh",
+            "c2hfcmVwb3J0ZXIuUnNw"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

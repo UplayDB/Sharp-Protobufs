@@ -24,13 +24,13 @@ namespace Uplay.GameStatsCache {
     static GameStatsCacheReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChZnYW1lX3N0YXRzX2NhY2hlLnByb3RvEhxtZy5wcm90b2NvbC5nYW1lX3N0",
-            "YXRzX2NhY2hlIi8KDUdhbWVTdGF0c0NhcmQSEAoIc3BhY2VfaWQYASABKAkS",
-            "DAoEanNvbhgCIAEoCSK2AQoOR2FtZVN0YXRzQ2FjaGUSDwoHdmVyc2lvbhgB",
-            "IAIoDRJHChJwbGF5ZXJfc3RhdHNfY2FyZHMYAiADKAsyKy5tZy5wcm90b2Nv",
-            "bC5nYW1lX3N0YXRzX2NhY2hlLkdhbWVTdGF0c0NhcmQSSgoVY29tbXVuaXR5",
-            "X3N0YXRzX2NhcmRzGAMgAygLMisubWcucHJvdG9jb2wuZ2FtZV9zdGF0c19j",
-            "YWNoZS5HYW1lU3RhdHNDYXJk"));
+            "CiJ1cGNfZHVtcF8xMC9nYW1lX3N0YXRzX2NhY2hlLnByb3RvEhxtZy5wcm90",
+            "b2NvbC5nYW1lX3N0YXRzX2NhY2hlIi8KDUdhbWVTdGF0c0NhcmQSEAoIc3Bh",
+            "Y2VfaWQYASABKAkSDAoEanNvbhgCIAEoCSK2AQoOR2FtZVN0YXRzQ2FjaGUS",
+            "DwoHdmVyc2lvbhgBIAIoDRJHChJwbGF5ZXJfc3RhdHNfY2FyZHMYAiADKAsy",
+            "Ky5tZy5wcm90b2NvbC5nYW1lX3N0YXRzX2NhY2hlLkdhbWVTdGF0c0NhcmQS",
+            "SgoVY29tbXVuaXR5X3N0YXRzX2NhcmRzGAMgAygLMisubWcucHJvdG9jb2wu",
+            "Z2FtZV9zdGF0c19jYWNoZS5HYW1lU3RhdHNDYXJk"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
